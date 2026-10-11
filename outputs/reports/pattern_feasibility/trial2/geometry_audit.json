@@ -1,0 +1,2650 @@
+{
+  "schema_version": "0.3",
+  "scope": "all mesh objects in active scene, including hidden scene objects; unused datablocks excluded",
+  "blend_file": "D:\\Project-17\\blender\\outputs\\wip\\kagari_pattern_trial2_prototype.blend",
+  "blender_version": "4.2.0",
+  "blend_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+  "evaluation_context": {
+    "depsgraph_mode": "VIEWPORT",
+    "frame": 1,
+    "units": "METRIC",
+    "scale_length": 1.0,
+    "note": "Counts use current viewport modifier flags/levels; render and export may differ."
+  },
+  "raw_triangles": 34312,
+  "evaluated_triangles_partial_if_errors": 55672,
+  "evaluated_complete": true,
+  "evaluated_triangles": 55672,
+  "geometry_count_status": "COUNTED",
+  "evaluation_failed_objects": [],
+  "mesh_object_count": 16,
+  "render_enabled_inventory": {
+    "scope": "Objects with hide_render=False; viewport-evaluated counts, NOT final render/export counts. Collection exclusion not simulated.",
+    "objects": 10,
+    "raw_triangles": 15624,
+    "viewport_evaluated_triangles": 21180,
+    "status": "COUNTED"
+  },
+  "total_objects": 18,
+  "mesh_count": 16,
+  "triangle_count_total": 34312,
+  "triangle_count_total_semantics": "RAW_ONLY_LEGACY_ALIAS",
+  "mesh_report": [
+    {
+      "name": "Pattern_Duplicate_Upper_Mannequin",
+      "raw": {
+        "vertices": 3382,
+        "faces": 5560,
+        "triangles": 5560
+      },
+      "evaluated": {
+        "vertices": 3382,
+        "faces": 5560,
+        "triangles": 5560
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Native_Body_Collision",
+          "type": "COLLISION",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [
+        "Root",
+        "J_Bip_C_Hips",
+        "J_Bip_C_Spine",
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Sec_L_Bust1",
+        "J_Sec_L_Bust2",
+        "J_Sec_R_Bust1",
+        "J_Sec_R_Bust2",
+        "J_Bip_C_Neck",
+        "J_Bip_C_Head",
+        "J_Adj_L_FaceEye",
+        "J_Adj_R_FaceEye",
+        "J_Sec_Hair1_01",
+        "J_Sec_Hair2_01",
+        "J_Sec_Hair1_02",
+        "J_Sec_Hair2_02",
+        "J_Sec_Hair3_02",
+        "J_Sec_Hair1_03",
+        "J_Sec_Hair2_03",
+        "J_Sec_Hair3_03",
+        "J_Sec_Hair1_04",
+        "J_Sec_Hair2_04",
+        "J_Sec_Hair3_04",
+        "J_Sec_Hair4_04",
+        "J_Sec_Hair1_05",
+        "J_Sec_Hair2_05",
+        "J_Sec_Hair3_05",
+        "J_Sec_Hair4_05",
+        "J_Sec_Hair5_05",
+        "J_Sec_Hair6_05",
+        "J_Sec_Hair1_06",
+        "J_Sec_Hair2_06",
+        "J_Sec_Hair3_06",
+        "J_Sec_Hair4_06",
+        "J_Sec_Hair1_07",
+        "J_Sec_Hair2_07",
+        "J_Sec_Hair3_07",
+        "J_Sec_Hair1_08",
+        "J_Sec_Hair2_08",
+        "J_Sec_Hair3_08",
+        "J_Bip_L_Shoulder",
+        "J_Bip_L_UpperArm",
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_Hand",
+        "J_Bip_L_Index1",
+        "J_Bip_L_Index2",
+        "J_Bip_L_Index3",
+        "J_Bip_L_Little1",
+        "J_Bip_L_Little2",
+        "J_Bip_L_Little3",
+        "J_Bip_L_Middle1",
+        "J_Bip_L_Middle2",
+        "J_Bip_L_Middle3",
+        "J_Bip_L_Ring1",
+        "J_Bip_L_Ring2",
+        "J_Bip_L_Ring3",
+        "J_Bip_L_Thumb1",
+        "J_Bip_L_Thumb2",
+        "J_Bip_L_Thumb3",
+        "J_Bip_R_Shoulder",
+        "J_Bip_R_UpperArm",
+        "J_Bip_R_LowerArm",
+        "J_Bip_R_Hand",
+        "J_Bip_R_Index1",
+        "J_Bip_R_Index2",
+        "J_Bip_R_Index3",
+        "J_Bip_R_Little1",
+        "J_Bip_R_Little2",
+        "J_Bip_R_Little3",
+        "J_Bip_R_Middle1",
+        "J_Bip_R_Middle2",
+        "J_Bip_R_Middle3",
+        "J_Bip_R_Ring1",
+        "J_Bip_R_Ring2",
+        "J_Bip_R_Ring3",
+        "J_Bip_R_Thumb1",
+        "J_Bip_R_Thumb2",
+        "J_Bip_R_Thumb3",
+        "J_Bip_L_UpperLeg",
+        "J_Sec_L_SkirtBack_01",
+        "J_Sec_L_SkirtBack_end_01",
+        "J_Sec_L_SkirtFront_01",
+        "J_Sec_L_SkirtFront_end_01",
+        "J_Sec_L_SkirtSide_01",
+        "J_Sec_L_SkirtSide_end_01",
+        "J_Bip_L_LowerLeg",
+        "J_Sec_L_CoatSkirtBack_01",
+        "J_Sec_L_CoatSkirtBack_end_01",
+        "J_Sec_L_CoatSkirtFront_01",
+        "J_Sec_L_CoatSkirtFront_end_01",
+        "J_Sec_L_CoatSkirtSide1_01",
+        "J_Sec_L_CoatSkirtSide2_01",
+        "J_Sec_L_CoatSkirtSide2_end_01",
+        "J_Bip_L_Foot",
+        "J_Bip_L_ToeBase",
+        "J_Bip_R_UpperLeg",
+        "J_Sec_R_SkirtBack_01",
+        "J_Sec_R_SkirtBack_end_01",
+        "J_Sec_R_SkirtFront_01",
+        "J_Sec_R_SkirtFront_end_01",
+        "J_Sec_R_SkirtSide_01",
+        "J_Sec_R_SkirtSide_end_01",
+        "J_Bip_R_LowerLeg",
+        "J_Sec_R_CoatSkirtBack_01",
+        "J_Sec_R_CoatSkirtBack_end_01",
+        "J_Sec_R_CoatSkirtFront_01",
+        "J_Sec_R_CoatSkirtFront_end_01",
+        "J_Sec_R_CoatSkirtSide1_01",
+        "J_Sec_R_CoatSkirtSide2_01",
+        "J_Sec_R_CoatSkirtSide2_end_01",
+        "J_Bip_R_Foot",
+        "J_Bip_R_ToeBase"
+      ],
+      "armatures": [
+        "Pattern_Study_Armature"
+      ],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 1130,
+        "non_manifold_edges_including_boundaries": 1134
+      },
+      "weighting": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 113,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "parent": "Pattern_Study_Armature",
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 5560,
+          "delta": 0
+        },
+        {
+          "name": "Native_Body_Collision",
+          "type": "COLLISION",
+          "status": "COUNTED",
+          "triangles": 5560,
+          "delta": 0
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 1130,
+      "non_manifold_edges_including_boundaries": 1134,
+      "vertices": 3382,
+      "polygons": 5560,
+      "triangles": 5560,
+      "armature_modifiers": [
+        "Pattern_Study_Armature"
+      ],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Plain_Mannequin_Head",
+      "raw": {
+        "vertices": 362,
+        "faces": 384,
+        "triangles": 720
+      },
+      "evaluated": {
+        "vertices": 362,
+        "faces": 384,
+        "triangles": 720
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 0,
+        "non_manifold_edges_including_boundaries": 0
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "vertices": 362,
+      "polygons": 384,
+      "triangles": 720,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "ARCHIVE_Placed_Sewing_Panels",
+      "raw": {
+        "vertices": 2438,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 2438,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Animated_Sparse_Support_Targets",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": true,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [
+        "Neck_Anchors_Only",
+        "J_Bip_C_UpperChest",
+        "J_Bip_L_UpperArm"
+      ],
+      "armatures": [
+        "Pattern_Study_Armature"
+      ],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 464,
+        "non_manifold_edges_including_boundaries": 632
+      },
+      "weighting": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 2,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [
+        {
+          "name": "Animated_Sparse_Support_Targets",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 4400,
+          "delta": 0
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 464,
+      "non_manifold_edges_including_boundaries": 632,
+      "vertices": 2438,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [
+        "Pattern_Study_Armature"
+      ],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Simulated_neutral",
+      "raw": {
+        "vertices": 2271,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 4542,
+        "faces": 4546,
+        "triangles": 9092
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 146,
+        "non_manifold_edges_including_boundaries": 146
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 4692,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 9092,
+          "delta": 4692
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 146,
+      "non_manifold_edges_including_boundaries": 146,
+      "vertices": 2271,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Collar_neutral",
+      "raw": {
+        "vertices": 355,
+        "faces": 272,
+        "triangles": 544
+      },
+      "evaluated": {
+        "vertices": 710,
+        "faces": 704,
+        "triangles": 1408
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 160,
+        "non_manifold_edges_including_boundaries": 160
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 864,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 1408,
+          "delta": 864
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 160,
+      "non_manifold_edges_including_boundaries": 160,
+      "vertices": 355,
+      "polygons": 272,
+      "triangles": 544,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Simulated_raised30",
+      "raw": {
+        "vertices": 2271,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 4542,
+        "faces": 4546,
+        "triangles": 9092
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 146,
+        "non_manifold_edges_including_boundaries": 146
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 4692,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 9092,
+          "delta": 4692
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 146,
+      "non_manifold_edges_including_boundaries": 146,
+      "vertices": 2271,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Collar_raised30",
+      "raw": {
+        "vertices": 355,
+        "faces": 272,
+        "triangles": 544
+      },
+      "evaluated": {
+        "vertices": 710,
+        "faces": 704,
+        "triangles": 1408
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 160,
+        "non_manifold_edges_including_boundaries": 160
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 864,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 1408,
+          "delta": 864
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 160,
+      "non_manifold_edges_including_boundaries": 160,
+      "vertices": 355,
+      "polygons": 272,
+      "triangles": 544,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Simulated_horizontal",
+      "raw": {
+        "vertices": 2271,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 4542,
+        "faces": 4546,
+        "triangles": 9092
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 146,
+        "non_manifold_edges_including_boundaries": 146
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 4692,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 9092,
+          "delta": 4692
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 146,
+      "non_manifold_edges_including_boundaries": 146,
+      "vertices": 2271,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Collar_horizontal",
+      "raw": {
+        "vertices": 355,
+        "faces": 272,
+        "triangles": 544
+      },
+      "evaluated": {
+        "vertices": 710,
+        "faces": 704,
+        "triangles": 1408
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 160,
+        "non_manifold_edges_including_boundaries": 160
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 864,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 1408,
+          "delta": 864
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 160,
+      "non_manifold_edges_including_boundaries": 160,
+      "vertices": 355,
+      "polygons": 272,
+      "triangles": 544,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Rig_Only_Neutral_Drape",
+      "raw": {
+        "vertices": 2271,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 4542,
+        "faces": 4546,
+        "triangles": 9092
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Ordinary_Armature_Diagnostic",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_UpperArm",
+        "J_Bip_C_UpperChest"
+      ],
+      "armatures": [
+        "Pattern_Study_Armature"
+      ],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 146,
+        "non_manifold_edges_including_boundaries": 146
+      },
+      "weighting": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 3,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 4692,
+      "modifier_costs": [
+        {
+          "name": "Ordinary_Armature_Diagnostic",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 4400,
+          "delta": 0
+        },
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 9092,
+          "delta": 4692
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 146,
+      "non_manifold_edges_including_boundaries": 146,
+      "vertices": 2271,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [
+        "Pattern_Study_Armature"
+      ],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Front_Under",
+      "raw": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 68,
+        "non_manifold_edges_including_boundaries": 68
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 68,
+      "non_manifold_edges_including_boundaries": 68,
+      "vertices": 299,
+      "polygons": 264,
+      "triangles": 528,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Front_Over",
+      "raw": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 68,
+        "non_manifold_edges_including_boundaries": 68
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 68,
+      "non_manifold_edges_including_boundaries": 68,
+      "vertices": 299,
+      "polygons": 264,
+      "triangles": 528,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Back_Left",
+      "raw": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 68,
+        "non_manifold_edges_including_boundaries": 68
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 68,
+      "non_manifold_edges_including_boundaries": 68,
+      "vertices": 299,
+      "polygons": 264,
+      "triangles": 528,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Back_Right",
+      "raw": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 68,
+        "non_manifold_edges_including_boundaries": 68
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 68,
+      "non_manifold_edges_including_boundaries": 68,
+      "vertices": 299,
+      "polygons": 264,
+      "triangles": 528,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Sleeve_Front",
+      "raw": {
+        "vertices": 621,
+        "faces": 572,
+        "triangles": 1144
+      },
+      "evaluated": {
+        "vertices": 621,
+        "faces": 572,
+        "triangles": 1144
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 96,
+        "non_manifold_edges_including_boundaries": 96
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 96,
+      "non_manifold_edges_including_boundaries": 96,
+      "vertices": 621,
+      "polygons": 572,
+      "triangles": 1144,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Sleeve_Back",
+      "raw": {
+        "vertices": 621,
+        "faces": 572,
+        "triangles": 1144
+      },
+      "evaluated": {
+        "vertices": 621,
+        "faces": 572,
+        "triangles": 1144
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 96,
+        "non_manifold_edges_including_boundaries": 96
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 96,
+      "non_manifold_edges_including_boundaries": 96,
+      "vertices": 621,
+      "polygons": 572,
+      "triangles": 1144,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    }
+  ],
+  "armatures": [
+    {
+      "name": "Pattern_Study_Armature",
+      "bone_count": 135,
+      "bone_names": [
+        "Root",
+        "J_Bip_C_Hips",
+        "J_Bip_C_Spine",
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Sec_L_Bust1",
+        "J_Sec_L_Bust2",
+        "J_Sec_L_Bust2_end",
+        "J_Sec_R_Bust1",
+        "J_Sec_R_Bust2",
+        "J_Sec_R_Bust2_end",
+        "J_Bip_C_Neck",
+        "J_Bip_C_Head",
+        "J_Adj_L_FaceEye",
+        "J_Adj_R_FaceEye",
+        "J_Sec_Hair1_01",
+        "J_Sec_Hair2_01",
+        "J_Sec_Hair2_01_end",
+        "J_Sec_Hair1_02",
+        "J_Sec_Hair2_02",
+        "J_Sec_Hair3_02",
+        "J_Sec_Hair3_02_end",
+        "J_Sec_Hair1_03",
+        "J_Sec_Hair2_03",
+        "J_Sec_Hair3_03",
+        "J_Sec_Hair3_03_end",
+        "J_Sec_Hair1_04",
+        "J_Sec_Hair2_04",
+        "J_Sec_Hair3_04",
+        "J_Sec_Hair4_04",
+        "J_Sec_Hair4_04_end",
+        "J_Sec_Hair1_05",
+        "J_Sec_Hair2_05",
+        "J_Sec_Hair3_05",
+        "J_Sec_Hair4_05",
+        "J_Sec_Hair5_05",
+        "J_Sec_Hair6_05",
+        "J_Sec_Hair6_05_end",
+        "J_Sec_Hair1_06",
+        "J_Sec_Hair2_06",
+        "J_Sec_Hair3_06",
+        "J_Sec_Hair4_06",
+        "J_Sec_Hair4_06_end",
+        "J_Sec_Hair1_07",
+        "J_Sec_Hair2_07",
+        "J_Sec_Hair3_07",
+        "J_Sec_Hair3_07_end",
+        "J_Sec_Hair1_08",
+        "J_Sec_Hair2_08",
+        "J_Sec_Hair3_08",
+        "J_Sec_Hair3_08_end",
+        "J_Bip_L_Shoulder",
+        "J_Bip_L_UpperArm",
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_Hand",
+        "J_Bip_L_Index1",
+        "J_Bip_L_Index2",
+        "J_Bip_L_Index3",
+        "J_Bip_L_Little1",
+        "J_Bip_L_Little2",
+        "J_Bip_L_Little3",
+        "J_Bip_L_Middle1",
+        "J_Bip_L_Middle2",
+        "J_Bip_L_Middle3",
+        "J_Bip_L_Ring1",
+        "J_Bip_L_Ring2",
+        "J_Bip_L_Ring3",
+        "J_Bip_L_Thumb1",
+        "J_Bip_L_Thumb2",
+        "J_Bip_L_Thumb3",
+        "J_Bip_R_Shoulder",
+        "J_Bip_R_UpperArm",
+        "J_Bip_R_LowerArm",
+        "J_Bip_R_Hand",
+        "J_Bip_R_Index1",
+        "J_Bip_R_Index2",
+        "J_Bip_R_Index3",
+        "J_Bip_R_Little1",
+        "J_Bip_R_Little2",
+        "J_Bip_R_Little3",
+        "J_Bip_R_Middle1",
+        "J_Bip_R_Middle2",
+        "J_Bip_R_Middle3",
+        "J_Bip_R_Ring1",
+        "J_Bip_R_Ring2",
+        "J_Bip_R_Ring3",
+        "J_Bip_R_Thumb1",
+        "J_Bip_R_Thumb2",
+        "J_Bip_R_Thumb3",
+        "J_Bip_L_UpperLeg",
+        "J_Sec_L_SkirtBack_01",
+        "J_Sec_L_SkirtBack_end_01",
+        "J_Sec_L_SkirtBack_end_01_end",
+        "J_Sec_L_SkirtFront_01",
+        "J_Sec_L_SkirtFront_end_01",
+        "J_Sec_L_SkirtFront_end_01_end",
+        "J_Sec_L_SkirtSide_01",
+        "J_Sec_L_SkirtSide_end_01",
+        "J_Sec_L_SkirtSide_end_01_end",
+        "J_Bip_L_LowerLeg",
+        "J_Sec_L_CoatSkirtBack_01",
+        "J_Sec_L_CoatSkirtBack_end_01",
+        "J_Sec_L_CoatSkirtBack_end_01_end",
+        "J_Sec_L_CoatSkirtFront_01",
+        "J_Sec_L_CoatSkirtFront_end_01",
+        "J_Sec_L_CoatSkirtFront_end_01_end",
+        "J_Sec_L_CoatSkirtSide1_01",
+        "J_Sec_L_CoatSkirtSide2_01",
+        "J_Sec_L_CoatSkirtSide2_end_01",
+        "J_Sec_L_CoatSkirtSide2_end_01_end",
+        "J_Bip_L_Foot",
+        "J_Bip_L_ToeBase",
+        "J_Bip_R_UpperLeg",
+        "J_Sec_R_SkirtBack_01",
+        "J_Sec_R_SkirtBack_end_01",
+        "J_Sec_R_SkirtBack_end_01_end",
+        "J_Sec_R_SkirtFront_01",
+        "J_Sec_R_SkirtFront_end_01",
+        "J_Sec_R_SkirtFront_end_01_end",
+        "J_Sec_R_SkirtSide_01",
+        "J_Sec_R_SkirtSide_end_01",
+        "J_Sec_R_SkirtSide_end_01_end",
+        "J_Bip_R_LowerLeg",
+        "J_Sec_R_CoatSkirtBack_01",
+        "J_Sec_R_CoatSkirtBack_end_01",
+        "J_Sec_R_CoatSkirtBack_end_01_end",
+        "J_Sec_R_CoatSkirtFront_01",
+        "J_Sec_R_CoatSkirtFront_end_01",
+        "J_Sec_R_CoatSkirtFront_end_01_end",
+        "J_Sec_R_CoatSkirtSide1_01",
+        "J_Sec_R_CoatSkirtSide2_01",
+        "J_Sec_R_CoatSkirtSide2_end_01",
+        "J_Sec_R_CoatSkirtSide2_end_01_end",
+        "J_Bip_R_Foot",
+        "J_Bip_R_ToeBase"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "T-Pose",
+      "frame_range": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "potential_issues": [],
+  "visual_approval": "NOT_TESTED",
+  "vrm_export_validated": false,
+  "external_vtuber_app_validated": false,
+  "modifier_cost_failures": [],
+  "largest_modifier_expansions": [
+    {
+      "object": "Simulated_neutral",
+      "name": "Fabric_Thickness_1_6mm",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 9092,
+      "delta": 4692
+    },
+    {
+      "object": "Simulated_raised30",
+      "name": "Fabric_Thickness_1_6mm",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 9092,
+      "delta": 4692
+    },
+    {
+      "object": "Simulated_horizontal",
+      "name": "Fabric_Thickness_1_6mm",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 9092,
+      "delta": 4692
+    },
+    {
+      "object": "Rig_Only_Neutral_Drape",
+      "name": "Fabric_Thickness_1_6mm",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 9092,
+      "delta": 4692
+    },
+    {
+      "object": "Collar_neutral",
+      "name": "Fabric_Thickness_1_6mm",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 1408,
+      "delta": 864
+    },
+    {
+      "object": "Collar_raised30",
+      "name": "Fabric_Thickness_1_6mm",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 1408,
+      "delta": 864
+    },
+    {
+      "object": "Collar_horizontal",
+      "name": "Fabric_Thickness_1_6mm",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 1408,
+      "delta": 864
+    },
+    {
+      "object": "Pattern_Duplicate_Upper_Mannequin",
+      "name": "Armature",
+      "type": "ARMATURE",
+      "status": "COUNTED",
+      "triangles": 5560,
+      "delta": 0
+    },
+    {
+      "object": "Pattern_Duplicate_Upper_Mannequin",
+      "name": "Native_Body_Collision",
+      "type": "COLLISION",
+      "status": "COUNTED",
+      "triangles": 5560,
+      "delta": 0
+    },
+    {
+      "object": "ARCHIVE_Placed_Sewing_Panels",
+      "name": "Animated_Sparse_Support_Targets",
+      "type": "ARMATURE",
+      "status": "COUNTED",
+      "triangles": 4400,
+      "delta": 0
+    },
+    {
+      "object": "Rig_Only_Neutral_Drape",
+      "name": "Ordinary_Armature_Diagnostic",
+      "type": "ARMATURE",
+      "status": "COUNTED",
+      "triangles": 4400,
+      "delta": 0
+    }
+  ],
+  "distinct_material_names": [
+    "Pattern_Study_Neutral_Clay"
+  ],
+  "largest_by_evaluated_triangles": [
+    {
+      "name": "Simulated_neutral",
+      "raw_triangles": 4400,
+      "evaluated_triangles": 9092,
+      "delta": 4692,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Simulated_raised30",
+      "raw_triangles": 4400,
+      "evaluated_triangles": 9092,
+      "delta": 4692,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Simulated_horizontal",
+      "raw_triangles": 4400,
+      "evaluated_triangles": 9092,
+      "delta": 4692,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Rig_Only_Neutral_Drape",
+      "raw_triangles": 4400,
+      "evaluated_triangles": 9092,
+      "delta": 4692,
+      "modifiers": [
+        {
+          "name": "Ordinary_Armature_Diagnostic",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Pattern_Duplicate_Upper_Mannequin",
+      "raw_triangles": 5560,
+      "evaluated_triangles": 5560,
+      "delta": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Native_Body_Collision",
+          "type": "COLLISION",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "ARCHIVE_Placed_Sewing_Panels",
+      "raw_triangles": 4400,
+      "evaluated_triangles": 4400,
+      "delta": 0,
+      "modifiers": [
+        {
+          "name": "Animated_Sparse_Support_Targets",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Collar_neutral",
+      "raw_triangles": 544,
+      "evaluated_triangles": 1408,
+      "delta": 864,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Collar_raised30",
+      "raw_triangles": 544,
+      "evaluated_triangles": 1408,
+      "delta": 864,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Collar_horizontal",
+      "raw_triangles": 544,
+      "evaluated_triangles": 1408,
+      "delta": 864,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "2D_Sleeve_Front",
+      "raw_triangles": 1144,
+      "evaluated_triangles": 1144,
+      "delta": 0,
+      "modifiers": []
+    },
+    {
+      "name": "2D_Sleeve_Back",
+      "raw_triangles": 1144,
+      "evaluated_triangles": 1144,
+      "delta": 0,
+      "modifiers": []
+    },
+    {
+      "name": "Plain_Mannequin_Head",
+      "raw_triangles": 720,
+      "evaluated_triangles": 720,
+      "delta": 0,
+      "modifiers": []
+    },
+    {
+      "name": "2D_Front_Under",
+      "raw_triangles": 528,
+      "evaluated_triangles": 528,
+      "delta": 0,
+      "modifiers": []
+    },
+    {
+      "name": "2D_Front_Over",
+      "raw_triangles": 528,
+      "evaluated_triangles": 528,
+      "delta": 0,
+      "modifiers": []
+    },
+    {
+      "name": "2D_Back_Left",
+      "raw_triangles": 528,
+      "evaluated_triangles": 528,
+      "delta": 0,
+      "modifiers": []
+    },
+    {
+      "name": "2D_Back_Right",
+      "raw_triangles": 528,
+      "evaluated_triangles": 528,
+      "delta": 0,
+      "modifiers": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "Pattern_Duplicate_Upper_Mannequin",
+      "raw": {
+        "vertices": 3382,
+        "faces": 5560,
+        "triangles": 5560
+      },
+      "evaluated": {
+        "vertices": 3382,
+        "faces": 5560,
+        "triangles": 5560
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Native_Body_Collision",
+          "type": "COLLISION",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [
+        "Root",
+        "J_Bip_C_Hips",
+        "J_Bip_C_Spine",
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Sec_L_Bust1",
+        "J_Sec_L_Bust2",
+        "J_Sec_R_Bust1",
+        "J_Sec_R_Bust2",
+        "J_Bip_C_Neck",
+        "J_Bip_C_Head",
+        "J_Adj_L_FaceEye",
+        "J_Adj_R_FaceEye",
+        "J_Sec_Hair1_01",
+        "J_Sec_Hair2_01",
+        "J_Sec_Hair1_02",
+        "J_Sec_Hair2_02",
+        "J_Sec_Hair3_02",
+        "J_Sec_Hair1_03",
+        "J_Sec_Hair2_03",
+        "J_Sec_Hair3_03",
+        "J_Sec_Hair1_04",
+        "J_Sec_Hair2_04",
+        "J_Sec_Hair3_04",
+        "J_Sec_Hair4_04",
+        "J_Sec_Hair1_05",
+        "J_Sec_Hair2_05",
+        "J_Sec_Hair3_05",
+        "J_Sec_Hair4_05",
+        "J_Sec_Hair5_05",
+        "J_Sec_Hair6_05",
+        "J_Sec_Hair1_06",
+        "J_Sec_Hair2_06",
+        "J_Sec_Hair3_06",
+        "J_Sec_Hair4_06",
+        "J_Sec_Hair1_07",
+        "J_Sec_Hair2_07",
+        "J_Sec_Hair3_07",
+        "J_Sec_Hair1_08",
+        "J_Sec_Hair2_08",
+        "J_Sec_Hair3_08",
+        "J_Bip_L_Shoulder",
+        "J_Bip_L_UpperArm",
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_Hand",
+        "J_Bip_L_Index1",
+        "J_Bip_L_Index2",
+        "J_Bip_L_Index3",
+        "J_Bip_L_Little1",
+        "J_Bip_L_Little2",
+        "J_Bip_L_Little3",
+        "J_Bip_L_Middle1",
+        "J_Bip_L_Middle2",
+        "J_Bip_L_Middle3",
+        "J_Bip_L_Ring1",
+        "J_Bip_L_Ring2",
+        "J_Bip_L_Ring3",
+        "J_Bip_L_Thumb1",
+        "J_Bip_L_Thumb2",
+        "J_Bip_L_Thumb3",
+        "J_Bip_R_Shoulder",
+        "J_Bip_R_UpperArm",
+        "J_Bip_R_LowerArm",
+        "J_Bip_R_Hand",
+        "J_Bip_R_Index1",
+        "J_Bip_R_Index2",
+        "J_Bip_R_Index3",
+        "J_Bip_R_Little1",
+        "J_Bip_R_Little2",
+        "J_Bip_R_Little3",
+        "J_Bip_R_Middle1",
+        "J_Bip_R_Middle2",
+        "J_Bip_R_Middle3",
+        "J_Bip_R_Ring1",
+        "J_Bip_R_Ring2",
+        "J_Bip_R_Ring3",
+        "J_Bip_R_Thumb1",
+        "J_Bip_R_Thumb2",
+        "J_Bip_R_Thumb3",
+        "J_Bip_L_UpperLeg",
+        "J_Sec_L_SkirtBack_01",
+        "J_Sec_L_SkirtBack_end_01",
+        "J_Sec_L_SkirtFront_01",
+        "J_Sec_L_SkirtFront_end_01",
+        "J_Sec_L_SkirtSide_01",
+        "J_Sec_L_SkirtSide_end_01",
+        "J_Bip_L_LowerLeg",
+        "J_Sec_L_CoatSkirtBack_01",
+        "J_Sec_L_CoatSkirtBack_end_01",
+        "J_Sec_L_CoatSkirtFront_01",
+        "J_Sec_L_CoatSkirtFront_end_01",
+        "J_Sec_L_CoatSkirtSide1_01",
+        "J_Sec_L_CoatSkirtSide2_01",
+        "J_Sec_L_CoatSkirtSide2_end_01",
+        "J_Bip_L_Foot",
+        "J_Bip_L_ToeBase",
+        "J_Bip_R_UpperLeg",
+        "J_Sec_R_SkirtBack_01",
+        "J_Sec_R_SkirtBack_end_01",
+        "J_Sec_R_SkirtFront_01",
+        "J_Sec_R_SkirtFront_end_01",
+        "J_Sec_R_SkirtSide_01",
+        "J_Sec_R_SkirtSide_end_01",
+        "J_Bip_R_LowerLeg",
+        "J_Sec_R_CoatSkirtBack_01",
+        "J_Sec_R_CoatSkirtBack_end_01",
+        "J_Sec_R_CoatSkirtFront_01",
+        "J_Sec_R_CoatSkirtFront_end_01",
+        "J_Sec_R_CoatSkirtSide1_01",
+        "J_Sec_R_CoatSkirtSide2_01",
+        "J_Sec_R_CoatSkirtSide2_end_01",
+        "J_Bip_R_Foot",
+        "J_Bip_R_ToeBase"
+      ],
+      "armatures": [
+        "Pattern_Study_Armature"
+      ],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 1130,
+        "non_manifold_edges_including_boundaries": 1134
+      },
+      "weighting": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 113,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "parent": "Pattern_Study_Armature",
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 5560,
+          "delta": 0
+        },
+        {
+          "name": "Native_Body_Collision",
+          "type": "COLLISION",
+          "status": "COUNTED",
+          "triangles": 5560,
+          "delta": 0
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 1130,
+      "non_manifold_edges_including_boundaries": 1134,
+      "vertices": 3382,
+      "polygons": 5560,
+      "triangles": 5560,
+      "armature_modifiers": [
+        "Pattern_Study_Armature"
+      ],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Plain_Mannequin_Head",
+      "raw": {
+        "vertices": 362,
+        "faces": 384,
+        "triangles": 720
+      },
+      "evaluated": {
+        "vertices": 362,
+        "faces": 384,
+        "triangles": 720
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 0,
+        "non_manifold_edges_including_boundaries": 0
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "vertices": 362,
+      "polygons": 384,
+      "triangles": 720,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "ARCHIVE_Placed_Sewing_Panels",
+      "raw": {
+        "vertices": 2438,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 2438,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Animated_Sparse_Support_Targets",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": true,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [
+        "Neck_Anchors_Only",
+        "J_Bip_C_UpperChest",
+        "J_Bip_L_UpperArm"
+      ],
+      "armatures": [
+        "Pattern_Study_Armature"
+      ],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 464,
+        "non_manifold_edges_including_boundaries": 632
+      },
+      "weighting": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 2,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [
+        {
+          "name": "Animated_Sparse_Support_Targets",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 4400,
+          "delta": 0
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 464,
+      "non_manifold_edges_including_boundaries": 632,
+      "vertices": 2438,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [
+        "Pattern_Study_Armature"
+      ],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Simulated_neutral",
+      "raw": {
+        "vertices": 2271,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 4542,
+        "faces": 4546,
+        "triangles": 9092
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 146,
+        "non_manifold_edges_including_boundaries": 146
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 4692,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 9092,
+          "delta": 4692
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 146,
+      "non_manifold_edges_including_boundaries": 146,
+      "vertices": 2271,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Collar_neutral",
+      "raw": {
+        "vertices": 355,
+        "faces": 272,
+        "triangles": 544
+      },
+      "evaluated": {
+        "vertices": 710,
+        "faces": 704,
+        "triangles": 1408
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 160,
+        "non_manifold_edges_including_boundaries": 160
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 864,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 1408,
+          "delta": 864
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 160,
+      "non_manifold_edges_including_boundaries": 160,
+      "vertices": 355,
+      "polygons": 272,
+      "triangles": 544,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Simulated_raised30",
+      "raw": {
+        "vertices": 2271,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 4542,
+        "faces": 4546,
+        "triangles": 9092
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 146,
+        "non_manifold_edges_including_boundaries": 146
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 4692,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 9092,
+          "delta": 4692
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 146,
+      "non_manifold_edges_including_boundaries": 146,
+      "vertices": 2271,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Collar_raised30",
+      "raw": {
+        "vertices": 355,
+        "faces": 272,
+        "triangles": 544
+      },
+      "evaluated": {
+        "vertices": 710,
+        "faces": 704,
+        "triangles": 1408
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 160,
+        "non_manifold_edges_including_boundaries": 160
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 864,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 1408,
+          "delta": 864
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 160,
+      "non_manifold_edges_including_boundaries": 160,
+      "vertices": 355,
+      "polygons": 272,
+      "triangles": 544,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Simulated_horizontal",
+      "raw": {
+        "vertices": 2271,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 4542,
+        "faces": 4546,
+        "triangles": 9092
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 146,
+        "non_manifold_edges_including_boundaries": 146
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 4692,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 9092,
+          "delta": 4692
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 146,
+      "non_manifold_edges_including_boundaries": 146,
+      "vertices": 2271,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Collar_horizontal",
+      "raw": {
+        "vertices": 355,
+        "faces": 272,
+        "triangles": 544
+      },
+      "evaluated": {
+        "vertices": 710,
+        "faces": 704,
+        "triangles": 1408
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": true,
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 160,
+        "non_manifold_edges_including_boundaries": 160
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 864,
+      "modifier_costs": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 1408,
+          "delta": 864
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 160,
+      "non_manifold_edges_including_boundaries": 160,
+      "vertices": 355,
+      "polygons": 272,
+      "triangles": 544,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "Rig_Only_Neutral_Drape",
+      "raw": {
+        "vertices": 2271,
+        "faces": 2200,
+        "triangles": 4400
+      },
+      "evaluated": {
+        "vertices": 4542,
+        "faces": 4546,
+        "triangles": 9092
+      },
+      "evaluated_error": null,
+      "modifiers": [
+        {
+          "name": "Ordinary_Armature_Diagnostic",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": true,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_UpperArm",
+        "J_Bip_C_UpperChest"
+      ],
+      "armatures": [
+        "Pattern_Study_Armature"
+      ],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 146,
+        "non_manifold_edges_including_boundaries": 146
+      },
+      "weighting": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 3,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 4692,
+      "modifier_costs": [
+        {
+          "name": "Ordinary_Armature_Diagnostic",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 4400,
+          "delta": 0
+        },
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 9092,
+          "delta": 4692
+        }
+      ],
+      "loose_vertices": 0,
+      "boundary_edges": 146,
+      "non_manifold_edges_including_boundaries": 146,
+      "vertices": 2271,
+      "polygons": 2200,
+      "triangles": 4400,
+      "armature_modifiers": [
+        "Pattern_Study_Armature"
+      ],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Front_Under",
+      "raw": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 68,
+        "non_manifold_edges_including_boundaries": 68
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 68,
+      "non_manifold_edges_including_boundaries": 68,
+      "vertices": 299,
+      "polygons": 264,
+      "triangles": 528,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Front_Over",
+      "raw": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 68,
+        "non_manifold_edges_including_boundaries": 68
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 68,
+      "non_manifold_edges_including_boundaries": 68,
+      "vertices": 299,
+      "polygons": 264,
+      "triangles": 528,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Back_Left",
+      "raw": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 68,
+        "non_manifold_edges_including_boundaries": 68
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 68,
+      "non_manifold_edges_including_boundaries": 68,
+      "vertices": 299,
+      "polygons": 264,
+      "triangles": 528,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Back_Right",
+      "raw": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated": {
+        "vertices": 299,
+        "faces": 264,
+        "triangles": 528
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 68,
+        "non_manifold_edges_including_boundaries": 68
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 68,
+      "non_manifold_edges_including_boundaries": 68,
+      "vertices": 299,
+      "polygons": 264,
+      "triangles": 528,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Sleeve_Front",
+      "raw": {
+        "vertices": 621,
+        "faces": 572,
+        "triangles": 1144
+      },
+      "evaluated": {
+        "vertices": 621,
+        "faces": 572,
+        "triangles": 1144
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 96,
+        "non_manifold_edges_including_boundaries": 96
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 96,
+      "non_manifold_edges_including_boundaries": 96,
+      "vertices": 621,
+      "polygons": 572,
+      "triangles": 1144,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    },
+    {
+      "name": "2D_Sleeve_Back",
+      "raw": {
+        "vertices": 621,
+        "faces": 572,
+        "triangles": 1144
+      },
+      "evaluated": {
+        "vertices": 621,
+        "faces": 572,
+        "triangles": 1144
+      },
+      "evaluated_error": null,
+      "modifiers": [],
+      "materials": [
+        "Pattern_Study_Neutral_Clay"
+      ],
+      "hidden_render": false,
+      "hidden_viewport": false,
+      "hidden_in_view_layer": false,
+      "uv_layers": [],
+      "shape_keys": [],
+      "shape_key_values": {},
+      "vertex_groups": [],
+      "armatures": [],
+      "topology_raw": {
+        "loose_vertices": 0,
+        "boundary_edges": 96,
+        "non_manifold_edges_including_boundaries": 96
+      },
+      "weighting": {
+        "status": "NOT_TESTED",
+        "reason": "No armature modifier; may be a rigid or unbound object."
+      },
+      "parent": null,
+      "parent_type": "OBJECT",
+      "triangle_delta": 0,
+      "modifier_costs": [],
+      "loose_vertices": 0,
+      "boundary_edges": 96,
+      "non_manifold_edges_including_boundaries": 96,
+      "vertices": 621,
+      "polygons": 572,
+      "triangles": 1144,
+      "armature_modifiers": [],
+      "notes": "Open shells may legitimately have boundaries; weights and counts do not prove deformation quality."
+    }
+  ],
+  "certification": {
+    "visual_quality": "NOT_TESTED",
+    "exported_vrm_triangles": "NOT_TESTED",
+    "warudo_fps": "NOT_TESTED"
+  }
+}

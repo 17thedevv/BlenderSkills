@@ -1,0 +1,31 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_outfit_detail_v1.blend"
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay_cycle03\after_front_clay.png'
+Time: 00:02.42 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay_cycle03\after_three_quarter_clay.png'
+Time: 00:00.19 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay_cycle03\after_side_clay.png'
+Time: 00:00.23 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay_cycle03\after_back_clay.png'
+Time: 00:00.20 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay_cycle03\after_pose_arm_raise_clay.png'
+Time: 00:00.19 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay_cycle03\after_portrait_clay.png'
+Time: 00:00.22 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay_cycle03\after_side_garment_isolated.png'
+Time: 00:00.14 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay_cycle03\after_back_garment_isolated.png'
+Time: 00:00.15 (Saving: 00:00.07)
+
+Info: Saved "kagari_v03_clay_03.blend"
+CLAY_CANDIDATE_SAVED D:\Project-17\blender\outputs\wip\kagari_v03_clay_03.blend 4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051
+
+Blender quit

@@ -1,0 +1,29 @@
+# Blender autosave & temporary files
+*.blend1
+*.blend@
+*.swp
+*.bak
+*~
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Disqualified non-commercial / corrupted archives (>100MB GitHub limit)
+Aplaybox_Hsin.zip
+Aplaybox_Hsin/
+outputs/sources/aplaybox_hsin/
+
+# Historical backup snapshots and stale iterative WIP meshes
+outputs/backups/
+outputs/wip/*.blend
+outputs/wip/*.blend1
+
+# Keep active production WIP blends
+!outputs/wip/kagari_vroid_master.blend

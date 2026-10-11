@@ -1,0 +1,7 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+{"recovery2": {"studio_light": 0.0, "studio_name": "Default", "shadow_intensity": 0.5, "render_engine": "BLENDER_WORKBENCH", "color_type": "SINGLE", "single_color": [0.6200000047683716, 0.6200000047683716, 0.6200000047683716], "resolution": [1000, 1000], "world": [0.15000000596046448, 0.15000000596046448, 0.15000000596046448], "view_transform": "Standard", "look": "None", "unit_scale": 1.0, "unit_system": "METRIC"}, "study": {"studio_light": 0.0, "studio_name": "Default", "shadow_intensity": 0.5, "render_engine": "BLENDER_WORKBENCH", "color_type": "SINGLE", "single_color": [0.6200000047683716, 0.6200000047683716, 0.6200000047683716], "resolution": [1000, 1000], "world": [0.15000000596046448, 0.15000000596046448, 0.15000000596046448], "view_transform": "Standard", "look": "None", "unit_scale": 1.0, "unit_system": "METRIC"}}
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_garment_recovery_v2.blend"
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_pattern_trial2_prototype.blend"
+
+Blender quit

@@ -1,0 +1,92 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+    "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+    "version": "garment-geometry-recovery-v2"
+  },
+  "source": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "input_iteration": {
+    "path": "outputs/wip/kagari_garment_recovery_v1.blend",
+    "sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4"
+  },
+  "iteration": 2,
+  "iteration_limit": 2,
+  "no_further_repair_iterations": true,
+  "editable_objects": [
+    "Kagari_Concept_Crossed_Collar",
+    "Kagari_Concept_Robe_Two_Sleeves",
+    "Kagari_Concept_Soft_Waist_Sash"
+  ],
+  "constraint_sweeps": [
+    {
+      "constraint_sweep": 1,
+      "vertex_projections": 398,
+      "largest_projection": 0.012
+    },
+    {
+      "constraint_sweep": 2,
+      "vertex_projections": 188,
+      "largest_projection": 0.012
+    },
+    {
+      "constraint_sweep": 3,
+      "vertex_projections": 153,
+      "largest_projection": 0.0007344964296789836
+    },
+    {
+      "constraint_sweep": 4,
+      "vertex_projections": 137,
+      "largest_projection": 1.4786655083264683e-07
+    },
+    {
+      "constraint_sweep": 5,
+      "vertex_projections": 130,
+      "largest_projection": 1.937923952933726e-07
+    },
+    {
+      "constraint_sweep": 6,
+      "vertex_projections": 123,
+      "largest_projection": 1.479247584935603e-07
+    },
+    {
+      "constraint_sweep": 7,
+      "vertex_projections": 118,
+      "largest_projection": 1.8360605463351581e-07
+    },
+    {
+      "constraint_sweep": 8,
+      "vertex_projections": 114,
+      "largest_projection": 1.5339514175104901e-07
+    }
+  ],
+  "collar_support_sweeps": [
+    {
+      "sweep": 1,
+      "vertex_projections": 174
+    },
+    {
+      "sweep": 2,
+      "vertex_projections": 86
+    },
+    {
+      "sweep": 3,
+      "vertex_projections": 74
+    },
+    {
+      "sweep": 4,
+      "vertex_projections": 69
+    }
+  ],
+  "garment_weights_unchanged": true,
+  "topology_unchanged": true,
+  "new_materials": false,
+  "rest_vertex_displacement_max_from_iteration1": {
+    "Kagari_Concept_Robe_Two_Sleeves": 0.024734536267413662,
+    "Kagari_Concept_Crossed_Collar": 0.0040254336740166334
+  },
+  "method_limits": "Local geometric clearance constraints on fixed skinning; no physical cloth drape or all-pose guarantee."
+}

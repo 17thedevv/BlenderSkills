@@ -1,0 +1,64 @@
+{
+  "blender": {
+    "path": "D:\\tools\\blender-4.2.0-windows-x64\\blender.exe",
+    "version": "4.2.0",
+    "status": "EXECUTED_BACKGROUND"
+  },
+  "vrm_addons": [
+    {
+      "module": "VRM_Addon_for_Blender-release",
+      "version": [
+        4,
+        10,
+        0
+      ],
+      "enabled": false,
+      "path": "C:\\Users\\84387\\AppData\\Roaming\\Blender Foundation\\Blender\\4.2\\scripts\\addons\\VRM_Addon_for_Blender-release\\__init__.py"
+    },
+    {
+      "module": "bl_ext.user_default.vrm",
+      "version": [
+        4,
+        10,
+        0
+      ],
+      "enabled": true,
+      "path": "C:\\Users\\84387\\AppData\\Roaming\\Blender Foundation\\Blender\\4.2\\extensions\\user_default\\vrm\\__init__.py"
+    },
+    {
+      "module": "bl_ext.user_default.vrm_addon_for_blender",
+      "version": [
+        4,
+        10,
+        0
+      ],
+      "enabled": false,
+      "path": "C:\\Users\\84387\\AppData\\Roaming\\Blender Foundation\\Blender\\4.2\\extensions\\user_default\\vrm_addon_for_blender\\__init__.py"
+    }
+  ],
+  "import_operator_registered": true,
+  "export_operator_registered": true,
+  "candidate_export": "NOT_TESTED",
+  "candidate_reimport": "NOT_TESTED",
+  "warudo": {
+    "status": "NOT_FOUND_IN_INSPECTED_STEAM_LIBRARIES",
+    "runtime_test": "NOT_TESTED",
+    "inspected_roots": [
+      "C:/Program Files (x86)/Steam/steamapps/common",
+      "D:/SteamLibrary/steamapps/common"
+    ]
+  },
+  "obs": {
+    "path": "C:/Program Files (x86)/Steam/steamapps/common/OBS Studio/bin/64bit/obs64.exe",
+    "executable_exists": true,
+    "capture_test": "NOT_TESTED"
+  },
+  "webcam": {
+    "capture": "NOT_TESTED",
+    "note": "No live camera access in this iteration."
+  },
+  "signed_off_face_renders": {
+    "status": "PENDING_EVIDENCE",
+    "note": "Existing renders located; explicit face/head approval not linked in available project files."
+  }
+}

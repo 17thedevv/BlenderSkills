@@ -1,0 +1,31 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_garment_recovery_v1.blend",
+    "sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+    "version": "garment-geometry-recovery-v1"
+  },
+  "source": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "iteration": 1,
+  "iteration_limit": 2,
+  "editable_objects": [
+    "Kagari_Concept_Crossed_Collar",
+    "Kagari_Concept_Robe_Two_Sleeves",
+    "Kagari_Concept_Soft_Waist_Sash"
+  ],
+  "topology_counts_unchanged": true,
+  "garment_weights_unchanged": true,
+  "new_materials": false,
+  "face_hair_lower_robe_unmodified": true,
+  "changes": [
+    "Sash lower/upper profile fitted around underlying garments; top edge extended for cloth overlap",
+    "Inner sleeve seam moved outside sash with smooth vertical falloff",
+    "Shoulder bridge crown relaxed with existing quad sampling",
+    "Sparse shoulder-anchored folds on front/back panels",
+    "Nape inner arc lowered and outer arc brought near rear neckline"
+  ],
+  "robe_vertex_displacement_max": 0.05103894332064277
+}

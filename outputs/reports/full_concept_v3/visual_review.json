@@ -1,0 +1,124 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "agent_visual_review": "FAIL_FULL_AVATAR_ART_GATE_WITH_GARMENT_IMPROVEMENTS",
+  "human_approval": "NOT_APPROVED",
+  "render_inspection": "Actual 9 final clay renders, 4 existing-color Eevee renders and 9 matching Cycle03 clay renders visually inspected.",
+  "scores": {
+    "garment_silhouette": 1,
+    "collar_construction": 1,
+    "sleeves_and_shoulders": 2,
+    "cloth_folds": 1,
+    "hair_silhouette": 0,
+    "reference_identity": 1,
+    "deformation": 1
+  },
+  "score_semantics": "0 reject, 1 revise, 2 candidate; judgments from actual images, not automatic approval.",
+  "hard_rejects": [
+    "Visible exposed scalp inherited from baseline"
+  ],
+  "acceptance": {
+    "fabric_thickness_and_overlap": "PARTIAL: cuff thickness and crossed collar readable; waist overlap fails",
+    "shoulder_to_sleeve_continuity": "IMPROVED: both sleeves share torso root vertices; small shoulder ridges remain",
+    "wide_sleeve_silhouette": "DEMONSTRATED_IN_TESTED_VIEWS",
+    "plausible_folds_and_volume": "PARTIAL: broad cloth masses, sparse folds, frozen drape",
+    "no_obvious_mesh_intersections": "FAIL: visible torso/sash overlap; hair proximity also remains",
+    "basic_arm_deformation": "PARTIAL: no gross detachment/collapse in two arm tests, rounded underarm bags; no motion or collision certification"
+  },
+  "issues": [
+    {
+      "id": "waist_overlap",
+      "region": "Top corners of front sash; side and rear waist",
+      "severity": "HIGH",
+      "inherited": false,
+      "evidence": [
+        "front_existing_color.png",
+        "three_quarter_existing_color.png",
+        "back_clay.png"
+      ],
+      "observation": "Cream torso surface visibly occludes/cuts into burgundy sash at both upper corners. Rear seam also has angular breaks. Earlier legacy skirt sawtooth was reduced, but waist overlap is not resolved.",
+      "next_action": "Reconcile torso/sash cross-sections and inspect front, side and back with color plus clay before any approval."
+    },
+    {
+      "id": "hair_scalp",
+      "region": "Temple and crown on character left; side/back head",
+      "severity": "HARD_REJECT",
+      "inherited": true,
+      "evidence": [
+        "three_quarter_existing_color.png",
+        "side_clay.png",
+        "back_clay.png"
+      ],
+      "observation": "Exposed dark scalp cap and detached/angular hair strips remain exactly as in Cycle03. Hair geometry was preserved, not repaired by garment integration.",
+      "next_action": "Separate scoped hair/scalp repair against reference with mesh and shape-key protection."
+    },
+    {
+      "id": "nape_yoke",
+      "region": "Back collar and top shoulder",
+      "severity": "MEDIUM",
+      "inherited": false,
+      "evidence": [
+        "side_clay.png",
+        "three_quarter_clay.png"
+      ],
+      "observation": "Collar nape projects as a stiff small shelf; shoulder has rounded bulges and limited cloth tension detail.",
+      "next_action": "Review nape fit and motivated shoulder folds on full avatar."
+    },
+    {
+      "id": "folds",
+      "region": "Sleeves, lower robe and back",
+      "severity": "MEDIUM",
+      "inherited": false,
+      "evidence": [
+        "front_clay.png",
+        "arm_horizontal_clay.png",
+        "full_three_quarter_clay.png",
+        "back_clay.png"
+      ],
+      "observation": "Long sleeves are hollow and continuous but very smooth at rest. Raised underarm forms broad rounded bags; folds do not recompute under gravity. Back and long skirt still have large nearly flat areas.",
+      "next_action": "Refine a few folds driven by seam, gravity and pose; retain silhouette and test motion."
+    },
+    {
+      "id": "concept_limits",
+      "region": "Outfit layers, full lower body, footwear",
+      "severity": "MEDIUM",
+      "inherited": false,
+      "evidence": [
+        "full_front_existing_color.png"
+      ],
+      "observation": "Cream/burgundy palette and long wide sleeves are readable. Separate long haori lapels and other concept motifs are not complete. Lower A-line robe is inferred from an upper-body-only reference; existing sneaker shoes are retained. This is not a faithful finished concept recreation.",
+      "next_action": "Human review of full silhouette and inferred lower design before accessories/material development."
+    }
+  ],
+  "reviewed_images": [
+    "outputs/previews/full_concept_v3/front_clay.png",
+    "outputs/previews/full_concept_v3/three_quarter_clay.png",
+    "outputs/previews/full_concept_v3/side_clay.png",
+    "outputs/previews/full_concept_v3/back_clay.png",
+    "outputs/previews/full_concept_v3/arm_raised_clay.png",
+    "outputs/previews/full_concept_v3/arm_horizontal_clay.png",
+    "outputs/previews/full_concept_v3/full_front_clay.png",
+    "outputs/previews/full_concept_v3/full_three_quarter_clay.png",
+    "outputs/previews/full_concept_v3/portrait_clay.png",
+    "outputs/previews/full_concept_v3/front_existing_color.png",
+    "outputs/previews/full_concept_v3/three_quarter_existing_color.png",
+    "outputs/previews/full_concept_v3/full_front_existing_color.png",
+    "outputs/previews/full_concept_v3/portrait_existing_color.png",
+    "outputs/previews/full_concept_v3/cycle03_front_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_three_quarter_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_side_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_back_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_arm_raised_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_arm_horizontal_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_full_front_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_full_three_quarter_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_portrait_clay.png"
+  ],
+  "all_images_linked_to_artifact_sha256": true,
+  "vrm_export": "NOT_TESTED",
+  "full_character_construction": "COMPLETED_AS_WIP"
+}

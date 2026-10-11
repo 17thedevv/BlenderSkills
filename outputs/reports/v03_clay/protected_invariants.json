@@ -1,0 +1,20 @@
+{
+  "source_sha256": "8ead8701d3526c1343166a5ad9f286e3cb1f67a0570d7ef2d4eb4109ada838dd",
+  "baseline_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+  "candidate_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+  "before": {
+    "Face": "1f956054883471a0c70391ea07e1b9368190a95d2f794532242748ae58dca20f",
+    "Hair": "cfc863f92280788626150431b56f6844a883482d92e9a36f0adc6f1d97e54aa5",
+    "Armature": "d6c3789c23e61dccb9bf9ba24fe226c96dc8ff3c287a46f0fa911c4bb8d2a6d4"
+  },
+  "after": {
+    "Face": "1f956054883471a0c70391ea07e1b9368190a95d2f794532242748ae58dca20f",
+    "Hair": "cfc863f92280788626150431b56f6844a883482d92e9a36f0adc6f1d97e54aa5",
+    "Armature": "d6c3789c23e61dccb9bf9ba24fe226c96dc8ff3c287a46f0fa911c4bb8d2a6d4"
+  },
+  "face_geometry_and_all_morphs_unchanged": true,
+  "hair_geometry_bindings_and_materials_unchanged": true,
+  "armature_and_neutral_pose_unchanged": true,
+  "source_file_unchanged": true,
+  "final_render_pose_restored": true
+}

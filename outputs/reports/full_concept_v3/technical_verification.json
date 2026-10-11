@@ -1,0 +1,382 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "technical_status": "PROTECTED_DATA_AND_GARMENT_CHECKS_VERIFIED",
+  "protected_data_matches_after_reload": {
+    "Face": true,
+    "Hair": true,
+    "Body": true,
+    "Armature_Rest": true,
+    "Armature_Saved_Pose": true
+  },
+  "errors": [],
+  "objects": [
+    {
+      "object": "Kagari_Concept_Robe_Two_Sleeves",
+      "vertices": 5765,
+      "faces": 5645,
+      "raw_triangles": 11273,
+      "surface_components": 1,
+      "boundary_edges": 261,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "armature_references": [
+        "Armature"
+      ],
+      "uvs": [
+        "Working_Panel_UV"
+      ],
+      "materials": [
+        "Kagari_Detail_Cream_Silk"
+      ],
+      "modifiers": [
+        "ARMATURE",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Crossed_Collar",
+      "vertices": 679,
+      "faces": 576,
+      "raw_triangles": 1152,
+      "surface_components": 1,
+      "boundary_edges": 204,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "armature_references": [
+        "Armature"
+      ],
+      "uvs": [
+        "Working_Panel_UV"
+      ],
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "modifiers": [
+        "ARMATURE",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Soft_Waist_Sash",
+      "vertices": 1056,
+      "faces": 960,
+      "raw_triangles": 1920,
+      "surface_components": 1,
+      "boundary_edges": 192,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "armature_references": [
+        "Armature"
+      ],
+      "uvs": [
+        "Working_Sash_UV"
+      ],
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "modifiers": [
+        "ARMATURE",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Lower_Robe",
+      "vertices": 2976,
+      "faces": 2880,
+      "raw_triangles": 5760,
+      "surface_components": 1,
+      "boundary_edges": 192,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "armature_references": [
+        "Armature"
+      ],
+      "uvs": [
+        "Working_Lower_Robe_UV"
+      ],
+      "materials": [
+        "Kagari_Detail_Cream_Silk"
+      ],
+      "modifiers": [
+        "ARMATURE",
+        "SOLIDIFY"
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "pose": "saved_original_neutral",
+      "objects": [
+        {
+          "object": "Kagari_Concept_Robe_Two_Sleeves",
+          "evaluated_triangles": 23068,
+          "finite": true,
+          "bounds": [
+            [
+              -0.27104365825653076,
+              0.271043598651886
+            ],
+            [
+              -0.1387491673231125,
+              0.09825495630502701
+            ],
+            [
+              0.7048506140708923,
+              1.2707444429397583
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Crossed_Collar",
+          "evaluated_triangles": 2712,
+          "finite": true,
+          "bounds": [
+            [
+              -0.07377929985523224,
+              0.0737810805439949
+            ],
+            [
+              -0.14327144622802734,
+              0.08184236288070679
+            ],
+            [
+              0.974829375743866,
+              1.2794567346572876
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Soft_Waist_Sash",
+          "evaluated_triangles": 4224,
+          "finite": true,
+          "bounds": [
+            [
+              -0.1509844809770584,
+              0.15098989009857178
+            ],
+            [
+              -0.14399728178977966,
+              0.12098951637744904
+            ],
+            [
+              0.9058246612548828,
+              0.9773889780044556
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Lower_Robe",
+          "evaluated_triangles": 11904,
+          "finite": true,
+          "bounds": [
+            [
+              -0.2777867317199707,
+              0.2777867317199707
+            ],
+            [
+              -0.19579686224460602,
+              0.22179089486598969
+            ],
+            [
+              0.23087969422340393,
+              0.959145188331604
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "both_arms_raise_30",
+      "objects": [
+        {
+          "object": "Kagari_Concept_Robe_Two_Sleeves",
+          "evaluated_triangles": 23068,
+          "finite": true,
+          "bounds": [
+            [
+              -0.4498140215873718,
+              0.44981420040130615
+            ],
+            [
+              -0.1387491673231125,
+              0.09825500100851059
+            ],
+            [
+              0.7866978645324707,
+              1.2707444429397583
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Crossed_Collar",
+          "evaluated_triangles": 2712,
+          "finite": true,
+          "bounds": [
+            [
+              -0.07370446622371674,
+              0.07370615750551224
+            ],
+            [
+              -0.14327144622802734,
+              0.08184236288070679
+            ],
+            [
+              0.974829375743866,
+              1.2794567346572876
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Soft_Waist_Sash",
+          "evaluated_triangles": 4224,
+          "finite": true,
+          "bounds": [
+            [
+              -0.1509844809770584,
+              0.15098989009857178
+            ],
+            [
+              -0.14399728178977966,
+              0.12098951637744904
+            ],
+            [
+              0.9058246612548828,
+              0.9773889780044556
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Lower_Robe",
+          "evaluated_triangles": 11904,
+          "finite": true,
+          "bounds": [
+            [
+              -0.2777867317199707,
+              0.2777867317199707
+            ],
+            [
+              -0.19579686224460602,
+              0.22179089486598969
+            ],
+            [
+              0.23087969422340393,
+              0.959145188331604
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "both_arms_horizontal",
+      "objects": [
+        {
+          "object": "Kagari_Concept_Robe_Two_Sleeves",
+          "evaluated_triangles": 23068,
+          "finite": true,
+          "bounds": [
+            [
+              -0.5663710236549377,
+              0.566370964050293
+            ],
+            [
+              -0.1387491673231125,
+              0.09825508296489716
+            ],
+            [
+              0.9748513698577881,
+              1.2707444429397583
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Crossed_Collar",
+          "evaluated_triangles": 2712,
+          "finite": true,
+          "bounds": [
+            [
+              -0.07359050959348679,
+              0.07359050214290619
+            ],
+            [
+              -0.14327144622802734,
+              0.08184236288070679
+            ],
+            [
+              0.974829375743866,
+              1.2794567346572876
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Soft_Waist_Sash",
+          "evaluated_triangles": 4224,
+          "finite": true,
+          "bounds": [
+            [
+              -0.1509844809770584,
+              0.15098989009857178
+            ],
+            [
+              -0.14399728178977966,
+              0.12098951637744904
+            ],
+            [
+              0.9058246612548828,
+              0.9773889780044556
+            ]
+          ]
+        },
+        {
+          "object": "Kagari_Concept_Lower_Robe",
+          "evaluated_triangles": 11904,
+          "finite": true,
+          "bounds": [
+            [
+              -0.2777867317199707,
+              0.2777867317199707
+            ],
+            [
+              -0.19579686224460602,
+              0.22179089486598969
+            ],
+            [
+              0.23087969422340393,
+              0.959145188331604
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "body_display_copy": {
+    "vertices": 6243,
+    "faces": 10342,
+    "source_body_preserved": true,
+    "original_body_has_shape_keys": false
+  },
+  "archive_excluded_from_render": true,
+  "active_scene_armatures": [
+    "Armature"
+  ],
+  "intersection_free": "NOT_CERTIFIED",
+  "lower_body_walk_pose": "NOT_TESTED",
+  "vrm_export": "NOT_TESTED",
+  "warudo": "NOT_TESTED",
+  "human_art_approval": "NOT_APPROVED"
+}

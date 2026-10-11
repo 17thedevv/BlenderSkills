@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1",
+  "project": "Kagari",
+  "current_gate": "GARMENT_CLAY_BLOCKOUT_PENDING",
+  "current_candidate": {
+    "path": "outputs/wip/kagari_outfit_detail_v1.blend",
+    "sha256": "8ead8701d3526c1343166a5ad9f286e3cb1f67a0570d7ef2d4eb4109ada838dd",
+    "version": "outfit-detail-v1"
+  },
+  "baseline": {
+    "path": "outputs/wip/kagari_outfit_detail_v1.blend",
+    "sha256": "8ead8701d3526c1343166a5ad9f286e3cb1f67a0570d7ef2d4eb4109ada838dd"
+  },
+  "reference_files": [
+    "outputs/design/concept_option2_kagari.jpg"
+  ],
+  "evidence": [
+    "outputs/reports/v03_merge/baseline_audit.json",
+    "outputs/reports/v03_merge/tool_inventory.json",
+    "outputs/reports/v03_merge/user_task.txt",
+    "outputs/reports/v03_merge/overlay_vs_local.diff",
+    "outputs/reports/v03_clay/construction_plan.md"
+  ],
+  "artifact_records": [
+    {
+      "path": "outputs/design/concept_option2_kagari.jpg",
+      "sha256": "adef163e41f93b12151786b44555c7e6555021e2173947ebb0e52f950c43cc64"
+    },
+    {
+      "path": "outputs/reports/v03_merge/baseline_audit.json",
+      "sha256": "99a1cd6252a07c9f1572a2e33ec0151e6eccbe0ca07492e56a2286254c032a54"
+    },
+    {
+      "path": "outputs/reports/v03_merge/tool_inventory.json",
+      "sha256": "69beae3e358ec87a712fff70bcc112781f5452f2b7953e8701b8a4c61e647e09"
+    },
+    {
+      "path": "outputs/reports/v03_merge/user_task.txt",
+      "sha256": "12c7e8016553bd1ecc12e988de88bbba6b64b23b79b3648df1fd742915c43075"
+    },
+    {
+      "path": "outputs/reports/v03_merge/overlay_vs_local.diff",
+      "sha256": "dfa57cec5fa26e69759c6613fd655722982ae373b23857e4de5eef5eeb4694ca"
+    },
+    {
+      "path": "outputs/reports/v03_clay/construction_plan.md",
+      "sha256": "9a8faaf50c7ebfef727eb0dcaa5299e0d0e585ab68b463a50c674b5b7ea55d9e"
+    }
+  ],
+  "delivery_manifest": "outputs/DELIVERY.md",
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "approvals": {
+    "concept": {
+      "status": "PENDING_EVIDENCE",
+      "evidence": null
+    },
+    "face": {
+      "status": "PENDING_EVIDENCE",
+      "evidence": null
+    },
+    "garment_clay": {
+      "status": "NOT_APPROVED",
+      "evidence": null
+    },
+    "rig": {
+      "status": "NOT_TESTED",
+      "evidence": null
+    },
+    "vrm_export": {
+      "status": "NOT_TESTED",
+      "evidence": null
+    },
+    "webcam": {
+      "status": "NOT_TESTED",
+      "evidence": null
+    },
+    "obs": {
+      "status": "NOT_TESTED",
+      "evidence": null
+    }
+  },
+  "historical_approval_note": "character_brief reports prior concept approval; original explicit sign-off message is not linked. The current user task authorizes this clay experiment, not aesthetic approval.",
+  "tool_inventory": "outputs/reports/v03_merge/tool_inventory.json",
+  "blocking_issues": [
+    "Human clay-form approval pending",
+    "No candidate VRM export/runtime/OBS validation",
+    "Base-asset license claims in historical reports require original source/license evidence before final redistribution"
+  ],
+  "updated_by": "sync_project_state.py; evidence references only"
+}

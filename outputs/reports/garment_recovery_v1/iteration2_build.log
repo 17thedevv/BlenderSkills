@@ -1,0 +1,46 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_garment_recovery_v1.blend"
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\front_clay.png'
+Time: 00:02.41 (Saving: 00:00.09)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\three_quarter_clay.png'
+Time: 00:00.22 (Saving: 00:00.09)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\side_clay.png'
+Time: 00:00.21 (Saving: 00:00.09)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\back_clay.png'
+Time: 00:00.23 (Saving: 00:00.09)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\arm_raised_clay.png'
+Time: 00:00.22 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\arm_horizontal_clay.png'
+Time: 00:00.21 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\full_front_clay.png'
+Time: 00:00.22 (Saving: 00:00.09)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\full_three_quarter_clay.png'
+Time: 00:00.21 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\portrait_clay.png'
+Time: 00:00.20 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\front_existing_color.png'
+Time: 00:02.58 (Saving: 00:00.09)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\three_quarter_existing_color.png'
+Time: 00:02.22 (Saving: 00:00.09)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\full_front_existing_color.png'
+Time: 00:02.39 (Saving: 00:00.09)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_recovery_v2\portrait_existing_color.png'
+Time: 00:02.46 (Saving: 00:00.10)
+
+Info: Saved "kagari_garment_recovery_v2.blend"
+GARMENT_RECOVERY_V2_SAVED 9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d
+
+Blender quit

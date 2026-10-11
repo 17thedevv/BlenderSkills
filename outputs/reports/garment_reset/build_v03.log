@@ -1,0 +1,29 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+INITIAL_CLEARANCE_PLACED_VERTICES 41
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Info: Total files 79 | Changed 79 | Failed 0
+Info: Saved "kagari_panel_seams_setup_03.blend"
+DRAPE_FRAME 1
+DRAPE_FRAME 10
+DRAPE_FRAME 25
+DRAPE_FRAME 40
+DRAPE_FRAME 50
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_v03\prototype_front_clay.png'
+Time: 00:00.81 (Saving: 00:00.05)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_v03\prototype_three_quarter_clay.png'
+Time: 00:00.12 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_v03\prototype_side_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_v03\prototype_back_clay.png'
+Time: 00:00.12 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_v03\prototype_arm_raised_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Info: Saved "kagari_panel_drape_prototype_03.blend"
+PANEL_PROTOTYPE_SAVED 8fa2b333fb8d4d02dec3db2a39a8fb43f7513c0e2124bab5294f7350c6fad519
+
+Blender quit

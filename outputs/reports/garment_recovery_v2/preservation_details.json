@@ -1,0 +1,73 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+    "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+    "version": "garment-geometry-recovery-v2"
+  },
+  "comparison_source": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "garment_metadata_matches": {
+    "Kagari_Concept_Robe_Two_Sleeves": {
+      "connectivity": true,
+      "weights": true,
+      "group_names": true,
+      "uv_assignment": true,
+      "modifier_settings": true,
+      "material_names": true,
+      "parent": true
+    },
+    "Kagari_Concept_Crossed_Collar": {
+      "connectivity": true,
+      "weights": true,
+      "group_names": true,
+      "uv_assignment": true,
+      "modifier_settings": true,
+      "material_names": true,
+      "parent": true
+    },
+    "Kagari_Concept_Soft_Waist_Sash": {
+      "connectivity": true,
+      "weights": true,
+      "group_names": true,
+      "uv_assignment": true,
+      "modifier_settings": true,
+      "material_names": true,
+      "parent": true
+    },
+    "Kagari_Concept_Lower_Robe": {
+      "connectivity": true,
+      "weights": true,
+      "group_names": true,
+      "uv_assignment": true,
+      "modifier_settings": true,
+      "material_names": true,
+      "parent": true
+    }
+  },
+  "bound_material_node_defaults_links_and_images_unchanged": true,
+  "new_materials": [],
+  "unbound_material_datablocks_removed_on_save": [
+    "Concept_Study_Neutral_Clay"
+  ],
+  "material_check_limits": "Node tree structure/default inputs and image datablock names; external image pixel files and every specialized node property not exhaustively hashed.",
+  "material_differences": {
+    "Concept_Study_Neutral_Clay": {
+      "source": {
+        "diffuse": [
+          0.6499999761581421,
+          0.6499999761581421,
+          0.6499999761581421,
+          1.0
+        ],
+        "nodes": [],
+        "links": []
+      },
+      "candidate": null
+    }
+  },
+  "status": "PASS",
+  "scope": "Data preservation only, not aesthetic approval"
+}

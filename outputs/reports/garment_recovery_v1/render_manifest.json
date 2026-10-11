@@ -1,0 +1,363 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_garment_recovery_v1.blend",
+    "sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+    "version": "garment-geometry-recovery-v1"
+  },
+  "comparison_source": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "renders": [
+    {
+      "view": "front",
+      "path": "outputs/previews/garment_recovery_v1/front_clay.png",
+      "image_sha256": "9808d3880f9a0452b6f868aef11fbbe4b4fe94f889d79e6981494483a3273392",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "three_quarter",
+      "path": "outputs/previews/garment_recovery_v1/three_quarter_clay.png",
+      "image_sha256": "79a0b2581ca60549ac2d438628671711316019aedb719a98b738c33abbf99569",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.5515758991241455,
+        -5.0862499989534626e-08,
+        0.6146630048751831
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "side",
+      "path": "outputs/previews/garment_recovery_v1/side_clay.png",
+      "image_sha256": "2db8a3245a495c050ba157b5f3db4458a2ea0233ac391cf1628d6a784222b6ff",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        2.0,
+        0.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "back",
+      "path": "outputs/previews/garment_recovery_v1/back_clay.png",
+      "image_sha256": "dc0b7947db16b8c247e2a7576afdf606ab02df1bb49d552ac90f78482917b1f4",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        -1.570796251296997,
+        3.141592502593994,
+        -0.0
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "arm_raised",
+      "path": "outputs/previews/garment_recovery_v1/arm_raised_clay.png",
+      "image_sha256": "6743a6aaa2d8695117551c71762a2b07550884f6dc02ef4ecd461ac36509c0e5",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.350000023841858,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -0.6632250547409058
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          0.6632250547409058
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "arm_horizontal",
+      "path": "outputs/previews/garment_recovery_v1/arm_horizontal_clay.png",
+      "image_sha256": "d779783b610f42f244efec7ce90fac39bf521d1afde798b39e4d8e2a32a1c881",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.5800000429153442,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "full_front",
+      "path": "outputs/previews/garment_recovery_v1/full_front_clay.png",
+      "image_sha256": "d6d56c12f1e4a8ebc6d462c9a58e83fe2954ae9628d55456b77518c4b9869a27",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        -3.0,
+        0.7699999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.7000000476837158,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "full_three_quarter",
+      "path": "outputs/previews/garment_recovery_v1/full_three_quarter_clay.png",
+      "image_sha256": "b6d180a7a138fb9f57cc33f3b0c4fda6b5ccf1a54f008a34b9fc23b5f30e307d",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        1.7000000476837158,
+        -2.4000000953674316,
+        0.8999999761581421
+      ],
+      "camera_rotation": [
+        1.5266237258911133,
+        -8.986688726508874e-09,
+        0.6162968873977661
+      ],
+      "ortho_scale": 1.7000000476837158,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "portrait",
+      "path": "outputs/previews/garment_recovery_v1/portrait_clay.png",
+      "image_sha256": "cdb0c9acee507341c8f2758fe6ac22d253bab33bcb51f91f4b5788ac0ca82eb3",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.2999999523162842
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.6700000166893005,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    }
+  ],
+  "new_objects": [
+    "Kagari_Concept_Robe_Two_Sleeves",
+    "Kagari_Concept_Crossed_Collar",
+    "Kagari_Concept_Soft_Waist_Sash",
+    "Kagari_Concept_Lower_Robe"
+  ],
+  "color_renders": [
+    {
+      "view": "front",
+      "path": "outputs/previews/garment_recovery_v1/front_existing_color.png",
+      "image_sha256": "1e1b842dc767bd7120da3d73dac2b36f698dd8b19524f9164b6a880a1fb52fd9",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.04
+    },
+    {
+      "view": "three_quarter",
+      "path": "outputs/previews/garment_recovery_v1/three_quarter_existing_color.png",
+      "image_sha256": "5235edffcc7df390236c386b151266285a6e1348e911d1f531b7eb4c21bd5763",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.5515758991241455,
+        -5.0862499989534626e-08,
+        0.6146630048751831
+      ],
+      "ortho_scale": 1.04
+    },
+    {
+      "view": "full_front",
+      "path": "outputs/previews/garment_recovery_v1/full_front_existing_color.png",
+      "image_sha256": "e3fa73f991b36e6ebad32370de387561c3509ef8eedfcd5e6ecfb8728452bdbb",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        -3.0,
+        0.7699999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.7
+    },
+    {
+      "view": "portrait",
+      "path": "outputs/previews/garment_recovery_v1/portrait_existing_color.png",
+      "image_sha256": "a2a99d3fbd1e16ea82f188a62831d9fa50a3924db492f54967b4e9d7ad077831",
+      "artifact_sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.2999999523162842
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.67
+    }
+  ],
+  "camera_and_lighting": "Existing full_concept_v3 settings, unchanged source lighting/materials; gray Workbench and existing Eevee color.",
+  "rendered_without_resaving_candidate": true,
+  "human_approval": "NOT_APPROVED"
+}

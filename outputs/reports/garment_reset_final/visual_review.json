@@ -1,0 +1,50 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_panel_drape_reset_final.blend",
+    "sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+    "version": "garment-reset-panel-drape-study"
+  },
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "agent_visual_acceptance": "FAIL",
+  "scope": "Isolated duplicate-mannequin collar, upper support and one sleeve; not a full character candidate.",
+  "all_original_eight_cycle03_images_inspected": true,
+  "all_final_five_and_matched_five_images_inspected": true,
+  "matched_camera_and_pose_fields": {
+    "front": true,
+    "three_quarter": true,
+    "side": true,
+    "back": true,
+    "arm_raised": true
+  },
+  "source_unchanged": true,
+  "criteria": {
+    "fabric_thickness_and_overlap": "PARTIAL: broad front panels genuinely overlap; connected nape/attached band, but neckline and seam spacing remain coarse.",
+    "natural_shoulder_sleeve_continuity": "FAIL: joined mesh surface exists, but pinned shoulder seam sits too high and reads as a plate, especially profile/3-quarter.",
+    "wide_sleeve_silhouette": "OBSERVED: one wide hanging fabric bag and distal opening, unlike the short radial tube.",
+    "plausible_folds_volume": "PARTIAL: gravity-derived back/torso tension folds and hanging sleeve mass; folds gather too sharply at armpit.",
+    "no_obvious_intersections": "NOT_CERTIFIED: neutral major body breakthrough is not obvious, but dark root folds/gaps and raised-pose angular artifacts leave intersection risk.",
+    "basic_arm_deformation": "FAIL: actual ordinary armature raise reveals sharp root pinching; no solver/corrective morph used to disguise it."
+  },
+  "human_approval": "NOT_APPROVED",
+  "vrm_export": "NOT_TESTED",
+  "warudo_runtime": "NOT_TESTED",
+  "new_method_trials": [
+    {
+      "path": "outputs/wip/kagari_panel_drape_prototype_01.blend",
+      "status": "SELECTED_FOR_METHOD_REVIEW_NOT_APPROVED",
+      "reason": "Best readable broad sleeve/drape among tests; final adds continuous nape seam."
+    },
+    {
+      "path": "outputs/wip/kagari_panel_drape_prototype_02.blend",
+      "status": "REJECTED_BY_AGENT",
+      "reason": "Softer pins and anatomical shoulder placement collapse sleeve/root during long drape."
+    },
+    {
+      "path": "outputs/wip/kagari_panel_drape_prototype_03.blend",
+      "status": "REJECTED_BY_AGENT",
+      "reason": "Clearance placement/higher bending reduce some collapse, but bag/root remain crumpled and restricted."
+    }
+  ],
+  "stop_reason": "Three new-method trials exhausted; no further aesthetic repairs before human direction.",
+  "next_method_recommendation": "Keep explicit panel/seam topology but hand-fit the yoke and armhole first; restrict cloth to free sleeve bag/hem with stable boundary, transfer/smooth binding at root. Test flat pattern/seam layout before another full-surface solve."
+}

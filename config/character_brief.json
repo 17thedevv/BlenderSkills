@@ -1,0 +1,82 @@
+{
+  "project": "Virtual Character — Anime Female Webcam VTuber MVP",
+  "version": "0.3.0",
+  "character_name": "Kagari (篝)",
+  "target_style": "Japanese anime VTuber, female-coded, cohesive 2.5D toon design",
+  "gender_presentation": "female anime",
+  "theme": "Astral Shrinekeeper (Vu nữ chiêm tinh / Modern Shrine Maiden)",
+  "color_palette": [
+    "#FFF9F2",
+    "#8B1E3F",
+    "#F5A623",
+    "#E6B800",
+    "#FFAAA6"
+  ],
+  "references": [
+    "outputs/design/concept_option2_kagari.jpg"
+  ],
+  "reference_licenses": [
+    "Original character concept generated and approved for Project-17"
+  ],
+  "primary_runtime": "Warudo",
+  "fallback_runtime": "TBD_TESTED_ALTERNATIVE",
+  "capture": "OBS Studio",
+  "tracking": {
+    "input": "USB or integrated webcam",
+    "driver": "Warudo MediaPipe built-in",
+    "face": "head pose + blink + mouth + gaze + basic expressions",
+    "hands": "optional after face proven",
+    "lip_sync": "MediaPipe tracking, optional Warudo microphone fallback",
+    "camera_resolution": "TBD_AFTER_PREFLIGHT",
+    "calibration": "TBD_IN_WARUDO"
+  },
+  "target_output": "VRM 1.0",
+  "authoritative_source": "Blender .blend",
+  "primary_preview": "portrait/head-and-shoulders (9:16 and 16:9 scene crops)",
+  "priority": "face/head > hair > shoulders/upper body > rig tracking > full body polish > physics",
+  "gaze_mode": "eye bones / VRM LookAt bone type",
+  "required_vrm_expressions": [
+    "blink",
+    "blinkLeft",
+    "blinkRight",
+    "aa",
+    "ih",
+    "ou",
+    "ee",
+    "oh",
+    "happy",
+    "angry",
+    "sad",
+    "relaxed",
+    "surprised"
+  ],
+  "expression_optional": [
+    "lookUp",
+    "lookDown",
+    "lookLeft",
+    "lookRight"
+  ],
+  "optional_advanced_track": "ARKit/Perfect Sync morphs ONLY when runtime and base mesh justify cost",
+  "animation_clips": [
+    "idle_loop",
+    "nod",
+    "wave"
+  ],
+  "model_budget_starting_targets": {
+    "triangles_soft_target": 80000,
+    "texture_max_side_initial": 2048,
+    "material_slots_target": 8,
+    "tracking_and_render_fps_target": 30,
+    "notes": "Starting optimization targets, NOT VRM or Warudo limits. Measure on actual streaming hardware."
+  },
+  "license_policy": "Record base-mesh source, author, allowed edits, commercial and redistribution permissions",
+  "delivery_status": "Garment clay construction experiment failed agent visual review after three cycles; human review pending. See config/project_state.json.",
+  "historical_user_approval": {
+    "concept": true,
+    "face": false,
+    "rig": false,
+    "live_tracking": false,
+    "delivery": false
+  },
+  "approval_source": "config/project_state.json; legacy approval booleans are historical claims, not current evidence."
+}

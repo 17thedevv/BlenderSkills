@@ -1,0 +1,76 @@
+{
+  "candidate_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "renders": [
+    {
+      "view": "front",
+      "path": "outputs/previews/full_concept_v3/front_existing_color.png",
+      "image_sha256": "a7003af95fd5f59a59084c2d0deaf33c7c994a213c8208e2379648272cd84f0e",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.04
+    },
+    {
+      "view": "three_quarter",
+      "path": "outputs/previews/full_concept_v3/three_quarter_existing_color.png",
+      "image_sha256": "74b874dc52982c0a26c611a041372c12c07ea7d9ca60f53154a30a14f4b02d3b",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.5515758991241455,
+        -5.0862499989534626e-08,
+        0.6146630048751831
+      ],
+      "ortho_scale": 1.04
+    },
+    {
+      "view": "full_front",
+      "path": "outputs/previews/full_concept_v3/full_front_existing_color.png",
+      "image_sha256": "9e11b502d3feebbc0c555023182bef915ac7a307a230972491bc44b2ec162f7e",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        -3.0,
+        0.7699999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.7
+    },
+    {
+      "view": "portrait",
+      "path": "outputs/previews/full_concept_v3/portrait_existing_color.png",
+      "image_sha256": "43ba4ec358cedcd3a8a971bc90a4e3510d0f1fc4069888699c8c46d8da817abe",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.2999999523162842
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.67
+    }
+  ],
+  "materials": "Original source shaders/textures; existing cream/burgundy assigned to new garment; no new material design or ornamentation.",
+  "vrm_material_compatibility": "NOT_TESTED"
+}

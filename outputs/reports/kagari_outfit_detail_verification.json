@@ -1,0 +1,26 @@
+{
+  "face_mesh_and_all_shape_keys_unchanged": true,
+  "hair_mesh_unchanged": true,
+  "original_bone_hierarchy_and_rest_positions_unchanged": true,
+  "new_accessories_attached_to_existing_bones": true,
+  "unpacked_images": [],
+  "added_geometry_triangles_evaluated": 105372,
+  "all_geometry_triangles_evaluated": 134067,
+  "human_visual_approval": "PENDING",
+  "cloth_deformation_and_vrm_export": "NOT_TESTED",
+  "preview_files": {
+    "after_back.png": 810309,
+    "after_face.png": 913770,
+    "after_front.png": 904110,
+    "after_outfit_close.png": 848721,
+    "after_side.png": 862877,
+    "after_stream_crop.png": 181510,
+    "after_three_quarter.png": 901666,
+    "before_back.png": 791544,
+    "before_face.png": 952621,
+    "before_front.png": 897642,
+    "before_outfit_close.png": 828691,
+    "before_side.png": 839810,
+    "before_three_quarter.png": 905974
+  }
+}

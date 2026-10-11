@@ -1,0 +1,679 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+{
+  "bones": {
+    "J_Bip_C_Chest": {
+      "head": [
+        0.0,
+        -0.019028306007385254,
+        1.032718300819397
+      ],
+      "tail": [
+        -4.3834918520387544e-16,
+        -0.007033699192106724,
+        1.1306942701339722
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "J_Bip_C_UpperChest": {
+      "head": [
+        1.3877787807814457e-17,
+        -0.005742102861404419,
+        1.1305361986160278
+      ],
+      "tail": [
+        4.50042210342925e-16,
+        0.03499037027359009,
+        1.2463514804840088
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "J_Bip_C_Neck": {
+      "head": [
+        3.0531133177191805e-16,
+        0.028499849140644073,
+        1.2486342191696167
+      ],
+      "tail": [
+        -4.427427451012835e-16,
+        0.020130330696702003,
+        1.31831955909729
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "J_Bip_L_Shoulder": {
+      "head": [
+        0.01985645294189453,
+        0.021012170240283012,
+        1.2248857021331787
+      ],
+      "tail": [
+        0.08093538880348206,
+        0.021012159064412117,
+        1.2161945104599
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "J_Bip_L_UpperArm": {
+      "head": [
+        0.0809270441532135,
+        0.02101217210292816,
+        1.216135859489441
+      ],
+      "tail": [
+        0.1728198528289795,
+        0.021012045443058014,
+        0.988693118095398
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        -1.186823844909668
+      ]
+    },
+    "J_Bip_L_LowerArm": {
+      "head": [
+        0.1728198528289795,
+        0.021012045443058014,
+        0.988693118095398
+      ],
+      "tail": [
+        0.21842709183692932,
+        0.02101195976138115,
+        0.7741277813911438
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.20943951606750488,
+        -0.1745329201221466
+      ]
+    },
+    "J_Bip_R_Shoulder": {
+      "head": [
+        -0.01985645294189453,
+        0.02101217210292816,
+        1.2248857021331787
+      ],
+      "tail": [
+        -0.08093538880348206,
+        0.02101215533912182,
+        1.2161945104599
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "J_Bip_R_UpperArm": {
+      "head": [
+        -0.0809270441532135,
+        0.02101217396557331,
+        1.216135859489441
+      ],
+      "tail": [
+        -0.1728198528289795,
+        0.02101205103099346,
+        0.988693118095398
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        1.186823844909668
+      ]
+    },
+    "J_Bip_R_LowerArm": {
+      "head": [
+        -0.1728198528289795,
+        0.02101205103099346,
+        0.988693118095398
+      ],
+      "tail": [
+        -0.21842710673809052,
+        0.0210119541734457,
+        0.774127721786499
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        -0.20943951606750488,
+        0.1745329201221466
+      ]
+    }
+  },
+  "garment_objects": [
+    {
+      "name": "Body",
+      "vertices": 7914,
+      "faces": 12874,
+      "raw_triangles": 12874,
+      "boundary_edges": 2748,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ],
+        [
+          "MToon Outline (N00_007_01_Tops_01_CLOTH (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_005_01_Shoes_01_CLOTH (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_001_03_Bottoms_01_CLOTH (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_000_00_Body_00_SKIN (Instance))",
+          "NODES"
+        ]
+      ],
+      "groups": [
+        "Root",
+        "J_Bip_C_Hips",
+        "J_Bip_C_Spine",
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Sec_L_Bust1",
+        "J_Sec_L_Bust2",
+        "J_Sec_R_Bust1",
+        "J_Sec_R_Bust2",
+        "J_Bip_C_Neck",
+        "J_Bip_C_Head",
+        "J_Adj_L_FaceEye",
+        "J_Adj_R_FaceEye",
+        "J_Sec_Hair1_01",
+        "J_Sec_Hair2_01",
+        "J_Sec_Hair1_02",
+        "J_Sec_Hair2_02",
+        "J_Sec_Hair3_02",
+        "J_Sec_Hair1_03",
+        "J_Sec_Hair2_03",
+        "J_Sec_Hair3_03",
+        "J_Sec_Hair1_04",
+        "J_Sec_Hair2_04",
+        "J_Sec_Hair3_04",
+        "J_Sec_Hair4_04",
+        "J_Sec_Hair1_05",
+        "J_Sec_Hair2_05",
+        "J_Sec_Hair3_05",
+        "J_Sec_Hair4_05",
+        "J_Sec_Hair5_05",
+        "J_Sec_Hair6_05",
+        "J_Sec_Hair1_06",
+        "J_Sec_Hair2_06",
+        "J_Sec_Hair3_06",
+        "J_Sec_Hair4_06",
+        "J_Sec_Hair1_07",
+        "J_Sec_Hair2_07",
+        "J_Sec_Hair3_07",
+        "J_Sec_Hair1_08",
+        "J_Sec_Hair2_08",
+        "J_Sec_Hair3_08",
+        "J_Bip_L_Shoulder",
+        "J_Bip_L_UpperArm",
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_Hand",
+        "J_Bip_L_Index1",
+        "J_Bip_L_Index2",
+        "J_Bip_L_Index3",
+        "J_Bip_L_Little1",
+        "J_Bip_L_Little2",
+        "J_Bip_L_Little3",
+        "J_Bip_L_Middle1",
+        "J_Bip_L_Middle2",
+        "J_Bip_L_Middle3",
+        "J_Bip_L_Ring1",
+        "J_Bip_L_Ring2",
+        "J_Bip_L_Ring3",
+        "J_Bip_L_Thumb1",
+        "J_Bip_L_Thumb2",
+        "J_Bip_L_Thumb3",
+        "J_Bip_R_Shoulder",
+        "J_Bip_R_UpperArm",
+        "J_Bip_R_LowerArm",
+        "J_Bip_R_Hand",
+        "J_Bip_R_Index1",
+        "J_Bip_R_Index2",
+        "J_Bip_R_Index3",
+        "J_Bip_R_Little1",
+        "J_Bip_R_Little2",
+        "J_Bip_R_Little3",
+        "J_Bip_R_Middle1",
+        "J_Bip_R_Middle2",
+        "J_Bip_R_Middle3",
+        "J_Bip_R_Ring1",
+        "J_Bip_R_Ring2",
+        "J_Bip_R_Ring3",
+        "J_Bip_R_Thumb1",
+        "J_Bip_R_Thumb2",
+        "J_Bip_R_Thumb3",
+        "J_Bip_L_UpperLeg",
+        "J_Sec_L_SkirtBack_01",
+        "J_Sec_L_SkirtBack_end_01",
+        "J_Sec_L_SkirtFront_01",
+        "J_Sec_L_SkirtFront_end_01",
+        "J_Sec_L_SkirtSide_01",
+        "J_Sec_L_SkirtSide_end_01",
+        "J_Bip_L_LowerLeg",
+        "J_Sec_L_CoatSkirtBack_01",
+        "J_Sec_L_CoatSkirtBack_end_01",
+        "J_Sec_L_CoatSkirtFront_01",
+        "J_Sec_L_CoatSkirtFront_end_01",
+        "J_Sec_L_CoatSkirtSide1_01",
+        "J_Sec_L_CoatSkirtSide2_01",
+        "J_Sec_L_CoatSkirtSide2_end_01",
+        "J_Bip_L_Foot",
+        "J_Bip_L_ToeBase",
+        "J_Bip_R_UpperLeg",
+        "J_Sec_R_SkirtBack_01",
+        "J_Sec_R_SkirtBack_end_01",
+        "J_Sec_R_SkirtFront_01",
+        "J_Sec_R_SkirtFront_end_01",
+        "J_Sec_R_SkirtSide_01",
+        "J_Sec_R_SkirtSide_end_01",
+        "J_Bip_R_LowerLeg",
+        "J_Sec_R_CoatSkirtBack_01",
+        "J_Sec_R_CoatSkirtBack_end_01",
+        "J_Sec_R_CoatSkirtFront_01",
+        "J_Sec_R_CoatSkirtFront_end_01",
+        "J_Sec_R_CoatSkirtSide1_01",
+        "J_Sec_R_CoatSkirtSide2_01",
+        "J_Sec_R_CoatSkirtSide2_end_01",
+        "J_Bip_R_Foot",
+        "J_Bip_R_ToeBase"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "N00_000_00_Body_00_SKIN (Instance)",
+        "N00_005_01_Shoes_01_CLOTH (Instance)",
+        "N00_007_01_Tops_01_CLOTH (Instance)",
+        "N00_001_03_Bottoms_01_CLOTH (Instance)",
+        "Kagari_Detail_Inner_Ivory",
+        "Kagari_Detail_Clean_Neck"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.6723690032958984,
+          0.6723690032958984
+        ],
+        "y": [
+          -0.17771881818771362,
+          0.2492142766714096
+        ],
+        "z": [
+          -7.808329769432021e-07,
+          1.5078970193862915
+        ]
+      }
+    },
+    {
+      "name": "Kagari_Obi_Woven_Band",
+      "vertices": 256,
+      "faces": 192,
+      "raw_triangles": 384,
+      "boundary_edges": 128,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ],
+      "groups": [
+        "J_Bip_C_Spine"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.18000000715255737,
+          0.18000000715255737
+        ],
+        "y": [
+          -0.15800000727176666,
+          0.18199999630451202
+        ],
+        "z": [
+          0.906999945640564,
+          0.9739999175071716
+        ]
+      }
+    },
+    {
+      "name": "Kagari_Obi_Trim_0.914",
+      "vertices": 384,
+      "faces": 384,
+      "raw_triangles": 768,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ],
+      "groups": [
+        "J_Bip_C_Spine"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.1816999912261963,
+          0.1816999912261963
+        ],
+        "y": [
+          -0.16169999539852142,
+          0.18569999933242798
+        ],
+        "z": [
+          0.9133936762809753,
+          0.9146061539649963
+        ]
+      }
+    },
+    {
+      "name": "Kagari_Obi_Trim_0.969",
+      "vertices": 384,
+      "faces": 384,
+      "raw_triangles": 768,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ],
+      "groups": [
+        "J_Bip_C_Spine"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.1816999912261963,
+          0.1816999912261963
+        ],
+        "y": [
+          -0.16169999539852142,
+          0.18569999933242798
+        ],
+        "z": [
+          0.9683936834335327,
+          0.9696061611175537
+        ]
+      }
+    },
+    {
+      "name": "Kagari_Obijime_Cord",
+      "vertices": 384,
+      "faces": 384,
+      "raw_triangles": 768,
+      "boundary_edges": 0,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ],
+      "groups": [
+        "J_Bip_C_Spine"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.18329983949661255,
+          0.18329983949661255
+        ],
+        "y": [
+          -0.16429999470710754,
+          0.1882999986410141
+        ],
+        "z": [
+          0.9393642544746399,
+          0.9446266293525696
+        ]
+      }
+    },
+    {
+      "name": "Kagari_v03_Outer_Robe_And_Sleeves",
+      "vertices": 1740,
+      "faces": 1616,
+      "raw_triangles": 3232,
+      "boundary_edges": 172,
+      "loose_vertices": 40,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Source_Weighted_Deformation",
+          "ARMATURE"
+        ],
+        [
+          "Cloth_Edge_Thickness",
+          "SOLIDIFY"
+        ]
+      ],
+      "groups": [
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Bip_L_UpperArm",
+        "J_Bip_R_UpperArm"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "Kagari_v03_Structural_Clay"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.3388974666595459,
+          0.3388976454734802
+        ],
+        "y": [
+          -0.1310003101825714,
+          0.09000003337860107
+        ],
+        "z": [
+          0.9470000863075256,
+          1.2895989418029785
+        ]
+      }
+    },
+    {
+      "name": "Kagari_v03_Inner_Top",
+      "vertices": 1344,
+      "faces": 1280,
+      "raw_triangles": 2560,
+      "boundary_edges": 128,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Source_Weighted_Deformation",
+          "ARMATURE"
+        ],
+        [
+          "Cloth_Edge_Thickness",
+          "SOLIDIFY"
+        ]
+      ],
+      "groups": [
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "Kagari_v03_Structural_Clay"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.11599999666213989,
+          0.11599999666213989
+        ],
+        "y": [
+          -0.11500002443790436,
+          0.07500002533197403
+        ],
+        "z": [
+          0.9470000863075256,
+          1.2390000820159912
+        ]
+      }
+    },
+    {
+      "name": "Kagari_v03_Sewn_Cross_Collar",
+      "vertices": 320,
+      "faces": 256,
+      "raw_triangles": 512,
+      "boundary_edges": 128,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Source_Weighted_Deformation",
+          "ARMATURE"
+        ],
+        [
+          "Cloth_Edge_Thickness",
+          "SOLIDIFY"
+        ]
+      ],
+      "groups": [
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "Kagari_v03_Structural_Clay"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.06201653555035591,
+          0.06201653555035591
+        ],
+        "y": [
+          -0.09930001199245453,
+          0.058299992233514786
+        ],
+        "z": [
+          1.1090000867843628,
+          1.2390000820159912
+        ]
+      }
+    },
+    {
+      "name": "Kagari_v03_Attached_Over_Wrap_Edge",
+      "vertices": 125,
+      "faces": 96,
+      "raw_triangles": 192,
+      "boundary_edges": 56,
+      "loose_vertices": 0,
+      "zero_area_faces": 0,
+      "modifiers": [
+        [
+          "Source_Weighted_Deformation",
+          "ARMATURE"
+        ],
+        [
+          "Cloth_Edge_Thickness",
+          "SOLIDIFY"
+        ]
+      ],
+      "groups": [
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest"
+      ],
+      "max_weight": 1.0,
+      "materials": [
+        "Kagari_v03_Structural_Clay"
+      ],
+      "bounds_local": {
+        "x": [
+          -0.013000000268220901,
+          0.11800000071525574
+        ],
+        "y": [
+          -0.13435280323028564,
+          -0.02978605218231678
+        ],
+        "z": [
+          0.9470000863075256,
+          1.1410001516342163
+        ]
+      }
+    }
+  ],
+  "addon_names": [
+    "io_anim_bvh",
+    "bl_pkg",
+    "copy_global_transform",
+    "cycles",
+    "io_scene_fbx",
+    "io_scene_gltf2",
+    "hydra_storm",
+    "ui_translate",
+    "node_wrangler",
+    "pose_library",
+    "rigify",
+    "io_curve_svg",
+    "io_mesh_uv_layout",
+    "viewport_vr_preview",
+    "VRM_Addon_for_Blender-release",
+    "bl_ext.user_default.vrm",
+    "bl_ext.user_default.vrm_addon_for_blender"
+  ]
+}
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_v03_clay_03.blend"
+
+Blender quit

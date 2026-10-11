@@ -1,0 +1,43 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_03.blend",
+    "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051"
+  },
+  "new_garment_surfaces": {
+    "objects": 4,
+    "vertices": 10476,
+    "raw_triangles": 20105,
+    "viewport_evaluated_triangles": 41908
+  },
+  "cycle03_separate_garment_meshes": {
+    "objects": 5,
+    "raw_triangles": 6880,
+    "viewport_evaluated_triangles": 17544
+  },
+  "render_enabled_inventory": {
+    "cycle03": {
+      "scope": "Objects with hide_render=False; viewport-evaluated counts, NOT final render/export counts. Collection exclusion not simulated.",
+      "objects": 13,
+      "raw_triangles": 36741,
+      "viewport_evaluated_triangles": 96941,
+      "status": "COUNTED"
+    },
+    "candidate": {
+      "scope": "Objects with hide_render=False; viewport-evaluated counts, NOT final render/export counts. Collection exclusion not simulated.",
+      "objects": 12,
+      "raw_triangles": 47434,
+      "viewport_evaluated_triangles": 118773,
+      "status": "COUNTED"
+    }
+  },
+  "all_scene_including_archive": {
+    "raw_triangles": 86936,
+    "viewport_evaluated_triangles": 189019
+  },
+  "limits": "Old separate meshes omit original clothing incorporated in Body. New count includes new lower robe. Render-enabled inventory ignores collection exclusion; viewport modifiers are evaluated, not VRM export. Archived geometry must be excluded from an eventual export. No runtime/FPS claim."
+}

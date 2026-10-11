@@ -1,0 +1,56 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_outfit_detail_v1.blend"
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\before_front_clay.png'
+Time: 00:03.17 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\before_three_quarter_clay.png'
+Time: 00:00.28 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\before_side_clay.png'
+Time: 00:00.28 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\before_back_clay.png'
+Time: 00:00.31 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\before_pose_arm_raise_clay.png'
+Time: 00:00.24 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\before_portrait_clay.png'
+Time: 00:00.23 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\before_side_garment_isolated.png'
+Time: 00:00.17 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\before_back_garment_isolated.png'
+Time: 00:00.19 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\after_front_clay.png'
+Time: 00:00.20 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\after_three_quarter_clay.png'
+Time: 00:00.19 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\after_side_clay.png'
+Time: 00:00.24 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\after_back_clay.png'
+Time: 00:00.21 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\after_pose_arm_raise_clay.png'
+Time: 00:00.19 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\after_portrait_clay.png'
+Time: 00:00.21 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\after_side_garment_isolated.png'
+Time: 00:00.15 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\v03_clay\after_back_garment_isolated.png'
+Time: 00:00.15 (Saving: 00:00.06)
+
+Info: Saved "kagari_v03_clay_baseline.blend"
+Info: Saved "kagari_v03_clay_01.blend"
+CLAY_CANDIDATE_SAVED D:\Project-17\blender\outputs\wip\kagari_v03_clay_01.blend da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd
+
+Blender quit

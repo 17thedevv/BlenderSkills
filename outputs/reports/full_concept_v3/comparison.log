@@ -1,0 +1,33 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_v03_clay_03.blend"
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_front_clay.png'
+Time: 00:02.40 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_three_quarter_clay.png'
+Time: 00:00.19 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_side_clay.png'
+Time: 00:00.20 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_back_clay.png'
+Time: 00:00.22 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_arm_raised_clay.png'
+Time: 00:00.20 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_arm_horizontal_clay.png'
+Time: 00:00.21 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_full_front_clay.png'
+Time: 00:00.21 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_full_three_quarter_clay.png'
+Time: 00:00.20 (Saving: 00:00.08)
+
+Saved: 'D:\Project-17\blender\outputs\previews\full_concept_v3\cycle03_portrait_clay.png'
+Time: 00:00.19 (Saving: 00:00.08)
+
+FULL_KAGARI_BASELINE_RENDERED
+
+Blender quit

@@ -1,0 +1,2811 @@
+{
+  "blender_version": "4.2.0",
+  "blend_file": "D:\\Project-17\\blender\\outputs\\wip\\kagari_outfit_detail_v1.blend",
+  "total_objects": 151,
+  "mesh_count": 119,
+  "triangle_count_total": 50587,
+  "mesh_report": [
+    {
+      "name": "Body",
+      "vertices": 9499,
+      "polygons": 13468,
+      "triangles": 13468,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "Root",
+        "J_Bip_C_Hips",
+        "J_Bip_C_Spine",
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Sec_L_Bust1",
+        "J_Sec_L_Bust2",
+        "J_Sec_R_Bust1",
+        "J_Sec_R_Bust2",
+        "J_Bip_C_Neck",
+        "J_Bip_C_Head",
+        "J_Adj_L_FaceEye",
+        "J_Adj_R_FaceEye",
+        "J_Sec_Hair1_01",
+        "J_Sec_Hair2_01",
+        "J_Sec_Hair1_02",
+        "J_Sec_Hair2_02",
+        "J_Sec_Hair3_02",
+        "J_Sec_Hair1_03",
+        "J_Sec_Hair2_03",
+        "J_Sec_Hair3_03",
+        "J_Sec_Hair1_04",
+        "J_Sec_Hair2_04",
+        "J_Sec_Hair3_04",
+        "J_Sec_Hair4_04",
+        "J_Sec_Hair1_05",
+        "J_Sec_Hair2_05",
+        "J_Sec_Hair3_05",
+        "J_Sec_Hair4_05",
+        "J_Sec_Hair5_05",
+        "J_Sec_Hair6_05",
+        "J_Sec_Hair1_06",
+        "J_Sec_Hair2_06",
+        "J_Sec_Hair3_06",
+        "J_Sec_Hair4_06",
+        "J_Sec_Hair1_07",
+        "J_Sec_Hair2_07",
+        "J_Sec_Hair3_07",
+        "J_Sec_Hair1_08",
+        "J_Sec_Hair2_08",
+        "J_Sec_Hair3_08",
+        "J_Bip_L_Shoulder",
+        "J_Bip_L_UpperArm",
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_Hand",
+        "J_Bip_L_Index1",
+        "J_Bip_L_Index2",
+        "J_Bip_L_Index3",
+        "J_Bip_L_Little1",
+        "J_Bip_L_Little2",
+        "J_Bip_L_Little3",
+        "J_Bip_L_Middle1",
+        "J_Bip_L_Middle2",
+        "J_Bip_L_Middle3",
+        "J_Bip_L_Ring1",
+        "J_Bip_L_Ring2",
+        "J_Bip_L_Ring3",
+        "J_Bip_L_Thumb1",
+        "J_Bip_L_Thumb2",
+        "J_Bip_L_Thumb3",
+        "J_Bip_R_Shoulder",
+        "J_Bip_R_UpperArm",
+        "J_Bip_R_LowerArm",
+        "J_Bip_R_Hand",
+        "J_Bip_R_Index1",
+        "J_Bip_R_Index2",
+        "J_Bip_R_Index3",
+        "J_Bip_R_Little1",
+        "J_Bip_R_Little2",
+        "J_Bip_R_Little3",
+        "J_Bip_R_Middle1",
+        "J_Bip_R_Middle2",
+        "J_Bip_R_Middle3",
+        "J_Bip_R_Ring1",
+        "J_Bip_R_Ring2",
+        "J_Bip_R_Ring3",
+        "J_Bip_R_Thumb1",
+        "J_Bip_R_Thumb2",
+        "J_Bip_R_Thumb3",
+        "J_Bip_L_UpperLeg",
+        "J_Sec_L_SkirtBack_01",
+        "J_Sec_L_SkirtBack_end_01",
+        "J_Sec_L_SkirtFront_01",
+        "J_Sec_L_SkirtFront_end_01",
+        "J_Sec_L_SkirtSide_01",
+        "J_Sec_L_SkirtSide_end_01",
+        "J_Bip_L_LowerLeg",
+        "J_Sec_L_CoatSkirtBack_01",
+        "J_Sec_L_CoatSkirtBack_end_01",
+        "J_Sec_L_CoatSkirtFront_01",
+        "J_Sec_L_CoatSkirtFront_end_01",
+        "J_Sec_L_CoatSkirtSide1_01",
+        "J_Sec_L_CoatSkirtSide2_01",
+        "J_Sec_L_CoatSkirtSide2_end_01",
+        "J_Bip_L_Foot",
+        "J_Bip_L_ToeBase",
+        "J_Bip_R_UpperLeg",
+        "J_Sec_R_SkirtBack_01",
+        "J_Sec_R_SkirtBack_end_01",
+        "J_Sec_R_SkirtFront_01",
+        "J_Sec_R_SkirtFront_end_01",
+        "J_Sec_R_SkirtSide_01",
+        "J_Sec_R_SkirtSide_end_01",
+        "J_Bip_R_LowerLeg",
+        "J_Sec_R_CoatSkirtBack_01",
+        "J_Sec_R_CoatSkirtBack_end_01",
+        "J_Sec_R_CoatSkirtFront_01",
+        "J_Sec_R_CoatSkirtFront_end_01",
+        "J_Sec_R_CoatSkirtSide1_01",
+        "J_Sec_R_CoatSkirtSide2_01",
+        "J_Sec_R_CoatSkirtSide2_end_01",
+        "J_Bip_R_Foot",
+        "J_Bip_R_ToeBase"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 6113,
+      "boundary_edges": 2804,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Face",
+      "vertices": 4709,
+      "polygons": 8280,
+      "triangles": 8280,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [
+        "Fcl_ALL_Neutral",
+        "Fcl_ALL_Angry",
+        "Fcl_ALL_Fun",
+        "Fcl_ALL_Joy",
+        "Fcl_ALL_Sorrow",
+        "Fcl_ALL_Surprised",
+        "Fcl_BRW_Angry",
+        "Fcl_BRW_Fun",
+        "Fcl_BRW_Joy",
+        "Fcl_BRW_Sorrow",
+        "Fcl_BRW_Surprised",
+        "Fcl_EYE_Natural",
+        "Fcl_EYE_Angry",
+        "Fcl_EYE_Close",
+        "Fcl_EYE_Close_R",
+        "Fcl_EYE_Close_L",
+        "Fcl_EYE_Fun",
+        "Fcl_EYE_Joy",
+        "Fcl_EYE_Joy_R",
+        "Fcl_EYE_Joy_L",
+        "Fcl_EYE_Sorrow",
+        "Fcl_EYE_Surprised",
+        "Fcl_EYE_Spread",
+        "Fcl_EYE_Iris_Hide",
+        "Fcl_EYE_Highlight_Hide",
+        "Fcl_MTH_Close",
+        "Fcl_MTH_Up",
+        "Fcl_MTH_Down",
+        "Fcl_MTH_Angry",
+        "Fcl_MTH_Small",
+        "Fcl_MTH_Large",
+        "Fcl_MTH_Neutral",
+        "Fcl_MTH_Fun",
+        "Fcl_MTH_Joy",
+        "Fcl_MTH_Sorrow",
+        "Fcl_MTH_Surprised",
+        "Fcl_MTH_SkinFung",
+        "Fcl_MTH_SkinFung_R",
+        "Fcl_MTH_SkinFung_L",
+        "Fcl_MTH_A",
+        "Fcl_MTH_I",
+        "Fcl_MTH_U",
+        "Fcl_MTH_E",
+        "Fcl_MTH_O",
+        "Fcl_HA_Hide",
+        "Fcl_HA_Fung1",
+        "Fcl_HA_Fung1_Low",
+        "Fcl_HA_Fung1_Up",
+        "Fcl_HA_Fung2",
+        "Fcl_HA_Fung2_Low",
+        "Fcl_HA_Fung2_Up",
+        "Fcl_HA_Fung3",
+        "Fcl_HA_Fung3_Up",
+        "Fcl_HA_Fung3_Low",
+        "Fcl_HA_Short",
+        "Fcl_HA_Short_Up",
+        "Fcl_HA_Short_Low"
+      ],
+      "vertex_groups": [
+        "Root",
+        "J_Bip_C_Hips",
+        "J_Bip_C_Spine",
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Sec_L_Bust1",
+        "J_Sec_L_Bust2",
+        "J_Sec_R_Bust1",
+        "J_Sec_R_Bust2",
+        "J_Bip_C_Neck",
+        "J_Bip_C_Head",
+        "J_Adj_L_FaceEye",
+        "J_Adj_R_FaceEye",
+        "J_Sec_Hair1_01",
+        "J_Sec_Hair2_01",
+        "J_Sec_Hair1_02",
+        "J_Sec_Hair2_02",
+        "J_Sec_Hair3_02",
+        "J_Sec_Hair1_03",
+        "J_Sec_Hair2_03",
+        "J_Sec_Hair3_03",
+        "J_Sec_Hair1_04",
+        "J_Sec_Hair2_04",
+        "J_Sec_Hair3_04",
+        "J_Sec_Hair4_04",
+        "J_Sec_Hair1_05",
+        "J_Sec_Hair2_05",
+        "J_Sec_Hair3_05",
+        "J_Sec_Hair4_05",
+        "J_Sec_Hair5_05",
+        "J_Sec_Hair6_05",
+        "J_Sec_Hair1_06",
+        "J_Sec_Hair2_06",
+        "J_Sec_Hair3_06",
+        "J_Sec_Hair4_06",
+        "J_Sec_Hair1_07",
+        "J_Sec_Hair2_07",
+        "J_Sec_Hair3_07",
+        "J_Sec_Hair1_08",
+        "J_Sec_Hair2_08",
+        "J_Sec_Hair3_08",
+        "J_Bip_L_Shoulder",
+        "J_Bip_L_UpperArm",
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_Hand",
+        "J_Bip_L_Index1",
+        "J_Bip_L_Index2",
+        "J_Bip_L_Index3",
+        "J_Bip_L_Little1",
+        "J_Bip_L_Little2",
+        "J_Bip_L_Little3",
+        "J_Bip_L_Middle1",
+        "J_Bip_L_Middle2",
+        "J_Bip_L_Middle3",
+        "J_Bip_L_Ring1",
+        "J_Bip_L_Ring2",
+        "J_Bip_L_Ring3",
+        "J_Bip_L_Thumb1",
+        "J_Bip_L_Thumb2",
+        "J_Bip_L_Thumb3",
+        "J_Bip_R_Shoulder",
+        "J_Bip_R_UpperArm",
+        "J_Bip_R_LowerArm",
+        "J_Bip_R_Hand",
+        "J_Bip_R_Index1",
+        "J_Bip_R_Index2",
+        "J_Bip_R_Index3",
+        "J_Bip_R_Little1",
+        "J_Bip_R_Little2",
+        "J_Bip_R_Little3",
+        "J_Bip_R_Middle1",
+        "J_Bip_R_Middle2",
+        "J_Bip_R_Middle3",
+        "J_Bip_R_Ring1",
+        "J_Bip_R_Ring2",
+        "J_Bip_R_Ring3",
+        "J_Bip_R_Thumb1",
+        "J_Bip_R_Thumb2",
+        "J_Bip_R_Thumb3",
+        "J_Bip_L_UpperLeg",
+        "J_Sec_L_SkirtBack_01",
+        "J_Sec_L_SkirtBack_end_01",
+        "J_Sec_L_SkirtFront_01",
+        "J_Sec_L_SkirtFront_end_01",
+        "J_Sec_L_SkirtSide_01",
+        "J_Sec_L_SkirtSide_end_01",
+        "J_Bip_L_LowerLeg",
+        "J_Sec_L_CoatSkirtBack_01",
+        "J_Sec_L_CoatSkirtBack_end_01",
+        "J_Sec_L_CoatSkirtFront_01",
+        "J_Sec_L_CoatSkirtFront_end_01",
+        "J_Sec_L_CoatSkirtSide1_01",
+        "J_Sec_L_CoatSkirtSide2_01",
+        "J_Sec_L_CoatSkirtSide2_end_01",
+        "J_Bip_L_Foot",
+        "J_Bip_L_ToeBase",
+        "J_Bip_R_UpperLeg",
+        "J_Sec_R_SkirtBack_01",
+        "J_Sec_R_SkirtBack_end_01",
+        "J_Sec_R_SkirtFront_01",
+        "J_Sec_R_SkirtFront_end_01",
+        "J_Sec_R_SkirtSide_01",
+        "J_Sec_R_SkirtSide_end_01",
+        "J_Bip_R_LowerLeg",
+        "J_Sec_R_CoatSkirtBack_01",
+        "J_Sec_R_CoatSkirtBack_end_01",
+        "J_Sec_R_CoatSkirtFront_01",
+        "J_Sec_R_CoatSkirtFront_end_01",
+        "J_Sec_R_CoatSkirtSide1_01",
+        "J_Sec_R_CoatSkirtSide2_01",
+        "J_Sec_R_CoatSkirtSide2_end_01",
+        "J_Bip_R_Foot",
+        "J_Bip_R_ToeBase"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 1092,
+      "boundary_edges": 1092,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Hair",
+      "vertices": 5611,
+      "polygons": 6947,
+      "triangles": 6947,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "Root",
+        "J_Bip_C_Hips",
+        "J_Bip_C_Spine",
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Sec_L_Bust1",
+        "J_Sec_L_Bust2",
+        "J_Sec_R_Bust1",
+        "J_Sec_R_Bust2",
+        "J_Bip_C_Neck",
+        "J_Bip_C_Head",
+        "J_Adj_L_FaceEye",
+        "J_Adj_R_FaceEye",
+        "J_Sec_Hair1_01",
+        "J_Sec_Hair2_01",
+        "J_Sec_Hair1_02",
+        "J_Sec_Hair2_02",
+        "J_Sec_Hair3_02",
+        "J_Sec_Hair1_03",
+        "J_Sec_Hair2_03",
+        "J_Sec_Hair3_03",
+        "J_Sec_Hair1_04",
+        "J_Sec_Hair2_04",
+        "J_Sec_Hair3_04",
+        "J_Sec_Hair4_04",
+        "J_Sec_Hair1_05",
+        "J_Sec_Hair2_05",
+        "J_Sec_Hair3_05",
+        "J_Sec_Hair4_05",
+        "J_Sec_Hair5_05",
+        "J_Sec_Hair6_05",
+        "J_Sec_Hair1_06",
+        "J_Sec_Hair2_06",
+        "J_Sec_Hair3_06",
+        "J_Sec_Hair4_06",
+        "J_Sec_Hair1_07",
+        "J_Sec_Hair2_07",
+        "J_Sec_Hair3_07",
+        "J_Sec_Hair1_08",
+        "J_Sec_Hair2_08",
+        "J_Sec_Hair3_08",
+        "J_Bip_L_Shoulder",
+        "J_Bip_L_UpperArm",
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_Hand",
+        "J_Bip_L_Index1",
+        "J_Bip_L_Index2",
+        "J_Bip_L_Index3",
+        "J_Bip_L_Little1",
+        "J_Bip_L_Little2",
+        "J_Bip_L_Little3",
+        "J_Bip_L_Middle1",
+        "J_Bip_L_Middle2",
+        "J_Bip_L_Middle3",
+        "J_Bip_L_Ring1",
+        "J_Bip_L_Ring2",
+        "J_Bip_L_Ring3",
+        "J_Bip_L_Thumb1",
+        "J_Bip_L_Thumb2",
+        "J_Bip_L_Thumb3",
+        "J_Bip_R_Shoulder",
+        "J_Bip_R_UpperArm",
+        "J_Bip_R_LowerArm",
+        "J_Bip_R_Hand",
+        "J_Bip_R_Index1",
+        "J_Bip_R_Index2",
+        "J_Bip_R_Index3",
+        "J_Bip_R_Little1",
+        "J_Bip_R_Little2",
+        "J_Bip_R_Little3",
+        "J_Bip_R_Middle1",
+        "J_Bip_R_Middle2",
+        "J_Bip_R_Middle3",
+        "J_Bip_R_Ring1",
+        "J_Bip_R_Ring2",
+        "J_Bip_R_Ring3",
+        "J_Bip_R_Thumb1",
+        "J_Bip_R_Thumb2",
+        "J_Bip_R_Thumb3",
+        "J_Bip_L_UpperLeg",
+        "J_Sec_L_SkirtBack_01",
+        "J_Sec_L_SkirtBack_end_01",
+        "J_Sec_L_SkirtFront_01",
+        "J_Sec_L_SkirtFront_end_01",
+        "J_Sec_L_SkirtSide_01",
+        "J_Sec_L_SkirtSide_end_01",
+        "J_Bip_L_LowerLeg",
+        "J_Sec_L_CoatSkirtBack_01",
+        "J_Sec_L_CoatSkirtBack_end_01",
+        "J_Sec_L_CoatSkirtFront_01",
+        "J_Sec_L_CoatSkirtFront_end_01",
+        "J_Sec_L_CoatSkirtSide1_01",
+        "J_Sec_L_CoatSkirtSide2_01",
+        "J_Sec_L_CoatSkirtSide2_end_01",
+        "J_Bip_L_Foot",
+        "J_Bip_L_ToeBase",
+        "J_Bip_R_UpperLeg",
+        "J_Sec_R_SkirtBack_01",
+        "J_Sec_R_SkirtBack_end_01",
+        "J_Sec_R_SkirtFront_01",
+        "J_Sec_R_SkirtFront_end_01",
+        "J_Sec_R_SkirtSide_01",
+        "J_Sec_R_SkirtSide_end_01",
+        "J_Bip_R_LowerLeg",
+        "J_Sec_R_CoatSkirtBack_01",
+        "J_Sec_R_CoatSkirtBack_end_01",
+        "J_Sec_R_CoatSkirtFront_01",
+        "J_Sec_R_CoatSkirtFront_end_01",
+        "J_Sec_R_CoatSkirtSide1_01",
+        "J_Sec_R_CoatSkirtSide2_01",
+        "J_Sec_R_CoatSkirtSide2_end_01",
+        "J_Bip_R_Foot",
+        "J_Bip_R_ToeBase"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4085,
+      "boundary_edges": 4083,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Astral_Star_Detailed",
+      "vertices": 18,
+      "polygons": 32,
+      "triangles": 32,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Charm_Chain",
+      "vertices": 42,
+      "polygons": 36,
+      "triangles": 72,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Gathered_Knot",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Center",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_0",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_1",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_2",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_3",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_4",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Center",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_0",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_1",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_2",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_3",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_4",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Stitch_-1_0",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Stitch_-1_12",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Stitch_1_0",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Stitch_1_12",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Tail_Stitch_-1_0",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Tail_Stitch_-1_8",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Tail_Stitch_1_0",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Bow_Tail_Stitch_1_8",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_-1_0_0",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_-1_0_1",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_-1_1_0",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_-1_1_1",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_-1_2_0",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_-1_2_1",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_-1_3_0",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_-1_3_1",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_1_0_0",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_1_0_1",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_1_1_0",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_1_1_1",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_1_2_0",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_1_2_1",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_1_3_0",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Brocade_1_3_1",
+      "vertices": 72,
+      "polygons": 72,
+      "triangles": 144,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Collar_Over",
+      "vertices": 287,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 92,
+      "boundary_edges": 92,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Collar_Over_Gold_Piping_0",
+      "vertices": 246,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Collar_Over_Gold_Piping_1",
+      "vertices": 246,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Collar_Under",
+      "vertices": 287,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 92,
+      "boundary_edges": 92,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Collar_Under_Gold_Piping_0",
+      "vertices": 246,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Collar_Under_Gold_Piping_1",
+      "vertices": 246,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Embroidered_Vine_-1",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Embroidered_Vine_1",
+      "vertices": 150,
+      "polygons": 144,
+      "triangles": 288,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Center",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_0",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_1",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_2",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_3",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_4",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Center",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_0",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_1",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_2",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_3",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_4",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Center",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_0",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_1",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_2",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_3",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_4",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Center",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_0",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_1",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_2",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_3",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_4",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Center",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_0",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_1",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_2",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_3",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_4",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Center",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_0",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_1",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_2",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_3",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_4",
+      "vertices": 13,
+      "polygons": 12,
+      "triangles": 12,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_0_-1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_0_1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_1_-1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_1_1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_2_-1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_2_1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_0_-1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_0_1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_1_-1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_1_1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_2_-1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_2_1",
+      "vertices": 4,
+      "polygons": 1,
+      "triangles": 2,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 4,
+      "boundary_edges": 4,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Haori_Cream_Shell",
+      "vertices": 441,
+      "polygons": 384,
+      "triangles": 768,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 112,
+      "boundary_edges": 112,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Haori_Lapel_-1",
+      "vertices": 287,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 92,
+      "boundary_edges": 92,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Haori_Lapel_-1_Gold_Piping_0",
+      "vertices": 246,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Haori_Lapel_-1_Gold_Piping_1",
+      "vertices": 246,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Haori_Lapel_1",
+      "vertices": 287,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 92,
+      "boundary_edges": 92,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Haori_Lapel_1_Gold_Piping_0",
+      "vertices": 246,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Haori_Lapel_1_Gold_Piping_1",
+      "vertices": 246,
+      "polygons": 240,
+      "triangles": 480,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Inner_Wrapped_Robe",
+      "vertices": 625,
+      "polygons": 576,
+      "triangles": 1152,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 96,
+      "boundary_edges": 96,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Necklace_Chain",
+      "vertices": 390,
+      "polygons": 384,
+      "triangles": 768,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Necklace_Second_Chain",
+      "vertices": 390,
+      "polygons": 384,
+      "triangles": 768,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Obi_Trim_0.914",
+      "vertices": 384,
+      "polygons": 384,
+      "triangles": 768,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Spine"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Obi_Trim_0.969",
+      "vertices": 384,
+      "polygons": 384,
+      "triangles": 768,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Spine"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Obi_Woven_Band",
+      "vertices": 256,
+      "polygons": 192,
+      "triangles": 384,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Spine"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 128,
+      "boundary_edges": 128,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Obijime_Cord",
+      "vertices": 384,
+      "polygons": 384,
+      "triangles": 768,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Spine"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Pendant_Bail",
+      "vertices": 192,
+      "polygons": 192,
+      "triangles": 384,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Pendant_Connector",
+      "vertices": 24,
+      "polygons": 18,
+      "triangles": 36,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 12,
+      "boundary_edges": 12,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Pendant_Gold_Bead",
+      "vertices": 114,
+      "polygons": 128,
+      "triangles": 224,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_UpperChest"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 0,
+      "boundary_edges": 0,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Silk_Bow_Lobe_-1",
+      "vertices": 221,
+      "polygons": 192,
+      "triangles": 384,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 56,
+      "boundary_edges": 56,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Silk_Bow_Lobe_1",
+      "vertices": 221,
+      "polygons": 192,
+      "triangles": 384,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 56,
+      "boundary_edges": 56,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Silk_Bow_Tail_-1",
+      "vertices": 225,
+      "polygons": 192,
+      "triangles": 384,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 64,
+      "boundary_edges": 64,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    },
+    {
+      "name": "Kagari_Silk_Bow_Tail_1",
+      "vertices": 225,
+      "polygons": 192,
+      "triangles": 384,
+      "uv_layers": [],
+      "shape_keys": [],
+      "vertex_groups": [
+        "J_Bip_C_Head"
+      ],
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "loose_vertices": 0,
+      "non_manifold_edges_including_boundaries": 64,
+      "boundary_edges": 64,
+      "notes": "Open shells can legitimately have boundary edges; requires artist review."
+    }
+  ],
+  "armatures": [
+    {
+      "name": "Armature",
+      "bone_count": 135,
+      "bone_names": [
+        "Root",
+        "J_Bip_C_Hips",
+        "J_Bip_C_Spine",
+        "J_Bip_C_Chest",
+        "J_Bip_C_UpperChest",
+        "J_Sec_L_Bust1",
+        "J_Sec_L_Bust2",
+        "J_Sec_L_Bust2_end",
+        "J_Sec_R_Bust1",
+        "J_Sec_R_Bust2",
+        "J_Sec_R_Bust2_end",
+        "J_Bip_C_Neck",
+        "J_Bip_C_Head",
+        "J_Adj_L_FaceEye",
+        "J_Adj_R_FaceEye",
+        "J_Sec_Hair1_01",
+        "J_Sec_Hair2_01",
+        "J_Sec_Hair2_01_end",
+        "J_Sec_Hair1_02",
+        "J_Sec_Hair2_02",
+        "J_Sec_Hair3_02",
+        "J_Sec_Hair3_02_end",
+        "J_Sec_Hair1_03",
+        "J_Sec_Hair2_03",
+        "J_Sec_Hair3_03",
+        "J_Sec_Hair3_03_end",
+        "J_Sec_Hair1_04",
+        "J_Sec_Hair2_04",
+        "J_Sec_Hair3_04",
+        "J_Sec_Hair4_04",
+        "J_Sec_Hair4_04_end",
+        "J_Sec_Hair1_05",
+        "J_Sec_Hair2_05",
+        "J_Sec_Hair3_05",
+        "J_Sec_Hair4_05",
+        "J_Sec_Hair5_05",
+        "J_Sec_Hair6_05",
+        "J_Sec_Hair6_05_end",
+        "J_Sec_Hair1_06",
+        "J_Sec_Hair2_06",
+        "J_Sec_Hair3_06",
+        "J_Sec_Hair4_06",
+        "J_Sec_Hair4_06_end",
+        "J_Sec_Hair1_07",
+        "J_Sec_Hair2_07",
+        "J_Sec_Hair3_07",
+        "J_Sec_Hair3_07_end",
+        "J_Sec_Hair1_08",
+        "J_Sec_Hair2_08",
+        "J_Sec_Hair3_08",
+        "J_Sec_Hair3_08_end",
+        "J_Bip_L_Shoulder",
+        "J_Bip_L_UpperArm",
+        "J_Bip_L_LowerArm",
+        "J_Bip_L_Hand",
+        "J_Bip_L_Index1",
+        "J_Bip_L_Index2",
+        "J_Bip_L_Index3",
+        "J_Bip_L_Little1",
+        "J_Bip_L_Little2",
+        "J_Bip_L_Little3",
+        "J_Bip_L_Middle1",
+        "J_Bip_L_Middle2",
+        "J_Bip_L_Middle3",
+        "J_Bip_L_Ring1",
+        "J_Bip_L_Ring2",
+        "J_Bip_L_Ring3",
+        "J_Bip_L_Thumb1",
+        "J_Bip_L_Thumb2",
+        "J_Bip_L_Thumb3",
+        "J_Bip_R_Shoulder",
+        "J_Bip_R_UpperArm",
+        "J_Bip_R_LowerArm",
+        "J_Bip_R_Hand",
+        "J_Bip_R_Index1",
+        "J_Bip_R_Index2",
+        "J_Bip_R_Index3",
+        "J_Bip_R_Little1",
+        "J_Bip_R_Little2",
+        "J_Bip_R_Little3",
+        "J_Bip_R_Middle1",
+        "J_Bip_R_Middle2",
+        "J_Bip_R_Middle3",
+        "J_Bip_R_Ring1",
+        "J_Bip_R_Ring2",
+        "J_Bip_R_Ring3",
+        "J_Bip_R_Thumb1",
+        "J_Bip_R_Thumb2",
+        "J_Bip_R_Thumb3",
+        "J_Bip_L_UpperLeg",
+        "J_Sec_L_SkirtBack_01",
+        "J_Sec_L_SkirtBack_end_01",
+        "J_Sec_L_SkirtBack_end_01_end",
+        "J_Sec_L_SkirtFront_01",
+        "J_Sec_L_SkirtFront_end_01",
+        "J_Sec_L_SkirtFront_end_01_end",
+        "J_Sec_L_SkirtSide_01",
+        "J_Sec_L_SkirtSide_end_01",
+        "J_Sec_L_SkirtSide_end_01_end",
+        "J_Bip_L_LowerLeg",
+        "J_Sec_L_CoatSkirtBack_01",
+        "J_Sec_L_CoatSkirtBack_end_01",
+        "J_Sec_L_CoatSkirtBack_end_01_end",
+        "J_Sec_L_CoatSkirtFront_01",
+        "J_Sec_L_CoatSkirtFront_end_01",
+        "J_Sec_L_CoatSkirtFront_end_01_end",
+        "J_Sec_L_CoatSkirtSide1_01",
+        "J_Sec_L_CoatSkirtSide2_01",
+        "J_Sec_L_CoatSkirtSide2_end_01",
+        "J_Sec_L_CoatSkirtSide2_end_01_end",
+        "J_Bip_L_Foot",
+        "J_Bip_L_ToeBase",
+        "J_Bip_R_UpperLeg",
+        "J_Sec_R_SkirtBack_01",
+        "J_Sec_R_SkirtBack_end_01",
+        "J_Sec_R_SkirtBack_end_01_end",
+        "J_Sec_R_SkirtFront_01",
+        "J_Sec_R_SkirtFront_end_01",
+        "J_Sec_R_SkirtFront_end_01_end",
+        "J_Sec_R_SkirtSide_01",
+        "J_Sec_R_SkirtSide_end_01",
+        "J_Sec_R_SkirtSide_end_01_end",
+        "J_Bip_R_LowerLeg",
+        "J_Sec_R_CoatSkirtBack_01",
+        "J_Sec_R_CoatSkirtBack_end_01",
+        "J_Sec_R_CoatSkirtBack_end_01_end",
+        "J_Sec_R_CoatSkirtFront_01",
+        "J_Sec_R_CoatSkirtFront_end_01",
+        "J_Sec_R_CoatSkirtFront_end_01_end",
+        "J_Sec_R_CoatSkirtSide1_01",
+        "J_Sec_R_CoatSkirtSide2_01",
+        "J_Sec_R_CoatSkirtSide2_end_01",
+        "J_Sec_R_CoatSkirtSide2_end_01_end",
+        "J_Bip_R_Foot",
+        "J_Bip_R_ToeBase"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "T-Pose",
+      "frame_range": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "potential_issues": [],
+  "visual_approval": "NOT_TESTED",
+  "vrm_export_validated": false,
+  "external_vtuber_app_validated": false
+}

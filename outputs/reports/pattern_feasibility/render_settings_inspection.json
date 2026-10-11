@@ -1,0 +1,52 @@
+{
+  "recovery2": {
+    "studio_light": 0.0,
+    "studio_name": "Default",
+    "shadow_intensity": 0.5,
+    "render_engine": "BLENDER_WORKBENCH",
+    "color_type": "SINGLE",
+    "single_color": [
+      0.6200000047683716,
+      0.6200000047683716,
+      0.6200000047683716
+    ],
+    "resolution": [
+      1000,
+      1000
+    ],
+    "world": [
+      0.15000000596046448,
+      0.15000000596046448,
+      0.15000000596046448
+    ],
+    "view_transform": "Standard",
+    "look": "None",
+    "unit_scale": 1.0,
+    "unit_system": "METRIC"
+  },
+  "study": {
+    "studio_light": 0.0,
+    "studio_name": "Default",
+    "shadow_intensity": 0.5,
+    "render_engine": "BLENDER_WORKBENCH",
+    "color_type": "SINGLE",
+    "single_color": [
+      0.6200000047683716,
+      0.6200000047683716,
+      0.6200000047683716
+    ],
+    "resolution": [
+      1000,
+      1000
+    ],
+    "world": [
+      0.15000000596046448,
+      0.15000000596046448,
+      0.15000000596046448
+    ],
+    "view_transform": "Standard",
+    "look": "None",
+    "unit_scale": 1.0,
+    "unit_system": "METRIC"
+  }
+}

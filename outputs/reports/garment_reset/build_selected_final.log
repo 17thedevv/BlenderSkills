@@ -1,0 +1,22 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_panel_drape_prototype_01.blend"
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_final\prototype_front_clay.png'
+Time: 00:00.72 (Saving: 00:00.05)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_final\prototype_three_quarter_clay.png'
+Time: 00:00.10 (Saving: 00:00.05)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_final\prototype_side_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_final\prototype_back_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\garment_reset_final\prototype_arm_raised_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Info: Saved "kagari_panel_drape_reset_final.blend"
+FINAL_SEWN_PANEL_PROTOTYPE bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2
+
+Blender quit

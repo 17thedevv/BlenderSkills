@@ -1,0 +1,472 @@
+--- local/.agents/skills/hair-outfit-builder/SKILL.md
++++ overlay/.agents/skills/hair-outfit-builder/SKILL.md
+@@ -1,15 +1,35 @@
+ ---
+ name: hair-outfit-builder
+-description: Produces coherent stylized VTuber hair clumps, outfit layers and accessories that keep appealing silhouettes and rig cleanly in Blender. Use after approved face blockout.
++description: Construct convincing anime hair and layered stylized garments in Blender using shape-first reference-driven modeling, verifiable cloth seams and folds, and controlled real-time geometry cost.
+ ---
+-# Hair and Outfit Builder
++# Hair & Outfit Builder — v0.3
+ 
+-1. Plan hair hierarchy: skull cap, primary silhouette locks, secondary locks, a few accent strands. Distinguish bangs from side/back hair with depth.
+-2. Prefer purposeful tapered sections and controllable curve/mesh profiles; avoid forests of cylinders and floating spikes. Check scalp coverage and head movement clearance.
+-3. Outfit from major shape masses: neck/torso, sleeves, gloves/accessories. Prioritize streamer upper body; reduce hidden polygon/detail costs.
+-4. Separate rigid accessories from bend regions; choose bone-parenting for rigid parts and weighted mesh for cloth, with simplified secondary-motion rig later if desired.
+-5. Test camera angles and movements for collisions: bangs vs eyebrows/eyes, hair vs shoulders, sleeves vs wrists, cloth vs hips.
+-6. Use 3-color hierarchy unless brief specifies otherwise. Validate color/value separation with diffuse-only/neutral lighting preview.
+-7. Record all external textures and materials in license manifest.
++## Trigger
++Use for hairstyle, collar, sleeves, kimono-inspired torso layers, bows, trim, embroidery, and any modification that changes character silhouette or deformation. Read approved character-specific config, **not hardcoded geometry recipes**.
+ 
+-**Exit:** readable front/3/4 hair+outfit silhouette, no major default-pose clipping, documented object naming and attachment plan.
++## Inputs & invariant
++- Required: concept and approved constraints, source `.blend` backup, chosen base mesh, active camera(s), Blender version, current state and any existing armature/shape keys.
++- Never recreate a model from scratch without a documented reason. Never destroy the neutral face, facial morphs, eye rigs, skinning, original user assets or unrelated objects.
++- Before modeling, identify in the reference: **visible vs inferred** structures, structural layers (garments) vs graphic decorations, asymmetries, anchor points, cloth slack and gravity directions.
++- Refer to `references/kimono_garment_construction.md`, `references/anime_hair_form.md` and `references/materials_vs_geometry.md` as needed. Do not load all files for unrelated tasks.
++
++## Workflow
++1. **Decompose** into meshes/subassemblies with names and attachment logic: inner undergarment, left/right crossed collar, outer robe, sleeve openings, sleeve body, waist transition, trim, embroidered panels, bow, hair cap/locks/ponytail. Draw a simple layer ordering diagram and collision map.
++2. **Grey-clay silhouette blockout** with only structural geometry. Front/3⁄4/profile/back at matched framing. No gold piping, stars, embroidery, beads, bloom or beauty lighting. If the garment reads as painted strips or the hair as sheets, stop and rebuild those surfaces.
++3. **Garment volume and construction**: preserve seams; collar edges must have believable thickness and follow neck/chest in 3D; construct sleeves as garment volumes with openings and folds instead of undifferentiated torso shells. Use manual modeling, curves/surfaces, shrinkwrap with clearance or cloth-supported workflows as appropriate; no single algorithm is mandated.
++4. **Pose and collision smoke tests**: neutral, arms lowered, moderate arm raise, head yaw ±30° where appropriate. Compare collar, shoulder, ponytail and bow. Reject detached collar floating above skin, hard self-intersections, hair scalp gaps, inverted normals and unnaturally rigid fabric deformation.
++5. **Hair clumps**: cap/roots + major volume + secondary clumps + accents. Avoid repeated parallel rectangular sheets, cut-flat ends, giant unbroken hair curtain and an exposed scalp shell. Read `references/anime_hair_form.md`.
++6. **Materials only after approved shape**: MToon-compatible toon base; use texture/UV for flat embroidery and microdetail. Geometry for jewelry, true hems, buttons and silhouette-changing elements only. First test one representative material and ornament on VRM export/reimport when tooling exists.
++7. **Cost check**: audited raw and evaluated triangles, top expanding modifiers, objects/material counts. Design within a profiled budget rather than treating a soft 80k target as an absolute threshold. See `streaming-performance`.
++8. **Art-directed iteration**: list 3 highest-impact form defects; revise one region at a time; no more than 3 unproductive cycles before escalating to better base/pattern-driven or manual method.
++
++## Stop rules
++- No ornament detail until *clay* is approved.
++- No global remeshing/decimation on face or morph targets without tested backups and explicit approval.
++- If the current mesh's topology/shape makes fidelity implausible, report evidence and alternatives; do not conceal failure under more vertices.
++
++## Exit evidence
++- Saved `.blend` candidate and SHA256 in project state.
++- Clay front/3⁄4/profile/back + one relevant pose render with consistent camera/light between iterations.
++- Garment component list, pose issues, raw/evaluated counts, real warnings and next proposed change.
++- Human **PASS/FAIL/NOT_REVIEWED** decision for appearance. Never self-approve an unreviewed garment.
+--- local/.agents/skills/reference-fidelity-guardian/SKILL.md
++++ overlay/.agents/skills/reference-fidelity-guardian/SKILL.md
+@@ -1,22 +1,24 @@
+ ---
+ name: reference-fidelity-guardian
+-description: Enforces strict 1:1 visual fidelity between 3D model geometry and the approved 2D character concept art. Blocks progression if identifying features are altered or missing.
++description: Protect approved character identity and measurable reference fidelity while identifying inferred areas, justified design deviations and human approval gates during 2D-to-3D character work.
+ ---
+-# Reference Fidelity Guardian
++# Reference Fidelity Guardian — v0.3
+ 
+-**Kagari Concept Artwork is the Authoritative Source of Truth.**
+-Under no circumstances may the agent alter, substitute, or simplify the character's defining visual identity.
++## Scope
++Design-specific details belong in `config/kagari_design_contract.json` or a per-character file, **not embedded in this generic Skill**. Do not mandate any specific base mesh; recommend using an approved editable base if constructive geometry cannot achieve the likeness.
+ 
+-## Mandatory Checklist for Kagari (篝)
+-1. **Feminine Anime Face**: Soft jawline, delicate chin, subtle blush, gentle micro-smile. Not an aggressive or masculine base.
+-2. **Honey-Brown Hair with Side Ponytail**: Fluffy 3D volume, parted curtain bangs framing the forehead without occluding eyebrows/eyes for webcam tracking, distinctive low side ponytail draped over the right shoulder.
+-3. **Large Burgundy Silk Hair Bow**: Prominent ribbon knot with flowing tails at the ponytail base, not a flat box or missing prop.
+-4. **Radiant Amber-Gold Eyes**: Multi-layered sunset gradient with starry and crescent catchlights, high contrast sclera.
+-5. **Crossover Miko Kimono Outfit**: Cream-white inner robe (`#FFF9F2`), burgundy haori collar/lapels (`#8B1E3F`), crisp gold trim (`#E6B800`). No t-shirts, suspenders, or modern casual wear.
+-6. **Astral Star Pendant**: 8-point gold star necklace at the collar hollow.
++## Before work
++1. Read user concept and approved decisions. Inventory images and their angles/uncertainties.
++2. Extract **must preserve** visual identity markers (shape, palette, accessory placement), then editable/inferred areas.
++3. Set a local comparison plan: same focal length, approximate crop, view orientation, scale-normalized landmark ratios. Never claim objective 1:1 likeness from a single orthographic/illustrated view.
++4. Create a change-impact note: modifying collar should not silently alter facial shape keys or hair; changing hair changes silhouette checkpoint, not automatically invalidating face morph tests.
+ 
+-## Production Enforcement Rules
+-- **No Procedural Shortcuts**: Do not use raw mathematical formulas to place flat polygon strips in lieu of proper 3D anime hair clumping and cloth drapery.
+-- **Licensed Female Base Mesh**: Use an authentic VRoid Studio female base mesh (`AvatarSample_B`) rather than adapting incompatible male/chibi bases.
+-- **Human Visual Gate Lock**: Code execution or script logs do NOT constitute aesthetic approval. Only explicit user visual approval unlocks subsequent production gates.
+-- **Side-by-Side Review**: Every gate must present rendered previews directly compared against `outputs/design/concept_option2_kagari.jpg`.
++## Approval checks
++- Reference image + candidate render (same view) juxtaposed, with **annotated discrepancies**.
++- At least 3 non-trivial silhouette/shape landmarks for edited region (e.g. neckline crossing location, shoulder breadth ratio, sleeve width/profile). Estimate or mark not measurable; do not invent precise measurements.
++- For each changed region: `MATCH`, `INTERPRETED`, `MISMATCH`, `NOT_OBSERVABLE`, with evidence path.
++- Stop if must-preserve characteristics were altered without user approval; propose the smallest geometry-level correction.
++- Separate **human webcam capture quality** from **visual readability of the rendered avatar**. Avatar bangs do not interfere with detection of a user's face by MediaPipe.
++
++## Exit
++A signed-off reference delta report linked to exact candidate `.blend` hash and images, or `REQUIRES_HUMAN_REVIEW`. No autonomous artistic PASS.
+--- local/.agents/skills/visual-critic/SKILL.md
++++ overlay/.agents/skills/visual-critic/SKILL.md
+@@ -1,19 +1,28 @@
+ ---
+ name: visual-critic
+-description: Inspects real Blender renders of stylized VTuber models, facial expressions and animation to identify and repair top visual defects. Use at every milestone, never from logs alone.
++description: Critique actual multi-view Blender renders against approved art references with reproducible cameras, ranked form defects, artifact hashes and human visual acceptance gates.
+ ---
+-# Visual Critic
++# Visual Critic — v0.3
+ 
+-1. Run `scripts/render_review.py` or equivalent to generate actual front, 3/4, side, back and face_close renders. Use identical camera/lights during before/after comparisons.
+-2. **Inspect each PNG visually** using image-capable viewing tool. If agent cannot view PNGs, STOP, report `VISUAL_CHECK_UNAVAILABLE`, and request human review or tool setup.
+-3. Compare to approved user reference(s), distinguishing reference fidelity from style quality. Read `docs/QUALITY_RUBRIC.md`; score only assessable categories and mark remaining as N/A.
+-4. Record top 3 specific flaws with location, evidence file, likely root cause and one surgical fix each. Examples: left eyelid intersects iris at 60% blink; cheek too narrow in 3/4; front bangs cover eyebrows in head pitch.
+-5. Apply one targeted revision batch, then rerender. Up to 3 repair cycles per gate; escalate to another method/base mesh or ask for guidance beyond that.
+-6. Do not optimize lighting/camera to hide defects. Use neutral-light technical renders for geometry review and beauty renders for artistic review.
+-7. Always distinguish automatically checked properties from aesthetic judgments. Save `outputs/reports/visual_review.md` with concrete before/after paths.
++## Highest priority
++A technical PASS is not an aesthetic PASS. Real visuals, geometry source and human approval are required. **Grey clay** silhouette review precedes details and lighting effects. Follow `references/garment_hair_review.md`.
+ 
+-**Exit:** genuine reviewed previews, top-issues log, and human approval requirement for subjective face identity.
++## Each review cycle
++1. Validate candidate path and SHA256 in project state; render only this immutable candidate/version. Refuse stale `DELIVERY.md` links.
++2. Inspect actual PNGs by vision-capable agent UI; if images cannot be opened mark `VISUAL_CHECK_UNAVAILABLE`, not PASS.
++3. Render neutral material front, 3⁄4, side, back, portrait crop, relevant deformation pose. Keep camera scale/focal/framing and lighting consistent for before/after; use standardized thumbnail sheets for comparison. When matching 2D art perspective is uncertain, state uncertainty.
++4. Separate tests: (a) concept fidelity, (b) shape/construction, (c) material fidelity, (d) animation deformation, (e) runtime. Mark categories **NOT_TESTED** if evidence is missing.
++5. Rank *three* most consequential defects, each with location, evidence, root-cause hypothesis, suggested edit and predicted effect on silhouette. Prefer correcting geometry over applying shader polish.
++6. Make ONE targeted change batch, then rerender same views. Reject an unreviewed edit as source of a claimed improvement.
++7. After 3 visually ineffective attempts, STOP and propose a different base mesh, garment pattern/construction, controlled manual art pass or better tool; no endless blind iteration.
++8. Log human verdict separately from model self-assessment. Do not let agent set `APPROVED_BY_USER` unless there is linked user approval evidence.
+ 
+-## v0.2 broadcast-focused review
+-- Include the OBS-scale portrait crop and face close-up on each design gate; a beautiful full-body render does not prove the webcam-framed face works.
+-- Flag bangs obscuring eyes, expression shape intersections, asymmetric eyelid motion, hair collisions during head turns, unreadable mouth motion, and face flicker. Do not treat soft focus or aggressive bloom as a fix.
++## Misleading shortcuts to reject
++- More modifiers/triangles/ornaments ≠ more appealing garment.
++- Camera angle cropping out shoulder intersections ≠ fixing them.
++- AO/bloom increasing perceived contrast ≠ corrected geometry.
++- Viewer face tracking signal and the avatar's expression legibility are separate.
++- Polygon audit or VRM parser success ≠ proven OBS tracking.
++
++## Exit
++Write version-specific visual report with candidate SHA, exact render paths, consistent render settings, top defects, decisions and pending human approval. No pass from scripts alone.
+--- local/.agents/skills/topology-expert/SKILL.md
++++ overlay/.agents/skills/topology-expert/SKILL.md
+@@ -1,15 +1,21 @@
+ ---
+ name: topology-expert
+-description: Audits and repairs deformation-critical Blender mesh topology, normals, skinning readiness, UVs and mesh validity for anime VTuber rigs. Use before skinning and whenever poses break geometry.
++description: Audit and improve Blender character mesh topology, weights and pose deformation without damaging face morphs or mistaking raw geometry for modifier-evaluated geometry.
+ ---
+-# Topology Expert
++# Topology Expert — v0.3
+ 
+-1. Run `blender --background file.blend --python scripts/audit_blend.py -- --output outputs/reports/scene_audit.json` (after `--help` where supported).
+-2. Inspect mesh object naming, UV layers, shape keys, missing weights, normal orientations, duplicate overlapping surfaces and triangulation where required.
+-3. Focus clean deforming edge flow on eyelids, lips, jaw, neck, shoulders, elbows, wrists, hips and knees; quads are preferred where feasible, triangles are not intrinsically forbidden.
+-4. Preserve all shape keys when editing topology; arbitrary vertex count/order changes can destroy expression deltas. Plan corrective shapes before destructive remesh/decimate.
+-5. Confirm normals and material zones after modifier application. Apply transforms carefully; armature and shape key data can break if done blindly.
+-6. Pose-test joints with a matrix of neutral/half/extreme angles; compare visible pinching and clipping with staged preview renders.
+-7. Non-manifold boundary edges can be intentional for open shells (e.g. eyelid/hair/card meshes): flag for review, do not auto-fix every boundary.
++## Geometry integrity
++1. Back up source scene and record mesh object names, parenting, armature, shape keys, material slots and UV before edits.
++2. Identify topology needs **by function**: flexible face/eyelids/mouth, shoulders/elbows, garment seam/fold areas, rigid pendants, hair clumps. Use only necessary loops; avoid topology density increases on flat ornaments.
++3. Run `scripts/audit_blend.py` (overlay version) and compare both **raw mesh** and **depsgraph-evaluated mesh** triangle counts. Locate top expanding modifiers and expensive repeated objects. The evaluated count is not exported VRM count.
++4. For each weighted mesh: check for vertices unassigned to required deform groups (rig-dependent), extreme weights and armature modifier order. Shape-key conservation requires comparing key names, key deltas and sample expressions before/after.
++5. Pose smoke-tests, not just neutral checks: shoulder modest rotation, head yaw, eyelid + mouth combined shape keys; render to expose unacceptable intersections.
++6. Distinguish legitimate fabric open boundaries from unwanted non-manifold defects; do not blindly close all garment openings.
+ 
+-**Exit:** audit JSON, topology risk list, proof of deformation preview, Gate C state. Do not declare 'topology perfect' from one scalar alone.
++## Forbidden shortcuts
++- Apply destructive remesh/decimation to face mesh with shape keys unless explicitly authorized after tested backup.
++- Claim mesh quality from a triangle budget alone.
++- Count `obj.data.polygons` as modifier-evaluated geometry.
++
++## Exit evidence
++Raw/evaluated totals, top objects/modifiers, shape-key inventory delta, pose renders, any unapplied modifiers with justification, and unverified export assumptions.
+--- local/.agents/skills/streaming-performance/SKILL.md
++++ overlay/.agents/skills/streaming-performance/SKILL.md
+@@ -1,13 +1,21 @@
+ ---
+ name: streaming-performance
+-description: Profiles and optimizes anime VRM avatar mesh, textures, materials, spring bones, webcam tracking, Warudo and OBS together for stable real-time VTubing. Use before live delivery and after major visual changes.
++description: Profile Blender and exported VTuber avatar complexity at object, modifier, material and runtime stages while preserving on-camera facial and garment quality.
+ ---
+-# Streaming Performance
++# Streaming Performance — v0.3
+ 
+-1. Treat `config/character_brief.json:model_budget_starting_targets` as starting targets for profiling, NOT strict limits or measured frame rates.
+-2. Run `scripts/audit_blend.py` on the actual `.blend`. Identify high-triangle hair/clothing, material draw-call proliferation, large textures, duplicate hidden geometry and heavy physics chains; assess image quality before reducing fidelity.
+-3. Export actual VRM and audit with `scripts/audit_vrm.py`. Profile in Warudo alone, then Warudo + MediaPipe, then Warudo + OBS, then intended game load. Report FPS, 1% lows if measurable, GPU VRAM and CPU/GPU use from real measurements.
+-4. Optimize in order: unused geometry/textures, extra material slots, spring chains, texture resolution, preview lighting/postprocessing, webcam tracker CPU/GPU placement, then geometry LOD compromises. Never degrade approved face silhouette without another approval.
+-5. Validate the same animation/tracking tests after every optimization. Report changes and before/after measurements; no unverifiable 'optimized' claims.
++## Stage-aware budgets
++1. Profile in three **distinct** domains: Blender raw mesh, Blender depsgraph evaluated mesh, and actual exported VRM meshes/rendered runtime. These are *not interchangeable*.
++2. Use `scripts/audit_blend.py` to report raw/evaluated triangles, per-object modifier stacks, largest contributors, object/material counts. Blender modifiers may not survive export or may be applied differently.
++3. Before duplicating ornaments, measure one sample's evaluated cost; use texture/atlas for embroidery and gold lines when silhouette does not require geometry.
++4. Record runtime settings (Warudo build, render resolution, OBS settings, webcam, FPS, CPU/GPU/VRAM), 1% low if obtainable, warm-up and capture duration. A screenshot without timing/profile is not FPS evidence.
++5. Treat 80k tris / 2048px / 8 materials / 30 FPS as *project starting heuristics* until profiled, NOT universal thresholds or pass/fail certification.
++6. Optimize largest measured bottleneck first. Keep eyes, face deformations and silhouette-facing clumps at higher quality than rear ornament details.
+ 
+-**Exit:** performance table with observed metrics or NOT TESTED and clear next checks.
++## Guardrails
++- Do not flatten or decimate the face to meet a self-imposed triangle limit.
++- Do not claim export counts or FPS based solely on Blender evaluated mesh.
++- Document tradeoffs and obtain human artistic approval if optimization materially changes style.
++
++## Exit
++Report before/after cost and scene/render settings; actual user hardware test marked `NOT_TESTED` if unavailable.
+--- local/scripts/audit_blend.py
++++ overlay/scripts/audit_blend.py
+@@ -1,8 +1,14 @@
+-"""Blender scene report (technical, NOT a visual-quality certificate).
++"""Blender raw/evaluated geometry audit; NOT a VRM-export or FPS certificate.
+ 
+ Usage:
+-  blender --background model.blend --python scripts/audit_blend.py -- --output outputs/reports/scene_audit.json
++ blender --background project.blend --python scripts/audit_blend.py -- --output outputs/reports/mesh_geometry_v03.json
++
++Notes:
++ - Audits all Blender scene mesh objects (including hidden ones). Visibility flags included.
++ - Shape key state and active evaluation context can change evaluated counts.
++ - Per-object evaluated geometry is evaluated with current depsgraph, not guaranteed export geometry.
+ """
++
+ import argparse
+ import json
+ import sys
+@@ -12,82 +18,113 @@
+     import bpy
+     import bmesh
+ except ImportError as exc:
+-    raise SystemExit('This script must be run by Blender Python (`blender --python`).') from exc
++    raise SystemExit("Run with Blender Python (blender --python), not system Python") from exc
+ 
+ 
+-def cli_args():
+-    raw = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else []
+-    parser = argparse.ArgumentParser(description='Blender scene technical audit')
+-    parser.add_argument('--output', required=True, help='Path of output JSON report')
+-    return parser.parse_args(raw)
++def triangle_count(mesh):
++    return sum(max(len(p.vertices) - 2, 0) for p in mesh.polygons)
+ 
+ 
+-def audit_mesh(obj):
+-    mesh = obj.data
+-    bmesh_object = bmesh.new()
++def raw_topology(mesh):
++    bm = bmesh.new()
+     try:
+-        bmesh_object.from_mesh(mesh)
+-        loose_verts = sum(1 for vert in bmesh_object.verts if not vert.link_edges)
+-        boundary_edges = sum(1 for edge in bmesh_object.edges if edge.is_boundary)
+-        non_manifold_edges = sum(1 for edge in bmesh_object.edges if not edge.is_manifold)
++        bm.from_mesh(mesh)
++        return {
++            "loose_vertices": sum(not bool(v.link_edges) for v in bm.verts),
++            "boundary_edges": sum(e.is_boundary for e in bm.edges),
++            "non_manifold_edges_including_boundaries": sum(not e.is_manifold for e in bm.edges),
++        }
+     finally:
+-        bmesh_object.free()
++        bm.free()
+ 
+-    skin_groups = []
+-    if obj.vertex_groups:
+-        skin_groups = [g.name for g in obj.vertex_groups]
+-    shapekeys = []
+-    if mesh.shape_keys:
+-        shapekeys = [block.name for block in mesh.shape_keys.key_blocks if block.name != 'Basis']
+ 
+-    return {
+-        'name': obj.name,
+-        'vertices': len(mesh.vertices),
+-        'polygons': len(mesh.polygons),
+-        'triangles': sum(max(0, len(p.vertices) - 2) for p in mesh.polygons),
+-        'uv_layers': [uv.name for uv in mesh.uv_layers],
+-        'shape_keys': shapekeys,
+-        'vertex_groups': skin_groups,
+-        'armature_modifiers': [m.object.name for m in obj.modifiers if m.type == 'ARMATURE' and m.object],
+-        'loose_vertices': loose_verts,
+-        'non_manifold_edges_including_boundaries': non_manifold_edges,
+-        'boundary_edges': boundary_edges,
+-        'notes': 'Open shells can legitimately have boundary edges; requires artist review.',
++def audit_obj(obj, depsgraph):
++    raw = obj.data
++    result = {
++        "name": obj.name,
++        "raw": {"vertices": len(raw.vertices), "faces": len(raw.polygons), "triangles": triangle_count(raw)},
++        "evaluated": None,
++        "evaluated_error": None,
++        "modifiers": [{"name": mod.name, "type": mod.type, "enabled_render": mod.show_render,
++                       "enabled_viewport": mod.show_viewport} for mod in obj.modifiers],
++        "materials": [m.name if m else None for m in obj.data.materials],
++        "hidden_render": bool(obj.hide_render),
++        "hidden_viewport": bool(obj.hide_viewport),
++        "uv_layers": [l.name for l in raw.uv_layers],
++        "shape_keys": [k.name for k in raw.shape_keys.key_blocks] if raw.shape_keys else [],
++        "vertex_groups": [g.name for g in obj.vertex_groups],
++        "armatures": [m.object.name for m in obj.modifiers if m.type == "ARMATURE" and m.object],
++        "topology_raw": raw_topology(raw),
+     }
++    evaluated = None
++    eval_obj = None
++    try:
++        eval_obj = obj.evaluated_get(depsgraph)
++        evaluated = eval_obj.to_mesh()
++        if evaluated is None:
++            raise RuntimeError("depsgraph evaluated mesh was None")
++        result["evaluated"] = {
++            "vertices": len(evaluated.vertices),
++            "faces": len(evaluated.polygons),
++            "triangles": triangle_count(evaluated),
++        }
++    except Exception as exc:
++        result["evaluated_error"] = f"{type(exc).__name__}: {exc}"
++    finally:
++        if evaluated is not None and eval_obj is not None:
++            eval_obj.to_mesh_clear()
++    if result["evaluated"]:
++        result["triangle_delta"] = result["evaluated"]["triangles"] - result["raw"]["triangles"]
++    else:
++        result["triangle_delta"] = None
++    return result
+ 
+ 
+ def main():
+-    args = cli_args()
+-    objects = list(bpy.data.objects)
+-    mesh_report = [audit_mesh(o) for o in objects if o.type == 'MESH']
+-    arms = [o for o in objects if o.type == 'ARMATURE']
+-    report = {
+-        'blender_version': bpy.app.version_string,
+-        'blend_file': bpy.data.filepath or 'UNSAVED',
+-        'total_objects': len(objects),
+-        'mesh_count': len(mesh_report),
+-        'triangle_count_total': sum(m['triangles'] for m in mesh_report),
+-        'mesh_report': mesh_report,
+-        'armatures': [{'name': a.name, 'bone_count': len(a.data.bones),
+-                       'bone_names': [bone.name for bone in a.data.bones]} for a in arms],
+-        'actions': [{'name': a.name, 'frame_range': list(a.frame_range)} for a in bpy.data.actions],
+-        'potential_issues': [],
+-        'visual_approval': 'NOT_TESTED',
+-        'vrm_export_validated': False,
+-        'external_vtuber_app_validated': False,
++    args_raw = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
++    p = argparse.ArgumentParser()
++    p.add_argument("--output", required=True)
++    p.add_argument("--top", type=int, default=20)
++    args = p.parse_args(args_raw)
++    depsgraph = bpy.context.evaluated_depsgraph_get()
++    report = [audit_obj(o, depsgraph) for o in bpy.data.objects if o.type == "MESH"]
++    raw_total = sum(x["raw"]["triangles"] for x in report)
++    evaluated_total = sum(x["evaluated"]["triangles"] for x in report if x["evaluated"])
++    failed = [x["name"] for x in report if x["evaluated"] is None]
++    payload = {
++        "schema_version": "0.3",
++        "scope": "all Blender data objects with type MESH; hidden/unused objects may be included",
++        "blend_file": bpy.data.filepath or "UNSAVED",
++        "blender_version": bpy.app.version_string,
++        "raw_triangles": raw_total,
++        "evaluated_triangles_partial_if_errors": evaluated_total,
++        "evaluated_complete": not failed,
++        "evaluation_failed_objects": failed,
++        "mesh_object_count": len(report),
++        "distinct_material_names": sorted({m for x in report for m in x["materials"] if m}),
++        "largest_by_evaluated_triangles": [
++            {"name": x["name"], "raw_triangles": x["raw"]["triangles"],
++             "evaluated_triangles": x["evaluated"]["triangles"], "delta": x["triangle_delta"],
++             "modifiers": x["modifiers"]}
++            for x in sorted((x for x in report if x["evaluated"]),
++                            key=lambda x: x["evaluated"]["triangles"], reverse=True)[:max(0, args.top)]
++        ],
++        "objects": report,
++        "certification": {
++            "visual_quality": "NOT_TESTED",
++            "exported_vrm_triangles": "NOT_TESTED",
++            "warudo_fps": "NOT_TESTED",
++        },
+     }
+-    if not mesh_report:
+-        report['potential_issues'].append('No mesh objects.')
+-    if not arms:
+-        report['potential_issues'].append('No armatures. Acceptable before rigging phase.')
+-    if not any(m['shape_keys'] for m in mesh_report):
+-        report['potential_issues'].append('No face shape keys found. Acceptable before rigging phase.')
+     out = Path(args.output)
+     out.parent.mkdir(parents=True, exist_ok=True)
+-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+-    print('AUDIT_WRITTEN:', out.resolve())
+-    print('MESHES:', len(mesh_report), 'TRIANGLES:', report['triangle_count_total'])
++    out.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
++    print(f"AUDIT: {out} raw={raw_total} evaluated={evaluated_total} complete={not failed}")
++    if failed:
++        print(f"WARN: {len(failed)} objects failed depsgraph evaluation", file=sys.stderr)
++        return 2
++    return 0
+ 
+ 
+-if __name__ == '__main__':
+-    main()
++if __name__ == "__main__":
++    sys.exit(main())
+--- local/README.md
++++ overlay/README.md
+@@ -1,42 +1,38 @@
+-# Virtual Character — Anime Female Webcam VTuber Skillpack v0.2
++# Kagari Artistic Production — Skills Upgrade v0.3 (overlay)
+ 
+-A purpose-built **Antigravity Skills + Blender QA** package for an anime-style female VTuber with **VRM 1.0, Warudo built-in MediaPipe webcam tracking, and OBS broadcast capture**. It is an orchestration and validation pack; it **does not contain a finished character**.
++**This is an additive upgrade overlay, NOT a replacement for your Kagari workspace.** It builds on the accessible Virtual Character v0.2 pack (12 Skills). The user has since reported a **13-Skill local workspace with additional Kagari-specific edits**, which was not uploaded. Do not overwrite those local changes blindly; use `docs/AGENT_MERGE_PROMPT.md` to merge them.
+ 
+-## Quick start
+-1. Unzip into the root of a **Virtual Character project workspace** (the `.agents/skills` path must be beneath workspace root).
+-2. Review/edit `config/character_brief.json`: name, hairstyle, references/licenses, palette, camera and target apps. Female/anime/webcam/Warudo/VRM1 defaults are filled, not the identity details.
+-3. Run `python scripts/check_skillpack.py` locally. Then paste `docs/ANTIGRAVITY_PROMPT.md` into Antigravity. Agent should do S0 + art-direction only until you approve the concept.
+-4. After modeling, agent uses `scripts/audit_blend.py` and `scripts/render_review.py` **inside Blender**, then `python scripts/audit_vrm.py outputs/character_final.vrm --output outputs/reports/vrm_audit.json` after VRM export.
+-5. Test webcam and OBS manually if the agent cannot access desktop; see `docs/WEBCAM_TRACKING_TEST.md`. Only actual passes count.
++This upgrade targets the observed failure: AI reliably adds meshes, materials and ornamentation but creates weak garment silhouettes, stiff layered collars, flat rear hair and excessive evaluated geometry. It prioritizes fabric and hair *construction*, then visual evidence and artifact traceability.
+ 
+-## Architecture
+-`Blender -> VRM 1.0 -> Warudo MediaPipe + webcam -> Warudo scene -> OBS`. Start with a licensed high-quality anime base and invest in face and hair; use eye bones for gaze and standard VRM expression presets. Advanced ARKit/Perfect Sync is optional. Use Warudo-generated setup blueprints, not a custom face-tracking backend for MVP.
++## Overlay contents
+ 
+-## Skills (12)
+-`character-director`, `base-mesh-strategy`, `anime-face-specialist`, `hair-outfit-builder`, `topology-expert`, `vtuber-rigging`, `basic-animation-maker`, `visual-critic`, `vrm-delivery`, `webcam-tracking`, `live-broadcast-integration`, `streaming-performance`.
++- Five strengthened/new Skills: `hair-outfit-builder`, `reference-fidelity-guardian`, `visual-critic`, `topology-expert`, `streaming-performance`.
++- Modeling references: garment construction, anime hair, material vs geometry, acceptance rubric and pose tests.
++- `config/kagari_design_contract.json`: Kagari-specific approved/required **visual descriptors** (not fabricated measurements).
++- `config/project_state.template.json`: source-of-truth template; NO claim that any current candidate exists.
++- `scripts/audit_blend.py`: raw & modifier-evaluated geometry totals, per object and warnings. Requires Blender.
++- `scripts/validate_project_state.py`: separate artifact/evidence gate validation, file existence/hash checks. Requires Python only.
++- `scripts/check_overlay.py`: checks package structure/frontmatter/config; NOT production/quality approval.
++- `docs/AGENT_MERGE_PROMPT.md`: task prompt to merge into existing Kagari repo safely; run ONE garment blockout iteration only.
++- `docs/TEST_PROTOCOL.md`: small A/B evaluation strategy and sign-off instructions.
+ 
+-## Useful docs
+-- `docs/MODEL_RIG_ARCHITECTURE.md` — collections, humanoid map, expression tier and stress tests
+-- `docs/INTEGRATION_ARCHITECTURE.md` — tracking/mapping, Warudo→OBS, future modularization
+-- `docs/WORKFLOW.md` — S0/A–H stage gates
+-- `docs/WEBCAM_TRACKING_TEST.md` — actual operator verification checklist
+-- `docs/PERFORMANCE.md` — initial budget and measured performance protocol
+-- `docs/QUALITY_RUBRIC.md` — visual QA and hard blockers
+-- `docs/ANTIGRAVITY_PROMPT.md` — primary copy-paste handoff
++## Apply safely
+ 
+-## Tool verification
+-```
+-python scripts/check_skillpack.py
+-blender --background outputs/character_wip.blend --python scripts/audit_blend.py -- --output outputs/reports/scene_audit.json
+-blender --background outputs/character_wip.blend --python scripts/render_review.py -- --output-dir outputs/previews
+-python scripts/audit_vrm.py outputs/character_final.vrm --output outputs/reports/vrm_audit.json
+-```
+-The Blender commands require Blender and an actual `.blend` file. `audit_vrm.py` is a structural analyzer, **not proof that the avatar looks good, imports, tracks or streams correctly**.
++1. Back up / commit your local Kagari workspace first.
++2. Compare `SKILL.md` updates with the 13 local Skills (do not replace local art direction with generic instructions).
++3. Merge references and code after inspecting existing scripts and Blender/VRM versions; preserve working changes.
++4. Link the real concept to `config/kagari_design_contract.json` and populate artifact and evidence paths only when they exist.
++5. First experiment: **collar + upper torso clay blockout**, not entire avatar, new textures, or full hair replacement.
++6. Get visual human approval before spending time on embroidered details and full garment construction.
+ 
+-## Reference URLs
+-- Antigravity Skills: https://antigravity.google/docs/skills
+-- VRM Blender Add-on: https://vrm-addon-for-blender.info/en-us/
+-- VRM 1.0 expressions: https://github.com/vrm-c/vrm-specification/blob/master/specification/VRMC_vrm-1.0/expressions.md
+-- Warudo: https://docs.warudo.app/docs/mocap/overview
+-- Warudo face tracking: https://docs.warudo.app/docs/mocap/face-tracking
+-- Warudo webcam MediaPipe: https://docs.warudo.app/docs/mocap/mediapipe
++## Hard constraints
++
++- Semantic geometry before ornamentation. **Geometry cost does not imply artistic quality**.
++- Never call a mesh good solely because scripts run, normals are valid, or a file exists.
++- Ratings are **judgment aids**, not aesthetic ground truth; the user is final art director.
++- Keep avatar readability and human webcam tracking input explicitly separate.
++- Images with unknown rear/side geometry cannot support claims of exact 1:1 fidelity.
++- `audit_blend.py` evaluated triangles are not exported VRM triangle counts or FPS measurements.
++
++Run structural checks: `python scripts/check_overlay.py`.
++Run project-state validation only **after configuring project_state.json**: `python scripts/validate_project_state.py --state path/to/project_state.json --root path/to/workspace`.

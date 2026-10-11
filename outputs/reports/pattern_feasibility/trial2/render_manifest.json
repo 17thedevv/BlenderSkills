@@ -1,0 +1,484 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_pattern_trial2_prototype.blend",
+    "sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+    "version": "pattern-sewing-feasibility-trial2"
+  },
+  "source_setup": {
+    "path": "outputs/wip/kagari_pattern_trial2_source.blend",
+    "sha256": "df29a79ac07cfc88419a00071e70f5a48f399e4b9a1134fbe66e878965c43319"
+  },
+  "source_character": {
+    "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+    "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d"
+  },
+  "renders": [
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/neutral_front_clay.png",
+      "sha256": "8166dc1466284f1ef4abd2a45978d808892bf7f08c8765e2223d572678d120d1",
+      "view": "front",
+      "pose": "neutral",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          0.0,
+          -2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.0399999618530273
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -1.1868238913561442
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/neutral_three_quarter_clay.png",
+      "sha256": "e7a682c3ea96b6d007ef56fc1f70b04702e6d453c8f58f7b61ede48e135669d0",
+      "view": "three_quarter",
+      "pose": "neutral",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          1.2000000476837158,
+          -1.7000000476837158,
+          1.2000000476837158
+        ],
+        "camera_rotation": [
+          1.5515758991241455,
+          -5.0862499989534626e-08,
+          0.6146630048751831
+        ],
+        "ortho_scale": 1.0399999618530273
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -1.1868238913561442
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/neutral_side_clay.png",
+      "sha256": "430f8843a40438b57bdade11de69160cdcb1ed5423e6954c8384eddcb972c179",
+      "view": "side",
+      "pose": "neutral",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          2.0,
+          0.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "ortho_scale": 1.0399999618530273
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -1.1868238913561442
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/neutral_back_clay.png",
+      "sha256": "7a96651db42e16eb990e7b7b8869573dbec7fa8de7dce33dafbcc284c27d0cc6",
+      "view": "back",
+      "pose": "neutral",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          0.0,
+          2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          -1.570796251296997,
+          3.141592502593994,
+          -0.0
+        ],
+        "ortho_scale": 1.0399999618530273
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -1.1868238913561442
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/raised30_front_clay.png",
+      "sha256": "d7379c67e8460b30856734de4bf7926d855e3ace78e45b2e3467e0261d09127e",
+      "view": "front",
+      "pose": "raised30",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          0.0,
+          -2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/raised30_three_quarter_clay.png",
+      "sha256": "800df50de17e1d875ff8b1237b82c103e1b935c36ca147d5135c569a0e5c1ecf",
+      "view": "three_quarter",
+      "pose": "raised30",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          1.2000000476837158,
+          -1.7000000476837158,
+          1.2000000476837158
+        ],
+        "camera_rotation": [
+          1.5515758991241455,
+          -5.0862499989534626e-08,
+          0.6146630048751831
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/raised30_side_clay.png",
+      "sha256": "0ac1003d2d85202e7ae677a61b3a894fa19fc5ce095d2798a17f097c62e197ac",
+      "view": "side",
+      "pose": "raised30",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          2.0,
+          0.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/raised30_back_clay.png",
+      "sha256": "32bb616b8a8838ca1615d594ac7571baf0f9636e4eb647b5248763a134a0d9c0",
+      "view": "back",
+      "pose": "raised30",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          0.0,
+          2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          -1.570796251296997,
+          3.141592502593994,
+          -0.0
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/horizontal_front_clay.png",
+      "sha256": "d8a52ffff7642936d7c3868fe8e10bb7e7545bf6a4e395b46cbd8d082880239b",
+      "view": "front",
+      "pose": "horizontal",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          0.0,
+          -2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/horizontal_three_quarter_clay.png",
+      "sha256": "6162f485ce7f61259d2dada1cd922b0d62954c061ad34aaacafa3a35d6066877",
+      "view": "three_quarter",
+      "pose": "horizontal",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          1.2000000476837158,
+          -1.7000000476837158,
+          1.2000000476837158
+        ],
+        "camera_rotation": [
+          1.5515758991241455,
+          -5.0862499989534626e-08,
+          0.6146630048751831
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/horizontal_side_clay.png",
+      "sha256": "67123391fdafb556bda60e993d5d068d5da4838d2155460b721e9e2383614f24",
+      "view": "side",
+      "pose": "horizontal",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          2.0,
+          0.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/horizontal_back_clay.png",
+      "sha256": "52f7c0ffa4e1b2c8131584b6073c59298ff9bc0441f5241209f2b982af7d4129",
+      "view": "back",
+      "pose": "horizontal",
+      "deformation": "ACTUAL_SEQUENTIAL_CLOTH_SNAPSHOT",
+      "camera": {
+        "camera_location": [
+          0.0,
+          2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          -1.570796251296997,
+          3.141592502593994,
+          -0.0
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/rig_only_raised30_front_clay.png",
+      "sha256": "2bf8f42d06d880e387a4917c50e10e4ebd143970a1dc703b9b71f4acbc24f000",
+      "view": "front",
+      "pose": "raised30",
+      "deformation": "ORDINARY_ARMATURE_NO_CLOTH_NO_CORRECTIVES",
+      "camera": {
+        "camera_location": [
+          0.0,
+          -2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/rig_only_horizontal_front_clay.png",
+      "sha256": "5c133f352a09387de0689e9bd5b61b2a884332df166c1f64422b4b3c5e965426",
+      "view": "front",
+      "pose": "horizontal",
+      "deformation": "ORDINARY_ARMATURE_NO_CLOTH_NO_CORRECTIVES",
+      "camera": {
+        "camera_location": [
+          0.0,
+          -2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      }
+    }
+  ],
+  "source_preserved": true,
+  "neutral_arm_degrees_below_horizontal": 68,
+  "raise_relative_degrees": 30,
+  "horizontal_bone_z_degrees": 0,
+  "comparison_lighting": "Exact Recovery v2 Workbench clay settings; neutral camera transforms unchanged; stress scales reused across all four views."
+}

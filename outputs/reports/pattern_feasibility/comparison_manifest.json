@@ -1,0 +1,457 @@
+{
+  "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+  "prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7",
+  "render_settings": "Inherited exactly from prototype; same mannequin, camera, clay/shadows/cavity. Source sleeve cropped in comparison only. Raw original Recovery v2 gallery remains linked in report.",
+  "crop_records": [
+    {
+      "name": "Kagari_Concept_Robe_Two_Sleeves",
+      "original_raw_faces": 5645,
+      "comparison_raw_faces": 4221,
+      "raw_triangles": 8425,
+      "evaluated_triangles_neutral": 17392,
+      "crop": "rest-space below z=.98; robe opposite sleeve x<-.14 only"
+    },
+    {
+      "name": "Kagari_Concept_Crossed_Collar",
+      "original_raw_faces": 576,
+      "comparison_raw_faces": 570,
+      "raw_triangles": 1140,
+      "evaluated_triangles_neutral": 2684,
+      "crop": "rest-space below z=.98; robe opposite sleeve x<-.14 only"
+    }
+  ],
+  "renders": [
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_front_clay.png",
+      "sha256": "11b7ed64b77479bda9265163abc57bdd4e956990ae8785f43a0f56cdcad9ffac",
+      "view": "front",
+      "pose": "neutral",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          0.0,
+          -2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.0399999618530273
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -1.1868238913561442
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_three_quarter_clay.png",
+      "sha256": "4ba2937b9c4fd8af2005db84e0ef76a4b7ad3b634a13e4d86b4ae61fcdaf307c",
+      "view": "three_quarter",
+      "pose": "neutral",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          1.2000000476837158,
+          -1.7000000476837158,
+          1.2000000476837158
+        ],
+        "camera_rotation": [
+          1.5515758991241455,
+          -5.0862499989534626e-08,
+          0.6146630048751831
+        ],
+        "ortho_scale": 1.0399999618530273
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -1.1868238913561442
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_side_clay.png",
+      "sha256": "c26d7e7c8bb3fd31d4d91bb3179578dcef677410e9169222b33cdc80784e57ff",
+      "view": "side",
+      "pose": "neutral",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          2.0,
+          0.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "ortho_scale": 1.0399999618530273
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -1.1868238913561442
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_back_clay.png",
+      "sha256": "31cead912f122404a8b8f699bfc338f94429a664ee4a60f5cf50f332d2bcf9b5",
+      "view": "back",
+      "pose": "neutral",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          0.0,
+          2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          -1.570796251296997,
+          3.141592502593994,
+          -0.0
+        ],
+        "ortho_scale": 1.0399999618530273
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -1.1868238913561442
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_front_clay.png",
+      "sha256": "0b1c03b9bfc73d5b64f79befa06bf6ba5ca2e74c31afeff0c44965b66745042e",
+      "view": "front",
+      "pose": "raised30",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          0.0,
+          -2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_three_quarter_clay.png",
+      "sha256": "1cdfd60c22109d7a924304a97bec00540a2a4917f89606e265f8eb24b5770d76",
+      "view": "three_quarter",
+      "pose": "raised30",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          1.2000000476837158,
+          -1.7000000476837158,
+          1.2000000476837158
+        ],
+        "camera_rotation": [
+          1.5515758991241455,
+          -5.0862499989534626e-08,
+          0.6146630048751831
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_side_clay.png",
+      "sha256": "9f1f9a070fec3c910eeb689a3d425c855e13d1e7bfcfe6dc311369110d8a78b6",
+      "view": "side",
+      "pose": "raised30",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          2.0,
+          0.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_back_clay.png",
+      "sha256": "9741364cedbecd579d7251b7fbeaba33233449797deb5e5ae983f92cf385b148",
+      "view": "back",
+      "pose": "raised30",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          0.0,
+          2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          -1.570796251296997,
+          3.141592502593994,
+          -0.0
+        ],
+        "ortho_scale": 1.350000023841858
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          -0.6632251157578453
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_front_clay.png",
+      "sha256": "1a2700cd3732fe254c45ae2504dba05ca49f53418756a2f282ed22b77e9efbaa",
+      "view": "front",
+      "pose": "horizontal",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          0.0,
+          -2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_three_quarter_clay.png",
+      "sha256": "b30062b91664677649fb4fe55eace81d2e96bf1f8c30446e1250cbdc33face07",
+      "view": "three_quarter",
+      "pose": "horizontal",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          1.2000000476837158,
+          -1.7000000476837158,
+          1.2000000476837158
+        ],
+        "camera_rotation": [
+          1.5515758991241455,
+          -5.0862499989534626e-08,
+          0.6146630048751831
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_side_clay.png",
+      "sha256": "e0b2315fbfbf1ca909dbdf06429bc5641b86433819eb2f19738f3e4afb8bd253",
+      "view": "side",
+      "pose": "horizontal",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          2.0,
+          0.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_back_clay.png",
+      "sha256": "208c99ce6dd9521fa305243eb905caa0a87154552451fd0221739695aa721f9c",
+      "view": "back",
+      "pose": "horizontal",
+      "deformation": "RECOVERY_V2_ORDINARY_ARMATURE",
+      "camera": {
+        "camera_location": [
+          0.0,
+          2.0,
+          1.159999966621399
+        ],
+        "camera_rotation": [
+          -1.570796251296997,
+          3.141592502593994,
+          -0.0
+        ],
+        "ortho_scale": 1.5800000429153442
+      },
+      "artifact_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "source_sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "upper_arm_pose": {
+        "L": [
+          0,
+          0,
+          0.0
+        ],
+        "R": [
+          0,
+          0,
+          1.1868238913561442
+        ]
+      },
+      "comparison_context": "Recovery v2 garment copy, cropped only for matched mannequin comparison",
+      "reference_prototype_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    }
+  ]
+}

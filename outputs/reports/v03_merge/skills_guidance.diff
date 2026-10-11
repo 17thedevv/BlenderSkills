@@ -1,0 +1,129 @@
+--- before/.agents/skills/anime-face-specialist/SKILL.md
++++ after/.agents/skills/anime-face-specialist/SKILL.md
+@@ -18,7 +18,7 @@
+ **Exit:** reviewed head WIP with named expression shape keys and Gate B approval state. Shape keys alone do NOT configure VRM expressions.
+ 
+ ## Webcam-centric priorities (v0.2)
+-- A neutral facial expression with unoccluded eyes and subtle but obvious eyelid motion is preferable to eye/hair ornaments that hide tracking errors.
++- Judge whether the avatar's eyes and eyelid motion remain visually readable beneath its approved hair design. This concerns rendered expression readability and collisions; webcam recognition observes the human operator, not the avatar's bangs.
+ - Before adding eyebrows, lashes, eye reflections and mouth details, render 3/4 front portrait **at intended OBS crop**. Reinspect after outfit/hair changes.
+ - Engineer viseme and blink morphs for reliable midrange (0.5) as well as extremes (1.0); optimize visual clarity over mechanical exaggeration.
+ - Support VRM eye bones for gaze, with lid shape keys; keep ARKit Perfect Sync optional rather than pretending every anime face has 52 shapes.
+--- before/.agents/skills/hair-outfit-builder/SKILL.md
++++ after/.agents/skills/hair-outfit-builder/SKILL.md
+@@ -3,6 +3,22 @@
+ description: Produces coherent stylized VTuber hair clumps, outfit layers and accessories that keep appealing silhouettes and rig cleanly in Blender. Use after approved face blockout.
+ ---
+ # Hair and Outfit Builder
++
++## v0.3 construction gate
++
++Read the active project state, design contract and actual references. Preserve the current face, morphs, rig, UVs, hair and unrelated assets; record a source backup and artifact SHA before edits. Distinguish observed structures from inferred side/back construction.
++
++- For collar, robe and sleeve work, read [garment construction](references/kimono_garment_construction.md). Before geometry, document inner/outer layers, overlap order, seam contacts, shoulder/sleeve junctions, fold anchors and attachment weights.
++- For hair work, read [hair form](references/anime_hair_form.md). Preserve roots, cap coverage, major clumps and taper; avoid an unbroken rectangular rear curtain.
++- For ornaments or material work, read [materials versus geometry](references/materials_vs_geometry.md). Test one representative exported material/ornament before repeating it when export tooling is available.
++
++Build large and medium garment forms in neutral clay first, with modest topology and no decorative shader, embroidery or gold piping. Collar bands must be attached to garment seams and wrap neck/chest; sleeves must be hollow volumes with readable openings. Use pattern surfaces, controlled modeling, shrinkwrap with clearance or cloth-supported construction according to the actual mesh; no base mesh or algorithm is mandatory.
++
++Inspect matched front, 3/4, side, back and a moderate arm raise before ornamentation. A complete image set and valid mesh are evidence, not aesthetic approval. Stop for human clay-form approval before adding decoration. After at most three ineffective targeted cycles, recommend a different construction method or suitable licensed base garment.
++
++Cloth around shoulders requires deformation weights across chest/shoulder/arm regions; a single chest-bone attachment is only a declared static preview. Measure raw/evaluated triangles and largest modifier expansion before repeating details. Store candidate/version/SHA and exact render/pose settings in the project state.
++
++## Existing production checks
+ 
+ 1. Plan hair hierarchy: skull cap, primary silhouette locks, secondary locks, a few accent strands. Distinguish bangs from side/back hair with depth.
+ 2. Prefer purposeful tapered sections and controllable curve/mesh profiles; avoid forests of cylinders and floating spikes. Check scalp coverage and head movement clearance.
+--- before/.agents/skills/reference-fidelity-guardian/SKILL.md
++++ after/.agents/skills/reference-fidelity-guardian/SKILL.md
+@@ -1,22 +1,24 @@
+ ---
+ name: reference-fidelity-guardian
+-description: Enforces strict 1:1 visual fidelity between 3D model geometry and the approved 2D character concept art. Blocks progression if identifying features are altered or missing.
++description: Protects approved character identity during 2D-to-3D work using observable landmarks, explicit inferred regions, scoped change checks and linked human review evidence.
+ ---
+ # Reference Fidelity Guardian
+ 
+-**Kagari Concept Artwork is the Authoritative Source of Truth.**
+-Under no circumstances may the agent alter, substitute, or simplify the character's defining visual identity.
++Read the active project's design contract and actual concept files. Character-specific palette, hairstyle, accessories and reference paths belong in project config, not this generic skill. Preserve the user's identifying choices and current authorized scope.
+ 
+-## Mandatory Checklist for Kagari (篝)
+-1. **Feminine Anime Face**: Soft jawline, delicate chin, subtle blush, gentle micro-smile. Not an aggressive or masculine base.
+-2. **Honey-Brown Hair with Side Ponytail**: Fluffy 3D volume, parted curtain bangs framing the forehead without occluding eyebrows/eyes for webcam tracking, distinctive low side ponytail draped over the right shoulder.
+-3. **Large Burgundy Silk Hair Bow**: Prominent ribbon knot with flowing tails at the ponytail base, not a flat box or missing prop.
+-4. **Radiant Amber-Gold Eyes**: Multi-layered sunset gradient with starry and crescent catchlights, high contrast sclera.
+-5. **Crossover Miko Kimono Outfit**: Cream-white inner robe (`#FFF9F2`), burgundy haori collar/lapels (`#8B1E3F`), crisp gold trim (`#E6B800`). No t-shirts, suspenders, or modern casual wear.
+-6. **Astral Star Pendant**: 8-point gold star necklace at the collar hollow.
++## Reference and impact checks
+ 
+-## Production Enforcement Rules
+-- **No Procedural Shortcuts**: Do not use raw mathematical formulas to place flat polygon strips in lieu of proper 3D anime hair clumping and cloth drapery.
+-- **Licensed Female Base Mesh**: Use an authentic VRoid Studio female base mesh (`AvatarSample_B`) rather than adapting incompatible male/chibi bases.
+-- **Human Visual Gate Lock**: Code execution or script logs do NOT constitute aesthetic approval. Only explicit user visual approval unlocks subsequent production gates.
+-- **Side-by-Side Review**: Every gate must present rendered previews directly compared against `outputs/design/concept_option2_kagari.jpg`.
++1. Inventory source angles and distinguish visible forms from inferred rear/profile construction. Do not claim 1:1 physical correspondence from one illustrated view.
++2. Record must-preserve markers and at least three useful landmarks for the edited region, such as collar crossing height, shoulder breadth relative to head, and sleeve width/depth. Estimate or mark NOT_OBSERVABLE when art perspective prevents measurement.
++3. Present source and matched candidate view side by side. Classify elements MATCH, INTERPRETED, MISMATCH or NOT_OBSERVABLE with image evidence; use [the comparison template](references/fidelity_report_template.md).
++4. Make a scope note before edits. Outfit-only work preserves face geometry/morphs, rig and hair; compare coordinates and bindings afterward. Invalidate only tests affected by the change.
++5. Prefer a usable editable base with documented source/license and good construction. No particular mesh filename is mandatory; compare alternatives if the current topology prevents the requested form.
++6. Judge garment/hair volume, seams, silhouette and motion rather than banning every scripted or surface-based method. Flat strips cannot substitute for the required cloth mass.
++
++## Human review
++
++Only linked explicit user visual approval unlocks an art gate. Code execution, a report written by the agent or a successful render do not constitute approval. Stop on an unauthorized identity change, propose the smallest correction, and record pending verdict separately from the agent's assessment.
++
++Human webcam capture quality and avatar expression readability are separate. Avatar bangs affect visual readability and collisions; the tracker observes the human webcam feed.
++
++**Exit:** version/SHA-linked reference delta report and exact images, with APPROVED_BY_USER only when backed by actual user evidence; otherwise REQUIRES_HUMAN_ART_REVIEW.
+--- before/.agents/skills/streaming-performance/SKILL.md
++++ after/.agents/skills/streaming-performance/SKILL.md
+@@ -3,6 +3,12 @@
+ description: Profiles and optimizes anime VRM avatar mesh, textures, materials, spring bones, webcam tracking, Warudo and OBS together for stable real-time VTubing. Use before live delivery and after major visual changes.
+ ---
+ # Streaming Performance
++
++## v0.3 cost accounting
++
++Report three distinct domains: Blender raw geometry, current depsgraph-evaluated geometry and actual exported/runtime geometry. Use the audit's largest objects and cumulative modifier stages to locate expansion; record evaluation context and visibility. An export count or runtime FPS remains NOT_TESTED until measured independently.
++
++Before duplicating ornament, measure one sample at the intended crop, including its evaluated triangles, material/object costs and export compatibility. Prefer textures/atlases for flat embroidery and microdetail. Preserve camera, workload, warm-up/duration and software versions when reporting performance; a screenshot alone is not timing evidence.
+ 
+ 1. Treat `config/character_brief.json:model_budget_starting_targets` as starting targets for profiling, NOT strict limits or measured frame rates.
+ 2. Run `scripts/audit_blend.py` on the actual `.blend`. Identify high-triangle hair/clothing, material draw-call proliferation, large textures, duplicate hidden geometry and heavy physics chains; assess image quality before reducing fidelity.
+--- before/.agents/skills/topology-expert/SKILL.md
++++ after/.agents/skills/topology-expert/SKILL.md
+@@ -3,6 +3,14 @@
+ description: Audits and repairs deformation-critical Blender mesh topology, normals, skinning readiness, UVs and mesh validity for anime VTuber rigs. Use before skinning and whenever poses break geometry.
+ ---
+ # Topology Expert
++
++## v0.3 geometry and invariant checks
++
++Record source SHA, mesh names, parent/rig, UV/material inventory and all shape-key coordinates before editing. Compare protected meshes and morph deltas after the change, not just shape-key names.
++
++The audit must retain raw topology checks and report raw and depsgraph-evaluated triangles separately, object/material counts, modifier-stack expansion and failures. Evaluated Blender geometry is not an exported VRM count. Missing evaluations must be null/NOT_TESTED with an error, never a successful zero.
++
++For armature-bound meshes, report vertices without positive weights on deform bones, non-normalized weight sums, excessive influences and invalid armature references. Separate intentional rigid/bone-parented props from deforming cloth. Retain deformable edge flow and verify moderate shoulder/arm movement before detail work.
+ 
+ 1. Run `blender --background file.blend --python scripts/audit_blend.py -- --output outputs/reports/scene_audit.json` (after `--help` where supported).
+ 2. Inspect mesh object naming, UV layers, shape keys, missing weights, normal orientations, duplicate overlapping surfaces and triangulation where required.
+--- before/.agents/skills/visual-critic/SKILL.md
++++ after/.agents/skills/visual-critic/SKILL.md
+@@ -3,6 +3,16 @@
+ description: Inspects real Blender renders of stylized VTuber models, facial expressions and animation to identify and repair top visual defects. Use at every milestone, never from logs alone.
+ ---
+ # Visual Critic
++
++## v0.3 traceable construction review
++
++Read [garment and hair review](references/garment_hair_review.md) for construction edits. Review the current version/SHA recorded in project state; reports and DELIVERY must identify that same artifact. Save the candidate before rendering, and verify its hash remains unchanged after temporary render/pose setup.
++
++For garment construction, neutral clay and a relevant pose precede ornamentation. Keep framing, focal length, lights and render settings fixed across baseline/candidate. Separate reference identity, physical construction, material fidelity, deformation and runtime; mark missing evidence NOT_TESTED rather than assigning an aggregate PASS. Inferred side/back forms are not a proven 1:1 reference match.
++
++Each defect needs a region, real image path, root-cause hypothesis, proposed geometry change and predicted visual effect. Log the agent's judgment separately from the human verdict. Do not set APPROVED_BY_USER without linked explicit user evidence and an identified artifact. The current avatar's readability and the human webcam tracking signal are different checks.
++
++## Existing visual evidence requirements
+ 
+ 1. Run `scripts/render_review.py` or equivalent to generate actual front, 3/4, side, back and face_close renders. Use identical camera/lights during before/after comparisons.
+ 2. **Inspect each PNG visually** using image-capable viewing tool. If agent cannot view PNGs, STOP, report `VISUAL_CHECK_UNAVAILABLE`, and request human review or tool setup.

@@ -1,0 +1,313 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_03.blend",
+    "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051"
+  },
+  "garment_input": {
+    "path": "outputs/wip/kagari_concept_garment_v3.blend",
+    "sha256": "131d3c25f8c4b37c81786bfe2af970c254df256c20c8e114ed6de9f26b652af2"
+  },
+  "renders": [
+    {
+      "view": "front",
+      "path": "outputs/previews/full_concept_v3/front_clay.png",
+      "image_sha256": "85f5284e9195b5ccd8314691331efeae6be1458ff288de26ab9bba78ac6433fe",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "three_quarter",
+      "path": "outputs/previews/full_concept_v3/three_quarter_clay.png",
+      "image_sha256": "3b5c9adb2011dc6b217ccfc50a4796c485c923fa8a65657f4b26e1420cac0f52",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.5515758991241455,
+        -5.0862499989534626e-08,
+        0.6146630048751831
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "side",
+      "path": "outputs/previews/full_concept_v3/side_clay.png",
+      "image_sha256": "46fe5850b618256f765946f4654da17f25a4f0ec50dc22ccd263a1c28044faa8",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        2.0,
+        0.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "back",
+      "path": "outputs/previews/full_concept_v3/back_clay.png",
+      "image_sha256": "22a5ab7c5c668069b0d3408c4e326ea2150bbc74ab78f63fda452c1447026b9e",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        -1.570796251296997,
+        3.141592502593994,
+        -0.0
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "arm_raised",
+      "path": "outputs/previews/full_concept_v3/arm_raised_clay.png",
+      "image_sha256": "45f87c5daccfaec225ec4b203ce8b72637ee791a46324dda9e74fece29703f45",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.350000023841858,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -0.6632250547409058
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          0.6632250547409058
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "arm_horizontal",
+      "path": "outputs/previews/full_concept_v3/arm_horizontal_clay.png",
+      "image_sha256": "39d68b1824df9c4cf07e42fe3530ca5e2d937fa8bab874eb6eefef0811e7715c",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.5800000429153442,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "full_front",
+      "path": "outputs/previews/full_concept_v3/full_front_clay.png",
+      "image_sha256": "40683ba2286d0e56d867f11e1145fac900e98f01563b3e42c8dcd1f591a64bc1",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        -3.0,
+        0.7699999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.7000000476837158,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "full_three_quarter",
+      "path": "outputs/previews/full_concept_v3/full_three_quarter_clay.png",
+      "image_sha256": "7f22cdea4d9af3f489b94a79ff5bc7c83117b4649417af3298c153b78a54a18e",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        1.7000000476837158,
+        -2.4000000953674316,
+        0.8999999761581421
+      ],
+      "camera_rotation": [
+        1.5266237258911133,
+        -8.986688726508874e-09,
+        0.6162968873977661
+      ],
+      "ortho_scale": 1.7000000476837158,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "portrait",
+      "path": "outputs/previews/full_concept_v3/portrait_clay.png",
+      "image_sha256": "0692bc60627558f9383562b4daca09d5cad1e15f0141ac33fb55d8066a103dea",
+      "artifact_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.2999999523162842
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.6700000166893005,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    }
+  ],
+  "new_objects": [
+    "Kagari_Concept_Robe_Two_Sleeves",
+    "Kagari_Concept_Crossed_Collar",
+    "Kagari_Concept_Soft_Waist_Sash",
+    "Kagari_Concept_Lower_Robe"
+  ],
+  "archived_objects": [
+    "Kagari_v03_Outer_Robe_And_Sleeves",
+    "Kagari_v03_Inner_Top",
+    "Kagari_v03_Sewn_Cross_Collar",
+    "Kagari_v03_Attached_Over_Wrap_Edge",
+    "Kagari_Obi_Woven_Band"
+  ],
+  "original_face_hair_body_rest_rig_and_saved_pose_unchanged": true,
+  "source_unchanged": true,
+  "existing_materials_reused": [
+    "Kagari_Detail_Cream_Silk",
+    "Kagari_Detail_Burgundy"
+  ],
+  "new_decorations": false,
+  "reference": "outputs/design/concept_option2_kagari.jpg",
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "human_approval": "NOT_APPROVED",
+  "body_display": "Original Body remains intact and archived; Body_GarmentDisplay is an independent copy with old clothing slots2/3 and slot4 below waist removed, retaining skin/shoes/inner upper torso. No Body morphs existed.",
+  "removed_legacy_cloth_faces_from_display_copy": 2532,
+  "lower_garment": "New waist-to-ankle cloth shell with sparse folds; inferred lower design because concept shows only upper body. Original lower-body geometry remains in archived Body."
+}

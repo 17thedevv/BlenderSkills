@@ -1,0 +1,134 @@
+{
+  "candidate": "D:\\Project-17\\blender\\outputs\\wip\\kagari_panel_drape_reset_final.blend",
+  "candidate_sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+  "source_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+  "source_unchanged": true,
+  "objects": [
+    {
+      "object": "Panel_Torso_One_Sleeve",
+      "vertices": 3079,
+      "faces": 2990,
+      "raw_triangles": 5968,
+      "boundary_edges": 194,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "surface_components": 1,
+      "missing_deform_weights": [],
+      "non_normalized_weight_vertices": [],
+      "over_four_influences": [],
+      "cloth_solver_on_delivery_mesh": false,
+      "subdivision_modifiers": 0,
+      "shape_keys": []
+    },
+    {
+      "object": "Sewn_Overlapping_Collar",
+      "vertices": 485,
+      "faces": 384,
+      "raw_triangles": 768,
+      "boundary_edges": 200,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "surface_components": 1,
+      "missing_deform_weights": [],
+      "non_normalized_weight_vertices": [],
+      "over_four_influences": [],
+      "cloth_solver_on_delivery_mesh": false,
+      "subdivision_modifiers": 0,
+      "shape_keys": []
+    }
+  ],
+  "poses": [
+    {
+      "pose": "construction_A_pose",
+      "upper_arm_rotation": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "objects": {
+        "Panel_Torso_One_Sleeve": {
+          "evaluated_triangles": 12324,
+          "bounds": [
+            [
+              -0.15813373029232025,
+              0.4124036729335785
+            ],
+            [
+              -0.13763324916362762,
+              0.1652221381664276
+            ],
+            [
+              0.8538678884506226,
+              1.267396330833435
+            ]
+          ]
+        },
+        "Sewn_Overlapping_Collar": {
+          "evaluated_triangles": 1936,
+          "bounds": [
+            [
+              -0.07759467512369156,
+              0.08490873128175735
+            ],
+            [
+              -0.14092479646205902,
+              0.09379067271947861
+            ],
+            [
+              0.9614067077636719,
+              1.2663654088974
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "pose": "left_raise_30_degrees",
+      "upper_arm_rotation": [
+        0.0,
+        -0.0,
+        -1.457046305830545e-08
+      ],
+      "objects": {
+        "Panel_Torso_One_Sleeve": {
+          "evaluated_triangles": 12324,
+          "bounds": [
+            [
+              -0.15813373029232025,
+              0.4431656002998352
+            ],
+            [
+              -0.13763324916362762,
+              0.16522221267223358
+            ],
+            [
+              0.9495086669921875,
+              1.267396330833435
+            ]
+          ]
+        },
+        "Sewn_Overlapping_Collar": {
+          "evaluated_triangles": 1936,
+          "bounds": [
+            [
+              -0.07759467512369156,
+              0.08490873128175735
+            ],
+            [
+              -0.14092479646205902,
+              0.09379067271947861
+            ],
+            [
+              0.9614067077636719,
+              1.2663654088974
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "technical_status": "CHECKED_WEIGHTS_FINITE_POSES",
+  "visual_status": "REQUIRES_SEPARATE_IMAGE_REVIEW",
+  "vrm_export": "NOT_TESTED",
+  "warudo": "NOT_TESTED"
+}

@@ -1,0 +1,115 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+    "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+    "version": "garment-geometry-recovery-v2"
+  },
+  "source": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "render_enabled_source": {
+    "scope": "Objects with hide_render=False; viewport-evaluated counts, NOT final render/export counts. Collection exclusion not simulated.",
+    "objects": 12,
+    "raw_triangles": 47434,
+    "viewport_evaluated_triangles": 118773,
+    "status": "COUNTED"
+  },
+  "render_enabled_candidate": {
+    "scope": "Objects with hide_render=False; viewport-evaluated counts, NOT final render/export counts. Collection exclusion not simulated.",
+    "objects": 12,
+    "raw_triangles": 47434,
+    "viewport_evaluated_triangles": 118773,
+    "status": "COUNTED"
+  },
+  "raw_scene_delta": 0,
+  "evaluated_scene_delta": 0,
+  "garment_modifier_contributions": [
+    {
+      "object": "Kagari_Concept_Robe_Two_Sleeves",
+      "raw": 11273,
+      "evaluated": 23068,
+      "modifiers": [
+        {
+          "name": "Conventional_Humanoid_Skinning",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 11273,
+          "delta": 0
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 23068,
+          "delta": 11795
+        }
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Crossed_Collar",
+      "raw": 1152,
+      "evaluated": 2712,
+      "modifiers": [
+        {
+          "name": "Conventional_Humanoid_Skinning",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 1152,
+          "delta": 0
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 2712,
+          "delta": 1560
+        }
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Soft_Waist_Sash",
+      "raw": 1920,
+      "evaluated": 4224,
+      "modifiers": [
+        {
+          "name": "Humanoid_Sash_Binding",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 1920,
+          "delta": 0
+        },
+        {
+          "name": "Thin_Cloth_Thickness",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 4224,
+          "delta": 2304
+        }
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Lower_Robe",
+      "raw": 5760,
+      "evaluated": 11904,
+      "modifiers": [
+        {
+          "name": "Humanoid_Lower_Robe_Binding",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 5760,
+          "delta": 0
+        },
+        {
+          "name": "Thin_Cloth_Thickness",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 11904,
+          "delta": 6144
+        }
+      ]
+    }
+  ],
+  "count_limits": "Viewport evaluation; render-enabled object inventory does not simulate collection exclusion. Not exported VRM count or runtime FPS."
+}

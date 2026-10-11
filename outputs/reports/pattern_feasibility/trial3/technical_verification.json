@@ -1,0 +1,181 @@
+{
+  "checks": {
+    "candidate_sha_matches": true,
+    "source_sha_matches": true,
+    "backup_byte_hash_matches_source": true,
+    "setup_sha_matches": true,
+    "all_images_hash_match": true,
+    "all_evaluations_finite": true
+  },
+  "meshes": [
+    {
+      "object": "Simulated_neutral",
+      "raw_vertices": 2275,
+      "raw_faces": 2200,
+      "raw_triangles": 4400,
+      "boundary_edges": 154,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "face_component_sizes": [
+        2200
+      ],
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY"
+        }
+      ],
+      "evaluated_triangles": 9108,
+      "evaluated_finite": true
+    },
+    {
+      "object": "Collar_neutral",
+      "raw_vertices": 345,
+      "raw_faces": 272,
+      "raw_triangles": 544,
+      "boundary_edges": 144,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "face_component_sizes": [
+        272
+      ],
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY"
+        }
+      ],
+      "evaluated_triangles": 1376,
+      "evaluated_finite": true
+    },
+    {
+      "object": "Simulated_raised30",
+      "raw_vertices": 2275,
+      "raw_faces": 2200,
+      "raw_triangles": 4400,
+      "boundary_edges": 154,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "face_component_sizes": [
+        2200
+      ],
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY"
+        }
+      ],
+      "evaluated_triangles": 9108,
+      "evaluated_finite": true
+    },
+    {
+      "object": "Collar_raised30",
+      "raw_vertices": 345,
+      "raw_faces": 272,
+      "raw_triangles": 544,
+      "boundary_edges": 144,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "face_component_sizes": [
+        272
+      ],
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY"
+        }
+      ],
+      "evaluated_triangles": 1376,
+      "evaluated_finite": true
+    },
+    {
+      "object": "Simulated_horizontal",
+      "raw_vertices": 2275,
+      "raw_faces": 2200,
+      "raw_triangles": 4400,
+      "boundary_edges": 154,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "face_component_sizes": [
+        2200
+      ],
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY"
+        }
+      ],
+      "evaluated_triangles": 9108,
+      "evaluated_finite": true
+    },
+    {
+      "object": "Collar_horizontal",
+      "raw_vertices": 345,
+      "raw_faces": 272,
+      "raw_triangles": 544,
+      "boundary_edges": 144,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "face_component_sizes": [
+        272
+      ],
+      "uv_layers": [
+        "Collar_Metric_UV"
+      ],
+      "modifiers": [
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY"
+        }
+      ],
+      "evaluated_triangles": 1376,
+      "evaluated_finite": true
+    },
+    {
+      "object": "Rig_Only_Neutral_Drape",
+      "raw_vertices": 2275,
+      "raw_faces": 2200,
+      "raw_triangles": 4400,
+      "boundary_edges": 154,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "face_component_sizes": [
+        2200
+      ],
+      "uv_layers": [
+        "Metric_Pattern_UV"
+      ],
+      "modifiers": [
+        {
+          "name": "Ordinary_Armature_Diagnostic",
+          "type": "ARMATURE"
+        },
+        {
+          "name": "Fabric_Thickness_1_6mm",
+          "type": "SOLIDIFY"
+        }
+      ],
+      "evaluated_triangles": 9108,
+      "evaluated_finite": true
+    }
+  ],
+  "result": "PASS_DATA_INTEGRITY_ONLY",
+  "intersections": "NOT_CERTIFIED; inspect real images, solver seam residuals and visual findings",
+  "rigging": "Only Rig_Only_Neutral_Drape has preview weights; simulated snapshots are static geometry at matching body poses",
+  "VRM": "NOT_EXPORTED_NOT_RUNTIME_TESTED"
+}

@@ -1,0 +1,10 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "backup": "outputs/backups/garment_recovery_start/kagari_full_concept_v3.blend",
+  "backup_sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+  "iteration_limit": 2
+}

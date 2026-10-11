@@ -1,0 +1,11 @@
+# Full Kagari outfit integration — authorized scope and plan
+
+The user explicitly requested the entire Kagari model with the preceding corrections applied. This authorizes integration into a separate full-character candidate and completing the second sleeve, despite the earlier study-only stop. It is not human approval of the resulting form. Skills development remains paused; no new decorations, production shader work, software installation or VRM export.
+
+Source: kagari_v03_clay_03.blend. Garment input: kagari_concept_garment_v3.blend. Preserve full Face, Hair and Body geometry, all facial morph coordinates, UVs, bindings, material nodes and armature rest hierarchy. Preserve the saved rig pose; temporary renders use the same pose for baseline and candidate. Existing lower robe, shoes, hair bow and other source objects are retained.
+
+Replace the four visible rejected Cycle 03 upper garment pieces with the controlled sheet torso and broad crossed collar from the concept study. Create the other sleeve by mirroring only the sleeve faces and bone weights; root boundary indices map to the opposite torso/shoulder rather than creating an overlapping mirrored torso. Close the remaining side seam with the mirrored sleeve gusset. Neutral/raw topology must remain connected with no interior non-manifold edges.
+
+Replace the old rigid oversize obi with a cloth surface around the actual waist and new hem, with a softly rolled edge and restrained front folds. Attach it across chest/spine, not to arms. Reuse existing cream/burgundy material datablocks on new garment objects; no new palette, texture or ornament. Existing hidden decorations stay hidden. Older garment meshes are archived in a disabled collection in the new file, not destroyed from the source; do not treat the archived geometry as live export content.
+
+Inspect the complete avatar in clay from front, 3/4, side, back, raised-arm and horizontal stress poses; include full-body and portrait views. Render a preview using original shaders/textures only if the local Eevee renderer works. No artistic PASS from render execution. Check protected data fingerprints before, after and after reloading the saved candidate. Document hair/garment clearance and remaining fold/neckline defects honestly.

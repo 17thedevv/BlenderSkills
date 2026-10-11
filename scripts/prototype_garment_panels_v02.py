@@ -1,0 +1,22 @@
+"""Second panel-method construction test: fitted shoulder seam and softer pins."""
+from pathlib import Path
+script=Path(__file__).with_name('prototype_garment_panels.py').read_text(encoding='utf-8')
+script=script.replace("REPORT=ROOT/'outputs/reports/garment_reset'", "REPORT=ROOT/'outputs/reports/garment_reset_v02'")
+script=script.replace("PRE=ROOT/'outputs/previews/garment_reset'", "PRE=ROOT/'outputs/previews/garment_reset_v02'")
+script=script.replace('kagari_panel_seams_setup.blend','kagari_panel_seams_setup_02.blend')
+script=script.replace('kagari_panel_drape_prototype_01.blend','kagari_panel_drape_prototype_02.blend').replace('panel-drape-prototype-01','panel-drape-prototype-02')
+script=script.replace('z=1.251-.287*t', 'ztop=1.257-.45*max(0,abs(x)-.052)\n    z=ztop*(1-t)+.964*t',1)
+script=script.replace("y=-.050-(.085*smooth(t/.23))+.014*u*u", "y=-.038-.008*u-(.112*smooth(t/.25))+.013*u*u")
+script=script.replace("pin=1 if i==0 else (.65 if j==0 else 0)", "pin=(1 if j<4 else .65) if i==0 else (.9 if j==0 else 0)")
+# Preserve indentation of the back-panel loop.
+script=script.replace('z=1.251-.287*t\n        y=.080+.026*smooth(t/.22)', 'ztop=1.257-.45*max(0,abs(x)-.052)\n        z=ztop*(1-t)+.964*t\n        y=.075+.050*smooth(t/.22)')
+script=script.replace("torso_weight(x,z),1 if i==0 else 0", "torso_weight(x,z),(1 if abs(x)<.065 else .65) if i==0 else 0")
+script=script.replace("p.z+=.016*math.sin(math.pi*t)", "p.z+=.009*math.sin(math.pi*t)")
+script=script.replace("torso_weight(p.x,p.z),1,(j/W,t)", "torso_weight(p.x,p.z),1 if j<4 else .65,(j/W,t)")
+script=script.replace('z=1.251-.287*t', 'ztop=1.209\n            z=ztop*(1-t)+.964*t')
+script=script.replace("pin=1 if i==0 else (0.35*(1-t) if j==1 else 0)", "pin=.85 if i==0 else (0.2*(1-t) if j==1 else 0)")
+script=script.replace('s.quality=8','s.quality=12').replace('s.bending_stiffness=.28','s.bending_stiffness=.8')
+script=script.replace('s.tension_damping=8; s.compression_damping=8; s.shear_damping=5','s.tension_damping=15; s.compression_damping=15; s.shear_damping=10')
+script=script.replace('cs.collision_quality=5','cs.collision_quality=8')
+script=script.replace('frame_end=65','frame_end=110').replace('range(1,66)','range(1,111)').replace('[1,15,30,45,65]','[1,20,40,70,110]').replace('frame==65','frame==110').replace("'simulation_steps':65","'simulation_steps':110").replace("'quality':s.quality if False else 8","'quality':12")
+exec(compile(script,__file__,'exec'))

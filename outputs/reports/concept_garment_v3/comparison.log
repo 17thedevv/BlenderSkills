@@ -1,0 +1,42 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_concept_garment_v3.blend"
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\prior_panel_front_clay.png'
+Time: 00:02.21 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\prior_panel_three_quarter_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\prior_panel_side_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\prior_panel_back_clay.png'
+Time: 00:00.13 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\prior_panel_arm_raised_clay.png'
+Time: 00:00.12 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\prior_panel_arm_horizontal_clay.png'
+Time: 00:00.13 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\cycle03_front_clay.png'
+Time: 00:00.10 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\cycle03_three_quarter_clay.png'
+Time: 00:00.11 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\cycle03_side_clay.png'
+Time: 00:00.11 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\cycle03_back_clay.png'
+Time: 00:00.12 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\cycle03_arm_raised_clay.png'
+Time: 00:00.11 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\cycle03_arm_horizontal_clay.png'
+Time: 00:00.11 (Saving: 00:00.07)
+
+CONCEPT_MATCHED_COMPARISONS_DONE
+
+Blender quit

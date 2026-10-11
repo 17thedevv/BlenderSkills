@@ -1,0 +1,56 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_pattern_trial3_prototype.blend",
+    "sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7",
+    "version": "pattern-sewing-feasibility-trial3"
+  },
+  "recommendation": "ABANDON",
+  "recommendation_scope": "Current fully automated cut/constraint configuration, not all pattern-based modeling",
+  "human_verdict": "NOT_APPROVED",
+  "inspection": "All 14 final trial3 PNGs and all 12 matched Recovery v2 comparison PNGs visually inspected; trial1 and trial2 inspected in representative front/3q/side/back/stress images, not asserted as complete 14-image visual reviews.",
+  "criteria": {
+    "silhouette": 0,
+    "collar": 0,
+    "shoulder_sleeve": 0,
+    "folds": 1,
+    "deformation": 0,
+    "hair_face_full_identity": "NOT_OBSERVABLE_LIMITED_MANNEQUIN_STUDY"
+  },
+  "issues": [
+    {
+      "region": "collar/front support",
+      "evidence": [
+        "outputs/previews/pattern_feasibility/trial3/neutral_front_clay.png",
+        "outputs/previews/pattern_feasibility/trial3/raised30_front_clay.png"
+      ],
+      "observation": "Wide opening exposes the underlying mannequin torso; overlap collapses into thin pointed crossing strips. Under leaf wrinkles severely during raising.",
+      "cause_hypothesis": "Front cut ease/overlap and sparse hem constraints do not fit the body; band inherits the failed drape. Post-drape finishing band is not independently sewn/simulated.",
+      "future_change": "Fit a measured front neckline/overlap cut with controlled collar width before solving; test band as an actual sewn component.",
+      "predicted_effect": "A broad stable crossover with supported outer band, instead of a pointed lower X. Not implemented."
+    },
+    {
+      "region": "shoulder/underarm/back",
+      "evidence": [
+        "outputs/previews/pattern_feasibility/trial3/neutral_side_clay.png",
+        "outputs/previews/pattern_feasibility/trial3/neutral_back_clay.png",
+        "outputs/previews/pattern_feasibility/trial3/horizontal_side_clay.png"
+      ],
+      "observation": "Crushed angular seam folds, discontinuous-looking shoulder contact and visible body exposure in stress view.",
+      "cause_hypothesis": "Panel rest lengths/placement/anchor tensions conflict; residual sewing gaps are force-welded after solve.",
+      "future_change": "Human-fit the shoulder/armhole cut and seam rest-length pairing, consider a small gusset, validate sew closure before freezing.",
+      "predicted_effect": "Smoother contact and distributed tension. Not implemented."
+    },
+    {
+      "region": "wide sleeve / rig-only stress",
+      "evidence": [
+        "outputs/previews/pattern_feasibility/trial3/neutral_front_clay.png",
+        "outputs/previews/pattern_feasibility/trial3/horizontal_front_clay.png",
+        "outputs/previews/pattern_feasibility/trial3/rig_only_horizontal_front_clay.png"
+      ],
+      "observation": "Gravity bag is readable in raised/horizontal solve but narrow/crumpled in neutral. Rig-only horizontal raise leaves arm above/through the upper cloth edge.",
+      "cause_hypothesis": "Cut/initial placement/support constraints do not preserve intended neutral silhouette; heuristic skinning cannot reproduce pose-specific gravity/contact.",
+      "future_change": "Re-establish the sleeve cut after human art review; separately author armhole weights, accepted pose correctives and secondary controls.",
+      "predicted_effect": "Preserved sleeve bag plus pose-safe upper edge. Not implemented."
+    }
+  ]
+}

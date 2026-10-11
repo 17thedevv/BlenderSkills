@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "character_name": "Kagari",
+  "target": "female Japanese-anime VRM 1.0 VTuber for webcam tracking",
+  "reference": {
+    "authoritative_concept_path": "outputs/design/concept_option2_kagari.jpg",
+    "source_note": "Existing original project concept; historical concept approval recorded in brief, but original explicit approval message is not linked in available files.",
+    "known_views": [
+      "front illustrative concept"
+    ],
+    "unknown_views": [
+      "approved profile blueprint",
+      "approved rear blueprint"
+    ],
+    "fidelity_policy": "Preserve visible design signatures, interpret hidden 3D construction transparently; never claim 1:1 physical match from one art image."
+  },
+  "must_preserve": [
+    "Soft feminine anime face, delicate chin, subtle blush and gentle micro-smile",
+    "Honey-brown layered fringe and low side ponytail over character right shoulder (viewer left in the source front concept)",
+    "Large burgundy silk hair bow at the ponytail anchor, gathered knot and flowing tails",
+    "Amber-gold eyes with sunset depth and star/crescent catchlights",
+    "Cream-white inner robe, burgundy crossed kimono/haori collar and thin gold trim; preserve layered robe identity",
+    "Eight-point gold astral star pendant at collar hollow on a delicate chain"
+  ],
+  "current_visual_defects_observed": [
+    "Flat thick burgundy strips instead of constructed garment collar and front panels",
+    "Cream sleeves and shoulders lack garment volume/draping and seam logic",
+    "Rear hairstyle reads as large flat curtain with abrupt cut ends",
+    "Hair scalp gap or dark exposed cap visible in side/back views",
+    "Detail geometry grew sharply without equivalent silhouette improvement"
+  ],
+  "priority_sequence": [
+    "upper_torso_clay_blockout",
+    "sleeve_shoulder_pose_test",
+    "material_compatibility_probe",
+    "hair_silhouette_repair",
+    "final_ornament_and_vrm"
+  ],
+  "rig_and_tracking_invariants": {
+    "protect_existing_face_shapes": true,
+    "protect_existing_armature": true,
+    "avatar_bangs_affect": "visual expression readability and collisions, not MediaPipe recognition of the human webcam feed"
+  },
+  "current_design_approval": "REQUIRES_LINKED_EVIDENCE",
+  "current_model_approval": "NOT_APPROVED",
+  "palette": {
+    "cream": "#FFF9F2",
+    "burgundy": "#8B1E3F",
+    "gold": "#E6B800",
+    "hair": "honey-brown",
+    "eyes": "amber-gold"
+  },
+  "current_iteration_scope": {
+    "mode": "upper_torso_clay_construction_only",
+    "protected": [
+      "Face mesh and every facial morph",
+      "existing armature/rest hierarchy and neutral pose",
+      "Hair mesh and bindings"
+    ],
+    "excluded": [
+      "new ornaments",
+      "texture edits",
+      "hair reconstruction",
+      "extensive rigging",
+      "final VRM export"
+    ]
+  }
+}

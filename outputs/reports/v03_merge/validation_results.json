@@ -1,0 +1,75 @@
+{
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "checks": [
+    {
+      "command": "python -m compileall -q scripts tests",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "1d7ada",
+        "wall_time_seconds": 0.413971,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "afd1fe",
+        "wall_time_seconds": 0.5140055,
+        "exit_code": 0,
+        "original_token_count": 265,
+        "output": "test_broken_delivery_link_fails (test_validate_project_state.ValidationTests.test_broken_delivery_link_fails) ... ok\r\ntest_delivery_different_version_fails (test_validate_project_state.ValidationTests.test_delivery_different_version_fails) ... ok\r\ntest_missing_candidate_fails (test_validate_project_state.ValidationTests.test_missing_candidate_fails) ... ok\r\ntest_modified_candidate_hash_fails (test_validate_project_state.ValidationTests.test_modified_candidate_hash_fails) ... ok\r\ntest_reference_path_escape_fails (test_validate_project_state.ValidationTests.test_reference_path_escape_fails) ... ok\r\ntest_stale_evidence_hash_fails (test_validate_project_state.ValidationTests.test_stale_evidence_hash_fails) ... ok\r\ntest_unbacked_approval_fails (test_validate_project_state.ValidationTests.test_unbacked_approval_fails) ... ok\r\ntest_valid_hashed_candidate_passes (test_validate_project_state.ValidationTests.test_valid_hashed_candidate_passes) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 8 tests in 0.055s\r\n\r\nOK\r\n"
+      }
+    },
+    {
+      "command": "python scripts/check_skillpack.py",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "57020e",
+        "wall_time_seconds": 0.3366537,
+        "exit_code": 0,
+        "original_token_count": 23,
+        "output": "SKILLPACK STRUCTURE OK (13 discovered skills; no artifact/art/runtime approval implied)\r\n"
+      }
+    },
+    {
+      "command": "python scripts/validate_project_state.py --root . --state config/project_state.json",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "b4e4b5",
+        "wall_time_seconds": 0.4528384,
+        "exit_code": 0,
+        "original_token_count": 64,
+        "output": "{\r\n  \"status\": \"PASS\",\r\n  \"errors\": [],\r\n  \"warnings\": [\r\n    \"blocking_issues remain; this does not invalidate unrelated technical references\",\r\n    \"Human/runtime stages not approved: concept, face, garment_clay, rig, vrm_export, webcam, obs\"\r\n  ]\r\n}\r\n"
+      }
+    }
+  ],
+  "blender_checks": [
+    {
+      "check": "final candidate audit",
+      "exit_code": 0,
+      "report": "outputs/reports/v03_clay_cycle03/geometry_audit.json",
+      "log": "outputs/reports/v03_clay_cycle03/audit.log"
+    },
+    {
+      "check": "frozen baseline audit",
+      "exit_code": 0,
+      "report": "outputs/reports/v03_clay_cycle03/baseline_geometry_audit.json",
+      "log": "outputs/reports/v03_clay_cycle03/baseline_audit.log"
+    },
+    {
+      "check": "saved protected file invariants",
+      "exit_code": 0,
+      "report": "outputs/reports/v03_clay_cycle03/saved_invariants.json",
+      "log": "outputs/reports/v03_clay_cycle03/saved_invariants.log"
+    },
+    {
+      "check": "Blender audit modifier/weight smoke test",
+      "exit_code": 0,
+      "log": "outputs/reports/v03_merge/blender_audit_smoke_final.log"
+    }
+  ],
+  "limits": "Technical checks passed; three-cycle garment construction failed visual review. No candidate VRM/Warudo/OBS test executed."
+}

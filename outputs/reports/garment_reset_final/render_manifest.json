@@ -1,0 +1,147 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_panel_drape_reset_final.blend",
+    "sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+    "version": "garment-reset-panel-drape-study"
+  },
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_03.blend",
+    "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051"
+  },
+  "renders": [
+    {
+      "view": "front",
+      "path": "outputs/previews/garment_reset_final/prototype_front_clay.png",
+      "image_sha256": "119e43836cbac79b6a7213ab547eac6576dd88a3e31ba7ac9394c622079258e8",
+      "artifact_sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        -0.0,
+        -0.03498572111129761
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY"
+    },
+    {
+      "view": "three_quarter",
+      "path": "outputs/previews/garment_reset_final/prototype_three_quarter_clay.png",
+      "image_sha256": "7f2c62580f6915885898dd2499926cbaf051bb4db149ad7a62e717c30c2c2790",
+      "artifact_sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.5512036085128784,
+        -5.1393200806160166e-08,
+        0.5866439938545227
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY"
+    },
+    {
+      "view": "side",
+      "path": "outputs/previews/garment_reset_final/prototype_side_clay.png",
+      "image_sha256": "dfeabc5db8f8342ff08ebaa80076bbdcdf6b04a479f8fca98f92da823f49d9e5",
+      "artifact_sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+      "camera_location": [
+        2.0,
+        0.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY"
+    },
+    {
+      "view": "back",
+      "path": "outputs/previews/garment_reset_final/prototype_back_clay.png",
+      "image_sha256": "3f0420a513bc638d9328d83dacbc917ea76434e129e749f59369ea908d55a4ca",
+      "artifact_sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        3.060355879824783e-08,
+        -3.106606960296631
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY"
+    },
+    {
+      "view": "arm_raised",
+      "path": "outputs/previews/garment_reset_final/prototype_arm_raised_clay.png",
+      "image_sha256": "83f434989b5aa5e58f6c3028aad3000d19ed3c9554244f005cb2f74eb8719bcb",
+      "artifact_sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        -0.0,
+        -0.03498572111129761
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -1.457046305830545e-08
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY"
+    }
+  ],
+  "input_drape": {
+    "path": "outputs/wip/kagari_panel_drape_prototype_01.blend",
+    "sha256": "7f3c049b85a0b7b218468ed896e549e692a00ca106c0d76d0ec4404843be62fd"
+  },
+  "raw_setup": {
+    "path": "outputs/wip/kagari_panel_seams_setup.blend",
+    "sha256": "f468cd72d1cd42831a1fed95bbf53261a7583e235109182ed2e509af9bbcc04f"
+  },
+  "drape_execution_report": "outputs/reports/garment_reset/drape_execution.json",
+  "source_unchanged": true,
+  "original_character_geometry_modified": false,
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "mannequin_pose": "Both arms 30 degrees down from rest; left tested raised to horizontal (+30 degrees).",
+  "prototype_objects": [
+    "Panel_Torso_One_Sleeve",
+    "Sewn_Overlapping_Collar"
+  ],
+  "method": "New sheet panels, explicit welded seams, 65-frame native cloth snapshot frozen before skinning test; no rejected garment reused.",
+  "drape_equilibrium_verified": false
+}

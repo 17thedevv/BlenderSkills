@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-10-11T00:10:00+07:00",
+  "operating_system": "Windows",
+  "preflight_gate": "S0",
+  "tooling_inventory": {
+    "blender": {
+      "installed": false,
+      "path": null,
+      "version": null,
+      "notes": "Not detected in system PATH or standard Program Files folders. Installation or executable path required for 3D modeling, rigging, and render review."
+    },
+    "vrm_addon": {
+      "installed": false,
+      "version": null,
+      "notes": "Pending Blender installation. VRM Add-on for Blender (VRM 1.0 support) must be enabled."
+    },
+    "obs_studio": {
+      "installed": true,
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\OBS Studio\\bin\\64bit\\obs64.exe",
+      "version": "Steam Edition",
+      "status": "READY"
+    },
+    "warudo": {
+      "installed": false,
+      "path": null,
+      "notes": "Not detected in standard Steam library. Warudo (free on Steam) required for live MediaPipe webcam tracking."
+    },
+    "webcam": {
+      "installed": true,
+      "devices": [
+        {
+          "friendly_name": "USB2.0 HD UVC WebCam",
+          "instance_id": "USB\\VID_2B7E&PID_B597&MI_00\\6&1E7132B4&0&0000",
+          "status": "OK"
+        },
+        {
+          "friendly_name": "BYOM-Media",
+          "instance_id": "ROOT\\CAMERA\\0000",
+          "status": "OK"
+        }
+      ],
+      "status": "READY"
+    }
+  },
+  "asset_inventory": {
+    "workspace_candidate": {
+      "file": "Aplaybox_Hsin.zip",
+      "contents": "【Aplaybox】 Hsin.blend (73.2MB) + textures/",
+      "provenance": "Kuro Games / Wuthering Waves (Rover / Xin / Hsin) via Aplaybox.com",
+      "license_status": "NON_COMMERCIAL_FAN_CREATION_ONLY",
+      "original_ip": false,
+      "audit_result": "DISQUALIFIED (Legal Blocker under Rule 2 and Rule 4)"
+    },
+    "recommended_base_strategy": "VRoid Studio editable humanoid base mesh (commercial streaming permitted) or scratch Blender quad blockout."
+  },
+  "gate_status": {
+    "S0": "COMPLETED (Inventory generated; missing Blender & Warudo flagged)",
+    "A": "PENDING_USER_APPROVAL (Two design directions proposed)"
+  }
+}

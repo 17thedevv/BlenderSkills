@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "character_name": "Kagari",
+  "target": "female Japanese-anime VRM 1.0 VTuber for webcam tracking",
+  "reference": {
+    "authoritative_concept_path": null,
+    "source_note": "Concept was shown in conversation. Agent must link actual workspace image before starting; no invented filename.",
+    "known_views": ["front illustrative concept"],
+    "unknown_views": ["approved profile blueprint", "approved rear blueprint"],
+    "fidelity_policy": "Preserve visible design signatures, interpret hidden 3D construction transparently; never claim 1:1 physical match from one art image."
+  },
+  "must_preserve": [
+    "Soft rounded anime face, gentle expression, subtle blush, warm amber/gold eyes",
+    "Honey-brown hair with softly layered fringe and asymmetrical side ponytail",
+    "Large burgundy bow at ponytail anchor with restrained gold floral accents",
+    "Cream-white kimono-inspired layered robe with burgundy crossed collar/panels",
+    "Thin gold borders and gold floral embroidery motifs",
+    "Small golden star pendant on delicate chain"
+  ],
+  "current_visual_defects_observed": [
+    "Flat thick burgundy strips instead of constructed garment collar and front panels",
+    "Cream sleeves and shoulders lack garment volume/draping and seam logic",
+    "Rear hairstyle reads as large flat curtain with abrupt cut ends",
+    "Hair scalp gap or dark exposed cap visible in side/back views",
+    "Detail geometry grew sharply without equivalent silhouette improvement"
+  ],
+  "priority_sequence": [
+    "upper_torso_clay_blockout",
+    "sleeve_shoulder_pose_test",
+    "material_compatibility_probe",
+    "hair_silhouette_repair",
+    "final_ornament_and_vrm"
+  ],
+  "rig_and_tracking_invariants": {
+    "protect_existing_face_shapes": true,
+    "protect_existing_armature": true,
+    "avatar_bangs_affect": "visual expression readability and collisions, not MediaPipe recognition of the human webcam feed"
+  },
+  "current_design_approval": "REQUIRES_LINKED_EVIDENCE",
+  "current_model_approval": "NOT_APPROVED"
+}

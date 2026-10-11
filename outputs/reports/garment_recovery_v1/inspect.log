@@ -1,0 +1,41 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Kagari_Concept_Robe_Two_Sleeves 5765 5645
+0.100,0.960 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.130,0.975 {'front_y': -0.07774147391319275, 'back_y': 0.07476970553398132, 'front_face': 3238, 'back_face': 3688, 'front_vertex_ids': [3360, 3390, 3391, 3361], 'back_vertex_ids': [3840, 3841, 3871, 3870]}
+0.040,1.260 {'front_y': 0.06480783224105835, 'back_y': 0.06540945172309875, 'front_face': 11467, 'back_face': 1223, 'front_vertex_ids': [1326, 1325, 7090, 7091], 'back_vertex_ids': [1325, 1326, 1371, 1370]}
+0.040,1.275 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.070,1.245 {'front_y': -0.03413709998130798, 'back_y': 0.06102326512336731, 'front_face': 6, 'back_face': 1230, 'front_vertex_ids': [6, 27, 28, 7], 'back_vertex_ids': [1332, 1333, 1378, 1377]}
+0.100,1.245 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+Kagari_Concept_Crossed_Collar 679 576
+0.100,0.960 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.130,0.975 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.040,1.260 {'front_y': 0.06920301914215088, 'back_y': 0.07151198387145996, 'front_face': 969, 'back_face': 393, 'front_vertex_ids': [1144, 1151, 1152, 1145], 'back_vertex_ids': [465, 466, 473, 472]}
+0.040,1.275 {'front_y': 0.05650228261947632, 'back_y': 0.0609513521194458, 'front_face': 954, 'back_face': 384, 'front_vertex_ids': [1127, 1134, 1135, 1128], 'back_vertex_ids': [455, 456, 463, 462]}
+0.070,1.245 {'front_y': -0.03789103031158447, 'back_y': -0.03581434488296509, 'front_face': 113, 'back_face': 689, 'front_vertex_ids': [138, 145, 146, 139], 'back_vertex_ids': [817, 818, 825, 824]}
+0.100,1.245 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+Kagari_Concept_Soft_Waist_Sash 1056 960
+0.100,0.960 {'front_y': -0.09083977341651917, 'back_y': 0.07932332158088684, 'front_face': 684, 'back_face': 707, 'front_vertex_ids': [684, 685, 781, 780], 'back_vertex_ids': [707, 708, 804, 803]}
+0.130,0.975 {'front_y': -0.020719558000564575, 'back_y': 0.028447270393371582, 'front_face': 884, 'back_face': 891, 'front_vertex_ids': [884, 885, 981, 980], 'back_vertex_ids': [891, 892, 988, 987]}
+0.040,1.260 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.040,1.275 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.070,1.245 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.100,1.245 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+Kagari_Concept_Lower_Robe 2976 2880
+0.100,0.960 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.130,0.975 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.040,1.260 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.040,1.275 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.070,1.245 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.100,1.245 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+Body_GarmentDisplay 6243 10342
+0.100,0.960 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.130,0.975 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.040,1.260 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.040,1.275 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.070,1.245 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+0.100,1.245 {'front_y': None, 'back_y': None, 'front_face': None, 'back_face': None, 'front_vertex_ids': [], 'back_vertex_ids': []}
+RECOVERY_INSPECTION_COMPLETE
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_full_concept_v3.blend"
+
+Blender quit

@@ -1,0 +1,157 @@
+[
+  {
+    "path": ".agents/AGENTS.md",
+    "status": "MODIFIED",
+    "sha256": "78c51f63c88bc78e6ab4bbe1b3245fccf6a332bdd4e13b505de90bfbacbfe67d"
+  },
+  {
+    "path": ".agents/skills/anime-face-specialist/SKILL.md",
+    "status": "MODIFIED",
+    "sha256": "24db2d9e53f2d7b83a963a75cb3365bcc18d10dd14e188e9484f947877bb4966"
+  },
+  {
+    "path": ".agents/skills/hair-outfit-builder/references/anime_hair_form.md",
+    "status": "ADDED",
+    "sha256": "c14dbe4bb1c2fedba8f3c98a96200e9e0d1869883bce2c20b8742b50bdf2bd4b"
+  },
+  {
+    "path": ".agents/skills/hair-outfit-builder/references/kimono_garment_construction.md",
+    "status": "ADDED",
+    "sha256": "aa24fb462483d39af00bdfa351e52ffc252fe5174ddfaf3094abcfca77f06d6d"
+  },
+  {
+    "path": ".agents/skills/hair-outfit-builder/references/materials_vs_geometry.md",
+    "status": "ADDED",
+    "sha256": "89cc8dfa20fc136225c7791ffdc91362086bc4e91b06cd7d8ba774fc1cf10b83"
+  },
+  {
+    "path": ".agents/skills/hair-outfit-builder/SKILL.md",
+    "status": "MODIFIED",
+    "sha256": "63445df0148ee1425640ce260c12f34884b12654c97697d5658beb3f360d33b4"
+  },
+  {
+    "path": ".agents/skills/reference-fidelity-guardian/references/fidelity_report_template.md",
+    "status": "ADDED",
+    "sha256": "40575750fa5da6f5c96a825621c00d3892ee94e2b543f68603fbaf696287b2d1"
+  },
+  {
+    "path": ".agents/skills/reference-fidelity-guardian/SKILL.md",
+    "status": "MODIFIED",
+    "sha256": "27fa0ef3b0a5727e984d535e409fbb0fea012a39f2a7d79e83fbca082381b3f4"
+  },
+  {
+    "path": ".agents/skills/streaming-performance/SKILL.md",
+    "status": "MODIFIED",
+    "sha256": "c59a4b78e741d48483fee53d8bd6086b7b9accfac72994133d46d1faa7e6d5f2"
+  },
+  {
+    "path": ".agents/skills/topology-expert/SKILL.md",
+    "status": "MODIFIED",
+    "sha256": "f3bc8e8cc421d34c410a32ea7dd0db53455b22588414610533f2b760fd1bebb5"
+  },
+  {
+    "path": ".agents/skills/visual-critic/references/garment_hair_review.md",
+    "status": "ADDED",
+    "sha256": "a1c1504af13e458d8ef0f564b1854782f7dbc79bf9cf8805e2f790825671b87e"
+  },
+  {
+    "path": ".agents/skills/visual-critic/SKILL.md",
+    "status": "MODIFIED",
+    "sha256": "15a55fbef0ae6ffc80d78ab965e4b487d5f7c8e140aa2d80b3ad5db3e93fe77d"
+  },
+  {
+    "path": "config/character_brief.json",
+    "status": "MODIFIED",
+    "sha256": "6e5db77011b4cfb526139e994f5d6e378cbdf7705a2d9e5ef02e8ba6e0beb631"
+  },
+  {
+    "path": "config/kagari_design_contract.json",
+    "status": "ADDED",
+    "sha256": "2b42176deb6aed605fb21f8e5e18836fc8cf260da3f527caee448c00c73334c3"
+  },
+  {
+    "path": "docs/AGENT_MERGE_PROMPT.md",
+    "status": "ADDED",
+    "sha256": "560c4c9f7175d6497a73402154a20ff79bfd49b3772f3959e1c029f2e2c8c8c9"
+  },
+  {
+    "path": "docs/ANTIGRAVITY_PROMPT.md",
+    "status": "MODIFIED",
+    "sha256": "0cbdd5f5e68aa60919ffdfebb9c684e5be4608fa3c4cb1eb9edd392323edd6f4"
+  },
+  {
+    "path": "docs/TEST_PROTOCOL.md",
+    "status": "ADDED",
+    "sha256": "f8bb10ffd30d9cc83a775516e18402cb48d6c0c3f5c1335666dc73243a63c2c6"
+  },
+  {
+    "path": "docs/WORKFLOW.md",
+    "status": "MODIFIED",
+    "sha256": "f12a843c6c574437e9fc3c461cd0747292a315f117d445db37fa8cdd18026cab"
+  },
+  {
+    "path": "README.md",
+    "status": "MODIFIED",
+    "sha256": "1741e4c58b34a822c4405c11acb1eff8badecee17ec7b309e02ebba117317226"
+  },
+  {
+    "path": "scripts/audit_blend.py",
+    "status": "MODIFIED",
+    "sha256": "12c49dc443e472c7382d48a4fd15284ad35c6827da1f5d08b47c025fadeebec3"
+  },
+  {
+    "path": "scripts/build_kagari_v03_clay.py",
+    "status": "ADDED",
+    "sha256": "cec929a393da84f07b6ee3dd724728f8dc9a9bff1cda67cb93c80519a0f0531b"
+  },
+  {
+    "path": "scripts/build_kagari_v03_clay_cycle03.py",
+    "status": "ADDED",
+    "sha256": "8d368da7dd0ca079f5963fbee86ef3591bab42245c4b268fdfdbc7b7d317e411"
+  },
+  {
+    "path": "scripts/build_kagari_v03_clay_pattern.py",
+    "status": "ADDED",
+    "sha256": "8e2dabe2490941bd8ae1c9720d74c9dae64a9e69479603f935f2a2086eb780aa"
+  },
+  {
+    "path": "scripts/check_skillpack.py",
+    "status": "MODIFIED",
+    "sha256": "5a678e83fef292e4f83071c17e9e9af9a61cc7184e1f11f9bea293e9b9c610a8"
+  },
+  {
+    "path": "scripts/finalize_kagari_v03_reports.py",
+    "status": "ADDED",
+    "sha256": "dfe4cd7da0f6af8c8b44b8b2766edc6fa62f02b2dcc14707d8e1c8de95188b11"
+  },
+  {
+    "path": "scripts/sync_project_state.py",
+    "status": "ADDED",
+    "sha256": "1e0ef147606c05844f6960c60757dce8d13838359f211a40d64d99c97458aa54"
+  },
+  {
+    "path": "scripts/v03_tool_inventory.py",
+    "status": "ADDED",
+    "sha256": "036c01754df35f32cc8f0095243aa5fa0049474e1cfc6e72b01ea5986d7a34cc"
+  },
+  {
+    "path": "scripts/validate_project_state.py",
+    "status": "ADDED",
+    "sha256": "f17d34f456329d29d07c9947b255e6ae659283f3070b4830d18a8dda7e06089e"
+  },
+  {
+    "path": "scripts/verify_kagari_v03_saved.py",
+    "status": "ADDED",
+    "sha256": "188077dbc1f1fa931c797af2bcd26eebb95e60b0fc070bafc048869ddc504bfb"
+  },
+  {
+    "path": "tests/blender_audit_smoke.py",
+    "status": "ADDED",
+    "sha256": "a17b5998e0b51cfe87e0776fdbbf1fcf66a7c47c3e7fa2ae659b24ef259f9dcc"
+  },
+  {
+    "path": "tests/test_validate_project_state.py",
+    "status": "ADDED",
+    "sha256": "ae928da5ef4713580d61deda284c9599477e60d4dd7ab72b4f7ae98d6e93c8dd"
+  }
+]

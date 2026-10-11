@@ -1,0 +1,285 @@
+{
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_03.blend",
+    "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051"
+  },
+  "candidate": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "matching": "Same camera, clay settings and upper arm pose; source avatar and its saved lower arm pose unchanged.",
+  "baseline_unchanged": true,
+  "renders": [
+    {
+      "view": "front",
+      "path": "outputs/previews/full_concept_v3/cycle03_front_clay.png",
+      "image_sha256": "7f5def5792a10f291e742da745153cc5841c861ce27fd4b9af32713ef840e1f3",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "three_quarter",
+      "path": "outputs/previews/full_concept_v3/cycle03_three_quarter_clay.png",
+      "image_sha256": "97f69033d7afadece81ff9ef9e3c3e6e4a279efb6d15b753bc24964eddcbb3f5",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.5515758991241455,
+        -5.0862499989534626e-08,
+        0.6146630048751831
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "side",
+      "path": "outputs/previews/full_concept_v3/cycle03_side_clay.png",
+      "image_sha256": "d4f82d5110186b1492b0a5480cbe00e858a9033d3af38ae7fe3683846a31b080",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        2.0,
+        0.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "back",
+      "path": "outputs/previews/full_concept_v3/cycle03_back_clay.png",
+      "image_sha256": "76f7a278baaf967f54d6c77c1637085bf54f224ffaefca38ed4ccd1780ca8a0c",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        -1.570796251296997,
+        3.141592502593994,
+        -0.0
+      ],
+      "ortho_scale": 1.0399999618530273,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "arm_raised",
+      "path": "outputs/previews/full_concept_v3/cycle03_arm_raised_clay.png",
+      "image_sha256": "275f76c06df4c0fb7094f45f7d9396758b55ce065670090c2178a53825647235",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.350000023841858,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -0.6632250547409058
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          0.6632250547409058
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "arm_horizontal",
+      "path": "outputs/previews/full_concept_v3/cycle03_arm_horizontal_clay.png",
+      "image_sha256": "edf954c9cca30ee99f713dc5ecb03ade973fd06415a59c72e69b55abdcea606c",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.5800000429153442,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "full_front",
+      "path": "outputs/previews/full_concept_v3/cycle03_full_front_clay.png",
+      "image_sha256": "bdb8b01f33ad78e4cf1349d7801526d3f98f665055ab9d2505387e6e293ab6d3",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        0.0,
+        -3.0,
+        0.7699999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.7000000476837158,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "full_three_quarter",
+      "path": "outputs/previews/full_concept_v3/cycle03_full_three_quarter_clay.png",
+      "image_sha256": "b24c4e04f92c8da3e7db4434abff6b83fa0442957909817f72e09815ee777243",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        1.7000000476837158,
+        -2.4000000953674316,
+        0.8999999761581421
+      ],
+      "camera_rotation": [
+        1.5266237258911133,
+        -8.986688726508874e-09,
+        0.6162968873977661
+      ],
+      "ortho_scale": 1.7000000476837158,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "portrait",
+      "path": "outputs/previews/full_concept_v3/cycle03_portrait_clay.png",
+      "image_sha256": "1aa7b2f8b9acc44cde4a91f0703cda8617995dfa909036906d3387479ea2ddb2",
+      "artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.2999999523162842
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.6700000166893005,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    }
+  ]
+}

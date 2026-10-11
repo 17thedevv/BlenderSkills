@@ -1,0 +1,73 @@
+{
+  "study_neutral_only": {
+    "raw_triangles": 4944,
+    "evaluated_triangles": 10484,
+    "meshes": [
+      {
+        "object": "Simulated_neutral",
+        "raw_vertices": 2275,
+        "raw_faces": 2200,
+        "raw_triangles": 4400,
+        "boundary_edges": 154,
+        "interior_nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "face_component_sizes": [
+          2200
+        ],
+        "uv_layers": [
+          "Metric_Pattern_UV"
+        ],
+        "modifiers": [
+          {
+            "name": "Fabric_Thickness_1_6mm",
+            "type": "SOLIDIFY"
+          }
+        ],
+        "evaluated_triangles": 9108,
+        "evaluated_finite": true
+      },
+      {
+        "object": "Collar_neutral",
+        "raw_vertices": 345,
+        "raw_faces": 272,
+        "raw_triangles": 544,
+        "boundary_edges": 144,
+        "interior_nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "face_component_sizes": [
+          272
+        ],
+        "uv_layers": [
+          "Collar_Metric_UV"
+        ],
+        "modifiers": [
+          {
+            "name": "Fabric_Thickness_1_6mm",
+            "type": "SOLIDIFY"
+          }
+        ],
+        "evaluated_triangles": 1376,
+        "evaluated_finite": true
+      }
+    ]
+  },
+  "recovery2_matched_crop": [
+    {
+      "name": "Kagari_Concept_Robe_Two_Sleeves",
+      "original_raw_faces": 5645,
+      "comparison_raw_faces": 4221,
+      "raw_triangles": 8425,
+      "evaluated_triangles_neutral": 17392,
+      "crop": "rest-space below z=.98; robe opposite sleeve x<-.14 only"
+    },
+    {
+      "name": "Kagari_Concept_Crossed_Collar",
+      "original_raw_faces": 576,
+      "comparison_raw_faces": 570,
+      "raw_triangles": 1140,
+      "evaluated_triangles_neutral": 2684,
+      "crop": "rest-space below z=.98; robe opposite sleeve x<-.14 only"
+    }
+  ],
+  "scope_warning": "Cut shapes and hem heights differ. Counts do not prove quality or represent full-avatar VRM/FPS. Stored snapshots, archives and 2D pattern collection are excluded from the study-neutral total."
+}

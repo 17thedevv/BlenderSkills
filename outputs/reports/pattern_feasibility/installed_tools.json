@@ -1,0 +1,18 @@
+{
+  "inspected_on": "2026-10-11",
+  "registry_locations": [
+    "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*",
+    "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*",
+    "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*"
+  ],
+  "matching_installs": [],
+  "portable_blender": "D:/tools/blender-4.2.0-windows-x64/blender.exe",
+  "tools_root_entries": [
+    "blender-4.2.0-windows-x64",
+    "downloads",
+    "setup_vrm.py",
+    "test_vrm_load.py"
+  ],
+  "limitation": "Scoped registry and D:/tools inspection, not an exhaustive disk search",
+  "installed_or_downloaded_by_this_task": false
+}

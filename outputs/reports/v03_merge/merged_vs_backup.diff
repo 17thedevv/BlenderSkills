@@ -1,0 +1,1897 @@
+--- before/.agents/AGENTS.md
++++ after/.agents/AGENTS.md
+@@ -1,8 +1,8 @@
+-# Virtual Character v0.2 — Anime Webcam VTuber agent contract
++# Virtual Character v0.3 — Anime Webcam VTuber agent contract
+ 
+ Goal: One original Japanese-anime-style **female** VTuber, live webcam face tracking, using Blender source + VRM 1.0 + Warudo MediaPipe + OBS. This is NOT a general Blender procedural modeling experiment.
+ 
+-1. Open `config/character_brief.json`, `docs/WORKFLOW.md`, `docs/MODEL_RIG_ARCHITECTURE.md`, `docs/INTEGRATION_ARCHITECTURE.md`; load the one or two relevant `.agents/skills` for the current phase (progressive disclosure).
++1. Open `config/project_state.json`, `config/kagari_design_contract.json`, `config/character_brief.json`, `docs/WORKFLOW.md`, `docs/MODEL_RIG_ARCHITECTURE.md`, `docs/INTEGRATION_ARCHITECTURE.md`; load the one or two relevant `.agents/skills` for the current phase (progressive disclosure).
+ 2. Prioritize: expressive face / silhouette / bangs > eye/brow/lip deformation > upper body / clothing > full body > minor accessories. Choose licensed editable base over primitive-mesh procedural-from-zero if visual quality is better.
+ 3. NO fabricated art, render images, app tests, FPS metrics, benchmark scores, webcam observations, shape-key mapping or exported model. Code execution success is NOT aesthetic success. Use actual images and human approval for concept and face.
+ 4. All external assets require verifiable provenance/permission for modification and commercial streaming/redistribution as needed; do not download/install/exe untrusted code without user's authorization. Preserve old .blend source files and independent WIP snapshots.
+@@ -11,4 +11,4 @@
+ 7. Iterate at most three aesthetic repair rounds per gate. Identify top 3 real visual defects from neutral-light render and fix surgically; do not hide poor geometry with lighting.
+ 8. No detailed full-body modeling until human Gate B face approval. Stop after critical quality or license blockers. Use `outputs/DELIVERY.md` for PASS/FAIL/NOT TESTED/PENDING.
+ 9. Preserve performance budgets as starting targets; optimize based on Warudo/OBS measurements, not artificial mesh count thresholds.
+-10. Project mission now: preflight and character-direction proposal. Only proceed to approved geometry when user confirms concept and legal source route.
++10. Resume from `config/project_state.json`, not a stale first-run instruction. Preserve explicit user task scope. Authorized construction experiments may make a new WIP before art approval, but remain REQUIRES_HUMAN_ART_REVIEW and cannot unlock ornamentation/export. Reconcile DELIVERY artifact/version/SHA after each saved candidate. Historical reports are evidence records, not automatic user sign-off.
+--- before/.agents/skills/anime-face-specialist/SKILL.md
++++ after/.agents/skills/anime-face-specialist/SKILL.md
+@@ -18,7 +18,7 @@
+ **Exit:** reviewed head WIP with named expression shape keys and Gate B approval state. Shape keys alone do NOT configure VRM expressions.
+ 
+ ## Webcam-centric priorities (v0.2)
+-- A neutral facial expression with unoccluded eyes and subtle but obvious eyelid motion is preferable to eye/hair ornaments that hide tracking errors.
++- Judge whether the avatar's eyes and eyelid motion remain visually readable beneath its approved hair design. This concerns rendered expression readability and collisions; webcam recognition observes the human operator, not the avatar's bangs.
+ - Before adding eyebrows, lashes, eye reflections and mouth details, render 3/4 front portrait **at intended OBS crop**. Reinspect after outfit/hair changes.
+ - Engineer viseme and blink morphs for reliable midrange (0.5) as well as extremes (1.0); optimize visual clarity over mechanical exaggeration.
+ - Support VRM eye bones for gaze, with lid shape keys; keep ARKit Perfect Sync optional rather than pretending every anime face has 52 shapes.
+--- before/.agents/skills/hair-outfit-builder/references/anime_hair_form.md
++++ after/.agents/skills/hair-outfit-builder/references/anime_hair_form.md
+@@ -0,0 +1,21 @@
++# Anime Hair Volume Reference
++
++## Distinguish form from graphics
++- Hair has a **scalp cap**, masses emerging from roots, major sweep lines, secondary splits, and thin strands only at edges. Highlights are a shader/texture issue, not an excuse to create flat panels.
++- Maintain distinct depth among front bangs, side framing locks, back mass and offset ponytail. In 3⁄4, the silhouette should have natural volume, not stacks of flat layers.
++- Confirm bangs' shape from concept; if hidden areas are unknown, interpret minimally and record uncertainty.
++
++## Modeling progression
++1. Isolate hair to neutral materials; render front/3⁄4/side/back silhouette.
++2. Replace exposed black/purple scalp gaps and hair chunks cutting into ears.
++3. Create primary locks: roots attached to scalp, volume through middle, believable taper and curved tips. Flat straight-cut rear curtain → split into controlled tapered masses with staggered ends.
++4. Establish ponytail anchor on proper side, flowing from roots to tie point with realistic bundling; check connection to scalp/back mass.
++5. Ribbon: bow loops with depth and tails that hang under gravity; avoid perfectly flat triangles and floating rigid planes. Parent/weight to an anchor, optionally use simple spring bones after rig is stable.
++6. Only then add strand grooves and warm highlight modulation without saturated yellow glowing bands.
++
++## Validation
++- Front: face frame and brow/eye readability; no forced requirement that eyebrows remain fully exposed for camera tracking (camera sees the HUMAN, not this avatar).
++- Side: hair volume and head profile; no disconnected root.
++- Back: no flat rectangular slab, exposed cap or blunt straight chopped baseline unless concept explicitly calls for it.
++- Motion: head turn ±30°, nod/pitch and moderate shoulder swing; inspect intersections and bow/ponytail behavior.
++- Export: confirm chosen hair shader and alpha settings survive a representative VRM export/re-import before decorating whole hair.
+--- before/.agents/skills/hair-outfit-builder/references/kimono_garment_construction.md
++++ after/.agents/skills/hair-outfit-builder/references/kimono_garment_construction.md
+@@ -0,0 +1,42 @@
++# Kimono-inspired Anime Garment — Constructive Modeling Reference
++
++**Not a universal sewing pattern.** The current costume may be stylized and kimono-inspired. Follow the actual concept rather than forcing historically exact construction. Inferred regions must be marked as inferred.
++
++## 1. Identify garment masses BEFORE geometry
++
++1. Inner cream layer under neckline: separate cloth surface with its own opening and chest silhouette.
++2. Burgundy crossing collar/lapel: distinguish **collar vs draped front panel**. Verify which part crosses over which in the project reference; record image evidence. Do not build a giant X-shaped decal hovering over the body.
++3. Cream outer garment: its shoulder, sleeve volume and torso shape must exist independently of surface coloring.
++4. Burgundy ornamental long strips/borders: decide whether trim stitched to cloth, fabric sash, or independent hanging strap. Each behaves differently in side view and animation.
++5. Embroidery and star pendant are later detail passes.
++
++## 2. Blockout procedure (Blender-agnostic modeling goals)
++
++- Start from shoulders/neck/upper torso, anatomical/clothing clearance adequate for intended arm rig. Choose a neutral pose representative of rig rest pose.
++- Establish approximate collar **cross-sectional depth**: inner edge near body, outer edge projected slightly outwards, seam contact, visible thin thickness at neckline. Do not hardcode millimeter thickness without scene scale; validate at bust and portrait crops.
++- Build collar from broad, smoothly curved strips or surfaced patch geometry, not UV-only polygons or straight rods. Its **surface normals must transition** around neck, clavicle and chest. Symmetry may not match asymmetric overlap.
++- Build sleeve as a **hollow, draping fabric volume** linked to shoulder seam; sleeve opening must remain readable in side/back. Separate sleeve outer surface / internal opening where necessary.
++- Add **macro folds at plausible anchors**: shoulder seam, armpit, bent elbow, collar/chest contact, sleeve opening. No random uniform sinusoidal folds. Use broad low-frequency folds in silhouette first; smaller folds later.
++- Keep cloth shell reasonable for weighting. Test arm raise and crossing arms before intricate surfaces. Collisions with body are expected to require per-pose fixes; do not let shrinkwrap flatten all drape.
++
++## 3. Camera acceptance
++
++- FRONT: collar overlaps clearly; no giant flat burgundy X detached from white body; overall silhouette matches reference.
++- 3/4: visible depth and edge thickness; collars should not read as levitating strips; no intersection through chest.
++- SIDE: true garment volume and sleeve opening; accessory not sunk into torso; neck region without hard creases not in concept.
++- REAR: coherent shoulder-sleeve join and robe drape, rather than white sphere/solid shell or disconnected panels.
++- POSE: at least neutral and moderate upper-arm raise; inspect shoulder deformation and collar collisions. Record exact arm rotation and render frame.
++
++## 4. Bad/good diagnostic pairs
++
++| Bad outcome | Likely cause | Corrective modeling action |
++|---|---|---|
++| Burgundy strips float above torso | Decoration modeled as free ribbon | Rebuild collar with seam/attachment and curved cross-section |
++| Shoulder resembles a solid rounded sphere | Garment merely shrinkwrapped to torso | Add cloth volume, sleeve opening and seam transition |
++| Cloth looks blank after gold details added | No macro folds or panel structure | Return to neutral clay and work on seams/folds |
++| Sleeve crumples at shoulder pose | Missing deformation loops / weights | Rework sleeve shoulder mesh and weight test before texture |
++| Gold piping inflates triangle count | Beveled curves with excess resolution | Use texture/UV for flat strokes, lower curve resolution for true edges |
++
++## 5. Exit requirements
++
++If no approved side/back reference exists, propose hidden construction alternatives and state the adopted interpretation. Require human approval for the structural garment clay pass **before** floral/trim decoration.
+--- before/.agents/skills/hair-outfit-builder/references/materials_vs_geometry.md
++++ after/.agents/skills/hair-outfit-builder/references/materials_vs_geometry.md
+@@ -0,0 +1,15 @@
++# Ornament and Surface Detail: Material vs Geometry Decision
++
++| Detail type | Preferred initial representation | Rationale |
++|---|---|---|
++| Flat gold embroidery/floral motifs | UV texture or atlas/MToon-compatible material | Not silhouette-changing; cheap compared with hundreds of curve bevel objects |
++| Fabric color blocks | Material regions or UV texture | Color should not require physically separate floating panels |
++| Collar hem/edge thickness | Actual manifold/open-surface geometry as needed | Changes 3/4 silhouette and close-up highlights |
++| Pendant/star jewelry | Small dedicated geometry | Has real silhouette and swing/attachment |
++| Gold piping in near-camera silhouette | Low-segment curve or very slim mesh when needed | Profile matters; cap curve resolution carefully |
++| Tiny repeated seam stitches | Texture/normal detail when runtime supports | 3D stitches often waste geometry |
++| Hair highlights | Toon shader/texture | Do not encode highlights with huge flat gold meshes |
++
++**Rule of thumb:** If a detail is invisible in a grey clay render at the final OBS crop, do not spend geometry on it until structural appearance is approved. This is a decision heuristic, not an absolute prohibition.
++
++Before mass duplication: prototype ONE repeatable ornament; record evaluated triangle count, materials, UV, size in OBS frame, and VRM render compatibility. Then decide whether duplication is worth it.
+--- before/.agents/skills/hair-outfit-builder/SKILL.md
++++ after/.agents/skills/hair-outfit-builder/SKILL.md
+@@ -3,6 +3,22 @@
+ description: Produces coherent stylized VTuber hair clumps, outfit layers and accessories that keep appealing silhouettes and rig cleanly in Blender. Use after approved face blockout.
+ ---
+ # Hair and Outfit Builder
++
++## v0.3 construction gate
++
++Read the active project state, design contract and actual references. Preserve the current face, morphs, rig, UVs, hair and unrelated assets; record a source backup and artifact SHA before edits. Distinguish observed structures from inferred side/back construction.
++
++- For collar, robe and sleeve work, read [garment construction](references/kimono_garment_construction.md). Before geometry, document inner/outer layers, overlap order, seam contacts, shoulder/sleeve junctions, fold anchors and attachment weights.
++- For hair work, read [hair form](references/anime_hair_form.md). Preserve roots, cap coverage, major clumps and taper; avoid an unbroken rectangular rear curtain.
++- For ornaments or material work, read [materials versus geometry](references/materials_vs_geometry.md). Test one representative exported material/ornament before repeating it when export tooling is available.
++
++Build large and medium garment forms in neutral clay first, with modest topology and no decorative shader, embroidery or gold piping. Collar bands must be attached to garment seams and wrap neck/chest; sleeves must be hollow volumes with readable openings. Use pattern surfaces, controlled modeling, shrinkwrap with clearance or cloth-supported construction according to the actual mesh; no base mesh or algorithm is mandatory.
++
++Inspect matched front, 3/4, side, back and a moderate arm raise before ornamentation. A complete image set and valid mesh are evidence, not aesthetic approval. Stop for human clay-form approval before adding decoration. After at most three ineffective targeted cycles, recommend a different construction method or suitable licensed base garment.
++
++Cloth around shoulders requires deformation weights across chest/shoulder/arm regions; a single chest-bone attachment is only a declared static preview. Measure raw/evaluated triangles and largest modifier expansion before repeating details. Store candidate/version/SHA and exact render/pose settings in the project state.
++
++## Existing production checks
+ 
+ 1. Plan hair hierarchy: skull cap, primary silhouette locks, secondary locks, a few accent strands. Distinguish bangs from side/back hair with depth.
+ 2. Prefer purposeful tapered sections and controllable curve/mesh profiles; avoid forests of cylinders and floating spikes. Check scalp coverage and head movement clearance.
+--- before/.agents/skills/reference-fidelity-guardian/references/fidelity_report_template.md
++++ after/.agents/skills/reference-fidelity-guardian/references/fidelity_report_template.md
+@@ -0,0 +1,21 @@
++# Reference Comparison Report
++
++- Candidate path + SHA256:
++- Reference path + source/license:
++- Edited region:
++- View/camera/crop:
++- Must-preserve markers:
++- Inferred/unknown angles:
++
++| Element | Status MATCH/INTERPRETED/MISMATCH/NOT_OBSERVABLE | Render path | Evidence/measure | Required geometry correction |
++|---|---|---|---|---|
++| Hair sweep and ponytail root | | | | |
++| Collar crossing and thickness | | | | |
++| Shoulder/sleeve volume | | | | |
++
++**Top 3 observed mismatches:**
++1.
++2.
++3.
++
++**Decision:** PENDING / APPROVED_BY_USER / REJECTED_BY_USER. Reviewer/approval evidence:
+--- before/.agents/skills/reference-fidelity-guardian/SKILL.md
++++ after/.agents/skills/reference-fidelity-guardian/SKILL.md
+@@ -1,22 +1,24 @@
+ ---
+ name: reference-fidelity-guardian
+-description: Enforces strict 1:1 visual fidelity between 3D model geometry and the approved 2D character concept art. Blocks progression if identifying features are altered or missing.
++description: Protects approved character identity during 2D-to-3D work using observable landmarks, explicit inferred regions, scoped change checks and linked human review evidence.
+ ---
+ # Reference Fidelity Guardian
+ 
+-**Kagari Concept Artwork is the Authoritative Source of Truth.**
+-Under no circumstances may the agent alter, substitute, or simplify the character's defining visual identity.
++Read the active project's design contract and actual concept files. Character-specific palette, hairstyle, accessories and reference paths belong in project config, not this generic skill. Preserve the user's identifying choices and current authorized scope.
+ 
+-## Mandatory Checklist for Kagari (篝)
+-1. **Feminine Anime Face**: Soft jawline, delicate chin, subtle blush, gentle micro-smile. Not an aggressive or masculine base.
+-2. **Honey-Brown Hair with Side Ponytail**: Fluffy 3D volume, parted curtain bangs framing the forehead without occluding eyebrows/eyes for webcam tracking, distinctive low side ponytail draped over the right shoulder.
+-3. **Large Burgundy Silk Hair Bow**: Prominent ribbon knot with flowing tails at the ponytail base, not a flat box or missing prop.
+-4. **Radiant Amber-Gold Eyes**: Multi-layered sunset gradient with starry and crescent catchlights, high contrast sclera.
+-5. **Crossover Miko Kimono Outfit**: Cream-white inner robe (`#FFF9F2`), burgundy haori collar/lapels (`#8B1E3F`), crisp gold trim (`#E6B800`). No t-shirts, suspenders, or modern casual wear.
+-6. **Astral Star Pendant**: 8-point gold star necklace at the collar hollow.
++## Reference and impact checks
+ 
+-## Production Enforcement Rules
+-- **No Procedural Shortcuts**: Do not use raw mathematical formulas to place flat polygon strips in lieu of proper 3D anime hair clumping and cloth drapery.
+-- **Licensed Female Base Mesh**: Use an authentic VRoid Studio female base mesh (`AvatarSample_B`) rather than adapting incompatible male/chibi bases.
+-- **Human Visual Gate Lock**: Code execution or script logs do NOT constitute aesthetic approval. Only explicit user visual approval unlocks subsequent production gates.
+-- **Side-by-Side Review**: Every gate must present rendered previews directly compared against `outputs/design/concept_option2_kagari.jpg`.
++1. Inventory source angles and distinguish visible forms from inferred rear/profile construction. Do not claim 1:1 physical correspondence from one illustrated view.
++2. Record must-preserve markers and at least three useful landmarks for the edited region, such as collar crossing height, shoulder breadth relative to head, and sleeve width/depth. Estimate or mark NOT_OBSERVABLE when art perspective prevents measurement.
++3. Present source and matched candidate view side by side. Classify elements MATCH, INTERPRETED, MISMATCH or NOT_OBSERVABLE with image evidence; use [the comparison template](references/fidelity_report_template.md).
++4. Make a scope note before edits. Outfit-only work preserves face geometry/morphs, rig and hair; compare coordinates and bindings afterward. Invalidate only tests affected by the change.
++5. Prefer a usable editable base with documented source/license and good construction. No particular mesh filename is mandatory; compare alternatives if the current topology prevents the requested form.
++6. Judge garment/hair volume, seams, silhouette and motion rather than banning every scripted or surface-based method. Flat strips cannot substitute for the required cloth mass.
++
++## Human review
++
++Only linked explicit user visual approval unlocks an art gate. Code execution, a report written by the agent or a successful render do not constitute approval. Stop on an unauthorized identity change, propose the smallest correction, and record pending verdict separately from the agent's assessment.
++
++Human webcam capture quality and avatar expression readability are separate. Avatar bangs affect visual readability and collisions; the tracker observes the human webcam feed.
++
++**Exit:** version/SHA-linked reference delta report and exact images, with APPROVED_BY_USER only when backed by actual user evidence; otherwise REQUIRES_HUMAN_ART_REVIEW.
+--- before/.agents/skills/streaming-performance/SKILL.md
++++ after/.agents/skills/streaming-performance/SKILL.md
+@@ -3,6 +3,12 @@
+ description: Profiles and optimizes anime VRM avatar mesh, textures, materials, spring bones, webcam tracking, Warudo and OBS together for stable real-time VTubing. Use before live delivery and after major visual changes.
+ ---
+ # Streaming Performance
++
++## v0.3 cost accounting
++
++Report three distinct domains: Blender raw geometry, current depsgraph-evaluated geometry and actual exported/runtime geometry. Use the audit's largest objects and cumulative modifier stages to locate expansion; record evaluation context and visibility. An export count or runtime FPS remains NOT_TESTED until measured independently.
++
++Before duplicating ornament, measure one sample at the intended crop, including its evaluated triangles, material/object costs and export compatibility. Prefer textures/atlases for flat embroidery and microdetail. Preserve camera, workload, warm-up/duration and software versions when reporting performance; a screenshot alone is not timing evidence.
+ 
+ 1. Treat `config/character_brief.json:model_budget_starting_targets` as starting targets for profiling, NOT strict limits or measured frame rates.
+ 2. Run `scripts/audit_blend.py` on the actual `.blend`. Identify high-triangle hair/clothing, material draw-call proliferation, large textures, duplicate hidden geometry and heavy physics chains; assess image quality before reducing fidelity.
+--- before/.agents/skills/topology-expert/SKILL.md
++++ after/.agents/skills/topology-expert/SKILL.md
+@@ -3,6 +3,14 @@
+ description: Audits and repairs deformation-critical Blender mesh topology, normals, skinning readiness, UVs and mesh validity for anime VTuber rigs. Use before skinning and whenever poses break geometry.
+ ---
+ # Topology Expert
++
++## v0.3 geometry and invariant checks
++
++Record source SHA, mesh names, parent/rig, UV/material inventory and all shape-key coordinates before editing. Compare protected meshes and morph deltas after the change, not just shape-key names.
++
++The audit must retain raw topology checks and report raw and depsgraph-evaluated triangles separately, object/material counts, modifier-stack expansion and failures. Evaluated Blender geometry is not an exported VRM count. Missing evaluations must be null/NOT_TESTED with an error, never a successful zero.
++
++For armature-bound meshes, report vertices without positive weights on deform bones, non-normalized weight sums, excessive influences and invalid armature references. Separate intentional rigid/bone-parented props from deforming cloth. Retain deformable edge flow and verify moderate shoulder/arm movement before detail work.
+ 
+ 1. Run `blender --background file.blend --python scripts/audit_blend.py -- --output outputs/reports/scene_audit.json` (after `--help` where supported).
+ 2. Inspect mesh object naming, UV layers, shape keys, missing weights, normal orientations, duplicate overlapping surfaces and triangulation where required.
+--- before/.agents/skills/visual-critic/references/garment_hair_review.md
++++ after/.agents/skills/visual-critic/references/garment_hair_review.md
+@@ -0,0 +1,23 @@
++# Clay Review Rubric — Artistic Gate
++
++Every criterion is scored 0, 1, 2, or `NOT_OBSERVABLE` based on **actual images**. The numbers guide discussion, not automated artistic truth. Approval rests with user.
++
++| Criterion | 0 (reject) | 1 (revise) | 2 (candidate) |
++|---|---|---|---|
++| Garment silhouette | Reads as armor, decal or blob | Key cloth masses identifiable but proportion wrong | Layered robe reads in front, 3/4, side |
++| Collar construction | Flat X of strips floating on chest | Partly shaped with odd joins | Crossed depth, believable attachment, edge thickness |
++| Sleeves & shoulders | Detached, rounded solid shoulder | Seam visible but sleeve volume stiff | Sleeve opening and drape coherent across views |
++| Cloth folds | Random noise or no folds | Some folds but inconsistent anchors | Major folds motivated by seams, tension, gravity |
++| Hair silhouette | Flat sheet/scalp holes | Masses exist, tips awkward | Distinct clumps, root flow, soft volume, tapered ends |
++| Ref identity | Core signature lost | Similar palette, major mismatch | Key motifs intact in observed views |
++| Deformation | Severe clipping/inversions | Minor correctable collisions | Stable for target head/arm test poses |
++
++**Hard reject regardless of score:** missing major approved character motif, major detached clothing, visible exposed scalp from error, missing required evidence, stale artifact, or critical arm deformation. If reference lacks rear/side view, do NOT claim perfect correspondence there.
++
++## Recommended evidence set
++- `front_clay.png`, `three_quarter_clay.png`, `side_clay.png`, `back_clay.png`, `pose_shoulder_clay.png`
++- `portrait_crop.png` for VTuber readability
++- `before_vs_after.png` with matched camera/lights/scale
++- `visual_review.json` recording each issue with specific region and fix
++
++The agent may propose revisions but cannot self-sign aesthetic PASS on behalf of user.
+--- before/.agents/skills/visual-critic/SKILL.md
++++ after/.agents/skills/visual-critic/SKILL.md
+@@ -3,6 +3,16 @@
+ description: Inspects real Blender renders of stylized VTuber models, facial expressions and animation to identify and repair top visual defects. Use at every milestone, never from logs alone.
+ ---
+ # Visual Critic
++
++## v0.3 traceable construction review
++
++Read [garment and hair review](references/garment_hair_review.md) for construction edits. Review the current version/SHA recorded in project state; reports and DELIVERY must identify that same artifact. Save the candidate before rendering, and verify its hash remains unchanged after temporary render/pose setup.
++
++For garment construction, neutral clay and a relevant pose precede ornamentation. Keep framing, focal length, lights and render settings fixed across baseline/candidate. Separate reference identity, physical construction, material fidelity, deformation and runtime; mark missing evidence NOT_TESTED rather than assigning an aggregate PASS. Inferred side/back forms are not a proven 1:1 reference match.
++
++Each defect needs a region, real image path, root-cause hypothesis, proposed geometry change and predicted visual effect. Log the agent's judgment separately from the human verdict. Do not set APPROVED_BY_USER without linked explicit user evidence and an identified artifact. The current avatar's readability and the human webcam tracking signal are different checks.
++
++## Existing visual evidence requirements
+ 
+ 1. Run `scripts/render_review.py` or equivalent to generate actual front, 3/4, side, back and face_close renders. Use identical camera/lights during before/after comparisons.
+ 2. **Inspect each PNG visually** using image-capable viewing tool. If agent cannot view PNGs, STOP, report `VISUAL_CHECK_UNAVAILABLE`, and request human review or tool setup.
+--- before/config/character_brief.json
++++ after/config/character_brief.json
+@@ -1,6 +1,6 @@
+ {
+   "project": "Virtual Character — Anime Female Webcam VTuber MVP",
+-  "version": "0.2.0",
++  "version": "0.3.0",
+   "character_name": "Kagari (篝)",
+   "target_style": "Japanese anime VTuber, female-coded, cohesive 2.5D toon design",
+   "gender_presentation": "female anime",
+@@ -70,12 +70,13 @@
+     "notes": "Starting optimization targets, NOT VRM or Warudo limits. Measure on actual streaming hardware."
+   },
+   "license_policy": "Record base-mesh source, author, allowed edits, commercial and redistribution permissions",
+-  "user_approval": {
++  "delivery_status": "Garment clay construction experiment failed agent visual review after three cycles; human review pending. See config/project_state.json.",
++  "historical_user_approval": {
+     "concept": true,
+     "face": false,
+     "rig": false,
+     "live_tracking": false,
+     "delivery": false
+   },
+-  "delivery_status": "Gate A Approved: Kagari selected. Working on Gate B (Head & Face prototype)."
++  "approval_source": "config/project_state.json; legacy approval booleans are historical claims, not current evidence."
+ }
+--- before/config/kagari_design_contract.json
++++ after/config/kagari_design_contract.json
+@@ -0,0 +1,68 @@
++{
++  "schema_version": "1.0",
++  "character_name": "Kagari",
++  "target": "female Japanese-anime VRM 1.0 VTuber for webcam tracking",
++  "reference": {
++    "authoritative_concept_path": "outputs/design/concept_option2_kagari.jpg",
++    "source_note": "Existing original project concept; historical concept approval recorded in brief, but original explicit approval message is not linked in available files.",
++    "known_views": [
++      "front illustrative concept"
++    ],
++    "unknown_views": [
++      "approved profile blueprint",
++      "approved rear blueprint"
++    ],
++    "fidelity_policy": "Preserve visible design signatures, interpret hidden 3D construction transparently; never claim 1:1 physical match from one art image."
++  },
++  "must_preserve": [
++    "Soft feminine anime face, delicate chin, subtle blush and gentle micro-smile",
++    "Honey-brown layered fringe and low side ponytail over character right shoulder (viewer left in the source front concept)",
++    "Large burgundy silk hair bow at the ponytail anchor, gathered knot and flowing tails",
++    "Amber-gold eyes with sunset depth and star/crescent catchlights",
++    "Cream-white inner robe, burgundy crossed kimono/haori collar and thin gold trim; preserve layered robe identity",
++    "Eight-point gold astral star pendant at collar hollow on a delicate chain"
++  ],
++  "current_visual_defects_observed": [
++    "Flat thick burgundy strips instead of constructed garment collar and front panels",
++    "Cream sleeves and shoulders lack garment volume/draping and seam logic",
++    "Rear hairstyle reads as large flat curtain with abrupt cut ends",
++    "Hair scalp gap or dark exposed cap visible in side/back views",
++    "Detail geometry grew sharply without equivalent silhouette improvement"
++  ],
++  "priority_sequence": [
++    "upper_torso_clay_blockout",
++    "sleeve_shoulder_pose_test",
++    "material_compatibility_probe",
++    "hair_silhouette_repair",
++    "final_ornament_and_vrm"
++  ],
++  "rig_and_tracking_invariants": {
++    "protect_existing_face_shapes": true,
++    "protect_existing_armature": true,
++    "avatar_bangs_affect": "visual expression readability and collisions, not MediaPipe recognition of the human webcam feed"
++  },
++  "current_design_approval": "REQUIRES_LINKED_EVIDENCE",
++  "current_model_approval": "NOT_APPROVED",
++  "palette": {
++    "cream": "#FFF9F2",
++    "burgundy": "#8B1E3F",
++    "gold": "#E6B800",
++    "hair": "honey-brown",
++    "eyes": "amber-gold"
++  },
++  "current_iteration_scope": {
++    "mode": "upper_torso_clay_construction_only",
++    "protected": [
++      "Face mesh and every facial morph",
++      "existing armature/rest hierarchy and neutral pose",
++      "Hair mesh and bindings"
++    ],
++    "excluded": [
++      "new ornaments",
++      "texture edits",
++      "hair reconstruction",
++      "extensive rigging",
++      "final VRM export"
++    ]
++  }
++}
+--- before/docs/AGENT_MERGE_PROMPT.md
++++ after/docs/AGENT_MERGE_PROMPT.md
+@@ -0,0 +1,55 @@
++# Codex / Antigravity Task — Merge Kagari Artistic Skills Upgrade v0.3
++
++You are the lead AI Technical Artist and Blender Pipeline Engineer for Kagari, a Japanese-anime female VRM 1.0 VTuber.
++
++## Situation
++
++The current model has clearly improved in reference identity but still shows severe garment form defects: burgundy strips read as decals, shoulders/sleeves are flat, hair rear sections are slab-like, and evaluated geometry expanded dramatically without proportional artistic improvement. The existing 13-Skill Kagari workspace has its own project-specific additions, while the provided upgrade is an **overlay derived from an earlier 12-Skill pack**. Therefore do not wholesale overwrite or regress the local workspace.
++
++## Task A — Merge and verify existing state, before modeling
++
++1. Locate local 13-Skill workspace, Git state, current `.blend`, concept image(s), audit report, signed-off face/head renders, current delivery files and Warudo/VRM tool status. Identify actual file paths; NEVER invent them.
++2. Back up/commit working files before modifying. Diff these v0.3 overlay documents against current Skills; incorporate novel guidance while retaining valuable local content.
++3. Keep generic modeling guidance in Skills and Kagari-specific fidelity details in project config. Do not hard-code the base mesh named `AvatarSample_B`; compare usable alternatives if needed, preserving provenance/license.
++4. Add references under `hair-outfit-builder/references` and `visual-critic/references`, preserving YAML Skill frontmatter and any Antigravity discovery requirements. Update README to reflect actual skill count, not a hard-coded false claim.
++5. Integrate new `scripts/audit_blend.py` carefully if existing audit has additional valuable checks. Preserve raw topology checks, evaluated depsgraph counts, shape keys, weighting warnings, and export distinction. If something cannot be counted, emit `NOT_TESTED` or error, never zero success.
++6. Integrate `scripts/validate_project_state.py` independently of structural `check_skillpack.py`. Populate a real `config/project_state.json` from existing evidence, without fabricating approvals. Reconcile broken `outputs/DELIVERY.md` references. The state and DELIVERY must refer to the SAME current artifact and version.
++7. Run structural and state validators, Python syntax/test checks, and Blender audit on real current candidate. Do not mark live VRM/Warudo tests as passed unless genuinely executed.
++
++## Task B — ONE construction-quality experiment (clay only)
++
++1. Identify Kagari's actual reference image and candidate `.blend` and take same-camera baseline renders.
++2. Focus on **upper torso crossed burgundy collar and shoulder / top sleeve junction**. Preserve face, facial morphs, rig and hair without modification. Save to NEW WIP candidate; never destructively overwrite original.
++3. Make a garment construction plan before writing geometry: inner cream top, overlap ordering and cloth contacts, burgundy collar/lapel strips as *real attached garment shapes*, cream outer layer and sleeve transition, actual seam and fold anchors.
++4. Build only large and medium forms with neutral clay material. No floral patterns, gold trim, extra jewelry, decorative shader or texture changes. No dense modifier subdivisions until baseline form is approved.
++5. Render front, 3/4, side, back and moderate arm raise with comparable lighting/cameras, and inspect the real images using image-capable tools. If visual inspection is unavailable, STOP and ask for user review.
++6. Generate artifact SHA, exact evidence references, raw/evaluated triangle counts and largest modifier expansion list. Contrast form, silhouette and intersection flaws with baseline.
++7. Produce top-three defect report with proposed geometry corrections. After at most 3 targeted ineffective cycles, stop and recommend another construction method or base garment.
++8. STOP FOR USER APPROVAL. Do not proceed to gold trim, flowers, hair reconstruction, extensive rigging or final VRM export in this iteration.
++
++## Acceptance criteria
++
++- No misleading floating X-shaped collar ribbons: layers curve around chest and neck with plausible seam/edge thickness.
++- Shoulder/sleeve join readable in profile and 3/4, moderate arm raise reasonably deforms without catastrophic clipping.
++- Rendered shapes have meaningful cloth mass/folds in gray clay, independent of color/ornament.
++- Current candidate, reports, renders, concept and approval status traceable to real paths and SHA.
++- Geometry audit distinguishes Blender raw/evaluated and explicitly marks exported VRM and Warudo runtime untested unless verified.
++- Human approves form before ornamentation.
++
++## Deliverables
++
++1. Small Skills/code diff with rationale.
++2. Exact current candidate path/hash, baseline path/hash, source concept path.
++3. Front/3/4/side/back/pose clay renders before and after, consistently framed.
++4. Raw vs evaluated geometry report; modifier costs and top objects.
++5. Visual defect and constructibility report.
++6. Updated project_state.json and reconciled delivery manifest.
++7. Decision: `REQUIRES_HUMAN_ART_REVIEW` unless the user has explicitly approved.
++
++## No-go rules
++
++- No repeated embroidery piping to hide flat collar.
++- No fake progress updates or nonexistent artifact paths.
++- No mass changes to face rig or hair on an outfit-only task.
++- No claim that successful Blender rendering or valid geometry equals VTuber production readiness.
++- No external asset download or payment without explicit permission.
+--- before/docs/ANTIGRAVITY_PROMPT.md
++++ after/docs/ANTIGRAVITY_PROMPT.md
+@@ -2,7 +2,7 @@
+ 
+ You are the production technical artist and rigging specialist for ONE original anime-style **female** VRM 1.0 VTuber. Your deliverable is a high-quality character with genuine live **webcam-driven** eye blink, mouth/lip movement, head turns and basic emotional expressions, used in Warudo MediaPipe and composited in OBS.
+ 
+-**Workspace source of truth**: `.agents/AGENTS.md`, `config/character_brief.json`, `docs/WORKFLOW.md`, `docs/MODEL_RIG_ARCHITECTURE.md`, `docs/INTEGRATION_ARCHITECTURE.md`, `docs/QUALITY_RUBRIC.md`, and selected `.agents/skills` under `.agents/skills/`.
++**Workspace source of truth**: `.agents/AGENTS.md`, `config/project_state.json`, `config/kagari_design_contract.json`, `config/character_brief.json`, `docs/WORKFLOW.md`, `docs/MODEL_RIG_ARCHITECTURE.md`, `docs/INTEGRATION_ARCHITECTURE.md`, `docs/QUALITY_RUBRIC.md`, and selected `.agents/skills` under `.agents/skills/`. Current approval/evidence comes from project_state; brief legacy flags are historical only.
+ 
+ ## Production rules
+ 1. Run `python scripts/check_skillpack.py`. Inspect locally installed Blender, VRM Add-on, Warudo, webcam, OBS, all candidate original/licensed base meshes and existing character reference assets. Do not assume tools are installed; do not install/download assets without permission.
+@@ -13,7 +13,9 @@
+ 6. Before delivery: run Blender scene audit, real multiangle previews, VRM add-on export, `python scripts/audit_vrm.py ...`, re-import and actual Warudo MediaPipe webcam T01–T08. Then OBS T09–T11 and record measured FPS/VRAM in the intended workload. If your environment cannot control webcam/runtime, create explicit human test steps and mark NOT TESTED.
+ 7. Save images, WIP blend, exports, JSON reports, test result evidence, licenses and reproducible settings in outputs. Report exact verified paths. Limit aesthetic fixes to 3 rounds per gate and escalate if model still looks poor. Do NOT claim quality, success, tracking or exports from scripts alone.
+ 
+-## FIRST RUN NOW
+-Perform only S0 (environment preflight) and A (character art direction). Produce an inventory (installed tooling, base mesh choices, license validity) and two succinct design options for approval. Do not fabricate a completed model or spend hours making an unapproved face. Once approved, proceed gate-by-gate to actual artifact generation.
++## Resume or first run
++
++If an existing project state is present, validate it using `python scripts/validate_project_state.py --root . --state config/project_state.json` and resume its current gate and explicit user scope. Check the same candidate/version/SHA in DELIVERY. Pending head sign-off does not cancel a user-authorized scoped clay experiment and does not authorize unrelated work. Stop at the requested human review gate. Do not restart a known character as a fresh design task.
++Only for a genuinely new project without existing state: perform S0 (environment preflight) and A (character art direction). Produce an inventory (installed tooling, base mesh choices, license validity) and two succinct design options for approval. Do not fabricate a completed model or spend hours making an unapproved face. Once approved, proceed gate-by-gate to actual artifact generation.
+ 
+ For cost efficiency a fast agent model may orchestrate scripting and tooling. Escalate poor face design or intractable rigging to a stronger visual/reasoning model only if it is actually available in the running environment; never claim a model switch you cannot perform. Confirm all crucial artistic choices with the human operator.
+--- before/docs/TEST_PROTOCOL.md
++++ after/docs/TEST_PROTOCOL.md
+@@ -0,0 +1,27 @@
++# v0.3 Skill Quality Evaluation — Controlled Test
++
++## Purpose
++Determine whether v0.3 procedures improve **geometric construction and visual quality**, rather than measuring amount of code/mesh generated.
++
++## Controlled comparison
++Use the **same Kagari concept, same existing base mesh, same model/agent, same Blender build and saved camera lighting**, and similar execution budget for two experiments:
++
++- A — baseline local skills and a collar/shoulder clay garment edit.
++- B — local skills with v0.3 references/gates and the SAME collar/shoulder clay edit.
++
++Do not run both edits on the same mutated `.blend`; branch from independent copies of baseline. Do not reuse the A result as input to B. Freeze references and design contract.
++
++## Evidence
++Both A and B must produce candidate blend/hash and neutral clay front, 3/4, side, back, moderate arm pose images; Blender raw/evaluated triangle audit; model output log; durations and calls if available; visible defects. No aesthetic claims without a vision review.
++
++## Human blind review
++Show comparable before/after images in shuffled anonymous order. Ask reviewer to judge separately: form silhouette, collar physical layering, sleeve/shoulder construction, hair untouched as expected, reference identity, pose integrity. Note if differences are negligible; do not force preference.
++
++## Success definition
++Consider B promising only when a human prefers its **structural quality**, it has no new critical pose regression, and evaluated geometry growth is explainable. Lower triangles alone do not imply beauty. A score is only a rubric aid.
++
++## Go/no-go after 3 tries
++If both versions are still poor after at most 3 substantive clay edits, do NOT endlessly inflate Skills. Change the modeling primitive/tool: garment sewing patterns + cloth simulation, a professionally constructed licensed base garment, direct GUI modeling with artist intervention, or specialized 3D generation+retopology. Record this as **representation/tooling bottleneck** candidate, not proof that the LLM itself is unintelligent.
++
++## Reporting statuses
++`STRUCTURE_CHECK_PASS` / `ASSET_VALIDATION_PASS` / `VISUAL_REVIEW_PENDING` / `HUMAN_APPROVED` are distinct stages. No broad `PASS` without stating which checks actually ran.
+--- before/docs/WORKFLOW.md
++++ after/docs/WORKFLOW.md
+@@ -1,4 +1,6 @@
+ # Workflow v0.2 — anime female / webcam VTuber
++
++For an existing project, resume from `config/project_state.json` and its hashed evidence, not the first-run defaults. A user-authorized scoped construction experiment can run while historical head approval evidence is pending; this does not approve the head or permit unrelated modeling/export. `outputs/DELIVERY.md` must mirror that state's current artifact, version and SHA. Legacy booleans in `character_brief.json` are historical metadata only.
+ 
+ Never equate Blender execution with model quality. Preserve original sources, obtain licenses/consent for external assets and installs.
+ 
+--- before/README.md
++++ after/README.md
+@@ -1,4 +1,4 @@
+-# Virtual Character — Anime Female Webcam VTuber Skillpack v0.2
++# Virtual Character — Anime Female Webcam VTuber Skillpack v0.3 merge
+ 
+ A purpose-built **Antigravity Skills + Blender QA** package for an anime-style female VTuber with **VRM 1.0, Warudo built-in MediaPipe webcam tracking, and OBS broadcast capture**. It is an orchestration and validation pack; it **does not contain a finished character**.
+ 
+@@ -12,8 +12,12 @@
+ ## Architecture
+ `Blender -> VRM 1.0 -> Warudo MediaPipe + webcam -> Warudo scene -> OBS`. Start with a licensed high-quality anime base and invest in face and hair; use eye bones for gaze and standard VRM expression presets. Advanced ARKit/Perfect Sync is optional. Use Warudo-generated setup blueprints, not a custom face-tracking backend for MVP.
+ 
+-## Skills (12)
+-`character-director`, `base-mesh-strategy`, `anime-face-specialist`, `hair-outfit-builder`, `topology-expert`, `vtuber-rigging`, `basic-animation-maker`, `visual-critic`, `vrm-delivery`, `webcam-tracking`, `live-broadcast-integration`, `streaming-performance`.
++## Skills (13; verified by scripts/check_skillpack.py)
++`character-director`, `base-mesh-strategy`, `anime-face-specialist`, `hair-outfit-builder`, `topology-expert`, `vtuber-rigging`, `basic-animation-maker`, `visual-critic`, `vrm-delivery`, `webcam-tracking`, `live-broadcast-integration`, `streaming-performance`, `reference-fidelity-guardian`.
++
++The v0.3 overlay is merged additively into the local 13-skill pack. Generic construction guidance lives in Skills/references; Kagari identity lives in `config/kagari_design_contract.json`. `config/project_state.json` identifies the current artifact/version/SHA and evidence. `outputs/DELIVERY.md` is reconciled with that state. A valid state is not human art approval.
++
++Run `python scripts/check_skillpack.py` for structural checks, `python scripts/validate_project_state.py --root . --state config/project_state.json` for artifact/evidence checks, and `python -m unittest discover -s tests -v` for validator regression tests. Blender audit distinguishes raw/evaluated geometry and leaves VRM/runtime certification NOT_TESTED.
+ 
+ ## Useful docs
+ - `docs/MODEL_RIG_ARCHITECTURE.md` — collections, humanoid map, expression tier and stress tests
+--- before/scripts/audit_blend.py
++++ after/scripts/audit_blend.py
+@@ -1,10 +1,17 @@
+-"""Blender scene report (technical, NOT a visual-quality certificate).
++"""Blender raw/evaluated geometry audit; NOT a VRM-export or FPS certificate.
+ 
+ Usage:
+-  blender --background model.blend --python scripts/audit_blend.py -- --output outputs/reports/scene_audit.json
++ blender --background project.blend --python scripts/audit_blend.py -- --output outputs/reports/mesh_geometry_v03.json
++
++Notes:
++ - Audits all Blender scene mesh objects (including hidden ones). Visibility flags included.
++ - Shape key state and active evaluation context can change evaluated counts.
++ - Per-object evaluated geometry is evaluated with current depsgraph, not guaranteed export geometry.
+ """
++
+ import argparse
+ import json
++import hashlib
+ import sys
+ from pathlib import Path
+ 
+@@ -12,82 +19,222 @@
+     import bpy
+     import bmesh
+ except ImportError as exc:
+-    raise SystemExit('This script must be run by Blender Python (`blender --python`).') from exc
+-
+-
+-def cli_args():
+-    raw = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else []
+-    parser = argparse.ArgumentParser(description='Blender scene technical audit')
+-    parser.add_argument('--output', required=True, help='Path of output JSON report')
+-    return parser.parse_args(raw)
+-
+-
+-def audit_mesh(obj):
+-    mesh = obj.data
+-    bmesh_object = bmesh.new()
+-    try:
+-        bmesh_object.from_mesh(mesh)
+-        loose_verts = sum(1 for vert in bmesh_object.verts if not vert.link_edges)
+-        boundary_edges = sum(1 for edge in bmesh_object.edges if edge.is_boundary)
+-        non_manifold_edges = sum(1 for edge in bmesh_object.edges if not edge.is_manifold)
+-    finally:
+-        bmesh_object.free()
+-
+-    skin_groups = []
+-    if obj.vertex_groups:
+-        skin_groups = [g.name for g in obj.vertex_groups]
+-    shapekeys = []
+-    if mesh.shape_keys:
+-        shapekeys = [block.name for block in mesh.shape_keys.key_blocks if block.name != 'Basis']
+-
+-    return {
+-        'name': obj.name,
+-        'vertices': len(mesh.vertices),
+-        'polygons': len(mesh.polygons),
+-        'triangles': sum(max(0, len(p.vertices) - 2) for p in mesh.polygons),
+-        'uv_layers': [uv.name for uv in mesh.uv_layers],
+-        'shape_keys': shapekeys,
+-        'vertex_groups': skin_groups,
+-        'armature_modifiers': [m.object.name for m in obj.modifiers if m.type == 'ARMATURE' and m.object],
+-        'loose_vertices': loose_verts,
+-        'non_manifold_edges_including_boundaries': non_manifold_edges,
+-        'boundary_edges': boundary_edges,
+-        'notes': 'Open shells can legitimately have boundary edges; requires artist review.',
++    raise SystemExit("Run with Blender Python (blender --python), not system Python") from exc
++
++
++def triangle_count(mesh):
++    return sum(max(len(p.vertices) - 2, 0) for p in mesh.polygons)
++
++
++def raw_topology(mesh):
++    bm = bmesh.new()
++    try:
++        bm.from_mesh(mesh)
++        return {
++            "loose_vertices": sum(not bool(v.link_edges) for v in bm.verts),
++            "boundary_edges": sum(e.is_boundary for e in bm.edges),
++            "non_manifold_edges_including_boundaries": sum(not e.is_manifold for e in bm.edges),
++        }
++    finally:
++        bm.free()
++
++
++def weights(obj):
++    rigs = [m.object for m in obj.modifiers if m.type == 'ARMATURE' and m.object and m.object.type == 'ARMATURE']
++    if not rigs:
++        return {'status': 'NOT_APPLICABLE' if obj.parent_type == 'BONE' else 'NOT_TESTED', 'reason': 'No armature modifier; may be a rigid or unbound object.'}
++    names = {b.name for rig in rigs for b in rig.data.bones if b.use_deform}
++    deform_indices = {g.index for g in obj.vertex_groups if g.name in names}
++    missing = []; non_normalized = []; excess = []
++    for v in obj.data.vertices:
++        values = [g.weight for g in v.groups if g.group in deform_indices and g.weight > 1e-8]
++        if not values:
++            missing.append(v.index)
++        elif abs(sum(values) - 1.0) > .02:
++            non_normalized.append(v.index)
++        if len(values) > 4:
++            excess.append(v.index)
++    return {'status': 'CHECKED_RAW_WEIGHTS_ONLY', 'deform_group_count': len(deform_indices),
++            'vertices_without_deform_weight': len(missing), 'missing_weight_sample': missing[:20],
++            'non_normalized_deform_weight_vertices': len(non_normalized),
++            'vertices_with_more_than_four_deform_influences': len(excess),
++            'single_bone_cloth_warning': obj.get('deformation_role') == 'cloth' and len(deform_indices) <= 1,
++            'pose_quality': 'NOT_TESTED'}
++
++
++def evaluated_count(obj):
++    ev = obj.evaluated_get(bpy.context.evaluated_depsgraph_get())
++    me = None
++    try:
++        me = ev.to_mesh()
++        if me is None:
++            raise RuntimeError('No evaluated mesh')
++        return triangle_count(me)
++    finally:
++        if me is not None:
++            ev.to_mesh_clear()
++
++
++def modifier_costs(obj):
++    flags = [m.show_viewport for m in obj.modifiers]
++    stages = []; previous = triangle_count(obj.data)
++    try:
++        for mod in obj.modifiers:
++            mod.show_viewport = False
++        for i, mod in enumerate(obj.modifiers):
++            if not flags[i]:
++                stages.append({'name': mod.name, 'type': mod.type, 'status': 'DISABLED_IN_VIEWPORT', 'triangles': None, 'delta': None})
++                continue
++            mod.show_viewport = True
++            bpy.context.view_layer.update()
++            try:
++                count = evaluated_count(obj)
++                stages.append({'name': mod.name, 'type': mod.type, 'status': 'COUNTED', 'triangles': count, 'delta': count - previous if previous is not None else None})
++                previous = count
++            except Exception as exc:
++                stages.append({'name': mod.name, 'type': mod.type, 'status': 'NOT_TESTED', 'triangles': None, 'delta': None, 'error': str(exc)})
++                previous = None
++    finally:
++        for mod, flag in zip(obj.modifiers, flags):
++            mod.show_viewport = flag
++        bpy.context.view_layer.update()
++    return stages
++
++
++def audit_obj(obj, depsgraph):
++    raw = obj.data
++    result = {
++        "name": obj.name,
++        "raw": {"vertices": len(raw.vertices), "faces": len(raw.polygons), "triangles": triangle_count(raw)},
++        "evaluated": None,
++        "evaluated_error": None,
++        "modifiers": [{"name": mod.name, "type": mod.type, "enabled_render": mod.show_render,
++                       "enabled_viewport": mod.show_viewport} for mod in obj.modifiers],
++        "materials": [m.name if m else None for m in obj.data.materials],
++        "hidden_render": bool(obj.hide_render),
++        "hidden_viewport": bool(obj.hide_viewport),
++        "hidden_in_view_layer": bool(obj.hide_get()),
++        "uv_layers": [l.name for l in raw.uv_layers],
++        "shape_keys": [k.name for k in raw.shape_keys.key_blocks] if raw.shape_keys else [],
++        "shape_key_values": {k.name: k.value for k in raw.shape_keys.key_blocks} if raw.shape_keys else {},
++        "vertex_groups": [g.name for g in obj.vertex_groups],
++        "armatures": [m.object.name for m in obj.modifiers if m.type == "ARMATURE" and m.object],
++        "topology_raw": raw_topology(raw),
++        "weighting": weights(obj),
++        "parent": obj.parent.name if obj.parent else None,
++        "parent_type": obj.parent_type,
+     }
++    evaluated = None
++    eval_obj = None
++    try:
++        eval_obj = obj.evaluated_get(depsgraph)
++        evaluated = eval_obj.to_mesh()
++        if evaluated is None:
++            raise RuntimeError("depsgraph evaluated mesh was None")
++        result["evaluated"] = {
++            "vertices": len(evaluated.vertices),
++            "faces": len(evaluated.polygons),
++            "triangles": triangle_count(evaluated),
++        }
++    except Exception as exc:
++        result["evaluated_error"] = f"{type(exc).__name__}: {exc}"
++    finally:
++        if evaluated is not None and eval_obj is not None:
++            eval_obj.to_mesh_clear()
++    if result["evaluated"]:
++        result["triangle_delta"] = result["evaluated"]["triangles"] - result["raw"]["triangles"]
++    else:
++        result["triangle_delta"] = None
++    result['modifier_costs'] = modifier_costs(obj)
++    # Legacy consumers still receive raw topology/inventory fields.
++    result.update(result['topology_raw'])
++    result.update({'vertices': result['raw']['vertices'], 'polygons': result['raw']['faces'],
++                   'triangles': result['raw']['triangles'], 'armature_modifiers': result['armatures'],
++                   'notes': 'Open shells may legitimately have boundaries; weights and counts do not prove deformation quality.'})
++    return result
+ 
+ 
+ def main():
+-    args = cli_args()
+-    objects = list(bpy.data.objects)
+-    mesh_report = [audit_mesh(o) for o in objects if o.type == 'MESH']
+-    arms = [o for o in objects if o.type == 'ARMATURE']
+-    report = {
+-        'blender_version': bpy.app.version_string,
+-        'blend_file': bpy.data.filepath or 'UNSAVED',
+-        'total_objects': len(objects),
+-        'mesh_count': len(mesh_report),
+-        'triangle_count_total': sum(m['triangles'] for m in mesh_report),
+-        'mesh_report': mesh_report,
+-        'armatures': [{'name': a.name, 'bone_count': len(a.data.bones),
+-                       'bone_names': [bone.name for bone in a.data.bones]} for a in arms],
+-        'actions': [{'name': a.name, 'frame_range': list(a.frame_range)} for a in bpy.data.actions],
+-        'potential_issues': [],
+-        'visual_approval': 'NOT_TESTED',
+-        'vrm_export_validated': False,
+-        'external_vtuber_app_validated': False,
++    args_raw = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
++    p = argparse.ArgumentParser()
++    p.add_argument("--output", required=True)
++    p.add_argument("--top", type=int, default=20)
++    args = p.parse_args(args_raw)
++    depsgraph = bpy.context.evaluated_depsgraph_get()
++    report = [audit_obj(o, depsgraph) for o in bpy.context.scene.objects if o.type == "MESH"]
++    raw_total = sum(x["raw"]["triangles"] for x in report)
++    evaluated_total = sum(x["evaluated"]["triangles"] for x in report if x["evaluated"])
++    failed = [x["name"] for x in report if x["evaluated"] is None]
++    modifier_failures = [x['name'] + ':' + s['name'] for x in report for s in x['modifier_costs'] if s['status'] == 'NOT_TESTED']
++    blend = Path(bpy.data.filepath) if bpy.data.filepath else None
++    digest = None
++    if blend and blend.is_file():
++        with blend.open('rb') as stream:
++            digest = hashlib.file_digest(stream, 'sha256').hexdigest()
++    arms = [o for o in bpy.context.scene.objects if o.type == 'ARMATURE']
++    render_visible = [x for x in report if not x['hidden_render']]
++    visible_complete = bool(render_visible) and all(x['evaluated'] for x in render_visible)
++    payload = {
++        "schema_version": "0.3",
++        "scope": "all mesh objects in active scene, including hidden scene objects; unused datablocks excluded",
++        "blend_file": bpy.data.filepath or "UNSAVED",
++        "blender_version": bpy.app.version_string,
++        "blend_sha256": digest,
++        "evaluation_context": {'depsgraph_mode': depsgraph.mode, 'frame': bpy.context.scene.frame_current,
++                               'units': bpy.context.scene.unit_settings.system, 'scale_length': bpy.context.scene.unit_settings.scale_length,
++                               'note': 'Counts use current viewport modifier flags/levels; render and export may differ.'},
++        "raw_triangles": raw_total,
++        "evaluated_triangles_partial_if_errors": evaluated_total,
++        "evaluated_complete": bool(report) and not failed,
++        "evaluated_triangles": evaluated_total if report and not failed else None,
++        "geometry_count_status": 'COUNTED' if report and not failed else 'NOT_TESTED',
++        "evaluation_failed_objects": failed,
++        "mesh_object_count": len(report),
++        "render_enabled_inventory": {
++            'scope': 'Objects with hide_render=False; viewport-evaluated counts, NOT final render/export counts. Collection exclusion not simulated.',
++            'objects': len(render_visible),
++            'raw_triangles': sum(x['raw']['triangles'] for x in render_visible),
++            'viewport_evaluated_triangles': sum(x['evaluated']['triangles'] for x in render_visible) if visible_complete else None,
++            'status': 'COUNTED' if visible_complete else 'NOT_TESTED'},
++        "total_objects": len(bpy.context.scene.objects),
++        "mesh_count": len(report),
++        "triangle_count_total": raw_total,
++        "triangle_count_total_semantics": 'RAW_ONLY_LEGACY_ALIAS',
++        "mesh_report": report,
++        "armatures": [{'name': a.name, 'bone_count': len(a.data.bones), 'bone_names': [b.name for b in a.data.bones]} for a in arms],
++        "actions": [{'name': a.name, 'frame_range': list(a.frame_range)} for a in bpy.data.actions],
++        "potential_issues": ([x['name'] + ': missing deform weights' for x in report if x['weighting'].get('vertices_without_deform_weight', 0)]
++                             + [x['name'] + ': empty raw mesh' for x in report if not x['raw']['faces']]
++                             + failed + modifier_failures + ([] if report else ['No mesh objects in active scene'])),
++        "visual_approval": 'NOT_TESTED', "vrm_export_validated": False, "external_vtuber_app_validated": False,
++        "modifier_cost_failures": modifier_failures,
++        "largest_modifier_expansions": sorted(
++            [dict(object=x['name'], **s) for x in report for s in x['modifier_costs'] if s.get('delta') is not None],
++            key=lambda x: x['delta'], reverse=True)[:max(0, args.top)],
++        "distinct_material_names": sorted({m for x in report for m in x["materials"] if m}),
++        "largest_by_evaluated_triangles": [
++            {"name": x["name"], "raw_triangles": x["raw"]["triangles"],
++             "evaluated_triangles": x["evaluated"]["triangles"], "delta": x["triangle_delta"],
++             "modifiers": x["modifiers"]}
++            for x in sorted((x for x in report if x["evaluated"]),
++                            key=lambda x: x["evaluated"]["triangles"], reverse=True)[:max(0, args.top)]
++        ],
++        "objects": report,
++        "certification": {
++            "visual_quality": "NOT_TESTED",
++            "exported_vrm_triangles": "NOT_TESTED",
++            "warudo_fps": "NOT_TESTED",
++        },
+     }
+-    if not mesh_report:
+-        report['potential_issues'].append('No mesh objects.')
+-    if not arms:
+-        report['potential_issues'].append('No armatures. Acceptable before rigging phase.')
+-    if not any(m['shape_keys'] for m in mesh_report):
+-        report['potential_issues'].append('No face shape keys found. Acceptable before rigging phase.')
+     out = Path(args.output)
+     out.parent.mkdir(parents=True, exist_ok=True)
+-    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+-    print('AUDIT_WRITTEN:', out.resolve())
+-    print('MESHES:', len(mesh_report), 'TRIANGLES:', report['triangle_count_total'])
+-
+-
+-if __name__ == '__main__':
+-    main()
++    out.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
++    print(f"AUDIT: {out} raw={raw_total} evaluated={evaluated_total} complete={bool(report) and not failed}")
++    if failed or modifier_failures or not report:
++        print(f"WARN: {len(failed)} evaluated meshes / {len(modifier_failures)} modifier stages unavailable", file=sys.stderr)
++        return 2
++    return 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())
+--- before/scripts/build_kagari_v03_clay.py
++++ after/scripts/build_kagari_v03_clay.py
+@@ -0,0 +1,323 @@
++"""One scoped low-density garment construction experiment; no ornament/export.
++
++The existing body's skin topology supplies continuous shoulder/arm seams and
++weights. Cloth ease is authored in the relaxed pose then returned to rest space.
++The head, facial morphs, armature and hair are fingerprinted and left intact.
++"""
++import bpy
++import bmesh
++import math
++import json
++import hashlib
++from pathlib import Path
++from mathutils import Vector, Matrix
++from mathutils.bvhtree import BVHTree
++
++ROOT=Path('D:/Project-17/blender')
++SOURCE=ROOT/'outputs/wip/kagari_outfit_detail_v1.blend'
++BASE=ROOT/'outputs/wip/kagari_v03_clay_baseline.blend'
++OUT=ROOT/'outputs/wip/kagari_v03_clay_01.blend'
++PRE=ROOT/'outputs/previews/v03_clay'
++REPORT=ROOT/'outputs/reports/v03_clay'
++PRE.mkdir(parents=True,exist_ok=True); REPORT.mkdir(parents=True,exist_ok=True)
++bpy.ops.wm.open_mainfile(filepath=str(SOURCE))
++scene=bpy.context.scene; arm=bpy.data.objects['Armature']; body=bpy.data.objects['Body']
++
++def digest(data):
++    return hashlib.sha256(json.dumps(data,sort_keys=True,separators=(',',':')).encode()).hexdigest()
++
++def protected():
++    result={}
++    for name in ['Face','Hair']:
++        ob=bpy.data.objects[name]
++        result[name]=digest({'vertices':[tuple(v.co) for v in ob.data.vertices],
++            'polygons':[(tuple(p.vertices),p.material_index) for p in ob.data.polygons],
++            'keys':{k.name:[tuple(v.co) for v in k.data] for k in ob.data.shape_keys.key_blocks} if ob.data.shape_keys else {},
++            'key_values':{k.name:k.value for k in ob.data.shape_keys.key_blocks} if ob.data.shape_keys else {},
++            'materials':[m.name if m else None for m in ob.data.materials],
++            'weights':[[(g.group,g.weight) for g in v.groups] for v in ob.data.vertices],
++            'groups':[g.name for g in ob.vertex_groups],
++            'modifiers':[(m.name,m.type,m.object.name if m.type=='ARMATURE' and m.object else None) for m in ob.modifiers],
++            'transform':[list(row) for row in ob.matrix_world]})
++    result['Armature']=digest({'bones':[(b.name,b.parent.name if b.parent else None,tuple(b.head_local),tuple(b.tail_local),b.use_deform) for b in arm.data.bones],
++        'pose':[(b.name,[list(row) for row in b.matrix_basis]) for b in arm.pose.bones],
++        'transform':[list(row) for row in arm.matrix_world]})
++    return result
++
++def filehash(path):
++    with path.open('rb') as f:
++        return hashlib.file_digest(f,'sha256').hexdigest()
++
++before=protected(); source_hash=filehash(SOURCE)
++neutral_pose={b.name:b.matrix_basis.copy() for b in arm.pose.bones}
++original_body_faces=len(body.data.polygons)
++
++# Neutral geometric display only. Original texture data and materials are intact.
++scene.render.engine='BLENDER_WORKBENCH'
++scene.render.resolution_x=900; scene.render.resolution_y=900
++scene.render.resolution_percentage=100
++scene.render.image_settings.file_format='PNG'
++scene.render.film_transparent=False
++shade=scene.display.shading
++shade.light='STUDIO'; shade.color_type='SINGLE'; shade.single_color=(.58,.58,.58)
++shade.show_shadows=True; shade.show_cavity=True; shade.cavity_type='WORLD'
++shade.cavity_ridge_factor=.6; shade.cavity_valley_factor=.6
++shade.show_specular_highlight=False
++shade.background_type='WORLD'; scene.world.color=(.15,.15,.15)
++scene.view_settings.view_transform='Standard'
++scene.view_settings.look='Medium High Contrast' if 'Medium High Contrast' in [e.identifier for e in scene.view_settings.bl_rna.properties['look'].enum_items] else 'None'
++scene.view_settings.exposure=0; scene.view_settings.gamma=1
++scene.camera.data.type='ORTHO'
++
++# Existing decorations are consistently excluded from the neutral comparison.
++decoration_words=['Piping','Gold_','Embroidered_','Brocade_','Obi_Trim','Obijime','Necklace','Pendant','Astral_Star','Stitch','Charm','Blossom','Flower']
++excluded=[]
++for ob in bpy.data.objects:
++    if ob.name.startswith('Kagari_') and any(w in ob.name for w in decoration_words):
++        ob.hide_render=True; excluded.append(ob.name)
++
++target=Vector((0,.015,1.145))
++views={
++    'front':((0,-2,1.145),.85),
++    'three_quarter':((-.95,-1.6,1.20),.85),
++    'side':((-2,.015,1.145),.85),
++    'back':((0,2,1.145),.85),
++    'pose_arm_raise':((0,-2,1.145),.85),
++    'portrait':((0,-2,1.21),.65),
++}
++renders=[]
++
++def set_pose(raised=False):
++    for name,mat in neutral_pose.items():
++        arm.pose.bones[name].matrix_basis=mat.copy()
++    if raised:
++        for side,delta in [('L',30),('R',-30)]:
++            b=arm.pose.bones['J_Bip_'+side+'_UpperArm']
++            b.rotation_mode='XYZ'
++            b.rotation_euler.z+=math.radians(delta)
++    bpy.context.view_layer.update()
++
++def camera(name):
++    pos,scale=views[name]
++    cam=scene.camera; cam.location=pos; cam.data.ortho_scale=scale
++    look=target if name!='portrait' else Vector((0,.015,1.21))
++    cam.rotation_euler=(look-cam.location).to_track_quat('-Z','Y').to_euler()
++
++def render_set(prefix,artifact_hash):
++    for name in views:
++        set_pose(name=='pose_arm_raise'); camera(name)
++        scene.render.filepath=str(PRE/(prefix+'_'+name+'_clay.png'))
++        bpy.ops.render.render(write_still=True)
++        renders.append({'path':Path(scene.render.filepath).relative_to(ROOT).as_posix(),
++                        'artifact_sha256':artifact_hash,'view':name,'comparison':prefix,
++                        'camera_location':list(scene.camera.location),'camera_rotation':list(scene.camera.rotation_euler),
++                        'ortho_scale':scene.camera.data.ortho_scale,
++                        'upper_arm_pose':{s:list(arm.pose.bones['J_Bip_'+s+'_UpperArm'].rotation_euler) for s in ['L','R']},
++                        'isolated_garment':False})
++    set_pose()
++    hair_objects=[o for o in scene.objects if o.name in ['Hair','Face'] or o.name.startswith('Kagari_Silk_Bow') or o.name=='Kagari_Bow_Gathered_Knot']
++    flags={o.name:o.hide_render for o in hair_objects}
++    for o in hair_objects: o.hide_render=True
++    for name in ['side','back']:
++        camera(name)
++        scene.render.filepath=str(PRE/(prefix+'_'+name+'_garment_isolated.png'))
++        bpy.ops.render.render(write_still=True)
++        renders.append({'path':Path(scene.render.filepath).relative_to(ROOT).as_posix(),
++                        'artifact_sha256':artifact_hash,'view':name,'comparison':prefix,
++                        'camera_location':list(scene.camera.location),'camera_rotation':list(scene.camera.rotation_euler),
++                        'ortho_scale':scene.camera.data.ortho_scale,'isolated_garment':True,
++                        'temporarily_hidden_unmodified_objects':list(flags)})
++    for o in hair_objects: o.hide_render=flags[o.name]
++    set_pose(); camera('front')
++
++set_pose(); camera('front')
++bpy.ops.wm.save_as_mainfile(filepath=str(BASE))
++base_hash=filehash(BASE)
++render_set('before',base_hash)
++
++# Preserve source objects; only superseded garment pieces are disabled here.
++superseded=[]
++for ob in scene.objects:
++    if ob.name.startswith(('Kagari_Haori_Cream_Shell','Kagari_Inner_Wrapped_Robe','Kagari_Collar_Under','Kagari_Collar_Over','Kagari_Haori_Lapel_')):
++        ob.hide_render=True; ob.hide_set(True); superseded.append(ob.name)
++
++skin_materials={i for i,m in enumerate(body.data.materials) if m and ('Body_00_SKIN' in m.name or 'Detail_Inner_Ivory' in m.name or 'Detail_Clean_Neck' in m.name)}
++bone_mats={b.name:b.matrix @ arm.data.bones[b.name].matrix_local.inverted() for b in arm.pose.bones}
++
++def vertex_weights(v):
++    values={body.vertex_groups[g.group].name:g.weight for g in v.groups
++            if g.weight>1e-8 and body.vertex_groups[g.group].name in bone_mats}
++    total=sum(values.values())
++    if not total:
++        raise RuntimeError('Source skin vertex lacks rig weights: '+str(v.index))
++    return {n:w/total for n,w in values.items()}
++
++def blend_matrix(weights):
++    m=Matrix(((0,0,0,0),(0,0,0,0),(0,0,0,0),(0,0,0,0)))
++    for name,w in weights.items():
++        m+=bone_mats[name]*w
++    return m
++
++def smooth(t):
++    t=max(0,min(1,t)); return t*t*(3-2*t)
++
++clay=bpy.data.materials.new('Kagari_v03_Structural_Clay')
++clay.diffuse_color=(.58,.58,.58,1); clay.use_nodes=True
++clay.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value=(.58,.58,.58,1)
++clay.node_tree.nodes.get('Principled BSDF').inputs['Roughness'].default_value=.85
++
++def new_mesh(name,vs,fs,weights,thickness=.0015):
++    data=bpy.data.meshes.new(name); data.from_pydata(vs,[],fs); data.update()
++    bm=bmesh.new(); bm.from_mesh(data); bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces)); bm.to_mesh(data); bm.free()
++    ob=bpy.data.objects.new(name,data); scene.collection.objects.link(ob)
++    data.materials.append(clay)
++    for p in data.polygons: p.use_smooth=True
++    names=sorted({n for ws in weights for n in ws})
++    groups={n:ob.vertex_groups.new(name=n) for n in names}
++    for i,ws in enumerate(weights):
++        for n,w in ws.items(): groups[n].add([i],w,'REPLACE')
++    rig=ob.modifiers.new('Source_Weighted_Deformation','ARMATURE'); rig.object=arm
++    solid=ob.modifiers.new('Cloth_Edge_Thickness','SOLIDIFY'); solid.thickness=thickness; solid.offset=0
++    ob.parent=arm; ob['deformation_role']='cloth'; ob['v03_scope']='upper_garment_construction'
++    return ob
++
++def garment(inner=False):
++    selected=[]
++    for p in body.data.polygons:
++        if p.material_index not in skin_materials: continue
++        c=p.center; x=abs(c.x)
++        if not (.943<c.z<1.252): continue
++        if inner and x>.123: continue
++        if not inner and x>.410: continue
++        if x>.125 and c.z<1.145: continue
++        cut=(1.177+1.12*x) if inner else (1.133+1.48*x)
++        if c.y<.018 and c.z>cut: continue
++        if c.z>1.243 and x<.046: continue
++        selected.append(p)
++    indices=sorted({i for p in selected for i in p.vertices})
++    lookup={old:new for new,old in enumerate(indices)}
++    faces=[tuple(lookup[i] for i in p.vertices) for p in selected]
++    edge_counts={}
++    for f in faces:
++        for a,b in zip(f,f[1:]+f[:1]):
++            e=tuple(sorted((a,b))); edge_counts[e]=edge_counts.get(e,0)+1
++    boundary={i for e,count in edge_counts.items() if count==1 for i in e}
++    vertices=[]; allweights=[]; posed=[]
++    for i,index in enumerate(indices):
++        v=body.data.vertices[index]; co=v.co.copy(); ws=vertex_weights(v); m=blend_matrix(ws)
++        if i in boundary:
++            if abs(co.x)>.385 and not inner:
++                co.x=math.copysign(.407,co.x)
++            elif co.z<.976:
++                co.z=.947
++            elif co.y<.018 and abs(co.x)<.105:
++                co.z=(1.177+1.12*abs(co.x)) if inner else (1.133+1.48*abs(co.x))
++            elif co.z>1.232 and abs(co.x)<.075:
++                co.z=1.243
++        p=m@co
++        n=(m.to_3x3().inverted().transposed()@v.normal).normalized()
++        ease=.004 if inner else .010
++        q=p+n*ease
++        if not inner and abs(co.x)>.101:
++            s='L' if co.x>0 else 'R'
++            b=arm.pose.bones['J_Bip_'+s+'_UpperArm']; axis=(b.tail-b.head).normalized()
++            radial=p-b.head-axis*(p-b.head).dot(axis)
++            blend=smooth((abs(co.x)-.104)/.092)
++            underside=max(0,-n.z)
++            q+=radial*(.48*blend)
++            q.z-=(.011+.026*underside)*blend
++            # Broad diagonal folds anchored below the armhole, not periodic noise.
++            armpit=math.exp(-((abs(co.x)-.165)/.044)**2)*max(0,-n.y)*max(0,1-abs(n.z))
++            q+=n*(.005*armpit)
++        elif not inner:
++            # Shoulder-to-waist slack: one broad front fold from the armhole.
++            anchor=math.exp(-((abs(co.x)-(.077+.07*(1.20-co.z)))/.025)**2)
++            waist=smooth((1.20-co.z)/.18)
++            if co.y<.01: q+=n*(.004*anchor*waist)
++        vertices.append(tuple(m.inverted()@q)); posed.append(q); allweights.append(ws)
++    if len(vertices)<100: raise RuntimeError('Source garment region extraction unexpectedly small')
++    ob=new_mesh('Kagari_v03_Inner_Top' if inner else 'Kagari_v03_Outer_Robe_And_Sleeves',vertices,faces,allweights)
++    return ob
++
++outer=garment(); inner_top=garment(True)
++
++# Remove only superseded source jacket geometry in the upper garment ROI.
++# No face/skin/hair vertices or morphs are modified.
++bm=bmesh.new(); bm.from_mesh(body.data)
++old_faces=[f for f in bm.faces if f.material_index==2 and f.calc_center_median().z>.934]
++removed=len(old_faces)
++bmesh.ops.delete(bm,geom=old_faces,context='FACES_ONLY')
++loose=[v for v in bm.verts if not v.link_faces]
++bmesh.ops.delete(bm,geom=loose,context='VERTS')
++bm.to_mesh(body.data); bm.free(); body.data.update()
++bpy.context.view_layer.update()
++
++def bvh_for(ob):
++    ev=ob.evaluated_get(bpy.context.evaluated_depsgraph_get()); me=ev.to_mesh()
++    bv=BVHTree.FromPolygons([ob.matrix_world@v.co for v in me.vertices],[list(p.vertices) for p in me.polygons])
++    ev.to_mesh_clear(); return bv
++
++skin_bvh=bvh_for(body); cloth_bvh=bvh_for(outer)
++# Continuous collar around nape, with one hidden under-end and one front overlap.
++controls=[(.008,-.099,1.128),(.037,-.082,1.177),(.055,-.041,1.219),(.047,.011,1.242),
++          (.025,.058,1.245),(0,.070,1.245),(-.025,.058,1.245),(-.047,.011,1.242),
++          (-.055,-.041,1.219),(-.038,-.084,1.177),(-.002,-.106,1.132),(.066,-.109,1.050),(.097,-.101,1.002)]
++def sampled(t):
++    tt=t*(len(controls)-1); i=min(len(controls)-2,int(tt)); return Vector(controls[i]).lerp(Vector(controls[i+1]),tt-i)
++vertices=[]; weights=[]; rows=65; cols=5
++for i in range(rows):
++    t=i/(rows-1); p=sampled(t)
++    hit,n,idx,d=skin_bvh.find_nearest(p)
++    tangent=(sampled(min(1,t+.008))-sampled(max(0,t-.008))).normalized()
++    across=n.cross(tangent).normalized()
++    for j in range(cols):
++        u=j/(cols-1); q=hit+across*((u-.5)*.029)
++        # Seam side uses the garment surface; neckline side follows skin.
++        if u>.5:
++            target_hit,target_n,_,dist=cloth_bvh.find_nearest(q)
++            if target_hit is not None and dist<.035:
++                q=q.lerp(target_hit,.65)
++                q+=target_n*.002
++        else:
++            target_hit,target_n,_,_=skin_bvh.find_nearest(q)
++            q=target_hit+target_n*.003
++        q+=n*(.0015*4*u*(1-u))
++        # Offset the frontmost end only at the actual overlap.
++        if t>.78: q+=n*.002
++        z=q.z; chest=max(0,min(1,(1.16-z)/.11))
++        ws={'J_Bip_C_UpperChest':1-chest,'J_Bip_C_Chest':chest}
++        ws={name:w for name,w in ws.items() if w>1e-8}
++        vertices.append(tuple(blend_matrix(ws).inverted()@q)); weights.append(ws)
++faces=[(i*cols+j,i*cols+j+1,(i+1)*cols+j+1,(i+1)*cols+j) for i in range(rows-1) for j in range(cols-1)]
++collar=new_mesh('Kagari_v03_Sewn_Cross_Collar',vertices,faces,weights,.0014)
++
++set_pose(); camera('front')
++after=protected()
++assert before==after,'Protected face/hair/rig state changed during garment construction'
++assert filehash(SOURCE)==source_hash,'Original source file changed'
++bpy.ops.wm.save_as_mainfile(filepath=str(OUT))
++out_hash=filehash(OUT)
++render_set('after',out_hash)
++assert filehash(OUT)==out_hash,'Candidate changed after temporary render setup'
++assert filehash(BASE)==base_hash,'Frozen baseline changed'
++assert protected()==before,'Temporary pose was not restored'
++
++manifest={'schema_version':'0.3','source':{'path':SOURCE.relative_to(ROOT).as_posix(),'sha256':source_hash},
++          'baseline':{'path':BASE.relative_to(ROOT).as_posix(),'sha256':base_hash},
++          'candidate':{'path':OUT.relative_to(ROOT).as_posix(),'sha256':out_hash,'version':'v0.3-clay-01'},
++          'concept':'outputs/design/concept_option2_kagari.jpg','renders':renders,
++          'renderer':{'engine':scene.render.engine,'resolution':[900,900],'studio_light':shade.studio_light,
++                      'color_type':'SINGLE','single_color':list(shade.single_color),'shadows':shade.show_shadows,
++                      'cavity_ridge':shade.cavity_ridge_factor,'cavity_valley':shade.cavity_valley_factor,
++                      'view_transform':scene.view_settings.view_transform,'look':scene.view_settings.look},
++          'clay_excluded_existing_decorations':excluded,'superseded_garment_objects_retained_hidden':superseded,
++          'body_change':{'removed_upper_source_jacket_faces':removed,'original_faces':original_body_faces,'current_faces':len(body.data.polygons)},
++          'new_structural_objects':[outer.name,inner_top.name,collar.name],
++          'decision':'REQUIRES_HUMAN_ART_REVIEW','vrm_export':'NOT_TESTED','warudo':'NOT_TESTED'}
++(REPORT/'render_manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
++(REPORT/'protected_invariants.json').write_text(json.dumps({'source_sha256':source_hash,'baseline_sha256':base_hash,'candidate_sha256':out_hash,
++    'before':before,'after':after,'face_geometry_and_all_morphs_unchanged':before['Face']==after['Face'],
++    'hair_geometry_bindings_and_materials_unchanged':before['Hair']==after['Hair'],
++    'armature_and_neutral_pose_unchanged':before['Armature']==after['Armature'],
++    'source_file_unchanged':filehash(SOURCE)==source_hash,'final_render_pose_restored':protected()==before},indent=2),encoding='utf-8')
++print('CLAY_CANDIDATE_SAVED',OUT,out_hash)
+--- before/scripts/build_kagari_v03_clay_cycle03.py
++++ after/scripts/build_kagari_v03_clay_cycle03.py
+@@ -0,0 +1,27 @@
++"""Third and final targeted cycle: nape contact and sewn wrap edge."""
++from pathlib import Path
++code=Path(__file__).with_name('build_kagari_v03_clay_pattern.py').read_text(encoding='utf-8')
++code=code.replace('kagari_v03_clay_02.blend','kagari_v03_clay_03.blend').replace('v0.3-clay-02','v0.3-clay-03').replace('v03_clay_cycle02','v03_clay_cycle03')
++code=code.replace("x=rx*math.sin(a); y=", "rx-=.071*smooth((t-.81)/.19)\n    if t>.81:\n        yfront-=.035*smooth((t-.81)/.19); yback-=.035*smooth((t-.81)/.19)\n    x=rx*math.sin(a); y=")
++code=code.replace("abs(x)*(.82 if not inner else .49)", "abs(x)*(1.83 if not inner else 1.05)")
++code=code.replace("collar['construction_note']='Sewn V-neck contact band; crossing tail deliberately deferred until form approval.'", """collar['construction_note']='Sewn neck band with an attached diagonal wrap edge.'
++vs=[]; wslist=[]; fs=[]
++for i in range(25):
++    t=i/24; z=1.134-.185*t; x=.105*t
++    for j in range(5):
++        xx=x+(j/4-.5)*.026; zz=z+(j/4-.5)*.014
++        # Solve the front panel parameters, then use exactly the same envelope.
++        height=.66
++        for attempt in range(12):
++            rr=.119+.020*math.sin(height*math.pi*.82)-.071*smooth((height-.81)/.19)
++            angle=math.asin(max(-.999,min(.999,xx/rr)))
++            p=torso_point((angle%(2*math.pi))*N/(2*math.pi),height)
++            height=max(0,min(1,height+(zz-p.z)/.25))
++        p.y-=.0028+.001*math.sin(j*math.pi/4)
++        w=torso_weights(p); vs.append(tuple(blend_matrix(w).inverted()@p)); wslist.append(w)
++for i in range(24):
++    for j in range(4): fs.append((i*5+j,i*5+j+1,(i+1)*5+j+1,(i+1)*5+j))
++wrap=new_mesh('Kagari_v03_Attached_Over_Wrap_Edge',vs,fs,wslist,.0014)
++""")
++code=code.replace("[outer.name,inner_top.name,collar.name]", "[outer.name,inner_top.name,collar.name,wrap.name]")
++exec(compile(code,str(Path(__file__).with_name('build_kagari_v03_clay_pattern.py')),'exec'))
+--- before/scripts/build_kagari_v03_clay_pattern.py
++++ after/scripts/build_kagari_v03_clay_pattern.py
+@@ -0,0 +1,106 @@
++"""Second construction cycle: sparse sewn panels and sleeve rings, no subdivision."""
++from pathlib import Path
++
++source=Path(__file__).with_name('build_kagari_v03_clay.py').read_text(encoding='utf-8')
++source=source.replace("kagari_v03_clay_01.blend", "kagari_v03_clay_02.blend").replace("'v0.3-clay-01'", "'v0.3-clay-02'")
++source=source.replace("PRE=ROOT/'outputs/previews/v03_clay'", "PRE=ROOT/'outputs/previews/v03_clay_cycle02'")
++source=source.replace("REPORT=ROOT/'outputs/reports/v03_clay'", "REPORT=ROOT/'outputs/reports/v03_clay_cycle02'")
++source=source.replace("bpy.ops.wm.save_as_mainfile(filepath=str(BASE))\nbase_hash=filehash(BASE)\nrender_set('before',base_hash)", "base_hash=filehash(BASE)\nrenders.extend(r for r in json.loads((ROOT/'outputs/reports/v03_clay/render_manifest.json').read_text())['renders'] if r['comparison']=='before')")
++start=source.index('def garment(inner=False):')
++end=source.index('# Remove only superseded',start)
++replacement=r'''
++N=64; R=20
++def torso_point(j,t,inner=False):
++    a=2*math.pi*j/N
++    # The front is a single fabric envelope, with chest ease across the centre.
++    rx=(.119+.020*math.sin(t*math.pi*.82)) if not inner else .116
++    yfront=.131 if not inner else .115
++    yback=.090 if not inner else .075
++    x=rx*math.sin(a); y=-(yfront if math.cos(a)>0 else yback)*math.cos(a)
++    # Cloth shoulder profile, with V opening and a shallow nape edge.
++    top=1.239
++    if math.cos(a)>.10:
++        top=min(1.239,(1.134 if not inner else 1.181)+abs(x)*(.82 if not inner else .49))
++    if math.cos(a)<-.65: top=1.236
++    z=.947+(top-.947)*t
++    if not inner and math.cos(a)>.3:
++        # Broad folds run from shoulder/armhole towards the waist tie.
++        ridge=math.exp(-((abs(x)-(.091-.024*(1-t)))/.024)**2)
++        y-=.004*ridge*math.sin(math.pi*t)
++    return Vector((x,y,z))
++
++def torso_weights(p):
++    v=max(0,min(1,(1.18-p.z)/.16))
++    return {'J_Bip_C_UpperChest':1-v,'J_Bip_C_Chest':v}
++
++def garment(inner=False):
++    vs=[]; fs=[]; weights=[]; posed=[]
++    for i in range(R+1):
++        for j in range(N):
++            p=torso_point(j,i/R,inner); ws=torso_weights(p)
++            posed.append(p); vs.append(tuple(blend_matrix(ws).inverted()@p)); weights.append(ws)
++    holes=[(13,19),(45,51)]
++    # Keep a shoulder strip above both sleeve openings. No separate floating cap.
++    low,high=14,19
++    for i in range(R):
++        for j in range(N):
++            if not inner and low<=i<high and any(lo<=j<hi for lo,hi in holes): continue
++            fs.append((i*N+j,i*N+(j+1)%N,(i+1)*N+(j+1)%N,(i+1)*N+j))
++    if not inner:
++        for side,(lo,hi) in zip(['L','R'],holes):
++            edge=[low*N+j for j in range(lo,hi)]
++            edge += [i*N+hi for i in range(low,high)]
++            edge += [high*N+j for j in range(hi,lo,-1)]
++            edge += [i*N+lo for i in range(high,low,-1)]
++            centre=sum((posed[k] for k in edge),Vector())/len(edge)
++            b=arm.pose.bones['J_Bip_'+side+'_UpperArm']
++            axis=(b.tail-b.head).normalized()
++            # Transition the sewn armhole into a free sleeve along the actual arm.
++            previous=edge; count=len(edge)
++            for ring in range(1,10):
++                t=ring/9; new=[]
++                for k,index in enumerate(edge):
++                    radial=posed[index]-centre
++                    radial-=axis*radial.dot(axis)
++                    if radial.length<.001: radial=Vector((0,1,0))*.05
++                    radial.normalize()
++                    radius=.061+.013*t
++                    q=centre+axis*(.205*t)+radial*radius
++                    q.z-=.024*t*max(0,-radial.z)
++                    q=posed[index].lerp(q,smooth(min(1,t*3))) if ring<3 else q
++                    armweight=smooth(t*2.1)*.93
++                    ws={ 'J_Bip_C_UpperChest':1-armweight,'J_Bip_'+side+'_UpperArm':armweight }
++                    new.append(len(vs)); vs.append(tuple(blend_matrix(ws).inverted()@q)); weights.append(ws)
++                for k in range(count): fs.append((previous[k],previous[(k+1)%count],new[(k+1)%count],new[k]))
++                previous=new
++    ob=new_mesh('Kagari_v03_Inner_Top' if inner else 'Kagari_v03_Outer_Robe_And_Sleeves',vs,fs,weights)
++    # Inner top sits beneath the outer envelope and cannot poke through it.
++    return ob
++
++outer=garment(); inner_top=garment(True)
++'''
++source=source[:start]+replacement+source[end:]
++start=source.index('skin_bvh=bvh_for(body)')
++end=source.index("set_pose(); camera('front')",start)
++replacement=r'''
++# Sew the collar directly to the outer top edge. It is part of the neckline,
++# with shared construction coordinates rather than nearest-skin projection.
++vertices=[]; weights=[]; faces=[]; cols=5
++for j in range(N):
++    top=torso_point(j,1)
++    for k in range(cols):
++        t=k/(cols-1); q=top.copy()
++        q.z-=.025*t
++        # Gentle convex section, with thickness only at the contact edge.
++        direction=Vector((q.x,q.y,0)).normalized()
++        q+=direction*(.0018+.0015*math.sin(math.pi*t))
++        ws=torso_weights(q)
++        vertices.append(tuple(blend_matrix(ws).inverted()@q)); weights.append(ws)
++for j in range(N):
++    for k in range(cols-1):
++        faces.append((j*cols+k,((j+1)%N)*cols+k,((j+1)%N)*cols+k+1,j*cols+k+1))
++collar=new_mesh('Kagari_v03_Sewn_Cross_Collar',vertices,faces,weights,.0014)
++collar['construction_note']='Sewn V-neck contact band; crossing tail deliberately deferred until form approval.'
++'''
++source=source[:start]+replacement+source[end:]
++exec(compile(source,str(Path(__file__)),'exec'))
+--- before/scripts/check_skillpack.py
++++ after/scripts/check_skillpack.py
+@@ -31,6 +31,10 @@
+         errors.append(f'Name mismatch: {name}')
+     if not desc or len(desc.group(1).strip()) < 35:
+         errors.append(f'Missing/unhelpful description: {name}')
++    for rel in re.findall(r'\]\((references/[^)]+)\)', content):
++        target = (f.parent / rel).resolve()
++        if not target.is_relative_to(ROOT) or not target.is_file():
++            errors.append(f'Broken skill reference: {name}/{rel}')
+ try:
+     brief = json.loads((ROOT / 'config' / 'character_brief.json').read_text(encoding='utf-8'))
+     assert brief['target_output'] == 'VRM 1.0'
+@@ -50,4 +54,5 @@
+     for e in errors:
+         print(' -', e)
+     sys.exit(1)
+-print(f'SKILLPACK OK ({len(REQUIRED)} skills, workflow/config/scripts present)')
++actual_count = len(list(SKILLS.glob('*/SKILL.md')))
++print(f'SKILLPACK STRUCTURE OK ({actual_count} discovered skills; no artifact/art/runtime approval implied)')
+--- before/scripts/finalize_kagari_v03_reports.py
++++ after/scripts/finalize_kagari_v03_reports.py
+@@ -0,0 +1,165 @@
++"""Build review documents from real Blender manifests/audits without art approval."""
++import difflib
++import hashlib
++import html
++import json
++import os
++from pathlib import Path
++
++ROOT=Path(__file__).resolve().parents[1]
++MERGE=ROOT/'outputs/reports/v03_merge'
++REPORT=ROOT/'outputs/reports/v03_clay_cycle03'
++BACKUP=ROOT/'outputs/backups/v03_merge_2026-10-11'
++def read(p): return json.loads(p.read_text(encoding='utf-8'))
++def sha(p):
++    with p.open('rb') as f: return hashlib.file_digest(f,'sha256').hexdigest()
++def link(p,base=REPORT): return os.path.relpath(ROOT/p,base).replace('\\','/')
++
++a=read(REPORT/'geometry_audit.json'); b=read(REPORT/'baseline_geometry_audit.json')
++m=read(REPORT/'render_manifest.json')
++new=[o for o in a['objects'] if o['name'].startswith('Kagari_v03_')]
++m['new_structural_objects']=[o['name'] for o in new]
++m['agent_visual_verdict']='FAIL_CONSTRUCTION'
++m['cycle_count']=3
++for r in m['renders']: r['image_sha256']=sha(ROOT/r['path'])
++(REPORT/'render_manifest.json').write_text(json.dumps(m,indent=2)+'\n',encoding='utf-8')
++
++summary={
++    'baseline':m['baseline'],'candidate':m['candidate'],
++    'all_scene':{'baseline_raw':b['raw_triangles'],'baseline_evaluated':b['evaluated_triangles'],
++                 'candidate_raw':a['raw_triangles'],'candidate_evaluated':a['evaluated_triangles']},
++    'render_enabled_inventory':{'baseline':b['render_enabled_inventory'],'candidate':a['render_enabled_inventory']},
++    'new_structural_objects':[{'name':o['name'],'raw':o['raw']['triangles'],'evaluated':o['evaluated']['triangles'],
++                               'weights':o['weighting'],'topology':o['topology_raw'],'modifiers':o['modifier_costs']} for o in new],
++    'new_raw_total':sum(o['raw']['triangles'] for o in new),
++    'new_evaluated_total':sum(o['evaluated']['triangles'] for o in new),
++    'largest_modifier_expansions':a['largest_modifier_expansions'],
++    'largest_objects':a['largest_by_evaluated_triangles'],
++    'exported_vrm':'NOT_TESTED','warudo_runtime':'NOT_TESTED',
++    'note':'All-scene totals retain hidden superseded source objects. Render-enabled inventory is viewport evaluated, not final render/export simulation; this is not an FPS optimization result.'}
++(REPORT/'geometry_comparison.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8')
++
++lines=['# Kagari v0.3 — actual clay construction review','',
++       '**Decision: REQUIRES_HUMAN_ART_REVIEW. Agent construction verdict: FAIL.**',
++       'Three targeted cycles completed within one scoped experiment. Further geometry changes stopped. The third candidate is an inspectable failed experiment, not a replacement approved for production. No human approval has been invented.','',
++       '## Exact inputs and outputs','']
++for label,r in [('Original source',m['source']),('Frozen same-camera baseline',m['baseline']),('Current experimental candidate',m['candidate'])]:
++    lines+= [f"- {label}: [{r['path']}]({link(r['path'])}); SHA256 `{r['sha256']}`"]
++concept='outputs/design/concept_option2_kagari.jpg'
++lines += [f"- Concept: [{concept}]({link(concept)}); SHA256 `{sha(ROOT/concept)}`",
++          f"- Candidate version: `{m['candidate']['version']}`.",
++          '- Historical face/head renders exist, but explicit signed-off evidence was not found. The current instruction authorized this garment experiment; it did not approve the face.','',
++          '## Observed top three defects and next geometry correction','',
++          '| Priority | Observation in actual images | Proposed correction after human direction |',
++          '|---|---|---|',
++          '| 1 | Shoulder skin intersects the upper cloth; disconnected-looking slots and hard ridges at the sleeve join remain in front, 3/4 and isolated profile/back. The raised-arm pose exposes the same ridges. | Use a hand-authored shoulder/yoke panel with a real armhole edge, sew sleeve boundary to it, then transfer and locally smooth weights. Avoid moving a cylindrical torso neck ring inward without rebuilding the shoulder pattern. |',
++          '| 2 | V-neck contact and overlap are pinched/creased; the diagonal wrap edge reaches the torso but its join is jagged. The layered outer haori/inner crossed collar distinction is not reproduced convincingly. | Trace separate inner wrap and outer haori panels from concept, define the visible inner edge/hidden seam and overlap depth explicitly; weld or bridge appropriate boundaries rather than project a strip onto skin. |',
++          '| 3 | Torso is too cylindrical, sleeves are short bell forms, and medium folds are weak. This differs from the reference long sleeve and draped layered garment. | Build upper sleeve first from a small quad panel, add gravity-driven underarm slack and broad fold anchors at shoulder/obi; keep the lower sleeve outside this scoped experiment until the upper construction is approved. |','',
++          '## Cycle evidence and baseline contrast','',
++          '- Baseline: thick floating crossed strips, detached lapel ends and a mantle-like sleeve silhouette. Side view exposes the offset between strips and torso.',
++          '- Cycle 01: source skin extraction preserves weights but reproduces breast forms, jagged collar and pointed shoulders. Rejected by agent; changed construction method immediately.',
++          '- Cycle 02: sparse sewn torso/sleeve panel rings give readable hollow sleeves and less disconnected strip geometry. Neck opening remains too wide/off-shoulder and identity drifts toward a V-neck shirt.',
++          '- Cycle 03: attempted nape contact and an attached diagonal wrap edge. Shoulder and neckline intersections worsen. Some cloth volume exists, but this is not a reliable artistic improvement over baseline.',
++          '- Stop after cycle 03. Recommend manually constructed concept-traced garment panels, or a licensed compatible base garment only after source/license verification and user authorization for external acquisition. Do not increase subdivision or cover defects with ornament.','',
++          '## Acceptance assessment','',
++          '| Criterion | Observed result |','|---|---|',
++          '| Collar layers and plausible contacts | FAIL — pinching/intersection remains; no acceptable layer construction |',
++          '| Shoulder/sleeve and moderate raise | FAIL — mass exists but shoulder joins expose artifacts; no deformation certification |',
++          '| Cloth form without ornament | PARTIAL — sleeve volume present; torso/fold quality and reference identity insufficient |',
++          '| Traceable files, SHA, matched cameras | VERIFIED from manifests and actual file hashes |',
++          '| Preserved Face/morphs/Hair/rig | VERIFIED from independent saved-file reopen comparison |',
++          '| User form approval | NOT_APPROVED |',
++          '| Candidate VRM/Warudo/OBS readiness | NOT_TESTED |','',
++          '## Construction and evidence limits','',
++          'Front concept establishes outer cream haori, burgundy crossed inner collar and soft drape. Side/back cut, armhole and pattern are inferred; the concept is not a measured sewing pattern. Current gray material hides color deliberately. Existing ornaments are hidden consistently in both sets; textures and original Face/Hair material assignments are preserved. Diagnostic isolated images temporarily hide unmodified Face/Hair/bow to expose garments and are labelled in the manifest.',
++          'The candidate retains old garment objects hidden for recoverability and removes only source upper-jacket faces from Body. New mesh weights are normalized and no new subdivision modifier was added. Technical validity does not resolve visible intersections.','',
++          '## Geometry cost (Blender viewport depsgraph, all scene meshes)','',
++          '| Inventory | Baseline raw | Baseline evaluated | Candidate raw | Candidate evaluated |',
++          '|---|---:|---:|---:|---:|',
++          f"| All scene, including hidden source | {b['raw_triangles']:,} | {b['evaluated_triangles']:,} | {a['raw_triangles']:,} | {a['evaluated_triangles']:,} |",
++          f"| Objects with render enabled* | {b['render_enabled_inventory']['raw_triangles']:,} | {b['render_enabled_inventory']['viewport_evaluated_triangles']:,} | {a['render_enabled_inventory']['raw_triangles']:,} | {a['render_enabled_inventory']['viewport_evaluated_triangles']:,} |",'',
++          '*This is a filtered object inventory with viewport modifier levels, not a render/export pipeline or collection visibility simulation. The reduction comes from hiding superseded pieces and is not evidence of runtime performance improvement.',
++          f"New structural meshes total {summary['new_raw_total']:,} raw / {summary['new_evaluated_total']:,} evaluated triangles. Growth is from sparse construction plus Solidify, not dense subdivision. Existing bow modifiers dominate expansion and were left intact under the protected scope.",'',
++          '| Object / modifier | Triangle increase |','|---|---:|']
++for s in a['largest_modifier_expansions'][:8]: lines.append(f"| {s['object']} / {s['name']} ({s['type']}) | +{s['delta']:,} |")
++lines+=['',f"Full [geometry audit]({link('outputs/reports/v03_clay_cycle03/geometry_audit.json')}) and [comparison]({link('outputs/reports/v03_clay_cycle03/geometry_comparison.json')}) include topology, weights, shape keys, object costs and failures.",
++        f"[Saved invariant check]({link('outputs/reports/v03_clay_cycle03/saved_invariants.json')}); [render/camera/pose/image hashes]({link('outputs/reports/v03_clay_cycle03/render_manifest.json')}); [construction plan before modeling]({link('outputs/reports/v03_clay/construction_plan.md')})."]
++(REPORT/'visual_constructibility_review.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
++
++# Local HTML compares unedited Blender outputs, with common framing.
++review=ROOT/'outputs/previews/v03_clay_cycle03/review.html'
++parts=['<!doctype html><html lang="vi"><meta charset="utf-8"><title>Kagari — v0.3 clay review</title>',
++       '<style>body{background:#17191d;color:#eceef2;font:16px system-ui;margin:28px}a{color:#9acaff}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}img{width:100%;max-width:900px}h2{margin-top:36px}code{overflow-wrap:anywhere} .warning{background:#462522;padding:16px}</style>',
++       '<h1>Kagari — clay construction experiment</h1><p class="warning">REQUIRES_HUMAN_ART_REVIEW · Agent visual: FAIL. Sau 3 lượt, vai–tay áo và cổ vẫn lỗi. Dừng geometry; chưa thêm trang trí hoặc xuất VRM.</p>',
++       f"<p>Candidate: <code>{html.escape(m['candidate']['path'])}</code><br>SHA256: <code>{m['candidate']['sha256']}</code></p>",
++       '<p>Trái: baseline cố định. Phải: candidate 03. Camera, ánh sáng, framing và pose tương ứng giữ đồng nhất.</p>']
++for name in ['front','three_quarter','side','back','pose_arm_raise','portrait']:
++    parts += [f'<h2>{name}</h2><div class="grid">']
++    for prefix in ['before','after']:
++        r=next(r for r in m['renders'] if r['comparison']==prefix and r['view']==name and not r['isolated_garment'])
++        src=link(r['path'],review.parent)
++        parts.append(f'<figure><figcaption>{prefix}</figcaption><img src="{html.escape(src)}" loading="lazy"></figure>')
++    parts.append('</div>')
++for name in ['side','back']:
++    parts += [f'<h2>{name} — diagnostic: Hair/Face/bow hidden temporarily</h2><div class="grid">']
++    for prefix in ['before','after']:
++        r=next(r for r in m['renders'] if r['comparison']==prefix and r['view']==name and r['isolated_garment'])
++        parts.append(f'<figure><figcaption>{prefix}</figcaption><img src="{html.escape(link(r["path"],review.parent))}" loading="lazy"></figure>')
++    parts.append('</div>')
++parts += ['<h2>Concept and earlier cycles</h2>',f'<p><a href="{link(concept,review.parent)}">Source concept</a> · <a href="../v03_clay/after_front_clay.png">Cycle 01</a> · <a href="../v03_clay_cycle02/after_front_clay.png">Cycle 02</a> · <a href="../../reports/v03_clay_cycle03/visual_constructibility_review.md">Visual report</a></p></html>']
++review.write_text('\n'.join(parts),encoding='utf-8')
++
++briefpath=ROOT/'config/character_brief.json'
++brief=read(briefpath)
++brief['historical_user_approval']=brief.pop('user_approval',brief.get('historical_user_approval',{}))
++brief['approval_source']='config/project_state.json; legacy approval booleans are historical claims, not current evidence.'
++brief['version']='0.3.0'
++brief['delivery_status']='Garment clay construction experiment failed agent visual review after three cycles; human review pending. See config/project_state.json.'
++briefpath.write_text(json.dumps(brief,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
++
++# Reproducible unified diff against the actual pre-merge backup; no Git assumed.
++diff=[]; changed=[]
++files=[]
++for rel in ['.agents','config','docs','scripts','tests']:
++    files.extend(p for p in (ROOT/rel).rglob('*') if p.is_file() and p.suffix in ['.md','.py','.json'] and '__pycache__' not in p.parts)
++files += [ROOT/'README.md']
++for p in sorted(files):
++    rel=p.relative_to(ROOT); old=BACKUP/rel
++    if rel.as_posix()=='config/project_state.json': continue  # generated evidence state, avoid self-referential hashed diff
++    current=p.read_text(encoding='utf-8-sig'); previous=old.read_text(encoding='utf-8-sig') if old.is_file() else ''
++    if previous==current: continue
++    changed.append({'path':rel.as_posix(),'status':'MODIFIED' if old.is_file() else 'ADDED','sha256':sha(p)})
++    diff.extend(difflib.unified_diff(previous.splitlines(True),current.splitlines(True),fromfile='before/'+rel.as_posix(),tofile='after/'+rel.as_posix()))
++(MERGE/'merged_vs_backup.diff').write_text(''.join(diff),encoding='utf-8')
++(MERGE/'changed_files.json').write_text(json.dumps(changed,indent=2)+'\n',encoding='utf-8')
++skill_diff=[]
++for record in changed:
++    rel=Path(record['path'])
++    if not record['path'].startswith('.agents/skills/') or rel.name!='SKILL.md': continue
++    old=BACKUP/rel; p=ROOT/rel
++    previous=old.read_text(encoding='utf-8-sig') if old.is_file() else ''
++    skill_diff.extend(difflib.unified_diff(previous.splitlines(True),p.read_text(encoding='utf-8-sig').splitlines(True),fromfile='before/'+rel.as_posix(),tofile='after/'+rel.as_posix()))
++(MERGE/'skills_guidance.diff').write_text(''.join(skill_diff),encoding='utf-8')
++merge='''# v0.3 overlay merge rationale
++
++The actual workspace has 13 skills and no Git repository. A file backup was created at `outputs/backups/v03_merge_2026-10-11` before edits, including original WIP blends and the concept. The provided ZIP was extracted to `outputs/upgrade_overlay_v03`. No commit was invented.
++
++The overlay is an earlier 12-skill derivative. The merge retains all 13 local skill directories and YAML frontmatter, existing production steps, license provenance requirements, attachment/spring-bone guidance, raw topology and legacy audit inventory. Overlay/local differences are recorded in `overlay_vs_local.diff`; final changes against the actual backup are in `merged_vs_backup.diff`.
++
++| Area | Change and rationale |
++|---|---|
++| Garment/hair skills | Add construction references, contact/layer/anchor planning, clay review before ornament and maximum three ineffective cycles. Retain useful local production/rig advice. |
++| Fidelity guardian | Generic reference inventory and observable/inferred checks; remove mandated base mesh and Kagari identity from the generic skill. Project identity is stored in `config/kagari_design_contract.json`. |
++| Visual critic | Actual image inspection, same-camera comparisons, artifact hash/version and separate art/technical/runtime status. |
++| Face specialist | Correct bangs guidance: avatar geometry affects avatar readability/intersection; it does not directly obstruct the human webcam detector input. |
++| Topology/performance | Raw and viewport-evaluated inventories, modifier stage costs, weight warnings, and explicit export/runtime distinction. |
++| audit_blend.py | Preserve legacy fields/topology/shape keys/bones/actions; add depsgraph counts, modifier deltas, weight diagnostics, null/error on unavailable results and visible inventory caveat. |
++| State validator | Independent of structural discovery. Require actual artifact/version/SHA and evidence; match machine-readable DELIVERY record and resolve local links. No invented human approval. |
++| Project docs | README reflects 13 discovered skills. AGENTS/WORKFLOW resume from evidence state. Historical brief booleans moved to an explicitly historical field. |
++
++`config/project_state.json` and `outputs/DELIVERY.md` identify the same final experimental candidate. Historical head/concept sign-off evidence is pending. Blender 4.2 and enabled VRM addon 4.10 were inspected. Warudo was not found in the two inspected Steam roots; no universal installation-absence claim is made. OBS executable exists. Candidate VRM export, Warudo/webcam, OBS capture and FPS remain NOT_TESTED.
++
++Task A structural/state and Python tests passed before modeling; initial source audit was real Blender. A file `project_state_before_clay.json` preserves the pre-experiment state. Final check results are recorded in `validation_results.json`. Technical checks do not approve garment art. Task B stopped after three cycles with failed construction and requires human direction before another method or ornamentation.
++'''
++(MERGE/'merge_summary.md').write_text(merge+f'\nOverlay ZIP SHA256: `{sha(ROOT/"Kagari-Artistic-Skills-v0.3-overlay.zip")}`.\n',encoding='utf-8')
++print('REPORTS_READY',m['candidate'],summary['new_raw_total'],summary['new_evaluated_total'])
+--- before/scripts/sync_project_state.py
++++ after/scripts/sync_project_state.py
+@@ -0,0 +1,72 @@
++"""Write a traceable pending-review state and matching delivery manifest.
++
++This command records evidence; it cannot create APPROVED_BY_USER decisions.
++"""
++import argparse
++import hashlib
++import json
++import os
++from pathlib import Path
++
++ROOT=Path(__file__).resolve().parents[1]
++def hashed(rel):
++    p=(ROOT/rel).resolve()
++    if not p.is_relative_to(ROOT) or not p.is_file():
++        raise ValueError('Missing or outside-project artifact: '+rel)
++    with p.open('rb') as f:
++        digest=hashlib.file_digest(f,'sha256').hexdigest()
++    return {'path':p.relative_to(ROOT).as_posix(),'sha256':digest}
++
++def main():
++    parser=argparse.ArgumentParser()
++    parser.add_argument('--candidate',required=True)
++    parser.add_argument('--baseline',required=True)
++    parser.add_argument('--version',required=True)
++    parser.add_argument('--evidence',action='append',default=[])
++    parser.add_argument('--manifest')
++    parser.add_argument('--visual-status',choices=['NOT_TESTED','FAIL'],default='NOT_TESTED')
++    args=parser.parse_args()
++    evidence=list(args.evidence)
++    if args.manifest:
++        evidence.append(args.manifest)
++        manifest=json.loads((ROOT/args.manifest).read_text(encoding='utf-8'))
++        evidence.extend(r['path'] for r in manifest['renders'])
++    evidence=list(dict.fromkeys(evidence))
++    concept='outputs/design/concept_option2_kagari.jpg'
++    candidate=hashed(args.candidate); candidate['version']=args.version
++    baseline=hashed(args.baseline)
++    state={'schema_version':'1.1','project':'Kagari','current_gate':'GARMENT_CLAY_BLOCKOUT_PENDING',
++           'current_candidate':candidate,'baseline':baseline,'reference_files':[concept],
++           'evidence':evidence,'artifact_records':[hashed(p) for p in [concept]+evidence],
++           'delivery_manifest':'outputs/DELIVERY.md','decision':'REQUIRES_HUMAN_ART_REVIEW',
++           'approvals':{g:{'status':status,'evidence':None} for g,status in {
++               'concept':'PENDING_EVIDENCE','face':'PENDING_EVIDENCE','garment_clay':'NOT_APPROVED',
++               'rig':'NOT_TESTED','vrm_export':'NOT_TESTED','webcam':'NOT_TESTED','obs':'NOT_TESTED'}.items()},
++           'historical_approval_note':'character_brief reports prior concept approval; original explicit sign-off message is not linked. The current user task authorizes this clay experiment, not aesthetic approval.',
++           'tool_inventory':'outputs/reports/v03_merge/tool_inventory.json',
++           'blocking_issues':['Human clay-form approval pending','No candidate VRM export/runtime/OBS validation','Base-asset license claims in historical reports require original source/license evidence before final redistribution'],
++           'updated_by':'sync_project_state.py; evidence references only'}
++    state['agent_visual_review']=args.visual_status
++    if args.visual_status=='FAIL':
++        state['current_gate']='GARMENT_CONSTRUCTION_FAILED_REQUIRES_METHOD_CHANGE'
++        state['blocking_issues'].insert(0,'Three construction cycles exhausted; shoulder intersections and collar contact remain visibly defective. Do not ornament this form.')
++    (ROOT/'config/project_state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
++    block={'candidate_path':candidate['path'],'candidate_sha256':candidate['sha256'],
++           'candidate_version':candidate['version'],'decision':state['decision']}
++    lines=['# Kagari delivery evidence — v0.3 construction experiment','',
++           '<!-- PROJECT_STATE_BEGIN -->','```json',json.dumps(block,indent=2),'```','<!-- PROJECT_STATE_END -->','',
++           'Decision: **REQUIRES_HUMAN_ART_REVIEW**. Structural/state validation does not approve the art.','',
++           '| Item | Actual status |','|---|---|','| Concept and face sign-off | PENDING_EVIDENCE; historical claims are not newly certified |',
++           f'| Garment clay | Agent visual review: {args.visual_status}; human NOT_APPROVED |','| Rig deformation certification | NOT_TESTED; only scoped smoke-test renders where linked |',
++           '| Candidate VRM export/reimport | NOT_TESTED |','| Warudo webcam | NOT_TESTED |','| OBS/FPS | NOT_TESTED |','',
++           'Current artifact/version/SHA are mirrored from `config/project_state.json`.','',
++           '## Artifacts and evidence','']
++    for record,label in [(candidate,'Current candidate'),(baseline,'Frozen baseline'),(hashed(concept),'Source concept')]+[(hashed(p),Path(p).name) for p in evidence]:
++        link=os.path.relpath(ROOT/record['path'],ROOT/'outputs').replace('\\','/')
++        lines.append(f"- [{label}]({link}) — SHA256 `{record['sha256']}`")
++    lines+=['','No new ornaments, hair reconstruction, extensive rigging or final VRM export are authorized before clay approval in this iteration.']
++    (ROOT/'outputs/DELIVERY.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
++    print(json.dumps(block,indent=2))
++
++if __name__=='__main__':
++    main()
+--- before/scripts/v03_tool_inventory.py
++++ after/scripts/v03_tool_inventory.py
+@@ -0,0 +1,27 @@
++"""Read-only Blender/VRM capability inventory; never opens camera or exports."""
++import bpy
++import addon_utils
++import json
++from pathlib import Path
++ROOT=Path('D:/Project-17/blender')
++addons=[]
++for module in addon_utils.modules():
++    info=getattr(module,'bl_info',{})
++    if 'vrm' in (module.__name__+' '+info.get('name','')).lower():
++        addons.append({'module':module.__name__,'version':list(info.get('version',[])),
++                       'enabled':module.__name__ in bpy.context.preferences.addons,'path':module.__file__})
++record={'blender':{'path':bpy.app.binary_path,'version':bpy.app.version_string,'status':'EXECUTED_BACKGROUND'},
++        'vrm_addons':addons,'import_operator_registered':hasattr(bpy.ops.import_scene,'vrm'),
++        'export_operator_registered':hasattr(bpy.ops.export_scene,'vrm'),
++        'candidate_export':'NOT_TESTED','candidate_reimport':'NOT_TESTED',
++        'warudo':{'status':'NOT_FOUND_IN_INSPECTED_STEAM_LIBRARIES','runtime_test':'NOT_TESTED',
++                  'inspected_roots':['C:/Program Files (x86)/Steam/steamapps/common','D:/SteamLibrary/steamapps/common']},
++        'obs':{'path':'C:/Program Files (x86)/Steam/steamapps/common/OBS Studio/bin/64bit/obs64.exe',
++               'executable_exists':Path('C:/Program Files (x86)/Steam/steamapps/common/OBS Studio/bin/64bit/obs64.exe').is_file(),
++               'capture_test':'NOT_TESTED'},
++        'webcam':{'capture':'NOT_TESTED','note':'No live camera access in this iteration.'},
++        'signed_off_face_renders':{'status':'PENDING_EVIDENCE','note':'Existing renders located; explicit face/head approval not linked in available project files.'}}
++p=ROOT/'outputs/reports/v03_merge/tool_inventory.json'
++p.parent.mkdir(parents=True,exist_ok=True)
++p.write_text(json.dumps(record,indent=2),encoding='utf-8')
++print(json.dumps(record,indent=2))
+--- before/scripts/validate_project_state.py
++++ after/scripts/validate_project_state.py
+@@ -0,0 +1,152 @@
++"""Validate project artifact/evidence references independently of structural Skills checks.
++
++Usage:
++ python scripts/validate_project_state.py --root path/to/your/repo --state config/project_state.json
++
++Strict rules: if an approval says APPROVED_BY_USER it MUST link to actual evidence.
++A missing current candidate cannot be validated as a production artifact.
++"""
++from __future__ import annotations
++
++import argparse
++import hashlib
++import json
++import re
++import sys
++from pathlib import Path
++
++APPROVED = "APPROVED_BY_USER"
++STATUS = {"PENDING_EVIDENCE", "NOT_APPROVED", "NOT_TESTED", "APPROVED_BY_USER", "REJECTED_BY_USER"}
++
++
++def actual_file(root: Path, raw: str | None, issues: list[str], label: str) -> Path | None:
++    if not raw or not isinstance(raw, str):
++        issues.append(f"{label}: missing path")
++        return None
++    p = (root / raw).resolve()
++    try:
++        p.relative_to(root)
++    except ValueError:
++        issues.append(f"{label}: path outside workspace: {raw}")
++        return None
++    if not p.is_file():
++        issues.append(f"{label}: nonexistent file: {raw}")
++        return None
++    return p
++
++
++def sha256(path: Path) -> str:
++    d = hashlib.sha256()
++    with path.open("rb") as f:
++        for chunk in iter(lambda: f.read(1024 * 1024), b""):
++            d.update(chunk)
++    return d.hexdigest()
++
++
++def hashed_artifact(root, record, errors, label):
++    if not isinstance(record, dict):
++        errors.append(f'{label}: expected object')
++        return None
++    p = actual_file(root, record.get('path'), errors, label)
++    digest = record.get('sha256')
++    if not isinstance(digest, str) or not re.fullmatch(r'[0-9a-fA-F]{64}', digest):
++        errors.append(f'{label}: invalid or missing sha256')
++    elif p and digest.lower() != sha256(p):
++        errors.append(f'{label}: hash mismatch (stale artifact or changed file)')
++    return p
++
++
++def validate(root: Path, state_path: Path) -> tuple[list[str], list[str]]:
++    errors, warnings = [], []
++    try:
++        data = json.loads(state_path.read_text(encoding="utf-8"))
++    except (OSError, ValueError) as exc:
++        return [f"state load failed: {exc}"], []
++    if data.get("project") != "Kagari":
++        errors.append("wrong project name: expected Kagari")
++    candidate = data.get("current_candidate", {})
++    if not isinstance(candidate, dict):
++        candidate = {}
++        errors.append("current_candidate must be object")
++    p = hashed_artifact(root, candidate, errors, 'current_candidate')
++    if not isinstance(candidate.get('version'), str) or not candidate['version'].strip():
++        errors.append('current_candidate: missing version')
++    if data.get('baseline') is not None:
++        hashed_artifact(root, data['baseline'], errors, 'baseline')
++    for i, record in enumerate(data.get('artifact_records', [])):
++        hashed_artifact(root, record, errors, f'artifact_records[{i}]')
++    for i, e in enumerate(data.get("evidence", [])):
++        if not isinstance(e, str):
++            errors.append(f"evidence[{i}]: expected path string")
++        else:
++            actual_file(root, e, errors, f"evidence[{i}]")
++    for i, ref in enumerate(data.get("reference_files", [])):
++        if not isinstance(ref, str):
++            errors.append(f"reference_files[{i}]: expected path string")
++        else:
++            actual_file(root, ref, errors, f"reference_files[{i}]")
++    for gate, approval in data.get("approvals", {}).items():
++        if not isinstance(approval, dict):
++            errors.append(f"approvals.{gate}: expected object")
++            continue
++        status = approval.get("status")
++        if status not in STATUS:
++            errors.append(f"approvals.{gate}: invalid status {status}")
++        if status == APPROVED:
++            actual_file(root, approval.get("evidence"), errors, f"approvals.{gate}.evidence")
++            if approval.get('evidence_type') not in {'user_message', 'user_signed_file'}:
++                errors.append(f'approvals.{gate}: explicit user evidence_type required')
++            if not re.fullmatch(r'[0-9a-fA-F]{64}', str(approval.get('artifact_sha256', ''))):
++                errors.append(f'approvals.{gate}: reviewed artifact_sha256 required')
++    if data.get('delivery_manifest'):
++        delivery = actual_file(root, data['delivery_manifest'], errors, 'delivery_manifest')
++        if delivery:
++            text = delivery.read_text(encoding='utf-8-sig')
++            matches = re.findall(r'<!-- PROJECT_STATE_BEGIN -->\s*```json\s*(.*?)\s*```\s*<!-- PROJECT_STATE_END -->', text, re.S)
++            if len(matches) != 1:
++                errors.append('DELIVERY: exactly one project state block required')
++            else:
++                try:
++                    block = json.loads(matches[0])
++                    expected = {'candidate_path': candidate.get('path'), 'candidate_sha256': candidate.get('sha256'),
++                                'candidate_version': candidate.get('version'), 'decision': data.get('decision')}
++                    if block != expected:
++                        errors.append('DELIVERY: artifact/version/SHA/decision differs from project state')
++                except (ValueError, TypeError):
++                    errors.append('DELIVERY: invalid project state JSON block')
++            for target in re.findall(r'\]\(([^)]+)\)', text):
++                if re.match(r'https?://|mailto:', target):
++                    continue
++                if target.startswith('file://'):
++                    errors.append('DELIVERY: use workspace-relative links instead of stale file URIs')
++                    continue
++                link = (delivery.parent / target.split('#')[0]).resolve()
++                if not link.is_relative_to(root) or not link.is_file():
++                    errors.append(f'DELIVERY: broken or outside-workspace link: {target}')
++    if not data.get("current_gate"):
++        errors.append("current_gate missing")
++    if data.get("blocking_issues"):
++        warnings.append("blocking_issues remain; this does not invalidate unrelated technical references")
++    pending = [g for g, a in data.get('approvals', {}).items() if isinstance(a, dict) and a.get('status') != APPROVED]
++    if pending:
++        warnings.append('Human/runtime stages not approved: ' + ', '.join(pending))
++    return errors, warnings
++
++
++def main():
++    parser = argparse.ArgumentParser()
++    parser.add_argument("--root", default=".")
++    parser.add_argument("--state", required=True)
++    args = parser.parse_args()
++    root = Path(args.root).resolve()
++    state = Path(args.state)
++    if not state.is_absolute():
++        state = root / state
++    errors, warnings = validate(root, state)
++    print(json.dumps({"status": "FAIL" if errors else "PASS", "errors": errors,
++                      "warnings": warnings}, indent=2, ensure_ascii=False))
++    return 1 if errors else 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())
+--- before/scripts/verify_kagari_v03_saved.py
++++ after/scripts/verify_kagari_v03_saved.py
+@@ -0,0 +1,16 @@
++"""Reopen source and candidate and compare protected geometry/pose fingerprints."""
++import json
++from pathlib import Path
++code=Path(__file__).with_name('build_kagari_v03_clay.py').read_text(encoding='utf-8')
++exec(compile(code[:code.index('before=protected();')],__file__,'exec'))
++original=protected(); candidate=ROOT/'outputs/wip/kagari_v03_clay_03.blend'
++bpy.ops.wm.open_mainfile(filepath=str(candidate))
++scene=bpy.context.scene; arm=bpy.data.objects['Armature']; body=bpy.data.objects['Body']
++current=protected()
++result={'source':str(SOURCE),'candidate':str(candidate),'source_sha256':filehash(SOURCE),
++        'candidate_sha256':filehash(candidate),'source_fingerprints':original,
++        'saved_candidate_fingerprints':current,'checks':{name:original[name]==current[name] for name in original},
++        'scope':'Face coordinates/all shape key coordinates and values, Hair mesh/material assignment/weights/bindings, armature bones and neutral pose. No runtime certification.'}
++(ROOT/'outputs/reports/v03_clay_cycle03/saved_invariants.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
++assert all(result['checks'].values()),'Protected saved-state mismatch'
++print('SAVED_INVARIANTS_PASS',result['checks'])
+--- before/tests/blender_audit_smoke.py
++++ after/tests/blender_audit_smoke.py
+@@ -0,0 +1,28 @@
++"""Integration test with actual Blender geometry, not model wording."""
++import bpy
++import importlib.util
++from pathlib import Path
++root=Path(__file__).resolve().parents[1]
++spec=importlib.util.spec_from_file_location('audit',root/'scripts/audit_blend.py')
++m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
++bpy.ops.wm.read_factory_settings(use_empty=True)
++bpy.ops.mesh.primitive_cube_add()
++cube=bpy.context.object
++cube.shape_key_add(name='Basis')
++key=cube.shape_key_add(name='TestDelta')
++key.data[0].co.z+=.1
++before=[tuple(v.co) for v in key.data]
++sub=cube.modifiers.new('TestSubdivision','SUBSURF'); sub.levels=1; sub.render_levels=2
++record=m.audit_obj(cube,bpy.context.evaluated_depsgraph_get())
++assert record['raw']['triangles']==12,record
++assert record['evaluated']['triangles']==48,record
++assert record['modifier_costs'][0]['delta']==36,record
++assert sub.show_viewport and sub.render_levels==2
++assert before==[tuple(v.co) for v in key.data]
++assert 'TestDelta' in record['shape_keys']
++bpy.ops.object.armature_add()
++rig=bpy.context.object
++mod=cube.modifiers.new('UnweightedRig','ARMATURE'); mod.object=rig
++record=m.audit_obj(cube,bpy.context.evaluated_depsgraph_get())
++assert record['weighting']['vertices_without_deform_weight']==8,record['weighting']
++print('BLENDER_AUDIT_SMOKE_PASS: raw/evaluated counts, modifier cost, weight warning, shape-key conservation')
+--- before/tests/test_validate_project_state.py
++++ after/tests/test_validate_project_state.py
+@@ -0,0 +1,89 @@
++"""Run: python -m unittest discover -s tests -v"""
++import hashlib
++import importlib.util
++import json
++import tempfile
++import unittest
++from pathlib import Path
++
++MODULE = Path(__file__).resolve().parents[1] / "scripts" / "validate_project_state.py"
++spec = importlib.util.spec_from_file_location("validate_state", MODULE)
++m = importlib.util.module_from_spec(spec)
++spec.loader.exec_module(m)
++
++
++class ValidationTests(unittest.TestCase):
++    def make_state(self, root, **extra):
++        (root / 'candidate.blend').write_bytes(b'fixture')
++        d={'project':'Kagari','current_gate':'CLAY','current_candidate':{'path':'candidate.blend','sha256':hashlib.sha256(b'fixture').hexdigest(),'version':'fixture-v1'},'approvals':{}}
++        d.update(extra)
++        state=root/'state.json'
++        state.write_text(json.dumps(d))
++        return state,d
++
++    def test_modified_candidate_hash_fails(self):
++        with tempfile.TemporaryDirectory() as td:
++            root=Path(td); state,_=self.make_state(root)
++            (root/'candidate.blend').write_bytes(b'changed')
++            errors,_=m.validate(root,state)
++            self.assertTrue(any('hash mismatch' in e for e in errors))
++
++    def test_reference_path_escape_fails(self):
++        with tempfile.TemporaryDirectory() as td:
++            root=Path(td); state,_=self.make_state(root,reference_files=['../outside.png'])
++            errors,_=m.validate(root,state)
++            self.assertTrue(any('outside workspace' in e for e in errors))
++
++    def test_delivery_different_version_fails(self):
++        with tempfile.TemporaryDirectory() as td:
++            root=Path(td); state,d=self.make_state(root,delivery_manifest='DELIVERY.md')
++            block={'candidate_path':'candidate.blend','candidate_sha256':d['current_candidate']['sha256'],'candidate_version':'stale-v0','decision':None}
++            (root/'DELIVERY.md').write_text('<!-- PROJECT_STATE_BEGIN -->\n```json\n'+json.dumps(block)+'\n```\n<!-- PROJECT_STATE_END -->')
++            errors,_=m.validate(root,state)
++            self.assertTrue(any('differs' in e for e in errors))
++
++    def test_broken_delivery_link_fails(self):
++        with tempfile.TemporaryDirectory() as td:
++            root=Path(td); state,d=self.make_state(root,delivery_manifest='DELIVERY.md')
++            block={'candidate_path':'candidate.blend','candidate_sha256':d['current_candidate']['sha256'],'candidate_version':'fixture-v1','decision':None}
++            (root/'DELIVERY.md').write_text('<!-- PROJECT_STATE_BEGIN -->\n```json\n'+json.dumps(block)+'\n```\n<!-- PROJECT_STATE_END -->\n[broken](missing.png)')
++            errors,_=m.validate(root,state)
++            self.assertTrue(any('broken' in e for e in errors))
++
++    def test_stale_evidence_hash_fails(self):
++        with tempfile.TemporaryDirectory() as td:
++            root=Path(td); state,_=self.make_state(root,artifact_records=[{'path':'candidate.blend','sha256':'0'*64}])
++            errors,_=m.validate(root,state)
++            self.assertTrue(any('artifact_records[0]: hash mismatch' in e for e in errors))
++
++    def test_missing_candidate_fails(self):
++        with tempfile.TemporaryDirectory() as td:
++            root = Path(td)
++            state = root / "state.json"
++            state.write_text(json.dumps({"project": "Kagari", "current_gate": "B", "current_candidate": {"path": "missing.blend", "sha256": "abc"}, "approvals": {}}))
++            errors, _ = m.validate(root, state)
++            self.assertTrue(any("nonexistent" in e for e in errors))
++
++    def test_valid_hashed_candidate_passes(self):
++        with tempfile.TemporaryDirectory() as td:
++            root = Path(td)
++            (root / "candidate.blend").write_bytes(b"fixture")
++            h = hashlib.sha256(b"fixture").hexdigest()
++            state = root / "state.json"
++            state.write_text(json.dumps({"project": "Kagari", "current_gate": "B", "current_candidate": {"path": "candidate.blend", "sha256": h, "version": "fixture-v1"}, "approvals": {"garment_clay": {"status": "NOT_APPROVED", "evidence": None}}}))
++            errors, _ = m.validate(root, state)
++            self.assertEqual(errors, [])
++
++    def test_unbacked_approval_fails(self):
++        with tempfile.TemporaryDirectory() as td:
++            root = Path(td)
++            (root / "candidate.blend").write_bytes(b"fixture")
++            h = hashlib.sha256(b"fixture").hexdigest()
++            state = root / "state.json"
++            state.write_text(json.dumps({"project": "Kagari", "current_gate": "B", "current_candidate": {"path": "candidate.blend", "sha256": h, "version": "fixture-v1"}, "approvals": {"garment_clay": {"status": "APPROVED_BY_USER", "evidence": None}}}))
++            errors, _ = m.validate(root, state)
++            self.assertTrue(any("approvals.garment_clay.evidence" in e for e in errors))
++
++
++if __name__ == "__main__":
++    unittest.main()

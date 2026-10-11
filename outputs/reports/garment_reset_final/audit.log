@@ -1,0 +1,4 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_panel_drape_reset_final.blend"
+AUDIT: outputs\reports\garment_reset_final\geometry_audit.json raw=13644 evaluated=21168 complete=True

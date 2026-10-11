@@ -1,0 +1,26 @@
+{
+  "result": "PASS_BYTE_HASH_PRESERVATION",
+  "files": [
+    {
+      "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+      "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "matches_expected": true
+    },
+    {
+      "path": "outputs/backups/pattern_feasibility_start/kagari_garment_recovery_v2.blend",
+      "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+      "matches_expected": true
+    },
+    {
+      "path": "outputs/wip/kagari_full_concept_v3.blend",
+      "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "matches_expected": true
+    },
+    {
+      "path": "outputs/wip/kagari_v03_clay_03.blend",
+      "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "matches_expected": true
+    }
+  ],
+  "geometry_foundation": "Only Body_GarmentDisplay and Armature copied into generator; no source garment objects loaded by build script. Old garment objects are loaded exclusively by separate comparison script."
+}

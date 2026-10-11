@@ -1,0 +1,112 @@
+{
+  "source_artifact": "D:\\Project-17\\blender\\outputs\\wip\\kagari_v03_clay_03.blend",
+  "study_mannequin_file": "D:\\Project-17\\blender\\outputs\\wip\\kagari_panel_drape_reset_final.blend",
+  "comparison_note": "Same bare mannequin/A-pose/framing as new method; original eight full-character images retained separately. Original garment uses both sleeves and obi; prototype intentionally has one sleeve and no obi.",
+  "renders": [
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_front_clay.png",
+      "image_sha256": "538e3afe62fa1bfefdde73c4db016dfe5e9dee4f49b5fe3cddbb57f69f22aab4",
+      "view": "front",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        -0.0,
+        -0.03498572111129761
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ]
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_three_quarter_clay.png",
+      "image_sha256": "10cc01ce2f7fdb840cb76dc75ab8be3f7e6d341f223bb96932306db8746b746e",
+      "view": "three_quarter",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.5512036085128784,
+        -5.1393200806160166e-08,
+        0.5866439938545227
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ]
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_side_clay.png",
+      "image_sha256": "589d9c40a4d2e534f299edb760238b7d903fb2c527f3cf51cd33e48ea9252287",
+      "view": "side",
+      "camera_location": [
+        2.0,
+        0.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ]
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_back_clay.png",
+      "image_sha256": "cdd158d01ca43f55c99b5e7d33b7b75fb23c1e1a6b88f16aa0f049bbbb8422f4",
+      "view": "back",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        3.060355879824783e-08,
+        -3.106606960296631
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ]
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_arm_raised_clay.png",
+      "image_sha256": "22e964acf6cb696fe8be6e59834c06092a159b90f2c57f4ca11dd9831ed843f6",
+      "view": "arm_raised",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        -0.0,
+        -0.03498572111129761
+      ],
+      "ortho_scale": 1.0,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -1.457046305830545e-08
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+PROBED full_v3_source saved_neutral [239, 592, 329, 30, 58]
+PROBED full_v3_source raised_30 [0, 592, 329, 30, 0]
+PROBED full_v3_source upper_arms_horizontal [0, 592, 333, 18, 244]
+PROBED recovery_candidate saved_neutral [13, 0, 87, 0, 43]
+PROBED recovery_candidate raised_30 [0, 0, 87, 0, 0]
+PROBED recovery_candidate upper_arms_horizontal [0, 0, 87, 0, 0]
+GARMENT_RECOVERY_TECHNICAL_VERIFIED {"errors": [], "protected": {"Face": true, "Hair": true, "Body": true, "Armature_Rest": true, "Armature_Saved_Pose": true}, "untouched": true}
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_garment_recovery_v2.blend"
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_full_concept_v3.blend"
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_garment_recovery_v2.blend"
+
+Blender quit

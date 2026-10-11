@@ -1,0 +1,844 @@
+{
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_baseline.blend",
+    "sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf"
+  },
+  "candidate": {
+    "path": "outputs/wip/kagari_v03_clay_03.blend",
+    "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+    "version": "v0.3-clay-03"
+  },
+  "all_scene": {
+    "baseline_raw": 50587,
+    "baseline_evaluated": 134067,
+    "candidate_raw": 56489,
+    "candidate_evaluated": 147433
+  },
+  "render_enabled_inventory": {
+    "baseline": {
+      "scope": "Objects with hide_render=False; viewport-evaluated counts, NOT final render/export counts. Collection exclusion not simulated.",
+      "objects": 15,
+      "raw_triangles": 34679,
+      "viewport_evaluated_triangles": 116599,
+      "status": "COUNTED"
+    },
+    "candidate": {
+      "scope": "Objects with hide_render=False; viewport-evaluated counts, NOT final render/export counts. Collection exclusion not simulated.",
+      "objects": 13,
+      "raw_triangles": 36741,
+      "viewport_evaluated_triangles": 96941,
+      "status": "COUNTED"
+    }
+  },
+  "new_structural_objects": [
+    {
+      "name": "Kagari_v03_Outer_Robe_And_Sleeves",
+      "raw": 3232,
+      "evaluated": 6808,
+      "weights": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 4,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "topology": {
+        "loose_vertices": 40,
+        "boundary_edges": 172,
+        "non_manifold_edges_including_boundaries": 172
+      },
+      "modifiers": [
+        {
+          "name": "Source_Weighted_Deformation",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 3232,
+          "delta": 0
+        },
+        {
+          "name": "Cloth_Edge_Thickness",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 6808,
+          "delta": 3576
+        }
+      ]
+    },
+    {
+      "name": "Kagari_v03_Inner_Top",
+      "raw": 2560,
+      "evaluated": 5376,
+      "weights": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 2,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "topology": {
+        "loose_vertices": 0,
+        "boundary_edges": 128,
+        "non_manifold_edges_including_boundaries": 128
+      },
+      "modifiers": [
+        {
+          "name": "Source_Weighted_Deformation",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 2560,
+          "delta": 0
+        },
+        {
+          "name": "Cloth_Edge_Thickness",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 5376,
+          "delta": 2816
+        }
+      ]
+    },
+    {
+      "name": "Kagari_v03_Sewn_Cross_Collar",
+      "raw": 512,
+      "evaluated": 1280,
+      "weights": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 2,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "topology": {
+        "loose_vertices": 0,
+        "boundary_edges": 128,
+        "non_manifold_edges_including_boundaries": 128
+      },
+      "modifiers": [
+        {
+          "name": "Source_Weighted_Deformation",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 512,
+          "delta": 0
+        },
+        {
+          "name": "Cloth_Edge_Thickness",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 1280,
+          "delta": 768
+        }
+      ]
+    },
+    {
+      "name": "Kagari_v03_Attached_Over_Wrap_Edge",
+      "raw": 192,
+      "evaluated": 496,
+      "weights": {
+        "status": "CHECKED_RAW_WEIGHTS_ONLY",
+        "deform_group_count": 2,
+        "vertices_without_deform_weight": 0,
+        "missing_weight_sample": [],
+        "non_normalized_deform_weight_vertices": 0,
+        "vertices_with_more_than_four_deform_influences": 0,
+        "single_bone_cloth_warning": false,
+        "pose_quality": "NOT_TESTED"
+      },
+      "topology": {
+        "loose_vertices": 0,
+        "boundary_edges": 56,
+        "non_manifold_edges_including_boundaries": 56
+      },
+      "modifiers": [
+        {
+          "name": "Source_Weighted_Deformation",
+          "type": "ARMATURE",
+          "status": "COUNTED",
+          "triangles": 192,
+          "delta": 0
+        },
+        {
+          "name": "Cloth_Edge_Thickness",
+          "type": "SOLIDIFY",
+          "status": "COUNTED",
+          "triangles": 496,
+          "delta": 304
+        }
+      ]
+    }
+  ],
+  "new_raw_total": 6496,
+  "new_evaluated_total": 13960,
+  "largest_modifier_expansions": [
+    {
+      "object": "Kagari_Silk_Bow_Tail_-1",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 12800,
+      "delta": 6656
+    },
+    {
+      "object": "Kagari_Silk_Bow_Tail_1",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 12800,
+      "delta": 6656
+    },
+    {
+      "object": "Kagari_Silk_Bow_Lobe_-1",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 12736,
+      "delta": 6592
+    },
+    {
+      "object": "Kagari_Silk_Bow_Lobe_1",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 12736,
+      "delta": 6592
+    },
+    {
+      "object": "Kagari_Silk_Bow_Lobe_-1",
+      "name": "Silk_Surface",
+      "type": "SUBSURF",
+      "status": "COUNTED",
+      "triangles": 6144,
+      "delta": 5760
+    },
+    {
+      "object": "Kagari_Silk_Bow_Lobe_1",
+      "name": "Silk_Surface",
+      "type": "SUBSURF",
+      "status": "COUNTED",
+      "triangles": 6144,
+      "delta": 5760
+    },
+    {
+      "object": "Kagari_Silk_Bow_Tail_-1",
+      "name": "Silk_Surface",
+      "type": "SUBSURF",
+      "status": "COUNTED",
+      "triangles": 6144,
+      "delta": 5760
+    },
+    {
+      "object": "Kagari_Silk_Bow_Tail_1",
+      "name": "Silk_Surface",
+      "type": "SUBSURF",
+      "status": "COUNTED",
+      "triangles": 6144,
+      "delta": 5760
+    },
+    {
+      "object": "Kagari_Inner_Wrapped_Robe",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 9600,
+      "delta": 4992
+    },
+    {
+      "object": "Kagari_v03_Outer_Robe_And_Sleeves",
+      "name": "Cloth_Edge_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 6808,
+      "delta": 3576
+    },
+    {
+      "object": "Kagari_Haori_Cream_Shell",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 6592,
+      "delta": 3520
+    },
+    {
+      "object": "Kagari_Inner_Wrapped_Robe",
+      "name": "Silk_Surface",
+      "type": "SUBSURF",
+      "status": "COUNTED",
+      "triangles": 4608,
+      "delta": 3456
+    },
+    {
+      "object": "Kagari_v03_Inner_Top",
+      "name": "Cloth_Edge_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 5376,
+      "delta": 2816
+    },
+    {
+      "object": "Kagari_Haori_Cream_Shell",
+      "name": "Silk_Surface",
+      "type": "SUBSURF",
+      "status": "COUNTED",
+      "triangles": 3072,
+      "delta": 2304
+    },
+    {
+      "object": "Kagari_Collar_Under",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 4208,
+      "delta": 2288
+    },
+    {
+      "object": "Kagari_Collar_Over",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 4208,
+      "delta": 2288
+    },
+    {
+      "object": "Kagari_Haori_Lapel_-1",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 4208,
+      "delta": 2288
+    },
+    {
+      "object": "Kagari_Haori_Lapel_1",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 4208,
+      "delta": 2288
+    },
+    {
+      "object": "Kagari_Obi_Woven_Band",
+      "name": "Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 3584,
+      "delta": 2048
+    },
+    {
+      "object": "Kagari_Collar_Under",
+      "name": "Silk_Surface",
+      "type": "SUBSURF",
+      "status": "COUNTED",
+      "triangles": 1920,
+      "delta": 1440
+    }
+  ],
+  "largest_objects": [
+    {
+      "name": "Body",
+      "raw_triangles": 12874,
+      "evaluated_triangles": 12874,
+      "delta": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_007_01_Tops_01_CLOTH (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_005_01_Shoes_01_CLOTH (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_001_03_Bottoms_01_CLOTH (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_000_00_Body_00_SKIN (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Silk_Bow_Tail_-1",
+      "raw_triangles": 384,
+      "evaluated_triangles": 12800,
+      "delta": 12416,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Silk_Bow_Tail_1",
+      "raw_triangles": 384,
+      "evaluated_triangles": 12800,
+      "delta": 12416,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Silk_Bow_Lobe_-1",
+      "raw_triangles": 384,
+      "evaluated_triangles": 12736,
+      "delta": 12352,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Silk_Bow_Lobe_1",
+      "raw_triangles": 384,
+      "evaluated_triangles": 12736,
+      "delta": 12352,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Inner_Wrapped_Robe",
+      "raw_triangles": 1152,
+      "evaluated_triangles": 9600,
+      "delta": 8448,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Face",
+      "raw_triangles": 8280,
+      "evaluated_triangles": 8280,
+      "delta": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_000_00_Face_00_SKIN (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Hair",
+      "raw_triangles": 6947,
+      "evaluated_triangles": 6947,
+      "delta": 0,
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_000_Hair_00_HAIR_06 (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_000_Hair_00_HAIR_05 (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_000_Hair_00_HAIR_04 (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_000_Hair_00_HAIR_03 (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_000_Hair_00_HAIR_02 (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "MToon Outline (N00_000_Hair_00_HAIR_01 (Instance))",
+          "type": "NODES",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_v03_Outer_Robe_And_Sleeves",
+      "raw_triangles": 3232,
+      "evaluated_triangles": 6808,
+      "delta": 3576,
+      "modifiers": [
+        {
+          "name": "Source_Weighted_Deformation",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Cloth_Edge_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Cream_Shell",
+      "raw_triangles": 768,
+      "evaluated_triangles": 6592,
+      "delta": 5824,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_v03_Inner_Top",
+      "raw_triangles": 2560,
+      "evaluated_triangles": 5376,
+      "delta": 2816,
+      "modifiers": [
+        {
+          "name": "Source_Weighted_Deformation",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Cloth_Edge_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Collar_Under",
+      "raw_triangles": 480,
+      "evaluated_triangles": 4208,
+      "delta": 3728,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Collar_Over",
+      "raw_triangles": 480,
+      "evaluated_triangles": 4208,
+      "delta": 3728,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Lapel_-1",
+      "raw_triangles": 480,
+      "evaluated_triangles": 4208,
+      "delta": 3728,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Lapel_1",
+      "raw_triangles": 480,
+      "evaluated_triangles": 4208,
+      "delta": 3728,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Obi_Woven_Band",
+      "raw_triangles": 384,
+      "evaluated_triangles": 3584,
+      "delta": 3200,
+      "modifiers": [
+        {
+          "name": "Silk_Surface",
+          "type": "SUBSURF",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Fabric_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_v03_Sewn_Cross_Collar",
+      "raw_triangles": 512,
+      "evaluated_triangles": 1280,
+      "delta": 768,
+      "modifiers": [
+        {
+          "name": "Source_Weighted_Deformation",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        },
+        {
+          "name": "Cloth_Edge_Thickness",
+          "type": "SOLIDIFY",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Obi_Trim_0.914",
+      "raw_triangles": 768,
+      "evaluated_triangles": 768,
+      "delta": 0,
+      "modifiers": [
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Obi_Trim_0.969",
+      "raw_triangles": 768,
+      "evaluated_triangles": 768,
+      "delta": 0,
+      "modifiers": [
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    },
+    {
+      "name": "Kagari_Obijime_Cord",
+      "raw_triangles": 768,
+      "evaluated_triangles": 768,
+      "delta": 0,
+      "modifiers": [
+        {
+          "name": "Kagari_Rig_Attachment",
+          "type": "ARMATURE",
+          "enabled_render": true,
+          "enabled_viewport": true
+        }
+      ]
+    }
+  ],
+  "exported_vrm": "NOT_TESTED",
+  "warudo_runtime": "NOT_TESTED",
+  "note": "All-scene totals retain hidden superseded source objects. Render-enabled inventory is viewport evaluated, not final render/export simulation; this is not an FPS optimization result."
+}

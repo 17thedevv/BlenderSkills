@@ -1,0 +1,641 @@
+{
+  "schema_version": "0.3",
+  "source": {
+    "path": "outputs/wip/kagari_outfit_detail_v1.blend",
+    "sha256": "8ead8701d3526c1343166a5ad9f286e3cb1f67a0570d7ef2d4eb4109ada838dd"
+  },
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_baseline.blend",
+    "sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf"
+  },
+  "candidate": {
+    "path": "outputs/wip/kagari_v03_clay_01.blend",
+    "sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+    "version": "v0.3-clay-01"
+  },
+  "concept": "outputs/design/concept_option2_kagari.jpg",
+  "renders": [
+    {
+      "path": "outputs/previews/v03_clay/before_front_clay.png",
+      "artifact_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+      "view": "front",
+      "comparison": "before",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/before_three_quarter_clay.png",
+      "artifact_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+      "view": "three_quarter",
+      "comparison": "before",
+      "camera_location": [
+        -0.949999988079071,
+        -1.600000023841858,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.541451096534729,
+        1.1722196546770647e-08,
+        -0.5317240953445435
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/before_side_clay.png",
+      "artifact_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+      "view": "side",
+      "comparison": "before",
+      "camera_location": [
+        -2.0,
+        0.014999999664723873,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/before_back_clay.png",
+      "artifact_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+      "view": "back",
+      "comparison": "before",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        -1.570796251296997,
+        3.141592502593994,
+        -0.0
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/before_pose_arm_raise_clay.png",
+      "artifact_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+      "view": "pose_arm_raise",
+      "comparison": "before",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -0.6632250547409058
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          0.6632250547409058
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/before_portrait_clay.png",
+      "artifact_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+      "view": "portrait",
+      "comparison": "before",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.2100000381469727
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.6499999761581421,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/before_side_garment_isolated.png",
+      "artifact_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+      "view": "side",
+      "comparison": "before",
+      "camera_location": [
+        -2.0,
+        0.014999999664723873,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "isolated_garment": true,
+      "temporarily_hidden_unmodified_objects": [
+        "Face",
+        "Hair",
+        "Kagari_Silk_Bow_Lobe_-1",
+        "Kagari_Silk_Bow_Lobe_1",
+        "Kagari_Silk_Bow_Tail_-1",
+        "Kagari_Silk_Bow_Tail_1",
+        "Kagari_Bow_Gathered_Knot"
+      ]
+    },
+    {
+      "path": "outputs/previews/v03_clay/before_back_garment_isolated.png",
+      "artifact_sha256": "002626a68dc4862ef518d6b79a3409d64befa1fb87e6cd56d35a42444094ffdf",
+      "view": "back",
+      "comparison": "before",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        -1.570796251296997,
+        3.141592502593994,
+        -0.0
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "isolated_garment": true,
+      "temporarily_hidden_unmodified_objects": [
+        "Face",
+        "Hair",
+        "Kagari_Silk_Bow_Lobe_-1",
+        "Kagari_Silk_Bow_Lobe_1",
+        "Kagari_Silk_Bow_Tail_-1",
+        "Kagari_Silk_Bow_Tail_1",
+        "Kagari_Bow_Gathered_Knot"
+      ]
+    },
+    {
+      "path": "outputs/previews/v03_clay/after_front_clay.png",
+      "artifact_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+      "view": "front",
+      "comparison": "after",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/after_three_quarter_clay.png",
+      "artifact_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+      "view": "three_quarter",
+      "comparison": "after",
+      "camera_location": [
+        -0.949999988079071,
+        -1.600000023841858,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.541451096534729,
+        1.1722196546770647e-08,
+        -0.5317240953445435
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/after_side_clay.png",
+      "artifact_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+      "view": "side",
+      "comparison": "after",
+      "camera_location": [
+        -2.0,
+        0.014999999664723873,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/after_back_clay.png",
+      "artifact_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+      "view": "back",
+      "comparison": "after",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        -1.570796251296997,
+        3.141592502593994,
+        -0.0
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/after_pose_arm_raise_clay.png",
+      "artifact_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+      "view": "pose_arm_raise",
+      "comparison": "after",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -0.6632250547409058
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          0.6632250547409058
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/after_portrait_clay.png",
+      "artifact_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+      "view": "portrait",
+      "comparison": "after",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.2100000381469727
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.6499999761581421,
+      "upper_arm_pose": {
+        "L": [
+          0.0,
+          -0.0,
+          -1.186823844909668
+        ],
+        "R": [
+          0.0,
+          -0.0,
+          1.186823844909668
+        ]
+      },
+      "isolated_garment": false
+    },
+    {
+      "path": "outputs/previews/v03_clay/after_side_garment_isolated.png",
+      "artifact_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+      "view": "side",
+      "comparison": "after",
+      "camera_location": [
+        -2.0,
+        0.014999999664723873,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "isolated_garment": true,
+      "temporarily_hidden_unmodified_objects": [
+        "Face",
+        "Hair",
+        "Kagari_Silk_Bow_Lobe_-1",
+        "Kagari_Silk_Bow_Lobe_1",
+        "Kagari_Silk_Bow_Tail_-1",
+        "Kagari_Silk_Bow_Tail_1",
+        "Kagari_Bow_Gathered_Knot"
+      ]
+    },
+    {
+      "path": "outputs/previews/v03_clay/after_back_garment_isolated.png",
+      "artifact_sha256": "da1e27d8365f46937b2a02f87eac75daf6f08e688cbfb8ec90af9c952a38acdd",
+      "view": "back",
+      "comparison": "after",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.1449999809265137
+      ],
+      "camera_rotation": [
+        -1.570796251296997,
+        3.141592502593994,
+        -0.0
+      ],
+      "ortho_scale": 0.8500000238418579,
+      "isolated_garment": true,
+      "temporarily_hidden_unmodified_objects": [
+        "Face",
+        "Hair",
+        "Kagari_Silk_Bow_Lobe_-1",
+        "Kagari_Silk_Bow_Lobe_1",
+        "Kagari_Silk_Bow_Tail_-1",
+        "Kagari_Silk_Bow_Tail_1",
+        "Kagari_Bow_Gathered_Knot"
+      ]
+    }
+  ],
+  "renderer": {
+    "engine": "BLENDER_WORKBENCH",
+    "resolution": [
+      900,
+      900
+    ],
+    "studio_light": "Default",
+    "color_type": "SINGLE",
+    "single_color": [
+      0.5799999833106995,
+      0.5799999833106995,
+      0.5799999833106995
+    ],
+    "shadows": true,
+    "cavity_ridge": 0.6000000238418579,
+    "cavity_valley": 0.6000000238418579,
+    "view_transform": "Standard",
+    "look": "None"
+  },
+  "clay_excluded_existing_decorations": [
+    "Kagari_Astral_Star_Detailed",
+    "Kagari_Bow_Charm_Chain",
+    "Kagari_Bow_Gold_Flower_Center",
+    "Kagari_Bow_Gold_Flower_Petal_0",
+    "Kagari_Bow_Gold_Flower_Petal_1",
+    "Kagari_Bow_Gold_Flower_Petal_2",
+    "Kagari_Bow_Gold_Flower_Petal_3",
+    "Kagari_Bow_Gold_Flower_Petal_4",
+    "Kagari_Bow_Hanging_Blossom_Center",
+    "Kagari_Bow_Hanging_Blossom_Petal_0",
+    "Kagari_Bow_Hanging_Blossom_Petal_1",
+    "Kagari_Bow_Hanging_Blossom_Petal_2",
+    "Kagari_Bow_Hanging_Blossom_Petal_3",
+    "Kagari_Bow_Hanging_Blossom_Petal_4",
+    "Kagari_Bow_Stitch_-1_0",
+    "Kagari_Bow_Stitch_-1_12",
+    "Kagari_Bow_Stitch_1_0",
+    "Kagari_Bow_Stitch_1_12",
+    "Kagari_Bow_Tail_Stitch_-1_0",
+    "Kagari_Bow_Tail_Stitch_-1_8",
+    "Kagari_Bow_Tail_Stitch_1_0",
+    "Kagari_Bow_Tail_Stitch_1_8",
+    "Kagari_Brocade_-1_0_0",
+    "Kagari_Brocade_-1_0_1",
+    "Kagari_Brocade_-1_1_0",
+    "Kagari_Brocade_-1_1_1",
+    "Kagari_Brocade_-1_2_0",
+    "Kagari_Brocade_-1_2_1",
+    "Kagari_Brocade_-1_3_0",
+    "Kagari_Brocade_-1_3_1",
+    "Kagari_Brocade_1_0_0",
+    "Kagari_Brocade_1_0_1",
+    "Kagari_Brocade_1_1_0",
+    "Kagari_Brocade_1_1_1",
+    "Kagari_Brocade_1_2_0",
+    "Kagari_Brocade_1_2_1",
+    "Kagari_Brocade_1_3_0",
+    "Kagari_Brocade_1_3_1",
+    "Kagari_Collar_Over_Gold_Piping_0",
+    "Kagari_Collar_Over_Gold_Piping_1",
+    "Kagari_Collar_Under_Gold_Piping_0",
+    "Kagari_Collar_Under_Gold_Piping_1",
+    "Kagari_Embroidered_Vine_-1",
+    "Kagari_Embroidered_Vine_1",
+    "Kagari_Gold_Blossom_-1_0_Center",
+    "Kagari_Gold_Blossom_-1_0_Petal_0",
+    "Kagari_Gold_Blossom_-1_0_Petal_1",
+    "Kagari_Gold_Blossom_-1_0_Petal_2",
+    "Kagari_Gold_Blossom_-1_0_Petal_3",
+    "Kagari_Gold_Blossom_-1_0_Petal_4",
+    "Kagari_Gold_Blossom_-1_1_Center",
+    "Kagari_Gold_Blossom_-1_1_Petal_0",
+    "Kagari_Gold_Blossom_-1_1_Petal_1",
+    "Kagari_Gold_Blossom_-1_1_Petal_2",
+    "Kagari_Gold_Blossom_-1_1_Petal_3",
+    "Kagari_Gold_Blossom_-1_1_Petal_4",
+    "Kagari_Gold_Blossom_-1_2_Center",
+    "Kagari_Gold_Blossom_-1_2_Petal_0",
+    "Kagari_Gold_Blossom_-1_2_Petal_1",
+    "Kagari_Gold_Blossom_-1_2_Petal_2",
+    "Kagari_Gold_Blossom_-1_2_Petal_3",
+    "Kagari_Gold_Blossom_-1_2_Petal_4",
+    "Kagari_Gold_Blossom_1_0_Center",
+    "Kagari_Gold_Blossom_1_0_Petal_0",
+    "Kagari_Gold_Blossom_1_0_Petal_1",
+    "Kagari_Gold_Blossom_1_0_Petal_2",
+    "Kagari_Gold_Blossom_1_0_Petal_3",
+    "Kagari_Gold_Blossom_1_0_Petal_4",
+    "Kagari_Gold_Blossom_1_1_Center",
+    "Kagari_Gold_Blossom_1_1_Petal_0",
+    "Kagari_Gold_Blossom_1_1_Petal_1",
+    "Kagari_Gold_Blossom_1_1_Petal_2",
+    "Kagari_Gold_Blossom_1_1_Petal_3",
+    "Kagari_Gold_Blossom_1_1_Petal_4",
+    "Kagari_Gold_Blossom_1_2_Center",
+    "Kagari_Gold_Blossom_1_2_Petal_0",
+    "Kagari_Gold_Blossom_1_2_Petal_1",
+    "Kagari_Gold_Blossom_1_2_Petal_2",
+    "Kagari_Gold_Blossom_1_2_Petal_3",
+    "Kagari_Gold_Blossom_1_2_Petal_4",
+    "Kagari_Gold_Leaf_-1_0_-1",
+    "Kagari_Gold_Leaf_-1_0_1",
+    "Kagari_Gold_Leaf_-1_1_-1",
+    "Kagari_Gold_Leaf_-1_1_1",
+    "Kagari_Gold_Leaf_-1_2_-1",
+    "Kagari_Gold_Leaf_-1_2_1",
+    "Kagari_Gold_Leaf_1_0_-1",
+    "Kagari_Gold_Leaf_1_0_1",
+    "Kagari_Gold_Leaf_1_1_-1",
+    "Kagari_Gold_Leaf_1_1_1",
+    "Kagari_Gold_Leaf_1_2_-1",
+    "Kagari_Gold_Leaf_1_2_1",
+    "Kagari_Haori_Lapel_-1_Gold_Piping_0",
+    "Kagari_Haori_Lapel_-1_Gold_Piping_1",
+    "Kagari_Haori_Lapel_1_Gold_Piping_0",
+    "Kagari_Haori_Lapel_1_Gold_Piping_1",
+    "Kagari_Necklace_Chain",
+    "Kagari_Necklace_Second_Chain",
+    "Kagari_Obi_Trim_0.914",
+    "Kagari_Obi_Trim_0.969",
+    "Kagari_Obijime_Cord",
+    "Kagari_Pendant_Bail",
+    "Kagari_Pendant_Connector",
+    "Kagari_Pendant_Gold_Bead"
+  ],
+  "superseded_garment_objects_retained_hidden": [
+    "Kagari_Haori_Cream_Shell",
+    "Kagari_Inner_Wrapped_Robe",
+    "Kagari_Collar_Under",
+    "Kagari_Collar_Under_Gold_Piping_0",
+    "Kagari_Collar_Under_Gold_Piping_1",
+    "Kagari_Collar_Over",
+    "Kagari_Collar_Over_Gold_Piping_0",
+    "Kagari_Collar_Over_Gold_Piping_1",
+    "Kagari_Haori_Lapel_-1",
+    "Kagari_Haori_Lapel_-1_Gold_Piping_0",
+    "Kagari_Haori_Lapel_-1_Gold_Piping_1",
+    "Kagari_Haori_Lapel_1",
+    "Kagari_Haori_Lapel_1_Gold_Piping_0",
+    "Kagari_Haori_Lapel_1_Gold_Piping_1"
+  ],
+  "body_change": {
+    "removed_upper_source_jacket_faces": 594,
+    "original_faces": 13468,
+    "current_faces": 12874
+  },
+  "new_structural_objects": [
+    "Kagari_v03_Outer_Robe_And_Sleeves",
+    "Kagari_v03_Inner_Top",
+    "Kagari_v03_Sewn_Cross_Collar"
+  ],
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "vrm_export": "NOT_TESTED",
+  "warudo": "NOT_TESTED"
+}

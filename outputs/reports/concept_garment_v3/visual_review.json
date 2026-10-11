@@ -1,0 +1,73 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_concept_garment_v3.blend",
+    "sha256": "131d3c25f8c4b37c81786bfe2af970c254df256c20c8e114ed6de9f26b652af2",
+    "version": "concept-directed-controlled-sheets-v3"
+  },
+  "agent_decision": "IMPROVED_PARTIAL_ACCEPTANCE",
+  "human_decision": "NOT_APPROVED",
+  "reference": "outputs/design/concept_option2_kagari.jpg",
+  "reference_note": "Existing Kagari concept; no new concept image supplied. Front design guides the construction, side/back inferred.",
+  "visually_inspected": [
+    "outputs/previews/concept_garment_v3/front_clay.png",
+    "outputs/previews/concept_garment_v3/three_quarter_clay.png",
+    "outputs/previews/concept_garment_v3/side_clay.png",
+    "outputs/previews/concept_garment_v3/back_clay.png",
+    "outputs/previews/concept_garment_v3/arm_raised_clay.png",
+    "outputs/previews/concept_garment_v3/arm_horizontal_clay.png",
+    "outputs/previews/concept_garment_v3/front_detail_clay.png",
+    "outputs/previews/concept_garment_v3/three_quarter_detail_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_front_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_three_quarter_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_side_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_back_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_arm_raised_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_arm_horizontal_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_front_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_three_quarter_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_side_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_back_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_arm_raised_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_arm_horizontal_clay.png"
+  ],
+  "criteria": {
+    "collar_overlap_thickness": "OBSERVED; broad crossing leaf covers its under-leaf, nape fit remains coarse",
+    "shoulder_sleeve_continuity": "IMPROVED_PARTIAL; shared mesh and sloping shoulder, slight cap/neck ridge still visible in profile",
+    "wide_sleeve_silhouette": "OBSERVED; long flared hollow sleeve, not short cylindrical sleeve",
+    "folds_volume": "PARTIAL; restrained chest folds and sleeve mass, rear and sleeve too smooth",
+    "intersection_free": "NOT_CERTIFIED; proximity warning samples remain",
+    "moderate_pose": "IMPROVED_PARTIAL; no gross armpit crumpling in front +30 test, only front pose inspected",
+    "horizontal_pose": "STRESS_ONLY; volume rotates with skinning and proximity warnings increase",
+    "full_concept_outfit": "OUTSIDE_SCOPE; no long outer lapels, obi, second sleeve or lower garment"
+  },
+  "top_defects": [
+    {
+      "region": "Nape and shoulder cap",
+      "evidence": "outputs/previews/concept_garment_v3/three_quarter_detail_clay.png",
+      "observation": "Nape lip stands off and shoulder has a broad ridge.",
+      "cause": "Simplified control curve and shoulder bridge clearances.",
+      "future_fix": "Fit nape and yoke cross-sections to neck/shoulder with consistent normal clearance.",
+      "predicted_effect": "Cleaner neck seating and softer shoulder silhouette."
+    },
+    {
+      "region": "Sleeve lower panel and rear torso",
+      "evidence": "outputs/previews/concept_garment_v3/back_clay.png",
+      "observation": "Sleeve reads as a smooth flared surface and back has little drape.",
+      "cause": "Controlled envelope has too few broad tension folds.",
+      "future_fix": "Add sparse folds anchored at armhole, lower cuff and waist after form review.",
+      "predicted_effect": "More readable cloth weight without noise."
+    },
+    {
+      "region": "Raised shoulder clearance",
+      "evidence": "outputs/previews/concept_garment_v3/arm_horizontal_clay.png",
+      "observation": "Horizontal pose retains a frozen bag orientation; nearest-normal test flags body proximity.",
+      "cause": "Conventional weights and fixed authored volume.",
+      "future_fix": "Inspect posed root close-ups and tune weights/clearance, then evaluate corrective or runtime support separately.",
+      "predicted_effect": "Safer pose range; no automatic runtime guarantee."
+    }
+  ],
+  "raw_garment_triangles": 9659,
+  "evaluated_garment_triangles": 20228,
+  "vrm_export": "NOT_TESTED",
+  "runtime": "NOT_TESTED"
+}

@@ -1,0 +1,60 @@
+{
+  "candidate_sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+  "checks": [
+    {
+      "command": "python -m compileall -q scripts",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "22df3b",
+        "wall_time_seconds": 0.393481,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      }
+    },
+    {
+      "command": "python scripts/validate_project_state.py --root . --state config/project_state.json",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "041031",
+        "wall_time_seconds": 0.602276,
+        "exit_code": 0,
+        "original_token_count": 64,
+        "output": "{\r\n  \"status\": \"PASS\",\r\n  \"errors\": [],\r\n  \"warnings\": [\r\n    \"blocking_issues remain; this does not invalidate unrelated technical references\",\r\n    \"Human/runtime stages not approved: concept, face, garment_clay, rig, vrm_export, webcam, obs\"\r\n  ]\r\n}\r\n"
+      }
+    },
+    {
+      "command": "python scripts/check_skillpack.py",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "098b7b",
+        "wall_time_seconds": 0.3596509,
+        "exit_code": 0,
+        "original_token_count": 23,
+        "output": "SKILLPACK STRUCTURE OK (13 discovered skills; no artifact/art/runtime approval implied)\r\n"
+      }
+    }
+  ],
+  "blender_checks": [
+    {
+      "name": "actual prototype audit",
+      "exit_code": 0,
+      "evidence": "outputs/reports/garment_reset_final/geometry_audit.json"
+    },
+    {
+      "name": "saved static binding and two-pose verification",
+      "exit_code": 0,
+      "evidence": "outputs/reports/garment_reset_final/technical_verification.json"
+    },
+    {
+      "name": "matched mannequin Cycle03 renders",
+      "exit_code": 0,
+      "evidence": "outputs/reports/garment_reset/matched_cycle03_manifest.json"
+    }
+  ],
+  "visual_acceptance": "FAIL",
+  "human_approval": "NOT_APPROVED",
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "vrm_export": "NOT_TESTED",
+  "warudo": "NOT_TESTED"
+}

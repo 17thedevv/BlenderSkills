@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "project": "Kagari",
+  "current_gate": "GARMENT_CLAY_BLOCKOUT_PENDING",
+  "current_candidate": {
+    "path": null,
+    "sha256": null
+  },
+  "reference_files": [],
+  "evidence": [],
+  "approvals": {
+    "concept": {"status": "PENDING_EVIDENCE", "evidence": null},
+    "face": {"status": "PENDING_EVIDENCE", "evidence": null},
+    "garment_clay": {"status": "NOT_APPROVED", "evidence": null},
+    "rig": {"status": "NOT_TESTED", "evidence": null},
+    "vrm_export": {"status": "NOT_TESTED", "evidence": null},
+    "webcam": {"status": "NOT_TESTED", "evidence": null}
+  },
+  "blocking_issues": ["Current candidate and concept must be linked from actual workspace; no claims made"],
+  "updated_by": "TEMPLATE_ONLY"
+}

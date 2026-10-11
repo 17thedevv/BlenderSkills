@@ -1,0 +1,66 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Info: Total files 79 | Changed 79 | Failed 0
+Info: Saved "kagari_pattern_trial2_source.blend"
+SEW_FRAME 1 elapsed 0.01 gap 0.222
+SEW_FRAME 30 elapsed 7.77 gap 0.129
+SEW_FRAME 60 elapsed 16.28 gap 0.129
+SEW_FRAME 90 elapsed 25.15 gap 0.129
+SEW_FRAME 120 elapsed 34.43 gap 0.129
+SEW_FRAME 150 elapsed 45.35 gap 0.1706
+SEW_FRAME 180 elapsed 57.68 gap 0.1408
+SEW_FRAME 200 elapsed 67.13 gap 0.1474
+SEW_FRAME 210 elapsed 72.52 gap 0.1305
+SEW_FRAME 240 elapsed 89.49 gap 0.1368
+SEW_FRAME 270 elapsed 107.05 gap 0.1333
+SEW_FRAME 300 elapsed 125.81 gap 0.2034
+SEW_FRAME 330 elapsed 145.28 gap 0.1926
+SEW_FRAME 360 elapsed 158.35 gap 0.2047
+SEW_FRAME 390 elapsed 170.73 gap 0.1826
+SEW_FRAME 410 elapsed 180.72 gap 0.2087
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\neutral_front_clay.png'
+Time: 00:01.15 (Saving: 00:00.12)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\neutral_three_quarter_clay.png'
+Time: 00:00.20 (Saving: 00:00.12)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\neutral_side_clay.png'
+Time: 00:00.20 (Saving: 00:00.11)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\neutral_back_clay.png'
+Time: 00:00.20 (Saving: 00:00.11)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\raised30_front_clay.png'
+Time: 00:00.18 (Saving: 00:00.11)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\raised30_three_quarter_clay.png'
+Time: 00:00.17 (Saving: 00:00.11)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\raised30_side_clay.png'
+Time: 00:00.17 (Saving: 00:00.10)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\raised30_back_clay.png'
+Time: 00:00.17 (Saving: 00:00.10)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\horizontal_front_clay.png'
+Time: 00:00.16 (Saving: 00:00.10)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\horizontal_three_quarter_clay.png'
+Time: 00:00.15 (Saving: 00:00.10)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\horizontal_side_clay.png'
+Time: 00:00.19 (Saving: 00:00.10)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\horizontal_back_clay.png'
+Time: 00:00.20 (Saving: 00:00.10)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\rig_only_raised30_front_clay.png'
+Time: 00:00.19 (Saving: 00:00.10)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\trial2\rig_only_horizontal_front_clay.png'
+Time: 00:00.20 (Saving: 00:00.10)
+
+Info: Saved "kagari_pattern_trial2_prototype.blend"
+PATTERN_STUDY_COMPLETE D:\Project-17\blender\outputs\wip\kagari_pattern_trial2_prototype.blend
+
+Blender quit

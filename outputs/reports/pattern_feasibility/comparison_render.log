@@ -1,0 +1,42 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Read blend: "D:\Project-17\blender\outputs\wip\kagari_pattern_trial3_prototype.blend"
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_neutral_front_clay.png'
+Time: 00:00.69 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_neutral_three_quarter_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_neutral_side_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_neutral_back_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_raised30_front_clay.png'
+Time: 00:00.10 (Saving: 00:00.05)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_raised30_three_quarter_clay.png'
+Time: 00:00.10 (Saving: 00:00.05)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_raised30_side_clay.png'
+Time: 00:00.10 (Saving: 00:00.05)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_raised30_back_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_horizontal_front_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_horizontal_three_quarter_clay.png'
+Time: 00:00.10 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_horizontal_side_clay.png'
+Time: 00:00.10 (Saving: 00:00.05)
+
+Saved: 'D:\Project-17\blender\outputs\previews\pattern_feasibility\comparison\recovery2_horizontal_back_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+MATCHED_COMPARISON_COMPLETE
+
+Blender quit

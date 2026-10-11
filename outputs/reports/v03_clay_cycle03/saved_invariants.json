@@ -1,0 +1,22 @@
+{
+  "source": "D:\\Project-17\\blender\\outputs\\wip\\kagari_outfit_detail_v1.blend",
+  "candidate": "D:\\Project-17\\blender\\outputs\\wip\\kagari_v03_clay_03.blend",
+  "source_sha256": "8ead8701d3526c1343166a5ad9f286e3cb1f67a0570d7ef2d4eb4109ada838dd",
+  "candidate_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+  "source_fingerprints": {
+    "Face": "1f956054883471a0c70391ea07e1b9368190a95d2f794532242748ae58dca20f",
+    "Hair": "cfc863f92280788626150431b56f6844a883482d92e9a36f0adc6f1d97e54aa5",
+    "Armature": "d6c3789c23e61dccb9bf9ba24fe226c96dc8ff3c287a46f0fa911c4bb8d2a6d4"
+  },
+  "saved_candidate_fingerprints": {
+    "Face": "1f956054883471a0c70391ea07e1b9368190a95d2f794532242748ae58dca20f",
+    "Hair": "cfc863f92280788626150431b56f6844a883482d92e9a36f0adc6f1d97e54aa5",
+    "Armature": "d6c3789c23e61dccb9bf9ba24fe226c96dc8ff3c287a46f0fa911c4bb8d2a6d4"
+  },
+  "checks": {
+    "Face": true,
+    "Hair": true,
+    "Armature": true
+  },
+  "scope": "Face coordinates/all shape key coordinates and values, Hair mesh/material assignment/weights/bindings, armature bones and neutral pose. No runtime certification."
+}

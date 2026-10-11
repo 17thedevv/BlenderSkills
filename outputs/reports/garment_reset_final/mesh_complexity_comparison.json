@@ -1,0 +1,61 @@
+{
+  "prototype_garment_raw": 6736,
+  "prototype_garment_evaluated": 14260,
+  "prototype_whole_scene_raw": 13644,
+  "prototype_whole_scene_evaluated": 21168,
+  "cycle03_four_structural_meshes_raw": 6496,
+  "cycle03_four_structural_meshes_evaluated": 13960,
+  "largest_modifier_expansions": [
+    {
+      "object": "Panel_Torso_One_Sleeve",
+      "name": "Readable_Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 12324,
+      "delta": 6356
+    },
+    {
+      "object": "Sewn_Overlapping_Collar",
+      "name": "Readable_Fabric_Thickness",
+      "type": "SOLIDIFY",
+      "status": "COUNTED",
+      "triangles": 1936,
+      "delta": 1168
+    },
+    {
+      "object": "Study_Duplicate_Mannequin",
+      "name": "Armature",
+      "type": "ARMATURE",
+      "status": "COUNTED",
+      "triangles": 6188,
+      "delta": 0
+    },
+    {
+      "object": "Study_Duplicate_Mannequin",
+      "name": "Mannequin_Collision",
+      "type": "COLLISION",
+      "status": "COUNTED",
+      "triangles": 6188,
+      "delta": 0
+    },
+    {
+      "object": "Panel_Torso_One_Sleeve",
+      "name": "Humanoid_Study_Binding",
+      "type": "ARMATURE",
+      "status": "COUNTED",
+      "triangles": 5968,
+      "delta": 0
+    },
+    {
+      "object": "Sewn_Overlapping_Collar",
+      "name": "Humanoid_Study_Binding",
+      "type": "ARMATURE",
+      "status": "COUNTED",
+      "triangles": 768,
+      "delta": 0
+    }
+  ],
+  "comparison_limits": "Cycle03 has two sleeves, two torso layers and collar/edge; reset has one sleeve and minimum torso support. Whole-avatar and mannequin totals are different scopes; no optimization/FPS claim.",
+  "exported_vrm_triangles": null,
+  "export_count_status": "NOT_TESTED"
+}

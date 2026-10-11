@@ -1,0 +1,5700 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_garment_recovery_v1.blend",
+    "sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+    "version": "garment-geometry-recovery-v1"
+  },
+  "comparison_source": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "errors": [],
+  "technical_status": "PROTECTED_DATA_TOPOLOGY_SKINNING_VERIFIED",
+  "protected_data_matches_after_reload": {
+    "Face": true,
+    "Hair": true,
+    "Body": true,
+    "Armature_Rest": true,
+    "Armature_Saved_Pose": true
+  },
+  "all_untouched_mesh_data_matches": true,
+  "objects": [
+    {
+      "object": "Kagari_Concept_Robe_Two_Sleeves",
+      "vertices": 5765,
+      "faces": 5645,
+      "raw_triangles": 11273,
+      "surface_components": 1,
+      "boundary_edges": 261,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "armature_references": [
+        "Armature"
+      ],
+      "uvs": [
+        "Working_Panel_UV"
+      ],
+      "materials": [
+        "Kagari_Detail_Cream_Silk"
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Crossed_Collar",
+      "vertices": 679,
+      "faces": 576,
+      "raw_triangles": 1152,
+      "surface_components": 1,
+      "boundary_edges": 204,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "armature_references": [
+        "Armature"
+      ],
+      "uvs": [
+        "Working_Panel_UV"
+      ],
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Soft_Waist_Sash",
+      "vertices": 1056,
+      "faces": 960,
+      "raw_triangles": 1920,
+      "surface_components": 1,
+      "boundary_edges": 192,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "armature_references": [
+        "Armature"
+      ],
+      "uvs": [
+        "Working_Sash_UV"
+      ],
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ]
+    },
+    {
+      "object": "Kagari_Concept_Lower_Robe",
+      "vertices": 2976,
+      "faces": 2880,
+      "raw_triangles": 5760,
+      "surface_components": 1,
+      "boundary_edges": 192,
+      "interior_nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "armature_references": [
+        "Armature"
+      ],
+      "uvs": [
+        "Working_Lower_Robe_UV"
+      ],
+      "materials": [
+        "Kagari_Detail_Cream_Silk"
+      ]
+    }
+  ],
+  "surface_probes": [
+    {
+      "artifact": "full_v3_source",
+      "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+      "poses": [
+        {
+          "pose": "saved_neutral",
+          "finite_coordinates": true,
+          "evaluated_triangles": {
+            "Kagari_Concept_Crossed_Collar": 2712,
+            "Kagari_Concept_Robe_Two_Sleeves": 23068,
+            "Kagari_Concept_Soft_Waist_Sash": 4224,
+            "Body_GarmentDisplay": 10342,
+            "Kagari_Concept_Lower_Robe": 11904
+          },
+          "intersection_probes": [
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 4033,
+                "crossing_edge_segments": 94,
+                "samples": [
+                  {
+                    "edge": [
+                      3392,
+                      3422
+                    ],
+                    "point": [
+                      0.12581732869148254,
+                      -0.06739134341478348,
+                      0.9358378648757935
+                    ],
+                    "target_triangle": 606
+                  },
+                  {
+                    "edge": [
+                      3448,
+                      3449
+                    ],
+                    "point": [
+                      0.11659374833106995,
+                      -0.06376585364341736,
+                      0.9682543277740479
+                    ],
+                    "target_triangle": 1566
+                  },
+                  {
+                    "edge": [
+                      3872,
+                      3902
+                    ],
+                    "point": [
+                      0.12485399097204208,
+                      0.0646098330616951,
+                      0.9341729283332825
+                    ],
+                    "target_triangle": 641
+                  },
+                  {
+                    "edge": [
+                      3904,
+                      3905
+                    ],
+                    "point": [
+                      0.1273394078016281,
+                      0.0670287236571312,
+                      0.9059953689575195
+                    ],
+                    "target_triangle": 3905
+                  },
+                  {
+                    "edge": [
+                      3928,
+                      3929
+                    ],
+                    "point": [
+                      0.11670414358377457,
+                      0.052857592701911926,
+                      0.9771972298622131
+                    ],
+                    "target_triangle": 4094
+                  },
+                  {
+                    "edge": [
+                      3904,
+                      3934
+                    ],
+                    "point": [
+                      0.1267375349998474,
+                      0.0659957006573677,
+                      0.9070429801940918
+                    ],
+                    "target_triangle": 1985
+                  },
+                  {
+                    "edge": [
+                      4808,
+                      4809
+                    ],
+                    "point": [
+                      -0.12318027764558792,
+                      -0.06635221093893051,
+                      0.9422821998596191
+                    ],
+                    "target_triangle": 1121
+                  },
+                  {
+                    "edge": [
+                      4808,
+                      4838
+                    ],
+                    "point": [
+                      -0.1223113089799881,
+                      -0.0661420002579689,
+                      0.9455488324165344
+                    ],
+                    "target_triangle": 1121
+                  },
+                  {
+                    "edge": [
+                      5288,
+                      5289
+                    ],
+                    "point": [
+                      -0.12364401668310165,
+                      0.06320790946483612,
+                      0.9383280277252197
+                    ],
+                    "target_triangle": 895
+                  },
+                  {
+                    "edge": [
+                      5288,
+                      5318
+                    ],
+                    "point": [
+                      -0.12230789661407471,
+                      0.06185667961835861,
+                      0.9458078742027283
+                    ],
+                    "target_triangle": 1087
+                  },
+                  {
+                    "edge": [
+                      3393,
+                      3423
+                    ],
+                    "point": [
+                      0.12802565097808838,
+                      -0.06730040907859802,
+                      0.9249735474586487
+                    ],
+                    "target_triangle": 414
+                  },
+                  {
+                    "edge": [
+                      3449,
+                      3450
+                    ],
+                    "point": [
+                      0.11681174486875534,
+                      -0.06317389756441116,
+                      0.9627163410186768
+                    ],
+                    "target_triangle": 3295
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 145,
+                "samples": [
+                  {
+                    "edge": [
+                      16,
+                      17
+                    ],
+                    "point": [
+                      0.131311297416687,
+                      -0.06696018576622009,
+                      0.9061378240585327
+                    ],
+                    "target_triangle": 6485
+                  },
+                  {
+                    "edge": [
+                      112,
+                      113
+                    ],
+                    "point": [
+                      0.12997199594974518,
+                      -0.06717492640018463,
+                      0.9139112830162048
+                    ],
+                    "target_triangle": 6544
+                  },
+                  {
+                    "edge": [
+                      32,
+                      33
+                    ],
+                    "point": [
+                      0.12893465161323547,
+                      0.06671018898487091,
+                      0.9061388373374939
+                    ],
+                    "target_triangle": 18717
+                  },
+                  {
+                    "edge": [
+                      128,
+                      129
+                    ],
+                    "point": [
+                      0.12824997305870056,
+                      0.06583761423826218,
+                      0.9139050841331482
+                    ],
+                    "target_triangle": 18715
+                  },
+                  {
+                    "edge": [
+                      63,
+                      64
+                    ],
+                    "point": [
+                      -0.1279536336660385,
+                      0.06788156926631927,
+                      0.9061662554740906
+                    ],
+                    "target_triangle": 10213
+                  },
+                  {
+                    "edge": [
+                      159,
+                      160
+                    ],
+                    "point": [
+                      -0.1272774040699005,
+                      0.0669967457652092,
+                      0.9126136898994446
+                    ],
+                    "target_triangle": 10211
+                  },
+                  {
+                    "edge": [
+                      79,
+                      80
+                    ],
+                    "point": [
+                      -0.13203613460063934,
+                      -0.06562363356351852,
+                      0.9061476588249207
+                    ],
+                    "target_triangle": 20527
+                  },
+                  {
+                    "edge": [
+                      175,
+                      176
+                    ],
+                    "point": [
+                      -0.1308824121952057,
+                      -0.06574425101280212,
+                      0.9125782251358032
+                    ],
+                    "target_triangle": 20586
+                  },
+                  {
+                    "edge": [
+                      112,
+                      208
+                    ],
+                    "point": [
+                      0.1291000097990036,
+                      -0.06722798198461533,
+                      0.9189903140068054
+                    ],
+                    "target_triangle": 6543
+                  },
+                  {
+                    "edge": [
+                      207,
+                      208
+                    ],
+                    "point": [
+                      0.12863819301128387,
+                      -0.06724794209003448,
+                      0.9216173887252808
+                    ],
+                    "target_triangle": 6543
+                  },
+                  {
+                    "edge": [
+                      208,
+                      209
+                    ],
+                    "point": [
+                      0.12938226759433746,
+                      -0.06586851924657822,
+                      0.921625554561615
+                    ],
+                    "target_triangle": 17816
+                  },
+                  {
+                    "edge": [
+                      224,
+                      225
+                    ],
+                    "point": [
+                      0.1274857521057129,
+                      0.06495828181505203,
+                      0.9216181635856628
+                    ],
+                    "target_triangle": 18714
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 239
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Lower_Robe",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1248,
+                "crossing_edge_segments": 250,
+                "samples": [
+                  {
+                    "edge": [
+                      8,
+                      104
+                    ],
+                    "point": [
+                      0.0727517306804657,
+                      -0.11382637917995453,
+                      0.9506378173828125
+                    ],
+                    "target_triangle": 3089
+                  },
+                  {
+                    "edge": [
+                      16,
+                      112
+                    ],
+                    "point": [
+                      0.1283327341079712,
+                      -0.06295989453792572,
+                      0.9352627396583557
+                    ],
+                    "target_triangle": 609
+                  },
+                  {
+                    "edge": [
+                      112,
+                      113
+                    ],
+                    "point": [
+                      0.12852604687213898,
+                      -0.0627245083451271,
+                      0.9349273443222046
+                    ],
+                    "target_triangle": 609
+                  },
+                  {
+                    "edge": [
+                      40,
+                      136
+                    ],
+                    "point": [
+                      0.07281763106584549,
+                      0.09853547066450119,
+                      0.9496608376502991
+                    ],
+                    "target_triangle": 1039
+                  },
+                  {
+                    "edge": [
+                      56,
+                      152
+                    ],
+                    "point": [
+                      -0.07424665987491608,
+                      0.10069625079631805,
+                      0.9357765913009644
+                    ],
+                    "target_triangle": 881
+                  },
+                  {
+                    "edge": [
+                      152,
+                      153
+                    ],
+                    "point": [
+                      -0.07544278353452682,
+                      0.1003367155790329,
+                      0.9349358081817627
+                    ],
+                    "target_triangle": 880
+                  },
+                  {
+                    "edge": [
+                      88,
+                      184
+                    ],
+                    "point": [
+                      -0.0735756978392601,
+                      -0.11469516158103943,
+                      0.9431387782096863
+                    ],
+                    "target_triangle": 3055
+                  },
+                  {
+                    "edge": [
+                      112,
+                      208
+                    ],
+                    "point": [
+                      0.13137561082839966,
+                      -0.06380300223827362,
+                      0.916215717792511
+                    ],
+                    "target_triangle": 224
+                  },
+                  {
+                    "edge": [
+                      144,
+                      240
+                    ],
+                    "point": [
+                      1.944026883915484e-10,
+                      0.11543013900518417,
+                      0.9287734031677246
+                    ],
+                    "target_triangle": 2592
+                  },
+                  {
+                    "edge": [
+                      248,
+                      249
+                    ],
+                    "point": [
+                      -0.08095579594373703,
+                      0.10252822190523148,
+                      0.9107276201248169
+                    ],
+                    "target_triangle": 112
+                  },
+                  {
+                    "edge": [
+                      272,
+                      273
+                    ],
+                    "point": [
+                      -0.13148677349090576,
+                      -0.06520628929138184,
+                      0.9107297658920288
+                    ],
+                    "target_triangle": 159
+                  },
+                  {
+                    "edge": [
+                      232,
+                      328
+                    ],
+                    "point": [
+                      0.07720095664262772,
+                      0.10491467267274857,
+                      0.9071055054664612
+                    ],
+                    "target_triangle": 78
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 342,
+                "samples": [
+                  {
+                    "edge": [
+                      16,
+                      17
+                    ],
+                    "point": [
+                      0.1317799836397171,
+                      -0.06607744842767715,
+                      0.9061378836631775
+                    ],
+                    "target_triangle": 415
+                  },
+                  {
+                    "edge": [
+                      112,
+                      113
+                    ],
+                    "point": [
+                      0.13154444098472595,
+                      -0.06420928984880447,
+                      0.9139198660850525
+                    ],
+                    "target_triangle": 223
+                  },
+                  {
+                    "edge": [
+                      19,
+                      20
+                    ],
+                    "point": [
+                      0.14380675554275513,
+                      -0.038102611899375916,
+                      0.9061403274536133
+                    ],
+                    "target_triangle": 6180
+                  },
+                  {
+                    "edge": [
+                      20,
+                      116
+                    ],
+                    "point": [
+                      0.14524279534816742,
+                      -0.031202057376503944,
+                      0.910484254360199
+                    ],
+                    "target_triangle": 5991
+                  },
+                  {
+                    "edge": [
+                      116,
+                      117
+                    ],
+                    "point": [
+                      0.1450769007205963,
+                      -0.029705997556447983,
+                      0.9139937162399292
+                    ],
+                    "target_triangle": 5990
+                  },
+                  {
+                    "edge": [
+                      29,
+                      125
+                    ],
+                    "point": [
+                      0.14210878312587738,
+                      0.04415171220898628,
+                      0.9122428297996521
+                    ],
+                    "target_triangle": 6011
+                  },
+                  {
+                    "edge": [
+                      124,
+                      125
+                    ],
+                    "point": [
+                      0.14212866127490997,
+                      0.04344816505908966,
+                      0.9139783382415771
+                    ],
+                    "target_triangle": 6011
+                  },
+                  {
+                    "edge": [
+                      29,
+                      30
+                    ],
+                    "point": [
+                      0.13960836827754974,
+                      0.051022350788116455,
+                      0.9061399102210999
+                    ],
+                    "target_triangle": 6204
+                  },
+                  {
+                    "edge": [
+                      35,
+                      131
+                    ],
+                    "point": [
+                      0.11307857185602188,
+                      0.08232752978801727,
+                      0.909212052822113
+                    ],
+                    "target_triangle": 455
+                  },
+                  {
+                    "edge": [
+                      130,
+                      131
+                    ],
+                    "point": [
+                      0.11370038241147995,
+                      0.08089028298854828,
+                      0.9138290286064148
+                    ],
+                    "target_triangle": 262
+                  },
+                  {
+                    "edge": [
+                      35,
+                      36
+                    ],
+                    "point": [
+                      0.10968003422021866,
+                      0.08558085560798645,
+                      0.906138002872467
+                    ],
+                    "target_triangle": 455
+                  },
+                  {
+                    "edge": [
+                      39,
+                      40
+                    ],
+                    "point": [
+                      0.07767563313245773,
+                      0.10484403371810913,
+                      0.90613853931427
+                    ],
+                    "target_triangle": 463
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 592
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Kagari_Concept_Robe_Two_Sleeves"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 183,
+                "samples": [
+                  {
+                    "edge": [
+                      134,
+                      351
+                    ],
+                    "point": [
+                      0.049727216362953186,
+                      -0.034558266401290894,
+                      1.2595146894454956
+                    ],
+                    "target_triangle": 3
+                  },
+                  {
+                    "edge": [
+                      350,
+                      351
+                    ],
+                    "point": [
+                      0.04792807996273041,
+                      -0.03441162779927254,
+                      1.260303020477295
+                    ],
+                    "target_triangle": 5040
+                  },
+                  {
+                    "edge": [
+                      135,
+                      352
+                    ],
+                    "point": [
+                      0.054756224155426025,
+                      -0.03440152108669281,
+                      1.257298231124878
+                    ],
+                    "target_triangle": 5
+                  },
+                  {
+                    "edge": [
+                      136,
+                      353
+                    ],
+                    "point": [
+                      0.05967853590846062,
+                      -0.03393518179655075,
+                      1.2549599409103394
+                    ],
+                    "target_triangle": 7
+                  },
+                  {
+                    "edge": [
+                      137,
+                      354
+                    ],
+                    "point": [
+                      0.06445880979299545,
+                      -0.03319744020700455,
+                      1.2525343894958496
+                    ],
+                    "target_triangle": 11
+                  },
+                  {
+                    "edge": [
+                      354,
+                      355
+                    ],
+                    "point": [
+                      0.06885068863630295,
+                      -0.03230813518166542,
+                      1.2502387762069702
+                    ],
+                    "target_triangle": 13
+                  },
+                  {
+                    "edge": [
+                      357,
+                      358
+                    ],
+                    "point": [
+                      0.04856668785214424,
+                      -0.03046596050262451,
+                      1.2613829374313354
+                    ],
+                    "target_triangle": 5043
+                  },
+                  {
+                    "edge": [
+                      355,
+                      362
+                    ],
+                    "point": [
+                      0.06908521056175232,
+                      -0.032250646501779556,
+                      1.2501217126846313
+                    ],
+                    "target_triangle": 13
+                  },
+                  {
+                    "edge": [
+                      356,
+                      363
+                    ],
+                    "point": [
+                      0.07307543605566025,
+                      -0.028787586838006973,
+                      1.248119831085205
+                    ],
+                    "target_triangle": 5054
+                  },
+                  {
+                    "edge": [
+                      364,
+                      365
+                    ],
+                    "point": [
+                      0.049124471843242645,
+                      -0.025606049224734306,
+                      1.2627538442611694
+                    ],
+                    "target_triangle": 5043
+                  },
+                  {
+                    "edge": [
+                      360,
+                      367
+                    ],
+                    "point": [
+                      0.059688616544008255,
+                      -0.028422050178050995,
+                      1.2559592723846436
+                    ],
+                    "target_triangle": 16321
+                  },
+                  {
+                    "edge": [
+                      366,
+                      367
+                    ],
+                    "point": [
+                      0.056132107973098755,
+                      -0.025650572031736374,
+                      1.2586420774459839
+                    ],
+                    "target_triangle": 16319
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 1347,
+                "crossing_edge_segments": 146,
+                "samples": [
+                  {
+                    "edge": [
+                      0,
+                      1
+                    ],
+                    "point": [
+                      0.0441453717648983,
+                      -0.03487598896026611,
+                      1.260552167892456
+                    ],
+                    "target_triangle": 2520
+                  },
+                  {
+                    "edge": [
+                      0,
+                      21
+                    ],
+                    "point": [
+                      0.044081252068281174,
+                      -0.03495952486991882,
+                      1.260388731956482
+                    ],
+                    "target_triangle": 2520
+                  },
+                  {
+                    "edge": [
+                      656,
+                      677
+                    ],
+                    "point": [
+                      -0.06382454186677933,
+                      -0.033305276185274124,
+                      1.2528561353683472
+                    ],
+                    "target_triangle": 1146
+                  },
+                  {
+                    "edge": [
+                      2760,
+                      2761
+                    ],
+                    "point": [
+                      0.04744492471218109,
+                      0.014887402765452862,
+                      1.270324468612671
+                    ],
+                    "target_triangle": 1837
+                  },
+                  {
+                    "edge": [
+                      2824,
+                      2825
+                    ],
+                    "point": [
+                      0.04998444765806198,
+                      0.051557425409555435,
+                      1.2636789083480835
+                    ],
+                    "target_triangle": 737
+                  },
+                  {
+                    "edge": [
+                      2928,
+                      2929
+                    ],
+                    "point": [
+                      -0.04787589609622955,
+                      0.027202220633625984,
+                      1.2695168256759644
+                    ],
+                    "target_triangle": 2162
+                  },
+                  {
+                    "edge": [
+                      1,
+                      22
+                    ],
+                    "point": [
+                      0.048026345670223236,
+                      -0.03457559645175934,
+                      1.2601978778839111
+                    ],
+                    "target_triangle": 577
+                  },
+                  {
+                    "edge": [
+                      657,
+                      678
+                    ],
+                    "point": [
+                      -0.06777152419090271,
+                      -0.032557807862758636,
+                      1.2507966756820679
+                    ],
+                    "target_triangle": 1148
+                  },
+                  {
+                    "edge": [
+                      657,
+                      658
+                    ],
+                    "point": [
+                      -0.06962776929140091,
+                      -0.03212466090917587,
+                      1.2498427629470825
+                    ],
+                    "target_triangle": 1139
+                  },
+                  {
+                    "edge": [
+                      1321,
+                      1366
+                    ],
+                    "point": [
+                      -0.04803456738591194,
+                      0.06472521275281906,
+                      1.2567830085754395
+                    ],
+                    "target_triangle": 969
+                  },
+                  {
+                    "edge": [
+                      1321,
+                      1322
+                    ],
+                    "point": [
+                      -0.046441562473773956,
+                      0.06463107466697693,
+                      1.2602249383926392
+                    ],
+                    "target_triangle": 966
+                  },
+                  {
+                    "edge": [
+                      1,
+                      2698
+                    ],
+                    "point": [
+                      0.048028673976659775,
+                      -0.03277998045086861,
+                      1.2608022689819336
+                    ],
+                    "target_triangle": 588
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 329
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 16,
+                "samples": [
+                  {
+                    "edge": [
+                      419,
+                      426
+                    ],
+                    "point": [
+                      0.06098610907793045,
+                      0.02509249374270439,
+                      1.2462596893310547
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      425,
+                      426
+                    ],
+                    "point": [
+                      0.059917960315942764,
+                      0.028098685666918755,
+                      1.2481328248977661
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      426,
+                      433
+                    ],
+                    "point": [
+                      0.059642042964696884,
+                      0.03578796982765198,
+                      1.2468403577804565
+                    ],
+                    "target_triangle": 858
+                  },
+                  {
+                    "edge": [
+                      601,
+                      608
+                    ],
+                    "point": [
+                      -0.05964208394289017,
+                      0.03578758239746094,
+                      1.246840476989746
+                    ],
+                    "target_triangle": 1396
+                  },
+                  {
+                    "edge": [
+                      607,
+                      608
+                    ],
+                    "point": [
+                      -0.05991797149181366,
+                      0.028098687529563904,
+                      1.2481328248977661
+                    ],
+                    "target_triangle": 1232
+                  },
+                  {
+                    "edge": [
+                      608,
+                      615
+                    ],
+                    "point": [
+                      -0.060986053198575974,
+                      0.025092868134379387,
+                      1.2462598085403442
+                    ],
+                    "target_triangle": 1232
+                  },
+                  {
+                    "edge": [
+                      1098,
+                      1105
+                    ],
+                    "point": [
+                      0.05958189070224762,
+                      0.022829847410321236,
+                      1.2455438375473022
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      1104,
+                      1105
+                    ],
+                    "point": [
+                      0.057780921459198,
+                      0.027875641360878944,
+                      1.2487086057662964
+                    ],
+                    "target_triangle": 1002
+                  },
+                  {
+                    "edge": [
+                      1111,
+                      1112
+                    ],
+                    "point": [
+                      0.05731068179011345,
+                      0.03787638992071152,
+                      1.247344970703125
+                    ],
+                    "target_triangle": 858
+                  },
+                  {
+                    "edge": [
+                      1112,
+                      1119
+                    ],
+                    "point": [
+                      0.057149045169353485,
+                      0.04069480672478676,
+                      1.2465730905532837
+                    ],
+                    "target_triangle": 858
+                  },
+                  {
+                    "edge": [
+                      1273,
+                      1280
+                    ],
+                    "point": [
+                      -0.05714913085103035,
+                      0.04069431871175766,
+                      1.2465732097625732
+                    ],
+                    "target_triangle": 1396
+                  },
+                  {
+                    "edge": [
+                      1279,
+                      1280
+                    ],
+                    "point": [
+                      -0.05731073021888733,
+                      0.03787640482187271,
+                      1.247344970703125
+                    ],
+                    "target_triangle": 1396
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 495,
+                "crossing_edge_segments": 14,
+                "samples": [
+                  {
+                    "edge": [
+                      533,
+                      534
+                    ],
+                    "point": [
+                      0.057272374629974365,
+                      0.036017172038555145,
+                      1.2479246854782104
+                    ],
+                    "target_triangle": 1870
+                  },
+                  {
+                    "edge": [
+                      749,
+                      750
+                    ],
+                    "point": [
+                      -0.05950751155614853,
+                      0.02933242917060852,
+                      1.2488927841186523
+                    ],
+                    "target_triangle": 1019
+                  },
+                  {
+                    "edge": [
+                      829,
+                      840
+                    ],
+                    "point": [
+                      -0.05958108231425285,
+                      0.031534429639577866,
+                      1.248153805732727
+                    ],
+                    "target_triangle": 1018
+                  },
+                  {
+                    "edge": [
+                      534,
+                      537
+                    ],
+                    "point": [
+                      0.05955915153026581,
+                      0.03149387612938881,
+                      1.2481768131256104
+                    ],
+                    "target_triangle": 718
+                  },
+                  {
+                    "edge": [
+                      534,
+                      538
+                    ],
+                    "point": [
+                      0.059499312192201614,
+                      0.02933379076421261,
+                      1.2488961219787598
+                    ],
+                    "target_triangle": 718
+                  },
+                  {
+                    "edge": [
+                      839,
+                      840
+                    ],
+                    "point": [
+                      -0.05728317052125931,
+                      0.03595899045467377,
+                      1.2479370832443237
+                    ],
+                    "target_triangle": 2171
+                  },
+                  {
+                    "edge": [
+                      744,
+                      749
+                    ],
+                    "point": [
+                      -0.057167381048202515,
+                      0.02962176315486431,
+                      1.2498692274093628
+                    ],
+                    "target_triangle": 2170
+                  },
+                  {
+                    "edge": [
+                      840,
+                      841
+                    ],
+                    "point": [
+                      -0.05950751155614853,
+                      0.02933242917060852,
+                      1.2488927841186523
+                    ],
+                    "target_triangle": 1019
+                  },
+                  {
+                    "edge": [
+                      840,
+                      842
+                    ],
+                    "point": [
+                      -0.05716733634471893,
+                      0.02962176688015461,
+                      1.2498693466186523
+                    ],
+                    "target_triangle": 2170
+                  },
+                  {
+                    "edge": [
+                      617,
+                      619
+                    ],
+                    "point": [
+                      0.057931602001190186,
+                      0.027455925941467285,
+                      1.2484283447265625
+                    ],
+                    "target_triangle": 1858
+                  },
+                  {
+                    "edge": [
+                      618,
+                      619
+                    ],
+                    "point": [
+                      0.05949932709336281,
+                      0.02933378703892231,
+                      1.2488960027694702
+                    ],
+                    "target_triangle": 718
+                  },
+                  {
+                    "edge": [
+                      531,
+                      534
+                    ],
+                    "point": [
+                      0.057157471776008606,
+                      0.02962266281247139,
+                      1.2498735189437866
+                    ],
+                    "target_triangle": 1870
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 30
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.075,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 10210,
+                "crossing_edge_segments": 40,
+                "samples": [
+                  {
+                    "edge": [
+                      377,
+                      2111
+                    ],
+                    "point": [
+                      0.11950376629829407,
+                      -0.010748803615570068,
+                      1.0797709226608276
+                    ],
+                    "target_triangle": 1491
+                  },
+                  {
+                    "edge": [
+                      3921,
+                      4348
+                    ],
+                    "point": [
+                      0.12215335667133331,
+                      0.04025339335203171,
+                      1.0806559324264526
+                    ],
+                    "target_triangle": 2038
+                  },
+                  {
+                    "edge": [
+                      5641,
+                      5672
+                    ],
+                    "point": [
+                      -0.1222052276134491,
+                      -0.010581299662590027,
+                      1.076002597808838
+                    ],
+                    "target_triangle": 3219
+                  },
+                  {
+                    "edge": [
+                      1977,
+                      5735
+                    ],
+                    "point": [
+                      -0.12055744975805283,
+                      0.04337989538908005,
+                      1.0957529544830322
+                    ],
+                    "target_triangle": 3623
+                  },
+                  {
+                    "edge": [
+                      5642,
+                      5673
+                    ],
+                    "point": [
+                      -0.12074785679578781,
+                      -0.01205206848680973,
+                      1.0952810049057007
+                    ],
+                    "target_triangle": 3213
+                  },
+                  {
+                    "edge": [
+                      1028,
+                      2067
+                    ],
+                    "point": [
+                      -0.11950476467609406,
+                      -0.010748852044343948,
+                      1.079770803451538
+                    ],
+                    "target_triangle": 3218
+                  },
+                  {
+                    "edge": [
+                      356,
+                      2066
+                    ],
+                    "point": [
+                      0.12056645005941391,
+                      -0.01146109402179718,
+                      1.087850570678711
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      356,
+                      4285
+                    ],
+                    "point": [
+                      0.1207132637500763,
+                      -0.011972226202487946,
+                      1.0942867994308472
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      356,
+                      4316
+                    ],
+                    "point": [
+                      0.12067350000143051,
+                      -0.011880680918693542,
+                      1.0931469202041626
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      356,
+                      4347
+                    ],
+                    "point": [
+                      0.1206798329949379,
+                      -0.011825397610664368,
+                      1.0924293994903564
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      356,
+                      2021
+                    ],
+                    "point": [
+                      0.12068215757608414,
+                      -0.011801250278949738,
+                      1.092116355895996
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      5308,
+                      5734
+                    ],
+                    "point": [
+                      -0.12215334922075272,
+                      0.040253352373838425,
+                      1.0806559324264526
+                    ],
+                    "target_triangle": 3625
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 2979,
+                "crossing_edge_segments": 18,
+                "samples": [
+                  {
+                    "edge": [
+                      901,
+                      906
+                    ],
+                    "point": [
+                      0.119768425822258,
+                      -0.010929831303656101,
+                      1.0817826986312866
+                    ],
+                    "target_triangle": 5708
+                  },
+                  {
+                    "edge": [
+                      901,
+                      907
+                    ],
+                    "point": [
+                      0.11883760243654251,
+                      -0.010323287919163704,
+                      1.075295329093933
+                    ],
+                    "target_triangle": 5710
+                  },
+                  {
+                    "edge": [
+                      901,
+                      912
+                    ],
+                    "point": [
+                      0.11907245963811874,
+                      -0.010485022328794003,
+                      1.0768731832504272
+                    ],
+                    "target_triangle": 5711
+                  },
+                  {
+                    "edge": [
+                      2086,
+                      2124
+                    ],
+                    "point": [
+                      -0.12056927382946014,
+                      0.04327763244509697,
+                      1.0953762531280518
+                    ],
+                    "target_triangle": 11206
+                  },
+                  {
+                    "edge": [
+                      895,
+                      901
+                    ],
+                    "point": [
+                      0.11774899065494537,
+                      -0.010462735779583454,
+                      1.0777169466018677
+                    ],
+                    "target_triangle": 16983
+                  },
+                  {
+                    "edge": [
+                      1855,
+                      1859
+                    ],
+                    "point": [
+                      -0.11774825304746628,
+                      -0.010462826117873192,
+                      1.0777188539505005
+                    ],
+                    "target_triangle": 16956
+                  },
+                  {
+                    "edge": [
+                      1136,
+                      1139
+                    ],
+                    "point": [
+                      0.11923530697822571,
+                      0.038452912122011185,
+                      1.0780285596847534
+                    ],
+                    "target_triangle": 5711
+                  },
+                  {
+                    "edge": [
+                      1136,
+                      1231
+                    ],
+                    "point": [
+                      0.12228644639253616,
+                      0.0414724200963974,
+                      1.0853065252304077
+                    ],
+                    "target_triangle": 8437
+                  },
+                  {
+                    "edge": [
+                      1136,
+                      1234
+                    ],
+                    "point": [
+                      0.12279818952083588,
+                      0.03915746137499809,
+                      1.0753365755081177
+                    ],
+                    "target_triangle": 8438
+                  },
+                  {
+                    "edge": [
+                      889,
+                      901
+                    ],
+                    "point": [
+                      0.11754728853702545,
+                      -0.009571999311447144,
+                      1.0763615369796753
+                    ],
+                    "target_triangle": 16983
+                  },
+                  {
+                    "edge": [
+                      1139,
+                      1231
+                    ],
+                    "point": [
+                      0.12055700272321701,
+                      0.043272655457258224,
+                      1.095375895500183
+                    ],
+                    "target_triangle": 19777
+                  },
+                  {
+                    "edge": [
+                      1851,
+                      1859
+                    ],
+                    "point": [
+                      -0.1175462007522583,
+                      -0.009570482186973095,
+                      1.0763609409332275
+                    ],
+                    "target_triangle": 16956
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 58
+            }
+          ]
+        },
+        {
+          "pose": "raised_30",
+          "finite_coordinates": true,
+          "evaluated_triangles": {
+            "Kagari_Concept_Crossed_Collar": 2712,
+            "Kagari_Concept_Robe_Two_Sleeves": 23068,
+            "Kagari_Concept_Soft_Waist_Sash": 4224,
+            "Body_GarmentDisplay": 10342,
+            "Kagari_Concept_Lower_Robe": 11904
+          },
+          "intersection_probes": [
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 4295,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Lower_Robe",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1248,
+                "crossing_edge_segments": 250,
+                "samples": [
+                  {
+                    "edge": [
+                      8,
+                      104
+                    ],
+                    "point": [
+                      0.0727517306804657,
+                      -0.11382637917995453,
+                      0.9506378173828125
+                    ],
+                    "target_triangle": 3089
+                  },
+                  {
+                    "edge": [
+                      16,
+                      112
+                    ],
+                    "point": [
+                      0.1283327341079712,
+                      -0.06295989453792572,
+                      0.9352627396583557
+                    ],
+                    "target_triangle": 609
+                  },
+                  {
+                    "edge": [
+                      112,
+                      113
+                    ],
+                    "point": [
+                      0.12852604687213898,
+                      -0.0627245083451271,
+                      0.9349273443222046
+                    ],
+                    "target_triangle": 609
+                  },
+                  {
+                    "edge": [
+                      40,
+                      136
+                    ],
+                    "point": [
+                      0.07281763106584549,
+                      0.09853547066450119,
+                      0.9496608376502991
+                    ],
+                    "target_triangle": 1039
+                  },
+                  {
+                    "edge": [
+                      56,
+                      152
+                    ],
+                    "point": [
+                      -0.07424665987491608,
+                      0.10069625079631805,
+                      0.9357765913009644
+                    ],
+                    "target_triangle": 881
+                  },
+                  {
+                    "edge": [
+                      152,
+                      153
+                    ],
+                    "point": [
+                      -0.07544278353452682,
+                      0.1003367155790329,
+                      0.9349358081817627
+                    ],
+                    "target_triangle": 880
+                  },
+                  {
+                    "edge": [
+                      88,
+                      184
+                    ],
+                    "point": [
+                      -0.0735756978392601,
+                      -0.11469516158103943,
+                      0.9431387782096863
+                    ],
+                    "target_triangle": 3055
+                  },
+                  {
+                    "edge": [
+                      112,
+                      208
+                    ],
+                    "point": [
+                      0.13137561082839966,
+                      -0.06380300223827362,
+                      0.916215717792511
+                    ],
+                    "target_triangle": 224
+                  },
+                  {
+                    "edge": [
+                      144,
+                      240
+                    ],
+                    "point": [
+                      1.944026883915484e-10,
+                      0.11543013900518417,
+                      0.9287734031677246
+                    ],
+                    "target_triangle": 2592
+                  },
+                  {
+                    "edge": [
+                      248,
+                      249
+                    ],
+                    "point": [
+                      -0.08095579594373703,
+                      0.10252822190523148,
+                      0.9107276201248169
+                    ],
+                    "target_triangle": 112
+                  },
+                  {
+                    "edge": [
+                      272,
+                      273
+                    ],
+                    "point": [
+                      -0.13148677349090576,
+                      -0.06520628929138184,
+                      0.9107297658920288
+                    ],
+                    "target_triangle": 159
+                  },
+                  {
+                    "edge": [
+                      232,
+                      328
+                    ],
+                    "point": [
+                      0.07720095664262772,
+                      0.10491467267274857,
+                      0.9071055054664612
+                    ],
+                    "target_triangle": 78
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 342,
+                "samples": [
+                  {
+                    "edge": [
+                      16,
+                      17
+                    ],
+                    "point": [
+                      0.1317799836397171,
+                      -0.06607744842767715,
+                      0.9061378836631775
+                    ],
+                    "target_triangle": 415
+                  },
+                  {
+                    "edge": [
+                      112,
+                      113
+                    ],
+                    "point": [
+                      0.13154444098472595,
+                      -0.06420928984880447,
+                      0.9139198660850525
+                    ],
+                    "target_triangle": 223
+                  },
+                  {
+                    "edge": [
+                      19,
+                      20
+                    ],
+                    "point": [
+                      0.14380675554275513,
+                      -0.038102611899375916,
+                      0.9061403274536133
+                    ],
+                    "target_triangle": 6180
+                  },
+                  {
+                    "edge": [
+                      20,
+                      116
+                    ],
+                    "point": [
+                      0.14524279534816742,
+                      -0.031202057376503944,
+                      0.910484254360199
+                    ],
+                    "target_triangle": 5991
+                  },
+                  {
+                    "edge": [
+                      116,
+                      117
+                    ],
+                    "point": [
+                      0.1450769007205963,
+                      -0.029705997556447983,
+                      0.9139937162399292
+                    ],
+                    "target_triangle": 5990
+                  },
+                  {
+                    "edge": [
+                      29,
+                      125
+                    ],
+                    "point": [
+                      0.14210878312587738,
+                      0.04415171220898628,
+                      0.9122428297996521
+                    ],
+                    "target_triangle": 6011
+                  },
+                  {
+                    "edge": [
+                      124,
+                      125
+                    ],
+                    "point": [
+                      0.14212866127490997,
+                      0.04344816505908966,
+                      0.9139783382415771
+                    ],
+                    "target_triangle": 6011
+                  },
+                  {
+                    "edge": [
+                      29,
+                      30
+                    ],
+                    "point": [
+                      0.13960836827754974,
+                      0.051022350788116455,
+                      0.9061399102210999
+                    ],
+                    "target_triangle": 6204
+                  },
+                  {
+                    "edge": [
+                      35,
+                      131
+                    ],
+                    "point": [
+                      0.11307857185602188,
+                      0.08232752978801727,
+                      0.909212052822113
+                    ],
+                    "target_triangle": 455
+                  },
+                  {
+                    "edge": [
+                      130,
+                      131
+                    ],
+                    "point": [
+                      0.11370038241147995,
+                      0.08089028298854828,
+                      0.9138290286064148
+                    ],
+                    "target_triangle": 262
+                  },
+                  {
+                    "edge": [
+                      35,
+                      36
+                    ],
+                    "point": [
+                      0.10968003422021866,
+                      0.08558085560798645,
+                      0.906138002872467
+                    ],
+                    "target_triangle": 455
+                  },
+                  {
+                    "edge": [
+                      39,
+                      40
+                    ],
+                    "point": [
+                      0.07767563313245773,
+                      0.10484403371810913,
+                      0.90613853931427
+                    ],
+                    "target_triangle": 463
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 592
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Kagari_Concept_Robe_Two_Sleeves"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 183,
+                "samples": [
+                  {
+                    "edge": [
+                      134,
+                      351
+                    ],
+                    "point": [
+                      0.049727216362953186,
+                      -0.034558266401290894,
+                      1.2595146894454956
+                    ],
+                    "target_triangle": 3
+                  },
+                  {
+                    "edge": [
+                      350,
+                      351
+                    ],
+                    "point": [
+                      0.04792807996273041,
+                      -0.03441162779927254,
+                      1.260303020477295
+                    ],
+                    "target_triangle": 5040
+                  },
+                  {
+                    "edge": [
+                      135,
+                      352
+                    ],
+                    "point": [
+                      0.054756224155426025,
+                      -0.03440152108669281,
+                      1.257298231124878
+                    ],
+                    "target_triangle": 5
+                  },
+                  {
+                    "edge": [
+                      136,
+                      353
+                    ],
+                    "point": [
+                      0.05967853590846062,
+                      -0.03393518179655075,
+                      1.2549599409103394
+                    ],
+                    "target_triangle": 7
+                  },
+                  {
+                    "edge": [
+                      137,
+                      354
+                    ],
+                    "point": [
+                      0.06445880979299545,
+                      -0.03319743275642395,
+                      1.2525343894958496
+                    ],
+                    "target_triangle": 11
+                  },
+                  {
+                    "edge": [
+                      354,
+                      355
+                    ],
+                    "point": [
+                      0.06881771236658096,
+                      -0.032312870025634766,
+                      1.2502555847167969
+                    ],
+                    "target_triangle": 13
+                  },
+                  {
+                    "edge": [
+                      357,
+                      358
+                    ],
+                    "point": [
+                      0.04856668785214424,
+                      -0.03046596050262451,
+                      1.2613829374313354
+                    ],
+                    "target_triangle": 5043
+                  },
+                  {
+                    "edge": [
+                      355,
+                      362
+                    ],
+                    "point": [
+                      0.06908446550369263,
+                      -0.03224662318825722,
+                      1.2501224279403687
+                    ],
+                    "target_triangle": 13
+                  },
+                  {
+                    "edge": [
+                      356,
+                      363
+                    ],
+                    "point": [
+                      0.07307553291320801,
+                      -0.028788762167096138,
+                      1.248119831085205
+                    ],
+                    "target_triangle": 5054
+                  },
+                  {
+                    "edge": [
+                      364,
+                      365
+                    ],
+                    "point": [
+                      0.049124471843242645,
+                      -0.025606049224734306,
+                      1.2627538442611694
+                    ],
+                    "target_triangle": 5043
+                  },
+                  {
+                    "edge": [
+                      360,
+                      367
+                    ],
+                    "point": [
+                      0.059688616544008255,
+                      -0.028422050178050995,
+                      1.2559592723846436
+                    ],
+                    "target_triangle": 16321
+                  },
+                  {
+                    "edge": [
+                      366,
+                      367
+                    ],
+                    "point": [
+                      0.056132107973098755,
+                      -0.025650572031736374,
+                      1.2586420774459839
+                    ],
+                    "target_triangle": 16319
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 1441,
+                "crossing_edge_segments": 146,
+                "samples": [
+                  {
+                    "edge": [
+                      0,
+                      1
+                    ],
+                    "point": [
+                      0.0441453717648983,
+                      -0.03487598896026611,
+                      1.260552167892456
+                    ],
+                    "target_triangle": 2520
+                  },
+                  {
+                    "edge": [
+                      0,
+                      21
+                    ],
+                    "point": [
+                      0.044081252068281174,
+                      -0.03495952486991882,
+                      1.260388731956482
+                    ],
+                    "target_triangle": 2520
+                  },
+                  {
+                    "edge": [
+                      656,
+                      677
+                    ],
+                    "point": [
+                      -0.06382454186677933,
+                      -0.033305276185274124,
+                      1.2528561353683472
+                    ],
+                    "target_triangle": 1146
+                  },
+                  {
+                    "edge": [
+                      2760,
+                      2761
+                    ],
+                    "point": [
+                      0.04744492471218109,
+                      0.014887402765452862,
+                      1.270324468612671
+                    ],
+                    "target_triangle": 1837
+                  },
+                  {
+                    "edge": [
+                      2824,
+                      2825
+                    ],
+                    "point": [
+                      0.04998444765806198,
+                      0.051557425409555435,
+                      1.2636789083480835
+                    ],
+                    "target_triangle": 737
+                  },
+                  {
+                    "edge": [
+                      2928,
+                      2929
+                    ],
+                    "point": [
+                      -0.04787589609622955,
+                      0.027202220633625984,
+                      1.2695168256759644
+                    ],
+                    "target_triangle": 2162
+                  },
+                  {
+                    "edge": [
+                      1,
+                      22
+                    ],
+                    "point": [
+                      0.048026345670223236,
+                      -0.03457559645175934,
+                      1.2601978778839111
+                    ],
+                    "target_triangle": 577
+                  },
+                  {
+                    "edge": [
+                      657,
+                      678
+                    ],
+                    "point": [
+                      -0.06777185201644897,
+                      -0.03255772218108177,
+                      1.2507966756820679
+                    ],
+                    "target_triangle": 1148
+                  },
+                  {
+                    "edge": [
+                      657,
+                      658
+                    ],
+                    "point": [
+                      -0.06962373107671738,
+                      -0.03211962431669235,
+                      1.2498455047607422
+                    ],
+                    "target_triangle": 1139
+                  },
+                  {
+                    "edge": [
+                      1321,
+                      1366
+                    ],
+                    "point": [
+                      -0.04803456738591194,
+                      0.06472521275281906,
+                      1.2567830085754395
+                    ],
+                    "target_triangle": 969
+                  },
+                  {
+                    "edge": [
+                      1321,
+                      1322
+                    ],
+                    "point": [
+                      -0.046441562473773956,
+                      0.06463107466697693,
+                      1.2602249383926392
+                    ],
+                    "target_triangle": 966
+                  },
+                  {
+                    "edge": [
+                      1,
+                      2698
+                    ],
+                    "point": [
+                      0.048028673976659775,
+                      -0.03277998045086861,
+                      1.2608022689819336
+                    ],
+                    "target_triangle": 588
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 329
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 16,
+                "samples": [
+                  {
+                    "edge": [
+                      419,
+                      426
+                    ],
+                    "point": [
+                      0.0610010027885437,
+                      0.024971334263682365,
+                      1.2462570667266846
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      425,
+                      426
+                    ],
+                    "point": [
+                      0.059901945292949677,
+                      0.028096744790673256,
+                      1.2481749057769775
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      426,
+                      433
+                    ],
+                    "point": [
+                      0.059749361127614975,
+                      0.03494148701429367,
+                      1.2467831373214722
+                    ],
+                    "target_triangle": 858
+                  },
+                  {
+                    "edge": [
+                      601,
+                      608
+                    ],
+                    "point": [
+                      -0.05974944308400154,
+                      0.034940775483846664,
+                      1.2467832565307617
+                    ],
+                    "target_triangle": 1396
+                  },
+                  {
+                    "edge": [
+                      607,
+                      608
+                    ],
+                    "point": [
+                      -0.059901993721723557,
+                      0.028096750378608704,
+                      1.248174786567688
+                    ],
+                    "target_triangle": 1232
+                  },
+                  {
+                    "edge": [
+                      608,
+                      615
+                    ],
+                    "point": [
+                      -0.06100093573331833,
+                      0.024971799924969673,
+                      1.2462573051452637
+                    ],
+                    "target_triangle": 1232
+                  },
+                  {
+                    "edge": [
+                      1098,
+                      1105
+                    ],
+                    "point": [
+                      0.059588249772787094,
+                      0.022778786718845367,
+                      1.2455426454544067
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      1104,
+                      1105
+                    ],
+                    "point": [
+                      0.05779522284865379,
+                      0.02787730097770691,
+                      1.248671054840088
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      1111,
+                      1112
+                    ],
+                    "point": [
+                      0.057450611144304276,
+                      0.03791706636548042,
+                      1.2469607591629028
+                    ],
+                    "target_triangle": 858
+                  },
+                  {
+                    "edge": [
+                      1112,
+                      1119
+                    ],
+                    "point": [
+                      0.05736716836690903,
+                      0.039546988904476166,
+                      1.2464879751205444
+                    ],
+                    "target_triangle": 858
+                  },
+                  {
+                    "edge": [
+                      1273,
+                      1280
+                    ],
+                    "point": [
+                      -0.057367295026779175,
+                      0.03954628109931946,
+                      1.246488094329834
+                    ],
+                    "target_triangle": 1396
+                  },
+                  {
+                    "edge": [
+                      1279,
+                      1280
+                    ],
+                    "point": [
+                      -0.05745069310069084,
+                      0.037917088717222214,
+                      1.2469606399536133
+                    ],
+                    "target_triangle": 1396
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 521,
+                "crossing_edge_segments": 14,
+                "samples": [
+                  {
+                    "edge": [
+                      533,
+                      534
+                    ],
+                    "point": [
+                      0.057257186621427536,
+                      0.030635163187980652,
+                      1.2493470907211304
+                    ],
+                    "target_triangle": 1870
+                  },
+                  {
+                    "edge": [
+                      749,
+                      750
+                    ],
+                    "point": [
+                      -0.059557970613241196,
+                      0.029141554608941078,
+                      1.2488090991973877
+                    ],
+                    "target_triangle": 1019
+                  },
+                  {
+                    "edge": [
+                      829,
+                      840
+                    ],
+                    "point": [
+                      -0.05973343923687935,
+                      0.03415185213088989,
+                      1.2470393180847168
+                    ],
+                    "target_triangle": 1018
+                  },
+                  {
+                    "edge": [
+                      534,
+                      537
+                    ],
+                    "point": [
+                      0.05972899869084358,
+                      0.034142620861530304,
+                      1.247044563293457
+                    ],
+                    "target_triangle": 718
+                  },
+                  {
+                    "edge": [
+                      534,
+                      538
+                    ],
+                    "point": [
+                      0.059551041573286057,
+                      0.029142767190933228,
+                      1.2488118410110474
+                    ],
+                    "target_triangle": 718
+                  },
+                  {
+                    "edge": [
+                      839,
+                      840
+                    ],
+                    "point": [
+                      -0.05727292597293854,
+                      0.030557621270418167,
+                      1.2493637800216675
+                    ],
+                    "target_triangle": 2170
+                  },
+                  {
+                    "edge": [
+                      744,
+                      749
+                    ],
+                    "point": [
+                      -0.05724077299237251,
+                      0.02952728047966957,
+                      1.2497020959854126
+                    ],
+                    "target_triangle": 2170
+                  },
+                  {
+                    "edge": [
+                      840,
+                      841
+                    ],
+                    "point": [
+                      -0.059557970613241196,
+                      0.029141554608941078,
+                      1.2488090991973877
+                    ],
+                    "target_triangle": 1019
+                  },
+                  {
+                    "edge": [
+                      840,
+                      842
+                    ],
+                    "point": [
+                      -0.05724075064063072,
+                      0.02952728420495987,
+                      1.2497020959854126
+                    ],
+                    "target_triangle": 2170
+                  },
+                  {
+                    "edge": [
+                      617,
+                      619
+                    ],
+                    "point": [
+                      0.05738799273967743,
+                      0.029091520234942436,
+                      1.2494105100631714
+                    ],
+                    "target_triangle": 1871
+                  },
+                  {
+                    "edge": [
+                      618,
+                      619
+                    ],
+                    "point": [
+                      0.05955102667212486,
+                      0.029142769053578377,
+                      1.2488118410110474
+                    ],
+                    "target_triangle": 718
+                  },
+                  {
+                    "edge": [
+                      531,
+                      534
+                    ],
+                    "point": [
+                      0.05722964555025101,
+                      0.02952839806675911,
+                      1.2497072219848633
+                    ],
+                    "target_triangle": 1871
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 30
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.075,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 11574,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 3475,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            }
+          ]
+        },
+        {
+          "pose": "upper_arms_horizontal",
+          "finite_coordinates": true,
+          "evaluated_triangles": {
+            "Kagari_Concept_Crossed_Collar": 2712,
+            "Kagari_Concept_Robe_Two_Sleeves": 23068,
+            "Kagari_Concept_Soft_Waist_Sash": 4224,
+            "Body_GarmentDisplay": 10342,
+            "Kagari_Concept_Lower_Robe": 11904
+          },
+          "intersection_probes": [
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1129,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Lower_Robe",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1248,
+                "crossing_edge_segments": 250,
+                "samples": [
+                  {
+                    "edge": [
+                      8,
+                      104
+                    ],
+                    "point": [
+                      0.0727517306804657,
+                      -0.11382637917995453,
+                      0.9506378173828125
+                    ],
+                    "target_triangle": 3089
+                  },
+                  {
+                    "edge": [
+                      16,
+                      112
+                    ],
+                    "point": [
+                      0.1283327341079712,
+                      -0.06295989453792572,
+                      0.9352627396583557
+                    ],
+                    "target_triangle": 609
+                  },
+                  {
+                    "edge": [
+                      112,
+                      113
+                    ],
+                    "point": [
+                      0.12852604687213898,
+                      -0.0627245083451271,
+                      0.9349273443222046
+                    ],
+                    "target_triangle": 609
+                  },
+                  {
+                    "edge": [
+                      40,
+                      136
+                    ],
+                    "point": [
+                      0.07281763106584549,
+                      0.09853547066450119,
+                      0.9496608376502991
+                    ],
+                    "target_triangle": 1039
+                  },
+                  {
+                    "edge": [
+                      56,
+                      152
+                    ],
+                    "point": [
+                      -0.07424665987491608,
+                      0.10069625079631805,
+                      0.9357765913009644
+                    ],
+                    "target_triangle": 881
+                  },
+                  {
+                    "edge": [
+                      152,
+                      153
+                    ],
+                    "point": [
+                      -0.07544278353452682,
+                      0.1003367155790329,
+                      0.9349358081817627
+                    ],
+                    "target_triangle": 880
+                  },
+                  {
+                    "edge": [
+                      88,
+                      184
+                    ],
+                    "point": [
+                      -0.0735756978392601,
+                      -0.11469516158103943,
+                      0.9431387782096863
+                    ],
+                    "target_triangle": 3055
+                  },
+                  {
+                    "edge": [
+                      112,
+                      208
+                    ],
+                    "point": [
+                      0.13137561082839966,
+                      -0.06380300223827362,
+                      0.916215717792511
+                    ],
+                    "target_triangle": 224
+                  },
+                  {
+                    "edge": [
+                      144,
+                      240
+                    ],
+                    "point": [
+                      1.944026883915484e-10,
+                      0.11543013900518417,
+                      0.9287734031677246
+                    ],
+                    "target_triangle": 2592
+                  },
+                  {
+                    "edge": [
+                      248,
+                      249
+                    ],
+                    "point": [
+                      -0.08095579594373703,
+                      0.10252822190523148,
+                      0.9107276201248169
+                    ],
+                    "target_triangle": 112
+                  },
+                  {
+                    "edge": [
+                      272,
+                      273
+                    ],
+                    "point": [
+                      -0.13148677349090576,
+                      -0.06520628929138184,
+                      0.9107297658920288
+                    ],
+                    "target_triangle": 159
+                  },
+                  {
+                    "edge": [
+                      232,
+                      328
+                    ],
+                    "point": [
+                      0.07720095664262772,
+                      0.10491467267274857,
+                      0.9071055054664612
+                    ],
+                    "target_triangle": 78
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 342,
+                "samples": [
+                  {
+                    "edge": [
+                      16,
+                      17
+                    ],
+                    "point": [
+                      0.1317799836397171,
+                      -0.06607744842767715,
+                      0.9061378836631775
+                    ],
+                    "target_triangle": 415
+                  },
+                  {
+                    "edge": [
+                      112,
+                      113
+                    ],
+                    "point": [
+                      0.13154444098472595,
+                      -0.06420928984880447,
+                      0.9139198660850525
+                    ],
+                    "target_triangle": 223
+                  },
+                  {
+                    "edge": [
+                      19,
+                      20
+                    ],
+                    "point": [
+                      0.14380675554275513,
+                      -0.038102611899375916,
+                      0.9061403274536133
+                    ],
+                    "target_triangle": 6180
+                  },
+                  {
+                    "edge": [
+                      20,
+                      116
+                    ],
+                    "point": [
+                      0.14524279534816742,
+                      -0.031202057376503944,
+                      0.910484254360199
+                    ],
+                    "target_triangle": 5991
+                  },
+                  {
+                    "edge": [
+                      116,
+                      117
+                    ],
+                    "point": [
+                      0.1450769007205963,
+                      -0.029705997556447983,
+                      0.9139937162399292
+                    ],
+                    "target_triangle": 5990
+                  },
+                  {
+                    "edge": [
+                      29,
+                      125
+                    ],
+                    "point": [
+                      0.14210878312587738,
+                      0.04415171220898628,
+                      0.9122428297996521
+                    ],
+                    "target_triangle": 6011
+                  },
+                  {
+                    "edge": [
+                      124,
+                      125
+                    ],
+                    "point": [
+                      0.14212866127490997,
+                      0.04344816505908966,
+                      0.9139783382415771
+                    ],
+                    "target_triangle": 6011
+                  },
+                  {
+                    "edge": [
+                      29,
+                      30
+                    ],
+                    "point": [
+                      0.13960836827754974,
+                      0.051022350788116455,
+                      0.9061399102210999
+                    ],
+                    "target_triangle": 6204
+                  },
+                  {
+                    "edge": [
+                      35,
+                      131
+                    ],
+                    "point": [
+                      0.11307857185602188,
+                      0.08232752978801727,
+                      0.909212052822113
+                    ],
+                    "target_triangle": 455
+                  },
+                  {
+                    "edge": [
+                      130,
+                      131
+                    ],
+                    "point": [
+                      0.11370038241147995,
+                      0.08089028298854828,
+                      0.9138290286064148
+                    ],
+                    "target_triangle": 262
+                  },
+                  {
+                    "edge": [
+                      35,
+                      36
+                    ],
+                    "point": [
+                      0.10968003422021866,
+                      0.08558085560798645,
+                      0.906138002872467
+                    ],
+                    "target_triangle": 455
+                  },
+                  {
+                    "edge": [
+                      39,
+                      40
+                    ],
+                    "point": [
+                      0.07767563313245773,
+                      0.10484403371810913,
+                      0.90613853931427
+                    ],
+                    "target_triangle": 463
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 592
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Kagari_Concept_Robe_Two_Sleeves"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 187,
+                "samples": [
+                  {
+                    "edge": [
+                      134,
+                      351
+                    ],
+                    "point": [
+                      0.049727216362953186,
+                      -0.034558266401290894,
+                      1.2595146894454956
+                    ],
+                    "target_triangle": 3
+                  },
+                  {
+                    "edge": [
+                      350,
+                      351
+                    ],
+                    "point": [
+                      0.04792807996273041,
+                      -0.03441162779927254,
+                      1.260303020477295
+                    ],
+                    "target_triangle": 5040
+                  },
+                  {
+                    "edge": [
+                      135,
+                      352
+                    ],
+                    "point": [
+                      0.054756224155426025,
+                      -0.03440152108669281,
+                      1.257298231124878
+                    ],
+                    "target_triangle": 5
+                  },
+                  {
+                    "edge": [
+                      136,
+                      353
+                    ],
+                    "point": [
+                      0.05967853590846062,
+                      -0.03393518179655075,
+                      1.2549599409103394
+                    ],
+                    "target_triangle": 7
+                  },
+                  {
+                    "edge": [
+                      137,
+                      354
+                    ],
+                    "point": [
+                      0.06445881724357605,
+                      -0.033197350800037384,
+                      1.2525343894958496
+                    ],
+                    "target_triangle": 11
+                  },
+                  {
+                    "edge": [
+                      354,
+                      355
+                    ],
+                    "point": [
+                      0.0686236023902893,
+                      -0.032346099615097046,
+                      1.2503541707992554
+                    ],
+                    "target_triangle": 13
+                  },
+                  {
+                    "edge": [
+                      357,
+                      358
+                    ],
+                    "point": [
+                      0.04856668785214424,
+                      -0.03046596050262451,
+                      1.2613829374313354
+                    ],
+                    "target_triangle": 5043
+                  },
+                  {
+                    "edge": [
+                      355,
+                      362
+                    ],
+                    "point": [
+                      0.06908294558525085,
+                      -0.03222384676337242,
+                      1.2501256465911865
+                    ],
+                    "target_triangle": 13
+                  },
+                  {
+                    "edge": [
+                      356,
+                      363
+                    ],
+                    "point": [
+                      0.07294478267431259,
+                      -0.028119990602135658,
+                      1.2482049465179443
+                    ],
+                    "target_triangle": 5054
+                  },
+                  {
+                    "edge": [
+                      364,
+                      365
+                    ],
+                    "point": [
+                      0.049124471843242645,
+                      -0.025606049224734306,
+                      1.2627538442611694
+                    ],
+                    "target_triangle": 5043
+                  },
+                  {
+                    "edge": [
+                      360,
+                      367
+                    ],
+                    "point": [
+                      0.059688616544008255,
+                      -0.028422050178050995,
+                      1.2559592723846436
+                    ],
+                    "target_triangle": 16321
+                  },
+                  {
+                    "edge": [
+                      366,
+                      367
+                    ],
+                    "point": [
+                      0.056132107973098755,
+                      -0.025650572031736374,
+                      1.2586420774459839
+                    ],
+                    "target_triangle": 16319
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4689,
+                "crossing_edge_segments": 146,
+                "samples": [
+                  {
+                    "edge": [
+                      0,
+                      1
+                    ],
+                    "point": [
+                      0.0441453717648983,
+                      -0.03487598896026611,
+                      1.260552167892456
+                    ],
+                    "target_triangle": 2520
+                  },
+                  {
+                    "edge": [
+                      0,
+                      21
+                    ],
+                    "point": [
+                      0.044081252068281174,
+                      -0.03495952486991882,
+                      1.260388731956482
+                    ],
+                    "target_triangle": 2520
+                  },
+                  {
+                    "edge": [
+                      656,
+                      677
+                    ],
+                    "point": [
+                      -0.06382454186677933,
+                      -0.033305276185274124,
+                      1.2528561353683472
+                    ],
+                    "target_triangle": 1146
+                  },
+                  {
+                    "edge": [
+                      2760,
+                      2761
+                    ],
+                    "point": [
+                      0.04744492471218109,
+                      0.014887402765452862,
+                      1.270324468612671
+                    ],
+                    "target_triangle": 1837
+                  },
+                  {
+                    "edge": [
+                      2824,
+                      2825
+                    ],
+                    "point": [
+                      0.04998444765806198,
+                      0.051557425409555435,
+                      1.2636789083480835
+                    ],
+                    "target_triangle": 737
+                  },
+                  {
+                    "edge": [
+                      2928,
+                      2929
+                    ],
+                    "point": [
+                      -0.04787589609622955,
+                      0.027202220633625984,
+                      1.2695168256759644
+                    ],
+                    "target_triangle": 2162
+                  },
+                  {
+                    "edge": [
+                      1,
+                      22
+                    ],
+                    "point": [
+                      0.048026345670223236,
+                      -0.03457559645175934,
+                      1.2601978778839111
+                    ],
+                    "target_triangle": 577
+                  },
+                  {
+                    "edge": [
+                      657,
+                      678
+                    ],
+                    "point": [
+                      -0.06777604669332504,
+                      -0.03255628049373627,
+                      1.2507941722869873
+                    ],
+                    "target_triangle": 1148
+                  },
+                  {
+                    "edge": [
+                      657,
+                      658
+                    ],
+                    "point": [
+                      -0.06943253427743912,
+                      -0.032136477530002594,
+                      1.2499467134475708
+                    ],
+                    "target_triangle": 1139
+                  },
+                  {
+                    "edge": [
+                      1321,
+                      1366
+                    ],
+                    "point": [
+                      -0.04803456738591194,
+                      0.06472521275281906,
+                      1.2567830085754395
+                    ],
+                    "target_triangle": 969
+                  },
+                  {
+                    "edge": [
+                      1321,
+                      1322
+                    ],
+                    "point": [
+                      -0.046441562473773956,
+                      0.06463107466697693,
+                      1.2602249383926392
+                    ],
+                    "target_triangle": 966
+                  },
+                  {
+                    "edge": [
+                      1,
+                      2698
+                    ],
+                    "point": [
+                      0.048028673976659775,
+                      -0.03277998045086861,
+                      1.2608022689819336
+                    ],
+                    "target_triangle": 588
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 333
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 12,
+                "samples": [
+                  {
+                    "edge": [
+                      419,
+                      426
+                    ],
+                    "point": [
+                      0.060810286551713943,
+                      0.026522820815443993,
+                      1.2462903261184692
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      425,
+                      426
+                    ],
+                    "point": [
+                      0.060244519263505936,
+                      0.028138266876339912,
+                      1.2472755908966064
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      426,
+                      433
+                    ],
+                    "point": [
+                      0.0601801760494709,
+                      0.03154337406158447,
+                      1.2465531826019287
+                    ],
+                    "target_triangle": 860
+                  },
+                  {
+                    "edge": [
+                      601,
+                      608
+                    ],
+                    "point": [
+                      -0.06018023192882538,
+                      0.03154287487268448,
+                      1.2465533018112183
+                    ],
+                    "target_triangle": 1397
+                  },
+                  {
+                    "edge": [
+                      607,
+                      608
+                    ],
+                    "point": [
+                      -0.06024456396698952,
+                      0.02813827246427536,
+                      1.247275471687317
+                    ],
+                    "target_triangle": 1232
+                  },
+                  {
+                    "edge": [
+                      608,
+                      615
+                    ],
+                    "point": [
+                      -0.06081022322177887,
+                      0.026523256674408913,
+                      1.2462904453277588
+                    ],
+                    "target_triangle": 1232
+                  },
+                  {
+                    "edge": [
+                      1098,
+                      1105
+                    ],
+                    "point": [
+                      0.059406109154224396,
+                      0.02424178086221218,
+                      1.2455796003341675
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      1104,
+                      1105
+                    ],
+                    "point": [
+                      0.05811958760023117,
+                      0.027914950624108315,
+                      1.2478199005126953
+                    ],
+                    "target_triangle": 1001
+                  },
+                  {
+                    "edge": [
+                      1105,
+                      1112
+                    ],
+                    "point": [
+                      0.057997770607471466,
+                      0.0353715680539608,
+                      1.2461895942687988
+                    ],
+                    "target_triangle": 858
+                  },
+                  {
+                    "edge": [
+                      1280,
+                      1287
+                    ],
+                    "point": [
+                      -0.05799785628914833,
+                      0.0353708490729332,
+                      1.2461895942687988
+                    ],
+                    "target_triangle": 1396
+                  },
+                  {
+                    "edge": [
+                      1286,
+                      1287
+                    ],
+                    "point": [
+                      -0.05811963975429535,
+                      0.027914952486753464,
+                      1.2478197813034058
+                    ],
+                    "target_triangle": 1232
+                  },
+                  {
+                    "edge": [
+                      1287,
+                      1294
+                    ],
+                    "point": [
+                      -0.05940604209899902,
+                      0.024242300540208817,
+                      1.245579719543457
+                    ],
+                    "target_triangle": 1232
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 827,
+                "crossing_edge_segments": 6,
+                "samples": [
+                  {
+                    "edge": [
+                      749,
+                      750
+                    ],
+                    "point": [
+                      -0.05768938362598419,
+                      0.029228368774056435,
+                      1.2486116886138916
+                    ],
+                    "target_triangle": 2170
+                  },
+                  {
+                    "edge": [
+                      829,
+                      840
+                    ],
+                    "point": [
+                      -0.058365412056446075,
+                      0.03465329855680466,
+                      1.2462437152862549
+                    ],
+                    "target_triangle": 2667
+                  },
+                  {
+                    "edge": [
+                      534,
+                      537
+                    ],
+                    "point": [
+                      0.05791850388050079,
+                      0.033566996455192566,
+                      1.246866226196289
+                    ],
+                    "target_triangle": 1871
+                  },
+                  {
+                    "edge": [
+                      534,
+                      538
+                    ],
+                    "point": [
+                      0.05768059939146042,
+                      0.029230041429400444,
+                      1.2486153841018677
+                    ],
+                    "target_triangle": 1871
+                  },
+                  {
+                    "edge": [
+                      840,
+                      841
+                    ],
+                    "point": [
+                      -0.05768938362598419,
+                      0.029228368774056435,
+                      1.2486116886138916
+                    ],
+                    "target_triangle": 2170
+                  },
+                  {
+                    "edge": [
+                      618,
+                      619
+                    ],
+                    "point": [
+                      0.06002897024154663,
+                      0.028783859685063362,
+                      1.2476660013198853
+                    ],
+                    "target_triangle": 718
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 18
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.075,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 18196,
+                "crossing_edge_segments": 140,
+                "samples": [
+                  {
+                    "edge": [
+                      1480,
+                      1481
+                    ],
+                    "point": [
+                      0.1317448914051056,
+                      0.0476103350520134,
+                      1.2148807048797607
+                    ],
+                    "target_triangle": 2007
+                  },
+                  {
+                    "edge": [
+                      3472,
+                      3502
+                    ],
+                    "point": [
+                      0.15320050716400146,
+                      0.04183896631002426,
+                      1.224495768547058
+                    ],
+                    "target_triangle": 2022
+                  },
+                  {
+                    "edge": [
+                      4072,
+                      4073
+                    ],
+                    "point": [
+                      0.15405899286270142,
+                      0.019872114062309265,
+                      1.2379868030548096
+                    ],
+                    "target_triangle": 1993
+                  },
+                  {
+                    "edge": [
+                      4104,
+                      4105
+                    ],
+                    "point": [
+                      0.17864197492599487,
+                      0.028287548571825027,
+                      1.2366667985916138
+                    ],
+                    "target_triangle": 2044
+                  },
+                  {
+                    "edge": [
+                      1393,
+                      1394
+                    ],
+                    "point": [
+                      -0.1253831535577774,
+                      0.04443741589784622,
+                      1.2230055332183838
+                    ],
+                    "target_triangle": 3775
+                  },
+                  {
+                    "edge": [
+                      1393,
+                      1438
+                    ],
+                    "point": [
+                      -0.13173584640026093,
+                      0.04760999232530594,
+                      1.2148897647857666
+                    ],
+                    "target_triangle": 3662
+                  },
+                  {
+                    "edge": [
+                      3473,
+                      3503
+                    ],
+                    "point": [
+                      0.16641263663768768,
+                      0.043011970818042755,
+                      1.223666787147522
+                    ],
+                    "target_triangle": 2029
+                  },
+                  {
+                    "edge": [
+                      3561,
+                      3591
+                    ],
+                    "point": [
+                      0.15285898745059967,
+                      0.04833786189556122,
+                      1.2038440704345703
+                    ],
+                    "target_triangle": 2023
+                  },
+                  {
+                    "edge": [
+                      3473,
+                      4133
+                    ],
+                    "point": [
+                      0.1616150587797165,
+                      0.038509614765644073,
+                      1.2297605276107788
+                    ],
+                    "target_triangle": 2026
+                  },
+                  {
+                    "edge": [
+                      5489,
+                      5490
+                    ],
+                    "point": [
+                      -0.15254199504852295,
+                      0.02684934064745903,
+                      1.2364027500152588
+                    ],
+                    "target_triangle": 3781
+                  },
+                  {
+                    "edge": [
+                      5521,
+                      5522
+                    ],
+                    "point": [
+                      -0.17839668691158295,
+                      0.035526152700185776,
+                      1.2331691980361938
+                    ],
+                    "target_triangle": 3799
+                  },
+                  {
+                    "edge": [
+                      4865,
+                      5521
+                    ],
+                    "point": [
+                      -0.17429697513580322,
+                      0.03813055902719498,
+                      1.2306301593780518
+                    ],
+                    "target_triangle": 3798
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 8439,
+                "crossing_edge_segments": 104,
+                "samples": [
+                  {
+                    "edge": [
+                      1213,
+                      1214
+                    ],
+                    "point": [
+                      0.1685595065355301,
+                      0.005213799886405468,
+                      1.235640525817871
+                    ],
+                    "target_triangle": 18936
+                  },
+                  {
+                    "edge": [
+                      1221,
+                      1222
+                    ],
+                    "point": [
+                      0.14988401532173157,
+                      0.04852059856057167,
+                      1.2034382820129395
+                    ],
+                    "target_triangle": 6816
+                  },
+                  {
+                    "edge": [
+                      1221,
+                      1223
+                    ],
+                    "point": [
+                      0.15095220506191254,
+                      0.04178755730390549,
+                      1.2243666648864746
+                    ],
+                    "target_triangle": 6639
+                  },
+                  {
+                    "edge": [
+                      1229,
+                      1230
+                    ],
+                    "point": [
+                      0.17131701111793518,
+                      0.03830888122320175,
+                      1.2304240465164185
+                    ],
+                    "target_triangle": 7962
+                  },
+                  {
+                    "edge": [
+                      1229,
+                      1232
+                    ],
+                    "point": [
+                      0.17874601483345032,
+                      0.03659017011523247,
+                      1.2326568365097046
+                    ],
+                    "target_triangle": 7964
+                  },
+                  {
+                    "edge": [
+                      1237,
+                      1239
+                    ],
+                    "point": [
+                      0.1867929995059967,
+                      0.02288270741701126,
+                      1.2391120195388794
+                    ],
+                    "target_triangle": 19120
+                  },
+                  {
+                    "edge": [
+                      2197,
+                      2198
+                    ],
+                    "point": [
+                      -0.1542709916830063,
+                      0.0062464261427521706,
+                      1.2364853620529175
+                    ],
+                    "target_triangle": 21762
+                  },
+                  {
+                    "edge": [
+                      2197,
+                      2201
+                    ],
+                    "point": [
+                      -0.1592920422554016,
+                      0.019228413701057434,
+                      1.237610101699829
+                    ],
+                    "target_triangle": 10551
+                  },
+                  {
+                    "edge": [
+                      2141,
+                      2202
+                    ],
+                    "point": [
+                      -0.15902358293533325,
+                      0.04213771969079971,
+                      1.224593997001648
+                    ],
+                    "target_triangle": 9409
+                  },
+                  {
+                    "edge": [
+                      2141,
+                      2205
+                    ],
+                    "point": [
+                      -0.16475971043109894,
+                      0.04282399266958237,
+                      1.2238444089889526
+                    ],
+                    "target_triangle": 9409
+                  },
+                  {
+                    "edge": [
+                      2205,
+                      2208
+                    ],
+                    "point": [
+                      -0.17898187041282654,
+                      0.03657926246523857,
+                      1.2326688766479492
+                    ],
+                    "target_triangle": 10734
+                  },
+                  {
+                    "edge": [
+                      1214,
+                      1215
+                    ],
+                    "point": [
+                      0.16266751289367676,
+                      0.018905259668827057,
+                      1.237587332725525
+                    ],
+                    "target_triangle": 7783
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 244
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "artifact": "recovery_candidate",
+      "sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4",
+      "poses": [
+        {
+          "pose": "saved_neutral",
+          "finite_coordinates": true,
+          "evaluated_triangles": {
+            "Kagari_Concept_Crossed_Collar": 2712,
+            "Kagari_Concept_Robe_Two_Sleeves": 23068,
+            "Kagari_Concept_Soft_Waist_Sash": 4224,
+            "Body_GarmentDisplay": 10342,
+            "Kagari_Concept_Lower_Robe": 11904
+          },
+          "intersection_probes": [
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 4029,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Lower_Robe",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1248,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Kagari_Concept_Robe_Two_Sleeves"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 85,
+                "samples": [
+                  {
+                    "edge": [
+                      134,
+                      351
+                    ],
+                    "point": [
+                      0.04883049428462982,
+                      -0.034831687808036804,
+                      1.2592289447784424
+                    ],
+                    "target_triangle": 3
+                  },
+                  {
+                    "edge": [
+                      350,
+                      351
+                    ],
+                    "point": [
+                      0.045406587421894073,
+                      -0.03420735150575638,
+                      1.2605552673339844
+                    ],
+                    "target_triangle": 5040
+                  },
+                  {
+                    "edge": [
+                      135,
+                      352
+                    ],
+                    "point": [
+                      0.053620900958776474,
+                      -0.03467798978090286,
+                      1.2572870254516602
+                    ],
+                    "target_triangle": 5
+                  },
+                  {
+                    "edge": [
+                      351,
+                      352
+                    ],
+                    "point": [
+                      0.0503811314702034,
+                      -0.0335838720202446,
+                      1.2580957412719727
+                    ],
+                    "target_triangle": 11275
+                  },
+                  {
+                    "edge": [
+                      136,
+                      353
+                    ],
+                    "point": [
+                      0.05839810520410538,
+                      -0.034273914992809296,
+                      1.2550759315490723
+                    ],
+                    "target_triangle": 7
+                  },
+                  {
+                    "edge": [
+                      137,
+                      354
+                    ],
+                    "point": [
+                      0.0631534680724144,
+                      -0.033661920577287674,
+                      1.2526181936264038
+                    ],
+                    "target_triangle": 9
+                  },
+                  {
+                    "edge": [
+                      138,
+                      355
+                    ],
+                    "point": [
+                      0.06786780804395676,
+                      -0.0328691340982914,
+                      1.24996817111969
+                    ],
+                    "target_triangle": 12
+                  },
+                  {
+                    "edge": [
+                      354,
+                      355
+                    ],
+                    "point": [
+                      0.066753089427948,
+                      -0.03174172714352608,
+                      1.2500228881835938
+                    ],
+                    "target_triangle": 11283
+                  },
+                  {
+                    "edge": [
+                      139,
+                      356
+                    ],
+                    "point": [
+                      0.07247353345155716,
+                      -0.03188420832157135,
+                      1.2472933530807495
+                    ],
+                    "target_triangle": 15
+                  },
+                  {
+                    "edge": [
+                      351,
+                      358
+                    ],
+                    "point": [
+                      0.048300378024578094,
+                      -0.030348891392350197,
+                      1.259285569190979
+                    ],
+                    "target_triangle": 16315
+                  },
+                  {
+                    "edge": [
+                      357,
+                      358
+                    ],
+                    "point": [
+                      0.04502187296748161,
+                      -0.030193017795681953,
+                      1.2610530853271484
+                    ],
+                    "target_triangle": 5041
+                  },
+                  {
+                    "edge": [
+                      355,
+                      362
+                    ],
+                    "point": [
+                      0.06742259114980698,
+                      -0.03159317746758461,
+                      1.2496834993362427
+                    ],
+                    "target_triangle": 11285
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 1255,
+                "crossing_edge_segments": 64,
+                "samples": [
+                  {
+                    "edge": [
+                      0,
+                      1
+                    ],
+                    "point": [
+                      0.04542236775159836,
+                      -0.03471546247601509,
+                      1.2604955434799194
+                    ],
+                    "target_triangle": 577
+                  },
+                  {
+                    "edge": [
+                      0,
+                      21
+                    ],
+                    "point": [
+                      0.044036559760570526,
+                      -0.03549657016992569,
+                      1.259182333946228
+                    ],
+                    "target_triangle": 1728
+                  },
+                  {
+                    "edge": [
+                      656,
+                      677
+                    ],
+                    "point": [
+                      -0.06381312012672424,
+                      -0.03356846421957016,
+                      1.2521989345550537
+                    ],
+                    "target_triangle": 1149
+                  },
+                  {
+                    "edge": [
+                      1,
+                      22
+                    ],
+                    "point": [
+                      0.047997068613767624,
+                      -0.03493368998169899,
+                      1.2593622207641602
+                    ],
+                    "target_triangle": 576
+                  },
+                  {
+                    "edge": [
+                      657,
+                      678
+                    ],
+                    "point": [
+                      -0.06775836646556854,
+                      -0.03287416324019432,
+                      1.250017523765564
+                    ],
+                    "target_triangle": 1148
+                  },
+                  {
+                    "edge": [
+                      2697,
+                      2698
+                    ],
+                    "point": [
+                      0.044136278331279755,
+                      -0.02211725153028965,
+                      1.2620769739151
+                    ],
+                    "target_triangle": 613
+                  },
+                  {
+                    "edge": [
+                      2697,
+                      2718
+                    ],
+                    "point": [
+                      0.044068001210689545,
+                      -0.02035515010356903,
+                      1.2622452974319458
+                    ],
+                    "target_triangle": 613
+                  },
+                  {
+                    "edge": [
+                      2,
+                      23
+                    ],
+                    "point": [
+                      0.05195688456296921,
+                      -0.03486977145075798,
+                      1.2578294277191162
+                    ],
+                    "target_triangle": 579
+                  },
+                  {
+                    "edge": [
+                      658,
+                      679
+                    ],
+                    "point": [
+                      -0.07171791791915894,
+                      -0.03208188712596893,
+                      1.247675895690918
+                    ],
+                    "target_triangle": 1150
+                  },
+                  {
+                    "edge": [
+                      1322,
+                      1323
+                    ],
+                    "point": [
+                      -0.0393902026116848,
+                      0.0654349997639656,
+                      1.2602863311767578
+                    ],
+                    "target_triangle": 959
+                  },
+                  {
+                    "edge": [
+                      3,
+                      24
+                    ],
+                    "point": [
+                      0.055916935205459595,
+                      -0.034557193517684937,
+                      1.2562284469604492
+                    ],
+                    "target_triangle": 581
+                  },
+                  {
+                    "edge": [
+                      651,
+                      672
+                    ],
+                    "point": [
+                      -0.044043634086847305,
+                      -0.03537988290190697,
+                      1.2593798637390137
+                    ],
+                    "target_triangle": 2292
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 149
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 495,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.075,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 10210,
+                "crossing_edge_segments": 40,
+                "samples": [
+                  {
+                    "edge": [
+                      377,
+                      2111
+                    ],
+                    "point": [
+                      0.11950376629829407,
+                      -0.010748803615570068,
+                      1.0797709226608276
+                    ],
+                    "target_triangle": 1491
+                  },
+                  {
+                    "edge": [
+                      3921,
+                      4348
+                    ],
+                    "point": [
+                      0.12216263264417648,
+                      0.040250785648822784,
+                      1.0806317329406738
+                    ],
+                    "target_triangle": 2038
+                  },
+                  {
+                    "edge": [
+                      5641,
+                      5672
+                    ],
+                    "point": [
+                      -0.1223793625831604,
+                      -0.010586157441139221,
+                      1.07594895362854
+                    ],
+                    "target_triangle": 3219
+                  },
+                  {
+                    "edge": [
+                      1977,
+                      5735
+                    ],
+                    "point": [
+                      -0.12055711448192596,
+                      0.043379198759794235,
+                      1.0957510471343994
+                    ],
+                    "target_triangle": 3623
+                  },
+                  {
+                    "edge": [
+                      5642,
+                      5673
+                    ],
+                    "point": [
+                      -0.12074936926364899,
+                      -0.012051785364747047,
+                      1.09527587890625
+                    ],
+                    "target_triangle": 3213
+                  },
+                  {
+                    "edge": [
+                      1028,
+                      2067
+                    ],
+                    "point": [
+                      -0.11950476467609406,
+                      -0.010748852044343948,
+                      1.079770803451538
+                    ],
+                    "target_triangle": 3218
+                  },
+                  {
+                    "edge": [
+                      356,
+                      2066
+                    ],
+                    "point": [
+                      0.12056645005941391,
+                      -0.01146109402179718,
+                      1.087850570678711
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      356,
+                      4285
+                    ],
+                    "point": [
+                      0.12071412056684494,
+                      -0.011971302330493927,
+                      1.0942740440368652
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      356,
+                      4316
+                    ],
+                    "point": [
+                      0.12067369371652603,
+                      -0.011880718171596527,
+                      1.0931471586227417
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      356,
+                      4347
+                    ],
+                    "point": [
+                      0.12067902088165283,
+                      -0.011824935674667358,
+                      1.0924242734909058
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      356,
+                      2021
+                    ],
+                    "point": [
+                      0.12068215757608414,
+                      -0.011801235377788544,
+                      1.0921162366867065
+                    ],
+                    "target_triangle": 1484
+                  },
+                  {
+                    "edge": [
+                      5308,
+                      5734
+                    ],
+                    "point": [
+                      -0.12216262519359589,
+                      0.0402507409453392,
+                      1.0806317329406738
+                    ],
+                    "target_triangle": 3625
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 2979,
+                "crossing_edge_segments": 18,
+                "samples": [
+                  {
+                    "edge": [
+                      901,
+                      906
+                    ],
+                    "point": [
+                      0.119768425822258,
+                      -0.010929831303656101,
+                      1.0817826986312866
+                    ],
+                    "target_triangle": 5708
+                  },
+                  {
+                    "edge": [
+                      901,
+                      907
+                    ],
+                    "point": [
+                      0.11883760243654251,
+                      -0.010323287919163704,
+                      1.075295329093933
+                    ],
+                    "target_triangle": 5710
+                  },
+                  {
+                    "edge": [
+                      901,
+                      912
+                    ],
+                    "point": [
+                      0.11907245963811874,
+                      -0.010485022328794003,
+                      1.0768731832504272
+                    ],
+                    "target_triangle": 5711
+                  },
+                  {
+                    "edge": [
+                      2086,
+                      2124
+                    ],
+                    "point": [
+                      -0.12056928128004074,
+                      0.04327763617038727,
+                      1.0953762531280518
+                    ],
+                    "target_triangle": 11206
+                  },
+                  {
+                    "edge": [
+                      895,
+                      901
+                    ],
+                    "point": [
+                      0.11774899065494537,
+                      -0.010462735779583454,
+                      1.0777169466018677
+                    ],
+                    "target_triangle": 16983
+                  },
+                  {
+                    "edge": [
+                      1855,
+                      1859
+                    ],
+                    "point": [
+                      -0.11774825304746628,
+                      -0.010462826117873192,
+                      1.0777188539505005
+                    ],
+                    "target_triangle": 16956
+                  },
+                  {
+                    "edge": [
+                      1136,
+                      1139
+                    ],
+                    "point": [
+                      0.11923530697822571,
+                      0.038452912122011185,
+                      1.0780285596847534
+                    ],
+                    "target_triangle": 5711
+                  },
+                  {
+                    "edge": [
+                      1136,
+                      1231
+                    ],
+                    "point": [
+                      0.12229004502296448,
+                      0.041479431092739105,
+                      1.0853290557861328
+                    ],
+                    "target_triangle": 8437
+                  },
+                  {
+                    "edge": [
+                      1136,
+                      1234
+                    ],
+                    "point": [
+                      0.12304487824440002,
+                      0.03925390541553497,
+                      1.0753529071807861
+                    ],
+                    "target_triangle": 8438
+                  },
+                  {
+                    "edge": [
+                      889,
+                      901
+                    ],
+                    "point": [
+                      0.11754728108644485,
+                      -0.009571991860866547,
+                      1.0763615369796753
+                    ],
+                    "target_triangle": 16983
+                  },
+                  {
+                    "edge": [
+                      1139,
+                      1231
+                    ],
+                    "point": [
+                      0.12055697292089462,
+                      0.04327264428138733,
+                      1.095375895500183
+                    ],
+                    "target_triangle": 19777
+                  },
+                  {
+                    "edge": [
+                      1851,
+                      1859
+                    ],
+                    "point": [
+                      -0.1175462007522583,
+                      -0.009570478461682796,
+                      1.0763609409332275
+                    ],
+                    "target_triangle": 16956
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 58
+            }
+          ]
+        },
+        {
+          "pose": "raised_30",
+          "finite_coordinates": true,
+          "evaluated_triangles": {
+            "Kagari_Concept_Crossed_Collar": 2712,
+            "Kagari_Concept_Robe_Two_Sleeves": 23068,
+            "Kagari_Concept_Soft_Waist_Sash": 4224,
+            "Body_GarmentDisplay": 10342,
+            "Kagari_Concept_Lower_Robe": 11904
+          },
+          "intersection_probes": [
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 4111,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Lower_Robe",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1248,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Kagari_Concept_Robe_Two_Sleeves"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 85,
+                "samples": [
+                  {
+                    "edge": [
+                      134,
+                      351
+                    ],
+                    "point": [
+                      0.04883049428462982,
+                      -0.034831687808036804,
+                      1.2592289447784424
+                    ],
+                    "target_triangle": 3
+                  },
+                  {
+                    "edge": [
+                      350,
+                      351
+                    ],
+                    "point": [
+                      0.045406587421894073,
+                      -0.03420735150575638,
+                      1.2605552673339844
+                    ],
+                    "target_triangle": 5040
+                  },
+                  {
+                    "edge": [
+                      135,
+                      352
+                    ],
+                    "point": [
+                      0.053620900958776474,
+                      -0.03467798978090286,
+                      1.2572870254516602
+                    ],
+                    "target_triangle": 5
+                  },
+                  {
+                    "edge": [
+                      351,
+                      352
+                    ],
+                    "point": [
+                      0.0503811314702034,
+                      -0.0335838720202446,
+                      1.2580957412719727
+                    ],
+                    "target_triangle": 11275
+                  },
+                  {
+                    "edge": [
+                      136,
+                      353
+                    ],
+                    "point": [
+                      0.05839810520410538,
+                      -0.034273914992809296,
+                      1.2550759315490723
+                    ],
+                    "target_triangle": 7
+                  },
+                  {
+                    "edge": [
+                      137,
+                      354
+                    ],
+                    "point": [
+                      0.0631534680724144,
+                      -0.033661920577287674,
+                      1.2526181936264038
+                    ],
+                    "target_triangle": 9
+                  },
+                  {
+                    "edge": [
+                      138,
+                      355
+                    ],
+                    "point": [
+                      0.06786759942770004,
+                      -0.032868899405002594,
+                      1.24996817111969
+                    ],
+                    "target_triangle": 12
+                  },
+                  {
+                    "edge": [
+                      354,
+                      355
+                    ],
+                    "point": [
+                      0.06675626337528229,
+                      -0.03174106776714325,
+                      1.2500213384628296
+                    ],
+                    "target_triangle": 11283
+                  },
+                  {
+                    "edge": [
+                      139,
+                      356
+                    ],
+                    "point": [
+                      0.07245130836963654,
+                      -0.031868405640125275,
+                      1.2473080158233643
+                    ],
+                    "target_triangle": 15
+                  },
+                  {
+                    "edge": [
+                      351,
+                      358
+                    ],
+                    "point": [
+                      0.048300378024578094,
+                      -0.030348891392350197,
+                      1.259285569190979
+                    ],
+                    "target_triangle": 16315
+                  },
+                  {
+                    "edge": [
+                      357,
+                      358
+                    ],
+                    "point": [
+                      0.04502187296748161,
+                      -0.030193017795681953,
+                      1.2610530853271484
+                    ],
+                    "target_triangle": 5041
+                  },
+                  {
+                    "edge": [
+                      355,
+                      362
+                    ],
+                    "point": [
+                      0.06742184609174728,
+                      -0.03159203752875328,
+                      1.2496837377548218
+                    ],
+                    "target_triangle": 11285
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 1341,
+                "crossing_edge_segments": 64,
+                "samples": [
+                  {
+                    "edge": [
+                      0,
+                      1
+                    ],
+                    "point": [
+                      0.04542236775159836,
+                      -0.03471546247601509,
+                      1.2604955434799194
+                    ],
+                    "target_triangle": 577
+                  },
+                  {
+                    "edge": [
+                      0,
+                      21
+                    ],
+                    "point": [
+                      0.044036559760570526,
+                      -0.03549657016992569,
+                      1.259182333946228
+                    ],
+                    "target_triangle": 1728
+                  },
+                  {
+                    "edge": [
+                      656,
+                      677
+                    ],
+                    "point": [
+                      -0.06381312012672424,
+                      -0.03356846421957016,
+                      1.2521989345550537
+                    ],
+                    "target_triangle": 1149
+                  },
+                  {
+                    "edge": [
+                      1,
+                      22
+                    ],
+                    "point": [
+                      0.047997068613767624,
+                      -0.03493368998169899,
+                      1.2593622207641602
+                    ],
+                    "target_triangle": 576
+                  },
+                  {
+                    "edge": [
+                      657,
+                      678
+                    ],
+                    "point": [
+                      -0.0677587017416954,
+                      -0.03287409618496895,
+                      1.250017523765564
+                    ],
+                    "target_triangle": 1148
+                  },
+                  {
+                    "edge": [
+                      2697,
+                      2698
+                    ],
+                    "point": [
+                      0.044136278331279755,
+                      -0.02211725153028965,
+                      1.2620769739151
+                    ],
+                    "target_triangle": 613
+                  },
+                  {
+                    "edge": [
+                      2697,
+                      2718
+                    ],
+                    "point": [
+                      0.044068001210689545,
+                      -0.02035515010356903,
+                      1.2622452974319458
+                    ],
+                    "target_triangle": 613
+                  },
+                  {
+                    "edge": [
+                      2,
+                      23
+                    ],
+                    "point": [
+                      0.05195688456296921,
+                      -0.03486977145075798,
+                      1.2578294277191162
+                    ],
+                    "target_triangle": 579
+                  },
+                  {
+                    "edge": [
+                      658,
+                      679
+                    ],
+                    "point": [
+                      -0.07163587957620621,
+                      -0.032087042927742004,
+                      1.2477225065231323
+                    ],
+                    "target_triangle": 1150
+                  },
+                  {
+                    "edge": [
+                      1322,
+                      1323
+                    ],
+                    "point": [
+                      -0.0393902026116848,
+                      0.0654349997639656,
+                      1.2602863311767578
+                    ],
+                    "target_triangle": 959
+                  },
+                  {
+                    "edge": [
+                      3,
+                      24
+                    ],
+                    "point": [
+                      0.055916935205459595,
+                      -0.034557193517684937,
+                      1.2562284469604492
+                    ],
+                    "target_triangle": 581
+                  },
+                  {
+                    "edge": [
+                      651,
+                      672
+                    ],
+                    "point": [
+                      -0.044043634086847305,
+                      -0.03537988290190697,
+                      1.2593798637390137
+                    ],
+                    "target_triangle": 2292
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 149
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 521,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.075,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 11574,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 3475,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            }
+          ]
+        },
+        {
+          "pose": "upper_arms_horizontal",
+          "finite_coordinates": true,
+          "evaluated_triangles": {
+            "Kagari_Concept_Crossed_Collar": 2712,
+            "Kagari_Concept_Robe_Two_Sleeves": 23068,
+            "Kagari_Concept_Soft_Waist_Sash": 4224,
+            "Body_GarmentDisplay": 10342,
+            "Kagari_Concept_Lower_Robe": 11904
+          },
+          "intersection_probes": [
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1129,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Lower_Robe",
+                "Kagari_Concept_Soft_Waist_Sash"
+              ],
+              "z_range": [
+                0.897,
+                0.996
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1248,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4224,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Kagari_Concept_Robe_Two_Sleeves"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 85,
+                "samples": [
+                  {
+                    "edge": [
+                      134,
+                      351
+                    ],
+                    "point": [
+                      0.04883049428462982,
+                      -0.034831687808036804,
+                      1.2592289447784424
+                    ],
+                    "target_triangle": 3
+                  },
+                  {
+                    "edge": [
+                      350,
+                      351
+                    ],
+                    "point": [
+                      0.045406587421894073,
+                      -0.03420735150575638,
+                      1.2605552673339844
+                    ],
+                    "target_triangle": 5040
+                  },
+                  {
+                    "edge": [
+                      135,
+                      352
+                    ],
+                    "point": [
+                      0.053620900958776474,
+                      -0.03467798978090286,
+                      1.2572870254516602
+                    ],
+                    "target_triangle": 5
+                  },
+                  {
+                    "edge": [
+                      351,
+                      352
+                    ],
+                    "point": [
+                      0.0503811314702034,
+                      -0.0335838720202446,
+                      1.2580957412719727
+                    ],
+                    "target_triangle": 11275
+                  },
+                  {
+                    "edge": [
+                      136,
+                      353
+                    ],
+                    "point": [
+                      0.05839810520410538,
+                      -0.034273914992809296,
+                      1.2550759315490723
+                    ],
+                    "target_triangle": 7
+                  },
+                  {
+                    "edge": [
+                      137,
+                      354
+                    ],
+                    "point": [
+                      0.0631534680724144,
+                      -0.033661920577287674,
+                      1.2526181936264038
+                    ],
+                    "target_triangle": 9
+                  },
+                  {
+                    "edge": [
+                      138,
+                      355
+                    ],
+                    "point": [
+                      0.06786829978227615,
+                      -0.0328674241900444,
+                      1.2499669790267944
+                    ],
+                    "target_triangle": 12
+                  },
+                  {
+                    "edge": [
+                      354,
+                      355
+                    ],
+                    "point": [
+                      0.0667509138584137,
+                      -0.031742680817842484,
+                      1.2500241994857788
+                    ],
+                    "target_triangle": 11283
+                  },
+                  {
+                    "edge": [
+                      139,
+                      356
+                    ],
+                    "point": [
+                      0.07239419221878052,
+                      -0.031782761216163635,
+                      1.2473176717758179
+                    ],
+                    "target_triangle": 15
+                  },
+                  {
+                    "edge": [
+                      351,
+                      358
+                    ],
+                    "point": [
+                      0.048300378024578094,
+                      -0.030348891392350197,
+                      1.259285569190979
+                    ],
+                    "target_triangle": 16315
+                  },
+                  {
+                    "edge": [
+                      357,
+                      358
+                    ],
+                    "point": [
+                      0.04502187296748161,
+                      -0.030193017795681953,
+                      1.2610530853271484
+                    ],
+                    "target_triangle": 5041
+                  },
+                  {
+                    "edge": [
+                      355,
+                      362
+                    ],
+                    "point": [
+                      0.06742004305124283,
+                      -0.031587082892656326,
+                      1.2496840953826904
+                    ],
+                    "target_triangle": 11285
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 4669,
+                "crossing_edge_segments": 64,
+                "samples": [
+                  {
+                    "edge": [
+                      0,
+                      1
+                    ],
+                    "point": [
+                      0.04542236775159836,
+                      -0.03471546247601509,
+                      1.2604955434799194
+                    ],
+                    "target_triangle": 577
+                  },
+                  {
+                    "edge": [
+                      0,
+                      21
+                    ],
+                    "point": [
+                      0.044036559760570526,
+                      -0.03549657016992569,
+                      1.259182333946228
+                    ],
+                    "target_triangle": 1728
+                  },
+                  {
+                    "edge": [
+                      656,
+                      677
+                    ],
+                    "point": [
+                      -0.06381312012672424,
+                      -0.03356848657131195,
+                      1.2521989345550537
+                    ],
+                    "target_triangle": 1149
+                  },
+                  {
+                    "edge": [
+                      1,
+                      22
+                    ],
+                    "point": [
+                      0.047997068613767624,
+                      -0.03493368998169899,
+                      1.2593622207641602
+                    ],
+                    "target_triangle": 576
+                  },
+                  {
+                    "edge": [
+                      657,
+                      678
+                    ],
+                    "point": [
+                      -0.0677625983953476,
+                      -0.03287290036678314,
+                      1.2500149011611938
+                    ],
+                    "target_triangle": 1148
+                  },
+                  {
+                    "edge": [
+                      2697,
+                      2698
+                    ],
+                    "point": [
+                      0.044136278331279755,
+                      -0.02211725153028965,
+                      1.2620769739151
+                    ],
+                    "target_triangle": 613
+                  },
+                  {
+                    "edge": [
+                      2697,
+                      2718
+                    ],
+                    "point": [
+                      0.044068001210689545,
+                      -0.02035515010356903,
+                      1.2622452974319458
+                    ],
+                    "target_triangle": 613
+                  },
+                  {
+                    "edge": [
+                      2,
+                      23
+                    ],
+                    "point": [
+                      0.05195688456296921,
+                      -0.03486977145075798,
+                      1.2578294277191162
+                    ],
+                    "target_triangle": 579
+                  },
+                  {
+                    "edge": [
+                      658,
+                      679
+                    ],
+                    "point": [
+                      -0.07152581959962845,
+                      -0.03206082433462143,
+                      1.2477624416351318
+                    ],
+                    "target_triangle": 1150
+                  },
+                  {
+                    "edge": [
+                      1322,
+                      1323
+                    ],
+                    "point": [
+                      -0.0393902026116848,
+                      0.0654349997639656,
+                      1.2602863311767578
+                    ],
+                    "target_triangle": 959
+                  },
+                  {
+                    "edge": [
+                      3,
+                      24
+                    ],
+                    "point": [
+                      0.055916935205459595,
+                      -0.034557193517684937,
+                      1.2562284469604492
+                    ],
+                    "target_triangle": 581
+                  },
+                  {
+                    "edge": [
+                      651,
+                      672
+                    ],
+                    "point": [
+                      -0.044043634086847305,
+                      -0.03537988290190697,
+                      1.2593798637390137
+                    ],
+                    "target_triangle": 2292
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 149
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Crossed_Collar",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.235,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 1480,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 827,
+                "crossing_edge_segments": 0,
+                "samples": []
+              },
+              "total_crossing_edge_segments": 0
+            },
+            {
+              "objects": [
+                "Kagari_Concept_Robe_Two_Sleeves",
+                "Body_GarmentDisplay"
+              ],
+              "z_range": [
+                1.075,
+                1.29
+              ],
+              "a_edges_against_b": {
+                "tested_edge_segments": 18256,
+                "crossing_edge_segments": 234,
+                "samples": [
+                  {
+                    "edge": [
+                      1480,
+                      1481
+                    ],
+                    "point": [
+                      0.13174481689929962,
+                      0.04761035367846489,
+                      1.2148805856704712
+                    ],
+                    "target_triangle": 2007
+                  },
+                  {
+                    "edge": [
+                      3472,
+                      3502
+                    ],
+                    "point": [
+                      0.15320059657096863,
+                      0.04183899238705635,
+                      1.224495768547058
+                    ],
+                    "target_triangle": 2022
+                  },
+                  {
+                    "edge": [
+                      4072,
+                      4073
+                    ],
+                    "point": [
+                      0.15405891835689545,
+                      0.019872119650244713,
+                      1.2379868030548096
+                    ],
+                    "target_triangle": 1993
+                  },
+                  {
+                    "edge": [
+                      4104,
+                      4105
+                    ],
+                    "point": [
+                      0.17864194512367249,
+                      0.028287548571825027,
+                      1.2366667985916138
+                    ],
+                    "target_triangle": 2044
+                  },
+                  {
+                    "edge": [
+                      4328,
+                      4359
+                    ],
+                    "point": [
+                      0.38496071100234985,
+                      0.033654071390628815,
+                      1.1825575828552246
+                    ],
+                    "target_triangle": 1716
+                  },
+                  {
+                    "edge": [
+                      5712,
+                      5713
+                    ],
+                    "point": [
+                      -0.36127838492393494,
+                      0.02492695301771164,
+                      1.183604121208191
+                    ],
+                    "target_triangle": 3253
+                  },
+                  {
+                    "edge": [
+                      1393,
+                      1394
+                    ],
+                    "point": [
+                      -0.12538312375545502,
+                      0.0444374643266201,
+                      1.2230054140090942
+                    ],
+                    "target_triangle": 3775
+                  },
+                  {
+                    "edge": [
+                      1393,
+                      1438
+                    ],
+                    "point": [
+                      -0.131735697388649,
+                      0.047609973698854446,
+                      1.2148900032043457
+                    ],
+                    "target_triangle": 3662
+                  },
+                  {
+                    "edge": [
+                      2945,
+                      2966
+                    ],
+                    "point": [
+                      -0.10942068696022034,
+                      0.022401312366127968,
+                      1.2417705059051514
+                    ],
+                    "target_triangle": 3753
+                  },
+                  {
+                    "edge": [
+                      3473,
+                      3503
+                    ],
+                    "point": [
+                      0.1664125621318817,
+                      0.04301198199391365,
+                      1.223666787147522
+                    ],
+                    "target_triangle": 2029
+                  },
+                  {
+                    "edge": [
+                      3561,
+                      3591
+                    ],
+                    "point": [
+                      0.1528589278459549,
+                      0.04833785444498062,
+                      1.2038441896438599
+                    ],
+                    "target_triangle": 2023
+                  },
+                  {
+                    "edge": [
+                      3473,
+                      4133
+                    ],
+                    "point": [
+                      0.1616150438785553,
+                      0.038509756326675415,
+                      1.2297604084014893
+                    ],
+                    "target_triangle": 2026
+                  }
+                ]
+              },
+              "b_edges_against_a": {
+                "tested_edge_segments": 8439,
+                "crossing_edge_segments": 216,
+                "samples": [
+                  {
+                    "edge": [
+                      941,
+                      942
+                    ],
+                    "point": [
+                      0.36177128553390503,
+                      0.01871667057275772,
+                      1.1835815906524658
+                    ],
+                    "target_triangle": 8335
+                  },
+                  {
+                    "edge": [
+                      941,
+                      944
+                    ],
+                    "point": [
+                      0.3606244921684265,
+                      0.015956580638885498,
+                      1.1839848756790161
+                    ],
+                    "target_triangle": 19607
+                  },
+                  {
+                    "edge": [
+                      941,
+                      945
+                    ],
+                    "point": [
+                      0.3619484305381775,
+                      0.016178959980607033,
+                      1.1835373640060425
+                    ],
+                    "target_triangle": 8335
+                  },
+                  {
+                    "edge": [
+                      941,
+                      948
+                    ],
+                    "point": [
+                      0.36553385853767395,
+                      0.009955949150025845,
+                      1.1874475479125977
+                    ],
+                    "target_triangle": 19550
+                  },
+                  {
+                    "edge": [
+                      949,
+                      952
+                    ],
+                    "point": [
+                      0.3784548044204712,
+                      0.0058298297226428986,
+                      1.1874737739562988
+                    ],
+                    "target_triangle": 8278
+                  },
+                  {
+                    "edge": [
+                      949,
+                      956
+                    ],
+                    "point": [
+                      0.3881078064441681,
+                      0.005166173912584782,
+                      1.1859469413757324
+                    ],
+                    "target_triangle": 8279
+                  },
+                  {
+                    "edge": [
+                      957,
+                      958
+                    ],
+                    "point": [
+                      0.41001543402671814,
+                      0.021133359521627426,
+                      1.1782242059707642
+                    ],
+                    "target_triangle": 8343
+                  },
+                  {
+                    "edge": [
+                      957,
+                      960
+                    ],
+                    "point": [
+                      0.3998722434043884,
+                      0.0059762876480817795,
+                      1.183901071548462
+                    ],
+                    "target_triangle": 8281
+                  },
+                  {
+                    "edge": [
+                      957,
+                      961
+                    ],
+                    "point": [
+                      0.4124554991722107,
+                      0.017285751178860664,
+                      1.1775497198104858
+                    ],
+                    "target_triangle": 8344
+                  },
+                  {
+                    "edge": [
+                      957,
+                      964
+                    ],
+                    "point": [
+                      0.4078429639339447,
+                      0.011886179447174072,
+                      1.1802756786346436
+                    ],
+                    "target_triangle": 8282
+                  },
+                  {
+                    "edge": [
+                      1189,
+                      1191
+                    ],
+                    "point": [
+                      0.10018987953662872,
+                      0.004438349511474371,
+                      1.2398548126220703
+                    ],
+                    "target_triangle": 16462
+                  },
+                  {
+                    "edge": [
+                      1197,
+                      1199
+                    ],
+                    "point": [
+                      0.11579336225986481,
+                      0.020734138786792755,
+                      1.2408403158187866
+                    ],
+                    "target_triangle": 16550
+                  }
+                ]
+              },
+              "total_crossing_edge_segments": 450
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "probe_method": "Bidirectional evaluated mesh edge segments ray-cast against triangulated evaluated surfaces, including Solidify; restricted height ranges and three static arm poses. Positive results identify crossing segments; zero results do not certify all geometry or motion.",
+  "intersection_free": "NOT_CERTIFIED",
+  "self_intersections": "NOT_EXHAUSTIVELY_TESTED",
+  "lower_body_motion": "NOT_TESTED",
+  "vrm_export": "NOT_TESTED",
+  "tracking": "NOT_TESTED",
+  "animation_readiness": "NOT_TESTED",
+  "human_approval": "NOT_APPROVED"
+}

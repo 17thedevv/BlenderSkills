@@ -1,0 +1,19 @@
+{
+  "before": {
+    "Face": "27bb908ef978bec53638fb2a7ad05dff8661ac7e8874ab5352d13cce1ed7caf5",
+    "Hair": "323f17dd8038666555677bd3062913a2ec5ba15ca269c057a7f811cf52eb3379",
+    "Body": "fdbf049ea9d8e2a7697b344c6a05cb025f4b828088ac9f73a99c3aa39731059d",
+    "Armature_Rest": "513b57ef43761feef0429d75d177acae4ddd4d0c3881d14aeb75285f2e9684e1",
+    "Armature_Saved_Pose": "a5ca049fa29ab4076b0cdb44fbb7af348f18dffccfb03c924412e591e21b41c8"
+  },
+  "after": {
+    "Face": "27bb908ef978bec53638fb2a7ad05dff8661ac7e8874ab5352d13cce1ed7caf5",
+    "Hair": "323f17dd8038666555677bd3062913a2ec5ba15ca269c057a7f811cf52eb3379",
+    "Body": "fdbf049ea9d8e2a7697b344c6a05cb025f4b828088ac9f73a99c3aa39731059d",
+    "Armature_Rest": "513b57ef43761feef0429d75d177acae4ddd4d0c3881d14aeb75285f2e9684e1",
+    "Armature_Saved_Pose": "a5ca049fa29ab4076b0cdb44fbb7af348f18dffccfb03c924412e591e21b41c8"
+  },
+  "identical": true,
+  "source_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+  "candidate_sha256": "967231491252c89b15a7334585dc443932d491c886cce3167390eb85a4650a43"
+}

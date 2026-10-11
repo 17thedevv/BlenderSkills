@@ -1,0 +1,7 @@
+{
+  "original_sleeve_faces": 1388,
+  "added_vertices": 1387,
+  "mapped_shared_root_vertices": 41,
+  "second_sleeve_reuses_opposite_root_indices": true,
+  "no_mirrored_duplicate_torso": true
+}

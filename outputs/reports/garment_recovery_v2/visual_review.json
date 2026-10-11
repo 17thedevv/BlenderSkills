@@ -1,0 +1,91 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+    "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+    "version": "garment-geometry-recovery-v2"
+  },
+  "comparison_source": {
+    "path": "outputs/wip/kagari_full_concept_v3.blend",
+    "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16",
+    "version": "full-kagari-concept-outfit-v3"
+  },
+  "iterations_completed": 2,
+  "iteration_limit": 2,
+  "recommendation": "FAIL",
+  "recommendation_scope": "Entire garment geometry recovery is not reliably accepted; waist appearance improved but local crossings and shoulder/fold defects remain.",
+  "human_approval": "NOT_APPROVED",
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "agent_visual_review": "IMPROVED_WAIST_PARTIAL_COLLAR_SHOULDER_NOT_ACCEPTED",
+  "actual_images_inspected": {
+    "iteration1": 13,
+    "iteration2": 13,
+    "source_full_v3": "Previously inspected 9 clay + 4 color, reused at matching cameras with verified image/artifact SHA."
+  },
+  "waist_visual": "IMPROVED_IN_INSPECTED_VIEWS",
+  "waist_collision_free": "NOT_CERTIFIED",
+  "collar_shoulders": "PARTIAL_REPAIR",
+  "cloth_drape": "NOT_ACCEPTED",
+  "scoped_collision_diagnostics": "RESIDUAL_CROSSINGS_FOUND",
+  "art_gate": "NOT_APPROVED",
+  "vrm_tracking_animation_readiness": "NOT_TESTED",
+  "issues": [
+    {
+      "id": "remaining_waist_crossings",
+      "region": "Character left inner sleeve/sash side, x=.150-.155,y=.020-.027,z=.927-.947 in saved pose",
+      "severity": "STRUCTURAL_REVIEW_REQUIRED",
+      "evidence": [
+        "outputs/reports/garment_recovery_v2/technical_verification.json",
+        "outputs/previews/garment_recovery_v2/side_clay.png",
+        "outputs/previews/garment_recovery_v2/front_existing_color.png"
+      ],
+      "observation": "No prominent cream triangles on inspected front/3q color; 13 evaluated crossing segments persist at side waist. No full intersection-free claim.",
+      "likely_cause": "Pose-aware Body clearance moves part of the sleeve inner seam back toward the sash. This is a local point-fit construction limitation.",
+      "proposed_next_action": "Reconcile seam volume and layer clearance together before another authorized construction method trial; no third repair in this task.",
+      "predicted_effect": "Eliminate residual sleeve/sash contact without reintroducing arm/body contacts."
+    },
+    {
+      "id": "collar_support_crossings",
+      "region": "Nape/leaf transition and underlying robe at neck",
+      "severity": "STRUCTURAL_REVIEW_REQUIRED",
+      "evidence": [
+        "outputs/previews/garment_recovery_v2/side_clay.png",
+        "outputs/previews/garment_recovery_v2/three_quarter_existing_color.png",
+        "outputs/reports/garment_recovery_v2/technical_verification.json"
+      ],
+      "observation": "Smaller nape shelf than full v3; 87 collar/robe crossing segments in each tested pose. Some edge irregularity remains.",
+      "likely_cause": "Separately lofted collar and shoulder-support surfaces do not share a fully solved seam/clearance structure.",
+      "proposed_next_action": "A separate collar/shoulder seam construction trial after human review, rather than more point projection.",
+      "predicted_effect": "Continuous neck-to-shoulder form with ordered collar layers."
+    },
+    {
+      "id": "frozen_underarm_volume",
+      "region": "Shoulder crown and sleeve underside in raised/horizontal arms",
+      "severity": "ARTISTIC_REVISE",
+      "evidence": [
+        "outputs/previews/garment_recovery_v2/arm_raised_clay.png",
+        "outputs/previews/garment_recovery_v2/arm_horizontal_clay.png",
+        "outputs/previews/garment_recovery_v2/three_quarter_clay.png"
+      ],
+      "observation": "No gross sleeve detachment in inspected images; large rounded underarm bags and local pinching remain. Sparse folds still do not communicate cloth tension/drape well.",
+      "likely_cause": "Fixed authored drape and conventional skinning do not recompute gravity/tension when pose changes.",
+      "proposed_next_action": "Evaluate seam/pattern form on target poses before selecting cloth-assisted shaping or corrective deformation in another authorized task.",
+      "predicted_effect": "More plausible shoulder folds and gravity-directed volume."
+    },
+    {
+      "id": "inherited_hair_and_design",
+      "region": "Scalp/rear hair; lower design and haori layers",
+      "severity": "OUT_OF_SCOPE_UNCHANGED",
+      "outside_task_scope": true,
+      "evidence": [
+        "outputs/previews/garment_recovery_v2/back_clay.png",
+        "outputs/previews/garment_recovery_v2/three_quarter_existing_color.png",
+        "outputs/previews/garment_recovery_v2/full_front_existing_color.png"
+      ],
+      "observation": "Existing scalp exposure, planar rear hair, incomplete haori layering and unapproved inferred skirt/shoes remain. Hair/face/lower data preserved exactly.",
+      "likely_cause": "Inherited source and absent approved side/back/lower reference; not caused by this garment recovery.",
+      "proposed_next_action": "Separate human design/hair decision; no hair or turnaround reconstruction in this task.",
+      "predicted_effect": "Remove inherited full-avatar blockers once separately authorized and reviewed."
+    }
+  ],
+  "method_limit": "Fixed controlled cloth surfaces and skinning solve local clearance but do not reliably solve seam continuity, coupled layer contacts and pose-dependent drape. Stop after two iterations."
+}

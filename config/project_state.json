@@ -1,0 +1,1504 @@
+{
+  "schema_version": "1.1",
+  "project": "Kagari",
+  "current_gate": "PATTERN_GARMENT_FEASIBILITY_HUMAN_REVIEW_PENDING",
+  "current_candidate": {
+    "path": "outputs/wip/kagari_pattern_trial3_prototype.blend",
+    "sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7",
+    "version": "pattern-sewing-feasibility-trial3"
+  },
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_03.blend",
+    "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051"
+  },
+  "reference_files": [
+    "outputs/design/concept_option2_kagari.jpg"
+  ],
+  "evidence": [
+    "outputs/backups/garment_recovery_start/kagari_full_concept_v3.blend",
+    "outputs/backups/pattern_feasibility_start/DELIVERY.md",
+    "outputs/backups/pattern_feasibility_start/kagari_garment_recovery_v2.blend",
+    "outputs/backups/pattern_feasibility_start/project_state.json",
+    "outputs/previews/concept_garment_v3/arm_horizontal_clay.png",
+    "outputs/previews/concept_garment_v3/arm_raised_clay.png",
+    "outputs/previews/concept_garment_v3/back_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_arm_horizontal_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_arm_raised_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_back_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_front_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_side_clay.png",
+    "outputs/previews/concept_garment_v3/cycle03_three_quarter_clay.png",
+    "outputs/previews/concept_garment_v3/front_clay.png",
+    "outputs/previews/concept_garment_v3/front_detail_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_arm_horizontal_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_arm_raised_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_back_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_front_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_side_clay.png",
+    "outputs/previews/concept_garment_v3/prior_panel_three_quarter_clay.png",
+    "outputs/previews/concept_garment_v3/review.html",
+    "outputs/previews/concept_garment_v3/side_clay.png",
+    "outputs/previews/concept_garment_v3/three_quarter_clay.png",
+    "outputs/previews/concept_garment_v3/three_quarter_detail_clay.png",
+    "outputs/previews/full_concept_v3/arm_horizontal_clay.png",
+    "outputs/previews/full_concept_v3/arm_raised_clay.png",
+    "outputs/previews/full_concept_v3/back_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_arm_horizontal_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_arm_raised_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_back_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_front_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_full_front_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_full_three_quarter_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_portrait_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_side_clay.png",
+    "outputs/previews/full_concept_v3/cycle03_three_quarter_clay.png",
+    "outputs/previews/full_concept_v3/front_clay.png",
+    "outputs/previews/full_concept_v3/front_existing_color.png",
+    "outputs/previews/full_concept_v3/full_front_clay.png",
+    "outputs/previews/full_concept_v3/full_front_existing_color.png",
+    "outputs/previews/full_concept_v3/full_three_quarter_clay.png",
+    "outputs/previews/full_concept_v3/portrait_clay.png",
+    "outputs/previews/full_concept_v3/portrait_existing_color.png",
+    "outputs/previews/full_concept_v3/review.html",
+    "outputs/previews/full_concept_v3/side_clay.png",
+    "outputs/previews/full_concept_v3/three_quarter_clay.png",
+    "outputs/previews/full_concept_v3/three_quarter_existing_color.png",
+    "outputs/previews/garment_recovery_v1/arm_horizontal_clay.png",
+    "outputs/previews/garment_recovery_v1/arm_raised_clay.png",
+    "outputs/previews/garment_recovery_v1/back_clay.png",
+    "outputs/previews/garment_recovery_v1/front_clay.png",
+    "outputs/previews/garment_recovery_v1/front_existing_color.png",
+    "outputs/previews/garment_recovery_v1/full_front_clay.png",
+    "outputs/previews/garment_recovery_v1/full_front_existing_color.png",
+    "outputs/previews/garment_recovery_v1/full_three_quarter_clay.png",
+    "outputs/previews/garment_recovery_v1/portrait_clay.png",
+    "outputs/previews/garment_recovery_v1/portrait_existing_color.png",
+    "outputs/previews/garment_recovery_v1/side_clay.png",
+    "outputs/previews/garment_recovery_v1/three_quarter_clay.png",
+    "outputs/previews/garment_recovery_v1/three_quarter_existing_color.png",
+    "outputs/previews/garment_recovery_v2/arm_horizontal_clay.png",
+    "outputs/previews/garment_recovery_v2/arm_raised_clay.png",
+    "outputs/previews/garment_recovery_v2/back_clay.png",
+    "outputs/previews/garment_recovery_v2/front_clay.png",
+    "outputs/previews/garment_recovery_v2/front_existing_color.png",
+    "outputs/previews/garment_recovery_v2/full_front_clay.png",
+    "outputs/previews/garment_recovery_v2/full_front_existing_color.png",
+    "outputs/previews/garment_recovery_v2/full_three_quarter_clay.png",
+    "outputs/previews/garment_recovery_v2/portrait_clay.png",
+    "outputs/previews/garment_recovery_v2/portrait_existing_color.png",
+    "outputs/previews/garment_recovery_v2/review.html",
+    "outputs/previews/garment_recovery_v2/side_clay.png",
+    "outputs/previews/garment_recovery_v2/three_quarter_clay.png",
+    "outputs/previews/garment_recovery_v2/three_quarter_existing_color.png",
+    "outputs/previews/garment_reset_comparison/cycle03_arm_raised_clay.png",
+    "outputs/previews/garment_reset_comparison/cycle03_back_clay.png",
+    "outputs/previews/garment_reset_comparison/cycle03_front_clay.png",
+    "outputs/previews/garment_reset_comparison/cycle03_side_clay.png",
+    "outputs/previews/garment_reset_comparison/cycle03_three_quarter_clay.png",
+    "outputs/previews/garment_reset_final/prototype_arm_raised_clay.png",
+    "outputs/previews/garment_reset_final/prototype_back_clay.png",
+    "outputs/previews/garment_reset_final/prototype_front_clay.png",
+    "outputs/previews/garment_reset_final/prototype_side_clay.png",
+    "outputs/previews/garment_reset_final/prototype_three_quarter_clay.png",
+    "outputs/previews/garment_reset_final/review.html",
+    "outputs/previews/garment_reset_v02/prototype_arm_raised_clay.png",
+    "outputs/previews/garment_reset_v02/prototype_back_clay.png",
+    "outputs/previews/garment_reset_v02/prototype_front_clay.png",
+    "outputs/previews/garment_reset_v02/prototype_side_clay.png",
+    "outputs/previews/garment_reset_v02/prototype_three_quarter_clay.png",
+    "outputs/previews/garment_reset_v03/prototype_arm_raised_clay.png",
+    "outputs/previews/garment_reset_v03/prototype_back_clay.png",
+    "outputs/previews/garment_reset_v03/prototype_front_clay.png",
+    "outputs/previews/garment_reset_v03/prototype_side_clay.png",
+    "outputs/previews/garment_reset_v03/prototype_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_back_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_front_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_side_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_back_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_front_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_side_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_back_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_front_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_side_clay.png",
+    "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/metric_patterns.svg",
+    "outputs/previews/pattern_feasibility/review.html",
+    "outputs/previews/pattern_feasibility/trial1/horizontal_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/horizontal_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/horizontal_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/horizontal_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/neutral_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/neutral_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/neutral_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/neutral_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/raised30_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/raised30_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/raised30_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/raised30_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/rig_only_horizontal_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial1/rig_only_raised30_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/horizontal_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/horizontal_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/horizontal_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/horizontal_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/neutral_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/neutral_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/neutral_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/neutral_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/raised30_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/raised30_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/raised30_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/raised30_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/rig_only_horizontal_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial2/rig_only_raised30_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/horizontal_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/horizontal_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/horizontal_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/horizontal_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/neutral_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/neutral_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/neutral_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/neutral_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/raised30_back_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/raised30_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/raised30_side_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/raised30_three_quarter_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/rig_only_horizontal_front_clay.png",
+    "outputs/previews/pattern_feasibility/trial3/rig_only_raised30_front_clay.png",
+    "outputs/previews/v03_clay_cycle03/after_back_clay.png",
+    "outputs/previews/v03_clay_cycle03/after_back_garment_isolated.png",
+    "outputs/previews/v03_clay_cycle03/after_front_clay.png",
+    "outputs/previews/v03_clay_cycle03/after_portrait_clay.png",
+    "outputs/previews/v03_clay_cycle03/after_pose_arm_raise_clay.png",
+    "outputs/previews/v03_clay_cycle03/after_side_clay.png",
+    "outputs/previews/v03_clay_cycle03/after_side_garment_isolated.png",
+    "outputs/previews/v03_clay_cycle03/after_three_quarter_clay.png",
+    "outputs/reports/concept_garment_v1/construction_plan.md",
+    "outputs/reports/concept_garment_v3/comparison_manifest.json",
+    "outputs/reports/concept_garment_v3/detail_manifest.json",
+    "outputs/reports/concept_garment_v3/geometry_audit.json",
+    "outputs/reports/concept_garment_v3/panel_seams.json",
+    "outputs/reports/concept_garment_v3/render_manifest.json",
+    "outputs/reports/concept_garment_v3/report.md",
+    "outputs/reports/concept_garment_v3/technical_verification.json",
+    "outputs/reports/concept_garment_v3/user_authorization.md",
+    "outputs/reports/concept_garment_v3/visual_review.json",
+    "outputs/reports/full_concept_v1/construction_plan.md",
+    "outputs/reports/full_concept_v1/source_inventory.json",
+    "outputs/reports/full_concept_v3/color_manifest.json",
+    "outputs/reports/full_concept_v3/comparison_manifest.json",
+    "outputs/reports/full_concept_v3/geometry_audit.json",
+    "outputs/reports/full_concept_v3/mesh_complexity_comparison.json",
+    "outputs/reports/full_concept_v3/protected_invariants.json",
+    "outputs/reports/full_concept_v3/render_manifest.json",
+    "outputs/reports/full_concept_v3/report.md",
+    "outputs/reports/full_concept_v3/report_vi.md",
+    "outputs/reports/full_concept_v3/sleeve_integration.json",
+    "outputs/reports/full_concept_v3/technical_verification.json",
+    "outputs/reports/full_concept_v3/user_authorization.md",
+    "outputs/reports/full_concept_v3/visual_review.json",
+    "outputs/reports/garment_recovery_v1/construction_plan.md",
+    "outputs/reports/garment_recovery_v1/edit_log.json",
+    "outputs/reports/garment_recovery_v1/geometry_audit.json",
+    "outputs/reports/garment_recovery_v1/iteration_review.md",
+    "outputs/reports/garment_recovery_v1/protected_invariants.json",
+    "outputs/reports/garment_recovery_v1/render_manifest.json",
+    "outputs/reports/garment_recovery_v1/source_backup.json",
+    "outputs/reports/garment_recovery_v1/source_mesh_diagnosis.json",
+    "outputs/reports/garment_recovery_v1/technical_verification.json",
+    "outputs/reports/garment_recovery_v1/user_request.txt",
+    "outputs/reports/garment_recovery_v2/comparison_manifest.json",
+    "outputs/reports/garment_recovery_v2/edit_log.json",
+    "outputs/reports/garment_recovery_v2/geometry_audit.json",
+    "outputs/reports/garment_recovery_v2/geometry_comparison.json",
+    "outputs/reports/garment_recovery_v2/preservation_details.json",
+    "outputs/reports/garment_recovery_v2/protected_invariants.json",
+    "outputs/reports/garment_recovery_v2/render_manifest.json",
+    "outputs/reports/garment_recovery_v2/report.md",
+    "outputs/reports/garment_recovery_v2/technical_verification.json",
+    "outputs/reports/garment_recovery_v2/user_authorization.md",
+    "outputs/reports/garment_recovery_v2/visual_review.json",
+    "outputs/reports/garment_reset/artifact_and_tools.json",
+    "outputs/reports/garment_reset/construction_plan.md",
+    "outputs/reports/garment_reset/drape_execution.json",
+    "outputs/reports/garment_reset/failure_analysis_and_method.md",
+    "outputs/reports/garment_reset/installed_garment_tools.json",
+    "outputs/reports/garment_reset/matched_cycle03_manifest.json",
+    "outputs/reports/garment_reset/panel_patterns_and_seams.json",
+    "outputs/reports/garment_reset_final/geometry_audit.json",
+    "outputs/reports/garment_reset_final/mesh_complexity_comparison.json",
+    "outputs/reports/garment_reset_final/render_manifest.json",
+    "outputs/reports/garment_reset_final/report.md",
+    "outputs/reports/garment_reset_final/technical_verification.json",
+    "outputs/reports/garment_reset_final/user_direction.md",
+    "outputs/reports/garment_reset_final/visual_review.json",
+    "outputs/reports/garment_reset_v02/drape_execution.json",
+    "outputs/reports/garment_reset_v03/drape_execution.json",
+    "outputs/reports/pattern_feasibility/comparison_manifest.json",
+    "outputs/reports/pattern_feasibility/construction_plan.md",
+    "outputs/reports/pattern_feasibility/geometry_comparison.json",
+    "outputs/reports/pattern_feasibility/installed_tools.json",
+    "outputs/reports/pattern_feasibility/mannequin_inspection.json",
+    "outputs/reports/pattern_feasibility/production_integration.md",
+    "outputs/reports/pattern_feasibility/render_settings_inspection.json",
+    "outputs/reports/pattern_feasibility/report.md",
+    "outputs/reports/pattern_feasibility/reproduce.md",
+    "outputs/reports/pattern_feasibility/source_preservation.json",
+    "outputs/reports/pattern_feasibility/strategy_comparison.md",
+    "outputs/reports/pattern_feasibility/trial1/patterns_and_seams.json",
+    "outputs/reports/pattern_feasibility/trial1/render_manifest.json",
+    "outputs/reports/pattern_feasibility/trial1/simulation.json",
+    "outputs/reports/pattern_feasibility/trial2/geometry_audit.json",
+    "outputs/reports/pattern_feasibility/trial2/patterns_and_seams.json",
+    "outputs/reports/pattern_feasibility/trial2/render_manifest.json",
+    "outputs/reports/pattern_feasibility/trial2/simulation.json",
+    "outputs/reports/pattern_feasibility/trial2/technical_verification.json",
+    "outputs/reports/pattern_feasibility/trial3/geometry_audit.json",
+    "outputs/reports/pattern_feasibility/trial3/patterns_and_seams.json",
+    "outputs/reports/pattern_feasibility/trial3/render_manifest.json",
+    "outputs/reports/pattern_feasibility/trial3/simulation.json",
+    "outputs/reports/pattern_feasibility/trial3/technical_verification.json",
+    "outputs/reports/pattern_feasibility/user_request.md",
+    "outputs/reports/pattern_feasibility/visual_review.json",
+    "outputs/wip/kagari_concept_garment_v1.blend",
+    "outputs/wip/kagari_concept_garment_v2.blend",
+    "outputs/wip/kagari_full_concept_v1.blend",
+    "outputs/wip/kagari_full_concept_v2.blend",
+    "outputs/wip/kagari_full_concept_v3.blend",
+    "outputs/wip/kagari_garment_recovery_v1.blend",
+    "outputs/wip/kagari_garment_recovery_v2.blend",
+    "outputs/wip/kagari_panel_drape_prototype_01.blend",
+    "outputs/wip/kagari_panel_drape_prototype_02.blend",
+    "outputs/wip/kagari_panel_drape_prototype_03.blend",
+    "outputs/wip/kagari_panel_seams_setup.blend",
+    "outputs/wip/kagari_pattern_trial1_prototype.blend",
+    "outputs/wip/kagari_pattern_trial1_source.blend",
+    "outputs/wip/kagari_pattern_trial2_prototype.blend",
+    "outputs/wip/kagari_pattern_trial2_source.blend",
+    "outputs/wip/kagari_pattern_trial3_prototype.blend",
+    "outputs/wip/kagari_pattern_trial3_source.blend",
+    "scripts/build_pattern_feasibility.py",
+    "scripts/inspect_pattern_render_settings.py",
+    "scripts/inspect_pattern_source.py",
+    "scripts/publish_pattern_feasibility.py",
+    "scripts/render_pattern_comparison.py",
+    "scripts/verify_pattern_feasibility.py"
+  ],
+  "artifact_records": [
+    {
+      "path": "outputs/design/concept_option2_kagari.jpg",
+      "sha256": "adef163e41f93b12151786b44555c7e6555021e2173947ebb0e52f950c43cc64"
+    },
+    {
+      "path": "outputs/reports/garment_reset_final/report.md",
+      "sha256": "b783a35b658b3d0fa0b8810004106440acd67d46c1d8680a81a9c0d6be897987"
+    },
+    {
+      "path": "outputs/reports/garment_reset_final/visual_review.json",
+      "sha256": "cd0bcc26e7d56c6958de39129e5bd0e637f77f75271bd84db57164f4db3de0a1"
+    },
+    {
+      "path": "outputs/reports/garment_reset_final/geometry_audit.json",
+      "sha256": "a45bfe7e2b9bdb50cab74a3797c27e8bb1bb2fc8a597107fa524ceba51134ba7"
+    },
+    {
+      "path": "outputs/reports/garment_reset_final/technical_verification.json",
+      "sha256": "4200d4945b7562e076f7a363d8cc0152baad8436d82084d40a8b1a9bf3ad2bb3"
+    },
+    {
+      "path": "outputs/reports/garment_reset_final/mesh_complexity_comparison.json",
+      "sha256": "4bb615bc259cbc7f727a6efa753d8ecf5d98ed94ef8ffa3c5118339442a5cdfd"
+    },
+    {
+      "path": "outputs/reports/garment_reset_final/render_manifest.json",
+      "sha256": "31433a0637341d7f9d6431e0c8cac6f2c524d258d5fee7be814b6b178dff158e"
+    },
+    {
+      "path": "outputs/previews/garment_reset_final/review.html",
+      "sha256": "e493b491738b72e1e73ff2fb4a4fbd5f5610643968709cdefdf2e03ac6f80621"
+    },
+    {
+      "path": "outputs/reports/garment_reset/failure_analysis_and_method.md",
+      "sha256": "2d763b539f243d83ddb7f69d0e05f551e81f512f3ff44b356ebda2d923f91af3"
+    },
+    {
+      "path": "outputs/reports/garment_reset/construction_plan.md",
+      "sha256": "49b2766b59657bfbf82de94da904a13bf18813c11bd5c67747229fbb1320c74e"
+    },
+    {
+      "path": "outputs/reports/garment_reset/artifact_and_tools.json",
+      "sha256": "c8acb5d0540fb9604abe47a16991db228ec13e2dca7155b458e4721bb988c6d9"
+    },
+    {
+      "path": "outputs/reports/garment_reset/installed_garment_tools.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "outputs/reports/garment_reset/panel_patterns_and_seams.json",
+      "sha256": "8c6f1016d9a9280a23399aba609c60f788415a3b2f5fcb2d63a215eee7833d5f"
+    },
+    {
+      "path": "outputs/reports/garment_reset/drape_execution.json",
+      "sha256": "2306a2bbc767aee8b5aa1aaaa242cbbc8724b53424ee487870b1e4340a5f9d4c"
+    },
+    {
+      "path": "outputs/reports/garment_reset_v02/drape_execution.json",
+      "sha256": "8fa90436c8db6ddfb8287c3a745850e5c9a478df69c69656620069bfd43adb6e"
+    },
+    {
+      "path": "outputs/reports/garment_reset_v03/drape_execution.json",
+      "sha256": "4f116eb788d68745622b28cd3d16247bf0817298684a4d6dbbe399e63e918a77"
+    },
+    {
+      "path": "outputs/reports/garment_reset/matched_cycle03_manifest.json",
+      "sha256": "f9d8f62c7512df57dffc9d476ede193129519f8df2e5aca83677ea55f7d7e9c3"
+    },
+    {
+      "path": "outputs/wip/kagari_panel_seams_setup.blend",
+      "sha256": "f468cd72d1cd42831a1fed95bbf53261a7583e235109182ed2e509af9bbcc04f"
+    },
+    {
+      "path": "outputs/wip/kagari_panel_drape_prototype_01.blend",
+      "sha256": "7f3c049b85a0b7b218468ed896e549e692a00ca106c0d76d0ec4404843be62fd"
+    },
+    {
+      "path": "outputs/wip/kagari_panel_drape_prototype_02.blend",
+      "sha256": "7811ac3a06be7d8f9ea80c8a977b5510f912f377bb253e92c535019777ddff46"
+    },
+    {
+      "path": "outputs/wip/kagari_panel_drape_prototype_03.blend",
+      "sha256": "8fa2b333fb8d4d02dec3db2a39a8fb43f7513c0e2124bab5294f7350c6fad519"
+    },
+    {
+      "path": "outputs/previews/garment_reset_final/prototype_front_clay.png",
+      "sha256": "119e43836cbac79b6a7213ab547eac6576dd88a3e31ba7ac9394c622079258e8"
+    },
+    {
+      "path": "outputs/previews/garment_reset_final/prototype_three_quarter_clay.png",
+      "sha256": "7f2c62580f6915885898dd2499926cbaf051bb4db149ad7a62e717c30c2c2790"
+    },
+    {
+      "path": "outputs/previews/garment_reset_final/prototype_side_clay.png",
+      "sha256": "dfeabc5db8f8342ff08ebaa80076bbdcdf6b04a479f8fca98f92da823f49d9e5"
+    },
+    {
+      "path": "outputs/previews/garment_reset_final/prototype_back_clay.png",
+      "sha256": "3f0420a513bc638d9328d83dacbc917ea76434e129e749f59369ea908d55a4ca"
+    },
+    {
+      "path": "outputs/previews/garment_reset_final/prototype_arm_raised_clay.png",
+      "sha256": "83f434989b5aa5e58f6c3028aad3000d19ed3c9554244f005cb2f74eb8719bcb"
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_front_clay.png",
+      "sha256": "538e3afe62fa1bfefdde73c4db016dfe5e9dee4f49b5fe3cddbb57f69f22aab4"
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_three_quarter_clay.png",
+      "sha256": "10cc01ce2f7fdb840cb76dc75ab8be3f7e6d341f223bb96932306db8746b746e"
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_side_clay.png",
+      "sha256": "589d9c40a4d2e534f299edb760238b7d903fb2c527f3cf51cd33e48ea9252287"
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_back_clay.png",
+      "sha256": "cdd158d01ca43f55c99b5e7d33b7b75fb23c1e1a6b88f16aa0f049bbbb8422f4"
+    },
+    {
+      "path": "outputs/previews/garment_reset_comparison/cycle03_arm_raised_clay.png",
+      "sha256": "22e964acf6cb696fe8be6e59834c06092a159b90f2c57f4ca11dd9831ed843f6"
+    },
+    {
+      "path": "outputs/previews/v03_clay_cycle03/after_front_clay.png",
+      "sha256": "5c9565dcb679602d88b4c24ef38269fc2127fd6b0f7c6feaaa15fac2e882fceb"
+    },
+    {
+      "path": "outputs/previews/v03_clay_cycle03/after_three_quarter_clay.png",
+      "sha256": "3af0879af58ec6692e0823d43b89b7a700e44a261570795634157f456ee86821"
+    },
+    {
+      "path": "outputs/previews/v03_clay_cycle03/after_side_clay.png",
+      "sha256": "e7446977589209fa3dec9e1cb0acb71bbcc4256d137a9964834b5bcec5af1d8d"
+    },
+    {
+      "path": "outputs/previews/v03_clay_cycle03/after_back_clay.png",
+      "sha256": "a1c306830ebdd3927b28eb5ce2258e8c4ccd0fd7f6ce2970a9b50075cf8d1bd2"
+    },
+    {
+      "path": "outputs/previews/v03_clay_cycle03/after_pose_arm_raise_clay.png",
+      "sha256": "32463717092c50b9dd8b9df28438384f6f970d798350f3534ca8dd640dbbdc76"
+    },
+    {
+      "path": "outputs/previews/v03_clay_cycle03/after_portrait_clay.png",
+      "sha256": "4f0d21d45eabb946270fa92763afa7d0599be72c401f32ff484344046e320825"
+    },
+    {
+      "path": "outputs/previews/v03_clay_cycle03/after_side_garment_isolated.png",
+      "sha256": "45c850b484d9f15ecb6567fd155487f1cc09f00f07211183ddacf6ac0731da8a"
+    },
+    {
+      "path": "outputs/previews/v03_clay_cycle03/after_back_garment_isolated.png",
+      "sha256": "834fce1f64eaa0becc3677abbb2e81822d32c80bb59901c1f6b26fd5ab33cd1d"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v02/prototype_front_clay.png",
+      "sha256": "9f68e4f7ebad9f28a899f4bdd1bfa8ce3b390ddaef2f00691a59e3b14ffe725e"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v02/prototype_three_quarter_clay.png",
+      "sha256": "1b4857bc6b689ea32dde6777c677c9e50c28b63888bdc373793935d29e9d2021"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v02/prototype_side_clay.png",
+      "sha256": "fc0bc25833aa127db65a29bd6f1de9c1d24448f8f1b6063d63150c3742e085f7"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v02/prototype_back_clay.png",
+      "sha256": "399ac4a5ea8108e289dd1dde11669d74464c632717b3941155c7ce527dcf8de1"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v02/prototype_arm_raised_clay.png",
+      "sha256": "d6022279d479f8e4c7ab191654b9d5a166885010a86ba21afe469881cde35f9e"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v03/prototype_front_clay.png",
+      "sha256": "d87ce38f3c121d4e40ed1196014dc29e09ded607ccaf83e507bf0fe6f29b9be6"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v03/prototype_three_quarter_clay.png",
+      "sha256": "9d76d53d9133032e6dee8ca4c0614bb5b1cf055910fa7564e7cb9528b47c64d5"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v03/prototype_side_clay.png",
+      "sha256": "cb3a3719df8ce47f476f3ad19b8905f78de6cb70b36e11f28d4e020d9e260b06"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v03/prototype_back_clay.png",
+      "sha256": "682f49d794fcf204eb19f11d6efa5b331e78115cfa11a88528d9ad0247181277"
+    },
+    {
+      "path": "outputs/previews/garment_reset_v03/prototype_arm_raised_clay.png",
+      "sha256": "766a03a25f73171bfcba6ef27bc01051fb2f779d01cda5da60d7a2bd341646e9"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/report.md",
+      "sha256": "07af98a3655d7934ab901b788170946f8d2489b29a870c14271e03c44e583d97"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/visual_review.json",
+      "sha256": "8bfefe379b9f0cd94f7dfe010b3015b6a90e0c50b2fa591b90294470c8fd883c"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/technical_verification.json",
+      "sha256": "a5148a03b4155a613f5423e289c474c72e70a7b91f9d532ce5e075b2207ec40a"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/geometry_audit.json",
+      "sha256": "007b60287f0480f82e3565fdd53376e4ccb8bfdbc86b96e81531d9009764da14"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/render_manifest.json",
+      "sha256": "b4f865a6cc9ca48b809bfd43e5ddbee7cd7b8dfd69da01825f9d00c430ebf557"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/comparison_manifest.json",
+      "sha256": "fbf9e3df5dbf82776b7a73de781e9ece13108f75acad695bf06239329d3e588b"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/detail_manifest.json",
+      "sha256": "f8e257700543bc801f5b02f9d5a631464040474feadf584d6664d2235d53ee0b"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/panel_seams.json",
+      "sha256": "d5a17693e14fcbc4948d05617ec9d6b00370f4d3a8513e4f4199580523ea10fc"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v3/user_authorization.md",
+      "sha256": "87ba5b445f7a82eaa4ae4e58839b19650a8f5a70ef276e41ec3ee828a534c3ac"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/review.html",
+      "sha256": "6e37652faddc9646480c670efd0d0c949233a1d88fa735a6a8047f877507c8cf"
+    },
+    {
+      "path": "outputs/reports/concept_garment_v1/construction_plan.md",
+      "sha256": "cec3a6452041af2760b31db3e7c160784bc185778a4e291812261a74c3bda02c"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/front_clay.png",
+      "sha256": "96defd45c7db18bcc37e6a73be0c44b185b8024226a98166825f3c5a43d10625"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/three_quarter_clay.png",
+      "sha256": "e4d7e0d33ba41d507ec14ef508d0779bd688e19ebba28763bc6f05f179aa50b7"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/side_clay.png",
+      "sha256": "42cba20d766a537513f80c898e02771496c7f4f947f796410d8dc554fa6af497"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/back_clay.png",
+      "sha256": "94a883a21344e81c42094272b75cef5c1a6cce302833e3c898085c95d479e1a1"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/arm_raised_clay.png",
+      "sha256": "10921bcefae65edc380172db456abb05dc3d914e5f4e0fe7080132f0d17830d9"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/arm_horizontal_clay.png",
+      "sha256": "e3ac4c0899f4a813cedde13566cd472578c60280059b9e67b98f7e3f51759856"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/front_detail_clay.png",
+      "sha256": "c2ee83b4668a38d7ca30796bcb33b5dc4bceeb69ca8f5af373136ef0c887e183"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/three_quarter_detail_clay.png",
+      "sha256": "efb2b53e25bd9ac7a83b42d9f1462f74e2a599307f8ad38076b548132d5a56bd"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/prior_panel_front_clay.png",
+      "sha256": "57944ed0dd7ab9ccd785d30a9e0b2c254ebe684f5e8145268937a9acec03c0c6"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/prior_panel_three_quarter_clay.png",
+      "sha256": "15f51a9d615b6479d59a481cde6312e15c67beb79f613a52e460b34d68e31fde"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/prior_panel_side_clay.png",
+      "sha256": "594e9f9af417c5866fa65af3ed1ac020c4ab2df82a2ba413ac0e62ac53f83fe5"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/prior_panel_back_clay.png",
+      "sha256": "e150543dac47cf887c204641c8e2b3570d625b207c645724fec67b685cf2c8f5"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/prior_panel_arm_raised_clay.png",
+      "sha256": "29323d1509c5b09382824ee8e819b6383373d1e2d64835c58bbbaec33776c97e"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/prior_panel_arm_horizontal_clay.png",
+      "sha256": "b415702f6f9b608d0aa3c9e380fdb91b4453d5924cdd07eeb244bbe84a0552ea"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/cycle03_front_clay.png",
+      "sha256": "359184f8ef0a6e8061122183cb099b03f507b0c187f2d381c67f4844744e55b1"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/cycle03_three_quarter_clay.png",
+      "sha256": "38a5850f356c51412665b8b0881d711f338684e9a345cc46ec2419de3e020691"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/cycle03_side_clay.png",
+      "sha256": "94477dbe7ef0727d94076ed00340908a3e573773a8f0f838749efbedd0260fe2"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/cycle03_back_clay.png",
+      "sha256": "0c0ee320aa847a9c3046f678aca2a99d93aab67c051999d6d7264d2eb677baf7"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/cycle03_arm_raised_clay.png",
+      "sha256": "a2adb57aa6a4b895a645e8d3b445d16967883f1e416744d4c6d3278bc5abb286"
+    },
+    {
+      "path": "outputs/previews/concept_garment_v3/cycle03_arm_horizontal_clay.png",
+      "sha256": "46bd28d04a2cd36e213d8cd1008c2603e49aeeae9ca7361efd0b2b5c7fe6b58f"
+    },
+    {
+      "path": "outputs/wip/kagari_concept_garment_v1.blend",
+      "sha256": "0fd6b28bc5a184f511c879069c73e726748710ef65b26e0d14c34a562676d0b8"
+    },
+    {
+      "path": "outputs/wip/kagari_concept_garment_v2.blend",
+      "sha256": "f483889792fbf7e4a1bdb1accb565b8a1634fa1ba24006d9f8640a276e3e1007"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/color_manifest.json",
+      "sha256": "a0799c4b2c563ab1093cf1a263a5f8c72ca8fb4449bd57169bd300bc9354829e"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/comparison_manifest.json",
+      "sha256": "51d6372bc131ffcf486ce5bf973849264788f25ec1a2b19627dd88e298a86991"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/geometry_audit.json",
+      "sha256": "c36f36eaf6c7a6ea220732cc637d27cd809be99026e9f4466d99c98cba3c5e0b"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/mesh_complexity_comparison.json",
+      "sha256": "f1a5fd62214dfbd87e8df37ed688898d3660c1c54007346a74058b18b70871e5"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/protected_invariants.json",
+      "sha256": "83fd80c250ba12cf855753c9dec80601ad97e1d98a653c8726fc0812b09795bb"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/render_manifest.json",
+      "sha256": "071a9d8d5393070ba5c00b151daecf9d2ebdfeb94b0b2cdcff79269809d64b29"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/report.md",
+      "sha256": "be133c987f36702470fcb61dff6e403e7cba8549f15e86f87ed2402316d61315"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/sleeve_integration.json",
+      "sha256": "847148e5ad6601361fd412f9ca633e10c62a07d67b0ff44ed90cb6935783febc"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/technical_verification.json",
+      "sha256": "d44887dc552464fdf2e8fb215fce8d4af6194f3e7dbab311723a14f8330d6896"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/user_authorization.md",
+      "sha256": "21ff2791725fc9e21e587dfe40f4ea13f782e9f627bf841ed8cb7d7a8d7b984c"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/visual_review.json",
+      "sha256": "2226647099b09f5f348e4fc51cbd3fc6cbd1857b5dde823df82d45446d038242"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/arm_horizontal_clay.png",
+      "sha256": "39d68b1824df9c4cf07e42fe3530ca5e2d937fa8bab874eb6eefef0811e7715c"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/arm_raised_clay.png",
+      "sha256": "45f87c5daccfaec225ec4b203ce8b72637ee791a46324dda9e74fece29703f45"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/back_clay.png",
+      "sha256": "22a5ab7c5c668069b0d3408c4e326ea2150bbc74ab78f63fda452c1447026b9e"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_arm_horizontal_clay.png",
+      "sha256": "edf954c9cca30ee99f713dc5ecb03ade973fd06415a59c72e69b55abdcea606c"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_arm_raised_clay.png",
+      "sha256": "275f76c06df4c0fb7094f45f7d9396758b55ce065670090c2178a53825647235"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_back_clay.png",
+      "sha256": "76f7a278baaf967f54d6c77c1637085bf54f224ffaefca38ed4ccd1780ca8a0c"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_front_clay.png",
+      "sha256": "7f5def5792a10f291e742da745153cc5841c861ce27fd4b9af32713ef840e1f3"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_full_front_clay.png",
+      "sha256": "bdb8b01f33ad78e4cf1349d7801526d3f98f665055ab9d2505387e6e293ab6d3"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_full_three_quarter_clay.png",
+      "sha256": "b24c4e04f92c8da3e7db4434abff6b83fa0442957909817f72e09815ee777243"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_portrait_clay.png",
+      "sha256": "1aa7b2f8b9acc44cde4a91f0703cda8617995dfa909036906d3387479ea2ddb2"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_side_clay.png",
+      "sha256": "d4f82d5110186b1492b0a5480cbe00e858a9033d3af38ae7fe3683846a31b080"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/cycle03_three_quarter_clay.png",
+      "sha256": "97f69033d7afadece81ff9ef9e3c3e6e4a279efb6d15b753bc24964eddcbb3f5"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/front_clay.png",
+      "sha256": "85f5284e9195b5ccd8314691331efeae6be1458ff288de26ab9bba78ac6433fe"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/front_existing_color.png",
+      "sha256": "a7003af95fd5f59a59084c2d0deaf33c7c994a213c8208e2379648272cd84f0e"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/full_front_clay.png",
+      "sha256": "40683ba2286d0e56d867f11e1145fac900e98f01563b3e42c8dcd1f591a64bc1"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/full_front_existing_color.png",
+      "sha256": "9e11b502d3feebbc0c555023182bef915ac7a307a230972491bc44b2ec162f7e"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/full_three_quarter_clay.png",
+      "sha256": "7f22cdea4d9af3f489b94a79ff5bc7c83117b4649417af3298c153b78a54a18e"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/portrait_clay.png",
+      "sha256": "0692bc60627558f9383562b4daca09d5cad1e15f0141ac33fb55d8066a103dea"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/portrait_existing_color.png",
+      "sha256": "43ba4ec358cedcd3a8a971bc90a4e3510d0f1fc4069888699c8c46d8da817abe"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/side_clay.png",
+      "sha256": "46fe5850b618256f765946f4654da17f25a4f0ec50dc22ccd263a1c28044faa8"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/three_quarter_clay.png",
+      "sha256": "3b5c9adb2011dc6b217ccfc50a4796c485c923fa8a65657f4b26e1420cac0f52"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/three_quarter_existing_color.png",
+      "sha256": "74b874dc52982c0a26c611a041372c12c07ea7d9ca60f53154a30a14f4b02d3b"
+    },
+    {
+      "path": "outputs/wip/kagari_full_concept_v1.blend",
+      "sha256": "967231491252c89b15a7334585dc443932d491c886cce3167390eb85a4650a43"
+    },
+    {
+      "path": "outputs/wip/kagari_full_concept_v2.blend",
+      "sha256": "26cab55e879c6c3ce72687da914bfa7296633e4f5cbc37868d55593949c082cd"
+    },
+    {
+      "path": "outputs/wip/kagari_full_concept_v3.blend",
+      "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16"
+    },
+    {
+      "path": "outputs/reports/full_concept_v1/construction_plan.md",
+      "sha256": "bcb3f4f51162fe4005b1d997a2ad16d9ba7e1f7bc873fdb2aa66a796c75acffa"
+    },
+    {
+      "path": "outputs/reports/full_concept_v1/source_inventory.json",
+      "sha256": "88eda30b94ea77e08ba5d635e36bea20d01863dad775118d8354d6dd39e30b25"
+    },
+    {
+      "path": "outputs/reports/full_concept_v3/report_vi.md",
+      "sha256": "cb91a97dfee2b126491a8a93bb8a46a8d8f98138b371feee86371ae99cbed546"
+    },
+    {
+      "path": "outputs/previews/full_concept_v3/review.html",
+      "sha256": "f67a249aaa0513dee1611019d7dd8ba0425618a548eca368fe717cf47c2a99c7"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/construction_plan.md",
+      "sha256": "79ce17a827c834a08dc11b833db457c8c12454ad1f70e5281dc946291be88830"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/edit_log.json",
+      "sha256": "5f76256d05430fb4219ebabf776168b8be0a522e1a4625d0b70ff83b47e4e602"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/geometry_audit.json",
+      "sha256": "0cd2584d2956710821dcf8b8f453b7647e69d8591fe577336001b1111f0196df"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/iteration_review.md",
+      "sha256": "647f1e22f5a8784ffc55d6f9676e64be629d5f819bc587a1e567bf77a879c648"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/protected_invariants.json",
+      "sha256": "7ce336df42d37b7abb1a9b1d79bc263a446cc7e11b19d36b09d43988769b4716"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/render_manifest.json",
+      "sha256": "bfe9c1fc4ac53722b82ed1efa5149f1c9e189662ac0bf9c569f90d45cb6287d5"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/source_backup.json",
+      "sha256": "2231e815a1cb4b9ec843658c554e5873b57302bdf9baffa690d91152d61efc15"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/source_mesh_diagnosis.json",
+      "sha256": "e95ac050787956c6c175c9725de8cfc9a6884c4e93612e73c186aaefbec180b0"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/technical_verification.json",
+      "sha256": "bc533a43f928713ff0224a2dfc7d45b553ca6be8ae78323b231564c051024644"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v1/user_request.txt",
+      "sha256": "c0965febc8084e782d9f6e4bcccc4afa5d8bf05a370990919dece0b9d3da5419"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/comparison_manifest.json",
+      "sha256": "89ee025aaa980032a07f84742975239442b71f4676407495ad688dfa179466e9"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/edit_log.json",
+      "sha256": "637ca31491a22d2ded8ccb7376d65db639210bc969eeb3136fd63463d1c731cd"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/geometry_audit.json",
+      "sha256": "acfcda72ed509fc096dde60fb0480167c9ede005835bffd0781170c55d67816f"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/geometry_comparison.json",
+      "sha256": "e1ebc2249010c15853eec0a8400430816f746f4edb75d99c214d824cb50bb512"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/preservation_details.json",
+      "sha256": "3e5d56487662957112897b2e8aa6319bc5588e3268ce58a8210e8bab2c78dd23"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/protected_invariants.json",
+      "sha256": "7c18711eaac64435927b4fd8d78660d8bd0801bad382b23edbb98cb632c934f4"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/render_manifest.json",
+      "sha256": "b85736e070008601713d6ca5f0d96312b6ec9db9b6137f5c59d53b3492358dda"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/report.md",
+      "sha256": "8e6444c7bd841284d6edf125d01354ce970109b9f1269446f257d05971bdead2"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/technical_verification.json",
+      "sha256": "f443ea45a4fc8c24d7002dfdbf276c03a7ef9281ec0a8503889aaa6d8cb2e273"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/user_authorization.md",
+      "sha256": "bb230989d8abfea332ed16e961cf5a86875ac18979bc4d7401db31eaeac27b76"
+    },
+    {
+      "path": "outputs/reports/garment_recovery_v2/visual_review.json",
+      "sha256": "d9343ee0353f09defe75bab966943856956f8f3887c3c8afb0e1fe531f688d4d"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/arm_horizontal_clay.png",
+      "sha256": "d779783b610f42f244efec7ce90fac39bf521d1afde798b39e4d8e2a32a1c881"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/arm_raised_clay.png",
+      "sha256": "6743a6aaa2d8695117551c71762a2b07550884f6dc02ef4ecd461ac36509c0e5"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/back_clay.png",
+      "sha256": "dc0b7947db16b8c247e2a7576afdf606ab02df1bb49d552ac90f78482917b1f4"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/front_clay.png",
+      "sha256": "9808d3880f9a0452b6f868aef11fbbe4b4fe94f889d79e6981494483a3273392"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/front_existing_color.png",
+      "sha256": "1e1b842dc767bd7120da3d73dac2b36f698dd8b19524f9164b6a880a1fb52fd9"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/full_front_clay.png",
+      "sha256": "d6d56c12f1e4a8ebc6d462c9a58e83fe2954ae9628d55456b77518c4b9869a27"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/full_front_existing_color.png",
+      "sha256": "e3fa73f991b36e6ebad32370de387561c3509ef8eedfcd5e6ecfb8728452bdbb"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/full_three_quarter_clay.png",
+      "sha256": "b6d180a7a138fb9f57cc33f3b0c4fda6b5ccf1a54f008a34b9fc23b5f30e307d"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/portrait_clay.png",
+      "sha256": "cdb0c9acee507341c8f2758fe6ac22d253bab33bcb51f91f4b5788ac0ca82eb3"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/portrait_existing_color.png",
+      "sha256": "a2a99d3fbd1e16ea82f188a62831d9fa50a3924db492f54967b4e9d7ad077831"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/side_clay.png",
+      "sha256": "2db8a3245a495c050ba157b5f3db4458a2ea0233ac391cf1628d6a784222b6ff"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/three_quarter_clay.png",
+      "sha256": "79a0b2581ca60549ac2d438628671711316019aedb719a98b738c33abbf99569"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v1/three_quarter_existing_color.png",
+      "sha256": "5235edffcc7df390236c386b151266285a6e1348e911d1f531b7eb4c21bd5763"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/arm_horizontal_clay.png",
+      "sha256": "46cae8ef6560a1cb166466f3bae37e69a5f635320602011aa38ff61e8ce87ae6"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/arm_raised_clay.png",
+      "sha256": "848de2cf0bce19d78e7b7376727120cb969892b6d5b4704103010075452fd887"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/back_clay.png",
+      "sha256": "006a9d27567654c430d00d6c4ba6f3457e16fb3042a68d9501dd011aa24aa115"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/front_clay.png",
+      "sha256": "5d0c8623c918f6970db21575ff969e87615c487f3c101e50e3c1106240109da4"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/front_existing_color.png",
+      "sha256": "f9901a934ecd57a712f59cccf7561c3da3d1ffc52fad3c9e7019127c4a835749"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/full_front_clay.png",
+      "sha256": "d65680bbe70b399ddcc52b174f66b5a83b02118b497de550a93abead428c6f0f"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/full_front_existing_color.png",
+      "sha256": "bb5a4a56f70ad8393dbf547cbe049f40f7c03c2401b29d7a98229e79d134740c"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/full_three_quarter_clay.png",
+      "sha256": "da56d8d9d11d9e420c65500b6cc4841375e158f8ed9b40bc226df686735736bb"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/portrait_clay.png",
+      "sha256": "eb62a30413f24fc84fc0d8ebb669ef8c6ed33b18a874c45d806c1149823208a5"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/portrait_existing_color.png",
+      "sha256": "46ac09898f2c2a1e433609297c39b1e0b646f2ef8616dfb91f575cb3b40b7d48"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/review.html",
+      "sha256": "a66082a54d3971b1b1d98987889306e33ed93026455f36f51e51c093fd96a526"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/side_clay.png",
+      "sha256": "64a262a0971a3996e340d8cea263acc72545050e0e2b3d54df4e484846718330"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/three_quarter_clay.png",
+      "sha256": "663f421c4ec6d78929bcc83508494064102293e1617154510c8f60e5af7c8970"
+    },
+    {
+      "path": "outputs/previews/garment_recovery_v2/three_quarter_existing_color.png",
+      "sha256": "4fd39b19a50084e68abb3a9b92e4656efc58afb11fb383c5eba7a5fb84b86f0f"
+    },
+    {
+      "path": "outputs/wip/kagari_garment_recovery_v1.blend",
+      "sha256": "61df33536b9b8caebe9d2bccaa2d7599bb917f10476bb6c67fcc0dab318f61e4"
+    },
+    {
+      "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+      "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d"
+    },
+    {
+      "path": "outputs/backups/garment_recovery_start/kagari_full_concept_v3.blend",
+      "sha256": "ffbc443b2f4c1af194a77cbfdd1d4a4deb80e7b6ca1d0b1929a2dc767577fd16"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/comparison_manifest.json",
+      "sha256": "6ac557bc1ecb2d4954edbbb7d9b33405023626b8c79980e70c715a1eba628a1f"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/construction_plan.md",
+      "sha256": "10a3539e20094c55f8843e348116054fa512bc8cec82b76065fe309fa66d72dd"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/geometry_comparison.json",
+      "sha256": "6f4c8c571c08522ae6ce2866dbb85a6e1e0b57e5bc31a948e4230352d5a906d5"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/installed_tools.json",
+      "sha256": "08a5cd3cd2ed36d83a8f45f459f1ab9b04f1b46d6109b0e8ebac050697fcd8e5"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/mannequin_inspection.json",
+      "sha256": "c4f1356edf5da78ac38db4103deedef39df33bb2706eea4556524cd69cfd18c8"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/production_integration.md",
+      "sha256": "11c9c908fb5e358bc29ad9058885f7789bad84b9afc976c648b57212e8eff69c"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/render_settings_inspection.json",
+      "sha256": "bafb9a8e565982b9c627a8c62064ed4ce7cc05235364f91370514779be3849c6"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/report.md",
+      "sha256": "3d70d35f0bdf7222ebadd0f269616135997071fe55940d4f8c796304411f8414"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/reproduce.md",
+      "sha256": "ae5abc5bd9d42e0bd11583f499d2ac161b9782f9613de8685823cdd64640c927"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/source_preservation.json",
+      "sha256": "c84dc95476c0a49c2d1c15a4b4e80067c11a04af37e0052d7cd82b4bd36a887d"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/strategy_comparison.md",
+      "sha256": "83100e482c51809949fa95806aa45670e74f5fa518714300a181f610d91f890c"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/user_request.md",
+      "sha256": "a555a682b9402fc03bb2f615e21a8e000400eb4087a5ea670ee252c3a7a5d0ac"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/visual_review.json",
+      "sha256": "21ae231b5a218bcc740e626bc0ec41657fa9dcdcff29301800f0ef2c7da6d8ce"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial1/patterns_and_seams.json",
+      "sha256": "143f1c1aed69f79d11dd5e9acd2714321df17e10a5a9c15df9080c11eddab8b7"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial1/render_manifest.json",
+      "sha256": "f4530a3ff2ece7d5c70c7dfb80acd467f31f0e6f222897f108691cd059ed5b9d"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial1/simulation.json",
+      "sha256": "29ecc6aa2d6e6d86efd3573739e8f8d39530680728102f4469e4a8afe217b258"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial2/geometry_audit.json",
+      "sha256": "611b5d9454cbb25e3a17b99bdc84e3b0885ea1b3ca79d9b1acef5fa588b28be9"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial2/patterns_and_seams.json",
+      "sha256": "37c08d761584e837274356b8fe75b43d551a3c2c1118a3748df50e7a244c2dab"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial2/render_manifest.json",
+      "sha256": "edc4d9200a96cf5b3e7a7a1ec9793d6abcfcc38d7d7da69f3eac7d64f1ad7670"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial2/simulation.json",
+      "sha256": "8904517108361133361c2ff98556184e1bf1b5c18e81386e35d5ce8f974b3b1c"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial2/technical_verification.json",
+      "sha256": "a1154e055490eb3a8ef6844ab0cb3a16a0d59f9464f93364e724c19ce54146cd"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial3/geometry_audit.json",
+      "sha256": "8398652542335660a61eeb63df58e70082d05f6e3e504d557eebb1b736238e5d"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial3/patterns_and_seams.json",
+      "sha256": "fc9200be4e408adfce1c322e371ca355e38268cba0e4d3562796b30fecebacde"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial3/render_manifest.json",
+      "sha256": "ec893dcf675cb1c7881f72bed701e4c25339c1dd8bc41b8009630e075d9212a1"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial3/simulation.json",
+      "sha256": "2a2bd765a9e5058e5d88a7a7651e366e3eebd8e2f88ac197b9f99f0c1839407b"
+    },
+    {
+      "path": "outputs/reports/pattern_feasibility/trial3/technical_verification.json",
+      "sha256": "b6e4b9ec4392783068d4a2604249b85cd884fe8fc4a3d9c6f7bc8f26eaabf387"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/metric_patterns.svg",
+      "sha256": "b7b1e872cae27d2d0a207001cab71fab32da66c55f3383f2b170ac877892715b"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/review.html",
+      "sha256": "3dbc26a95e47db3977a0a9b2a79720933b6bfbf8392edbcf66d2ba300392edfe"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_back_clay.png",
+      "sha256": "208c99ce6dd9521fa305243eb905caa0a87154552451fd0221739695aa721f9c"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_front_clay.png",
+      "sha256": "1a2700cd3732fe254c45ae2504dba05ca49f53418756a2f282ed22b77e9efbaa"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_side_clay.png",
+      "sha256": "e0b2315fbfbf1ca909dbdf06429bc5641b86433819eb2f19738f3e4afb8bd253"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_horizontal_three_quarter_clay.png",
+      "sha256": "b30062b91664677649fb4fe55eace81d2e96bf1f8c30446e1250cbdc33face07"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_back_clay.png",
+      "sha256": "31cead912f122404a8b8f699bfc338f94429a664ee4a60f5cf50f332d2bcf9b5"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_front_clay.png",
+      "sha256": "11b7ed64b77479bda9265163abc57bdd4e956990ae8785f43a0f56cdcad9ffac"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_side_clay.png",
+      "sha256": "c26d7e7c8bb3fd31d4d91bb3179578dcef677410e9169222b33cdc80784e57ff"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_neutral_three_quarter_clay.png",
+      "sha256": "4ba2937b9c4fd8af2005db84e0ef76a4b7ad3b634a13e4d86b4ae61fcdaf307c"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_back_clay.png",
+      "sha256": "9741364cedbecd579d7251b7fbeaba33233449797deb5e5ae983f92cf385b148"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_front_clay.png",
+      "sha256": "0b1c03b9bfc73d5b64f79befa06bf6ba5ca2e74c31afeff0c44965b66745042e"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_side_clay.png",
+      "sha256": "9f1f9a070fec3c910eeb689a3d425c855e13d1e7bfcfe6dc311369110d8a78b6"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/comparison/recovery2_raised30_three_quarter_clay.png",
+      "sha256": "1cdfd60c22109d7a924304a97bec00540a2a4917f89606e265f8eb24b5770d76"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/horizontal_back_clay.png",
+      "sha256": "07170ac5167e0d11787ff803ebffa2b2009746758f14d9dd6e082662fab53a57"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/horizontal_front_clay.png",
+      "sha256": "a72ff1ad0172acdf554e9d0086fc56d930c3b1b907c680bef18340c1368334f2"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/horizontal_side_clay.png",
+      "sha256": "747dea423fe74ac030c911186d32091b946186b6b1d2a9ceb5aa6226ffa5d41e"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/horizontal_three_quarter_clay.png",
+      "sha256": "d94bc89f05a1e9ba9093ae0d66dc91c777c786fcd1bb5c877b64d97802cba509"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/neutral_back_clay.png",
+      "sha256": "462570f268b98dacc6aac224780177a666c81c40d930cfff3854c0658299de6c"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/neutral_front_clay.png",
+      "sha256": "c8eb46e5ad814ea885d139cc7d9ed54b88cc254723ba3473d9ddae31247190f7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/neutral_side_clay.png",
+      "sha256": "9aa87f2e4bbbbb6d7e4da074b4b9917730c314367800d43d8c9186d8b0dc3d69"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/neutral_three_quarter_clay.png",
+      "sha256": "4761158ba7dcfae4a103b80edd42d3acb7beeef627ca8562131e07d624f073a9"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/raised30_back_clay.png",
+      "sha256": "da0556c9ff8f9cdaeae3d2a7cd152a8d6e7cfc5ddac221229dffb05b3919eb63"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/raised30_front_clay.png",
+      "sha256": "24fc321ab270c56bd27c32c237001b6c806f119dcaef149c5cfba0e06bade5b9"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/raised30_side_clay.png",
+      "sha256": "f307fe6f361e5dc4be9838384b3099150ea2e14486ec82b40f52a22eb4a8d649"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/raised30_three_quarter_clay.png",
+      "sha256": "2cdae593ab4dd28bcf039b4d4a5bb8b5a14903aa248ee624375c87bf9026a377"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/rig_only_horizontal_front_clay.png",
+      "sha256": "5dbf0c89534af6faf3152f8b6e8061b9923d0dfd37250e457d2f21e6b3b3e4fd"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial1/rig_only_raised30_front_clay.png",
+      "sha256": "e9f301c6bd2bfd27a1c277c21e966c80a94f38f41b18dc85b81cbf636c67fdf9"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/horizontal_back_clay.png",
+      "sha256": "52f7c0ffa4e1b2c8131584b6073c59298ff9bc0441f5241209f2b982af7d4129"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/horizontal_front_clay.png",
+      "sha256": "d8a52ffff7642936d7c3868fe8e10bb7e7545bf6a4e395b46cbd8d082880239b"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/horizontal_side_clay.png",
+      "sha256": "67123391fdafb556bda60e993d5d068d5da4838d2155460b721e9e2383614f24"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/horizontal_three_quarter_clay.png",
+      "sha256": "6162f485ce7f61259d2dada1cd922b0d62954c061ad34aaacafa3a35d6066877"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/neutral_back_clay.png",
+      "sha256": "7a96651db42e16eb990e7b7b8869573dbec7fa8de7dce33dafbcc284c27d0cc6"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/neutral_front_clay.png",
+      "sha256": "8166dc1466284f1ef4abd2a45978d808892bf7f08c8765e2223d572678d120d1"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/neutral_side_clay.png",
+      "sha256": "430f8843a40438b57bdade11de69160cdcb1ed5423e6954c8384eddcb972c179"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/neutral_three_quarter_clay.png",
+      "sha256": "e7a682c3ea96b6d007ef56fc1f70b04702e6d453c8f58f7b61ede48e135669d0"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/raised30_back_clay.png",
+      "sha256": "32bb616b8a8838ca1615d594ac7571baf0f9636e4eb647b5248763a134a0d9c0"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/raised30_front_clay.png",
+      "sha256": "d7379c67e8460b30856734de4bf7926d855e3ace78e45b2e3467e0261d09127e"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/raised30_side_clay.png",
+      "sha256": "0ac1003d2d85202e7ae677a61b3a894fa19fc5ce095d2798a17f097c62e197ac"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/raised30_three_quarter_clay.png",
+      "sha256": "800df50de17e1d875ff8b1237b82c103e1b935c36ca147d5135c569a0e5c1ecf"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/rig_only_horizontal_front_clay.png",
+      "sha256": "5c133f352a09387de0689e9bd5b61b2a884332df166c1f64422b4b3c5e965426"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial2/rig_only_raised30_front_clay.png",
+      "sha256": "2bf8f42d06d880e387a4917c50e10e4ebd143970a1dc703b9b71f4acbc24f000"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/horizontal_back_clay.png",
+      "sha256": "2f98cc8eacc40ce02097f1d0138f2478b547759880dd31262b0374a8718f9ab7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/horizontal_front_clay.png",
+      "sha256": "dbe143ae2577c8d39e1266628448447a6d5f50541330b6972382b28459e969d7"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/horizontal_side_clay.png",
+      "sha256": "f10c58b50c8a5b3aae2fabb888c4fc9f93c0da469be4d897daa1982c12f88ed4"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/horizontal_three_quarter_clay.png",
+      "sha256": "86eab146766f937954c0bf50690e26082a2346e47304be2c9bd550d9436101de"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/neutral_back_clay.png",
+      "sha256": "d65732d988fc7d8343c000ddaad4b130ac2d1eb3a6b7e39508704c88df6275be"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/neutral_front_clay.png",
+      "sha256": "7c0d0a01d65ad7e1ade26a690b722572211e442fac863d8bbc73154efcd23619"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/neutral_side_clay.png",
+      "sha256": "b6e7c521172f811c18876f6177b15a0b59e5fa458c551ba00faea6a1d0655b79"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/neutral_three_quarter_clay.png",
+      "sha256": "18454201d005ff20dc752ff9ed0916bec2799262e9f6006a55886c504b209ebb"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/raised30_back_clay.png",
+      "sha256": "153732d129b0cb5d966fdfd7fa476c48721ae7cb73269b40ae3bff55880e1f83"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/raised30_front_clay.png",
+      "sha256": "c0940acf5e42657c6d24be6b21263b2cf1779f4581964cca81b002d7b49d47ac"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/raised30_side_clay.png",
+      "sha256": "e53a0cd7ca507826032937155cc2adc710e6bd7f743fd4f33615299aae9f82b9"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/raised30_three_quarter_clay.png",
+      "sha256": "ea059edaeb453988a0d32accd343219b4e0ca15d5d0223bf98a97a2483ecb996"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/rig_only_horizontal_front_clay.png",
+      "sha256": "dcd9d2e06fdfe49ef462c8e7f511eff73869f5df1bd1ac743769ac43e9d53160"
+    },
+    {
+      "path": "outputs/previews/pattern_feasibility/trial3/rig_only_raised30_front_clay.png",
+      "sha256": "ad1361e3401123fe969197ea01ccc2cf0c6c05ff277bdb1cae4bc45045a6f96f"
+    },
+    {
+      "path": "outputs/wip/kagari_pattern_trial1_prototype.blend",
+      "sha256": "bceaa7e005170b70ddac3feaffa40a24a71b38c461c390fab7c20c00ae991ba9"
+    },
+    {
+      "path": "outputs/wip/kagari_pattern_trial2_prototype.blend",
+      "sha256": "52d59ac5c869cca307aa2f18c0542116263a578e767b7a6e897f073fc9c5cef2"
+    },
+    {
+      "path": "outputs/wip/kagari_pattern_trial3_prototype.blend",
+      "sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7"
+    },
+    {
+      "path": "outputs/wip/kagari_pattern_trial1_source.blend",
+      "sha256": "ceefa77d4acf0cd26cf390c5b8039d1f71ba313e953e8fa991c73d46e164478b"
+    },
+    {
+      "path": "outputs/wip/kagari_pattern_trial2_source.blend",
+      "sha256": "df29a79ac07cfc88419a00071e70f5a48f399e4b9a1134fbe66e878965c43319"
+    },
+    {
+      "path": "outputs/wip/kagari_pattern_trial3_source.blend",
+      "sha256": "cfc1c49fcde3963cd6a5947f29c121f755baffa70332403bcbbe3b95035800a6"
+    },
+    {
+      "path": "scripts/build_pattern_feasibility.py",
+      "sha256": "15c8f9a5328622a8ae01d5beda1e9e9a84e5df297ff3ea8fc998b1397cc01068"
+    },
+    {
+      "path": "scripts/render_pattern_comparison.py",
+      "sha256": "f92a79bf81d2ac949428c32fddfba2f7036d2d219e95754449abbd310d738875"
+    },
+    {
+      "path": "scripts/verify_pattern_feasibility.py",
+      "sha256": "a5bb58cce401baaa7b33e293e790e62b0ccecb55ffc2dbde3c778558f4f9ba1e"
+    },
+    {
+      "path": "scripts/publish_pattern_feasibility.py",
+      "sha256": "b01392e3a1a5c8b119005337520058829b6bd9816180623ca05f6cf0145bbe28"
+    },
+    {
+      "path": "scripts/inspect_pattern_source.py",
+      "sha256": "c4f1774c5946e7f5e2b43d2b0c1df43b6d0e5a5615b8c090e78fcdbeb3d33139"
+    },
+    {
+      "path": "scripts/inspect_pattern_render_settings.py",
+      "sha256": "89d7a20c8aa4cd62b3d27da88e36bf4c57560ed70527dbf167554838540f01e4"
+    },
+    {
+      "path": "outputs/backups/pattern_feasibility_start/DELIVERY.md",
+      "sha256": "030396b3bb3d43f8ea8b426d66f9b4406301e99a92a0793f545e4207da163934"
+    },
+    {
+      "path": "outputs/backups/pattern_feasibility_start/kagari_garment_recovery_v2.blend",
+      "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d"
+    },
+    {
+      "path": "outputs/backups/pattern_feasibility_start/project_state.json",
+      "sha256": "c1cc0aed4f4c03759f363c66988b19d3ca69865e84b6661513189bc1239f8ab4"
+    }
+  ],
+  "delivery_manifest": "outputs/DELIVERY.md",
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "approvals": {
+    "concept": {
+      "status": "PENDING_EVIDENCE",
+      "evidence": null
+    },
+    "face": {
+      "status": "PENDING_EVIDENCE",
+      "evidence": null
+    },
+    "garment_clay": {
+      "status": "NOT_APPROVED",
+      "evidence": null
+    },
+    "rig": {
+      "status": "NOT_TESTED",
+      "evidence": null
+    },
+    "vrm_export": {
+      "status": "NOT_TESTED",
+      "evidence": null
+    },
+    "webcam": {
+      "status": "NOT_TESTED",
+      "evidence": null
+    },
+    "obs": {
+      "status": "NOT_TESTED",
+      "evidence": null
+    },
+    "full_avatar": {
+      "status": "NOT_APPROVED",
+      "evidence": null
+    },
+    "garment_geometry_recovery": {
+      "status": "NOT_APPROVED",
+      "evidence": null
+    },
+    "pattern_garment_prototype": {
+      "status": "NOT_APPROVED"
+    }
+  },
+  "historical_approval_note": "character_brief reports prior concept approval; original explicit sign-off message is not linked. The current user task authorizes this clay experiment, not aesthetic approval.",
+  "tool_inventory": "outputs/reports/v03_merge/tool_inventory.json",
+  "blocking_issues": [
+    "Pattern prototype failed collar overlap, shoulder continuity and neutral sleeve silhouette",
+    "Sewing gaps remain before welding; physical convergence not certified",
+    "Ordinary armature-only stress fails; simulated snapshots do not establish VRM deformation",
+    "Full avatar Recovery v2 remains failed and unchanged",
+    "Human artistic approval absent; export/runtime remain untested"
+  ],
+  "updated_by": "publish_pattern_feasibility.py; limited study stopped after three configurations; human art approval absent",
+  "user_direction": {
+    "evidence": "outputs/reports/garment_reset_final/user_direction.md",
+    "cycle03_artistic_status": "REJECTED_BY_USER",
+    "reviewed_artifact": "outputs/wip/kagari_v03_clay_03.blend",
+    "reviewed_artifact_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+    "skills_development": "PAUSED_BY_USER",
+    "design_priority": "Kagari anime concept silhouette and garment layers",
+    "incremental_cycle04_on_old_geometry": "NOT_AUTHORIZED",
+    "decorations_and_production_materials": "NOT_AUTHORIZED_BEFORE_GARMENT_APPROVAL",
+    "software_installation": "REQUIRES_USER_PERMISSION",
+    "panel_prototype_human_approval": "NOT_APPROVED"
+  },
+  "agent_visual_review": "FAILED_VISIBLE_IMPROVEMENT_TEST",
+  "current_candidate_role": "ISOLATED_MANNEQUIN_GARMENT_EXPERIMENT",
+  "current_character_source": {
+    "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+    "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+    "version": "garment-geometry-recovery-v2",
+    "role": "PRESERVED_FULL_AVATAR_FAILED_GARMENT_BASELINE"
+  },
+  "previous_candidate": {
+    "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+    "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+    "version": "garment-geometry-recovery-v2"
+  },
+  "construction_authorization": {
+    "evidence": "outputs/reports/pattern_feasibility/user_request.md",
+    "source": "Latest human task: Pattern-Based Garment Modeling Feasibility Study",
+    "scope": "Copied upper mannequin, one collar, one sleeve and shoulder connection; research, renders, audit and report only",
+    "full_character": false,
+    "software_install": false,
+    "stop_for_human_art_review": true
+  },
+  "full_model_construction": "COMPLETED_AS_WIP",
+  "body_render_surface": {
+    "active": "Pattern_Duplicate_Upper_Mannequin",
+    "role": "Cropped duplicate in experimental scene only",
+    "full_avatar_source_body": "Body_GarmentDisplay",
+    "source_data_intact": true
+  },
+  "latest_report": {
+    "path": "outputs/reports/pattern_feasibility/report.md",
+    "sha256": "3d70d35f0bdf7222ebadd0f269616135997071fe55940d4f8c796304411f8414",
+    "language": "vi",
+    "candidate_sha256": "07bc9add34e23df5320ff0dfdc36af7c70b9172df778342313f804b2dcdde5a7",
+    "scope": "Pattern sewing feasibility, isolated upper mannequin; failed art; abandon current automatic setup"
+  },
+  "comparison_source": {
+    "path": "outputs/wip/kagari_garment_recovery_v2.blend",
+    "sha256": "9006f5c03019ad0fd4aeeeba1c97b2a30e96f65ac1b8fa0d9093000664017d6d",
+    "version": "garment-geometry-recovery-v2"
+  },
+  "agent_recommendation": "ABANDON",
+  "garment_recovery": {
+    "iterations_completed": 2,
+    "iteration_limit": 2,
+    "geometry_work_stopped": true,
+    "recommendation": "FAIL",
+    "scope_expanded": false,
+    "construction_plan": "outputs/reports/garment_recovery_v1/construction_plan.md"
+  },
+  "pattern_feasibility": {
+    "configurations_completed": 3,
+    "modeling_stopped": true,
+    "recommendation": "ABANDON",
+    "scope": "Current fully automated panel/sewing configuration only",
+    "full_character_reconstruction": false,
+    "source_setup": {
+      "path": "outputs/wip/kagari_pattern_trial3_source.blend",
+      "sha256": "cfc1c49fcde3963cd6a5947f29c121f755baffa70332403bcbbe3b95035800a6"
+    },
+    "render_manifest": "outputs/reports/pattern_feasibility/trial3/render_manifest.json",
+    "human_approval": "NOT_APPROVED"
+  },
+  "preserved_full_avatar_body_render_surface": {
+    "active": "Body_GarmentDisplay",
+    "original": "Body",
+    "original_data_intact": true,
+    "archived_original_must_be_excluded_from_export": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "candidate_sha256": "131d3c25f8c4b37c81786bfe2af970c254df256c20c8e114ed6de9f26b652af2",
+  "renders": [
+    {
+      "name": "front_detail",
+      "path": "outputs/previews/concept_garment_v3/front_detail_clay.png",
+      "image_sha256": "c2ee83b4668a38d7ca30796bcb33b5dc4bceeb69ca8f5af373136ef0c887e183",
+      "artifact_sha256": "131d3c25f8c4b37c81786bfe2af970c254df256c20c8e114ed6de9f26b652af2",
+      "camera_location": [
+        0,
+        -2,
+        1.17
+      ],
+      "camera_target": [
+        0.035,
+        0,
+        1.17
+      ],
+      "ortho_scale": 0.52,
+      "note": "Additional construction close-up; sleeve cropped. Full silhouette and pose views remain in render_manifest.json."
+    },
+    {
+      "name": "three_quarter_detail",
+      "path": "outputs/previews/concept_garment_v3/three_quarter_detail_clay.png",
+      "image_sha256": "efb2b53e25bd9ac7a83b42d9f1462f74e2a599307f8ad38076b548132d5a56bd",
+      "artifact_sha256": "131d3c25f8c4b37c81786bfe2af970c254df256c20c8e114ed6de9f26b652af2",
+      "camera_location": [
+        1.2,
+        -1.7,
+        1.19
+      ],
+      "camera_target": [
+        0.035,
+        0,
+        1.17
+      ],
+      "ortho_scale": 0.52,
+      "note": "Additional construction close-up; sleeve cropped. Full silhouette and pose views remain in render_manifest.json."
+    }
+  ]
+}

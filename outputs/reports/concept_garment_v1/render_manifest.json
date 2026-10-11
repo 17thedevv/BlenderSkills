@@ -1,0 +1,168 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_concept_garment_v1.blend",
+    "sha256": "0fd6b28bc5a184f511c879069c73e726748710ef65b26e0d14c34a562676d0b8",
+    "version": "concept-directed-controlled-sheets-v1"
+  },
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_03.blend",
+    "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051"
+  },
+  "prior_study": {
+    "path": "outputs/wip/kagari_panel_drape_reset_final.blend",
+    "sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2"
+  },
+  "reference": {
+    "path": "outputs/design/concept_option2_kagari.jpg",
+    "sha256": "adef163e41f93b12151786b44555c7e6555021e2173947ebb0e52f950c43cc64"
+  },
+  "renders": [
+    {
+      "view": "front",
+      "path": "outputs/previews/concept_garment_v1/front_clay.png",
+      "image_sha256": "6bbca6238cf73c9f1880808caf2f0cd5ad55cdca1eba7c0525a8ebb6334972b9",
+      "artifact_sha256": "0fd6b28bc5a184f511c879069c73e726748710ef65b26e0d14c34a562676d0b8",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.0750000476837158
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        5.231515221026939e-11,
+        -0.032488565891981125
+      ],
+      "ortho_scale": 0.8999999761581421,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -1.0471975803375244
+      ],
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "three_quarter",
+      "path": "outputs/previews/concept_garment_v1/three_quarter_clay.png",
+      "image_sha256": "1ba68685ee1602e1f983cc087d041bfcc4ce5f411e923db03bb8ac774d29ea0a",
+      "artifact_sha256": "0fd6b28bc5a184f511c879069c73e726748710ef65b26e0d14c34a562676d0b8",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.1399999856948853
+      ],
+      "camera_rotation": [
+        1.5390079021453857,
+        -2.2041481528844997e-08,
+        0.5886810421943665
+      ],
+      "ortho_scale": 0.8999999761581421,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -1.0471975803375244
+      ],
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "side",
+      "path": "outputs/previews/concept_garment_v1/side_clay.png",
+      "image_sha256": "6fad5d2fc01ad780c869e33c6b1b3209654b9ab0426b9237472393b3d2bf73d5",
+      "artifact_sha256": "0fd6b28bc5a184f511c879069c73e726748710ef65b26e0d14c34a562676d0b8",
+      "camera_location": [
+        2.0,
+        0.0,
+        1.0750000476837158
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 0.8999999761581421,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -1.0471975803375244
+      ],
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "back",
+      "path": "outputs/previews/concept_garment_v1/back_clay.png",
+      "image_sha256": "8573e6625d5e7531e3b7bcbb10f835eca8510f38bbe8743c1b08a3101dbbb3c3",
+      "artifact_sha256": "0fd6b28bc5a184f511c879069c73e726748710ef65b26e0d14c34a562676d0b8",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.0750000476837158
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        6.589807099999234e-08,
+        -3.1091041564941406
+      ],
+      "ortho_scale": 0.8999999761581421,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -1.0471975803375244
+      ],
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "arm_raised",
+      "path": "outputs/previews/concept_garment_v1/arm_raised_clay.png",
+      "image_sha256": "d816ff9daaec641062b3b52bdbf53bbcb87e26627e75d4b3a776358258bd0bf8",
+      "artifact_sha256": "0fd6b28bc5a184f511c879069c73e726748710ef65b26e0d14c34a562676d0b8",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.0750000476837158
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        5.231515221026939e-11,
+        -0.032488565891981125
+      ],
+      "ortho_scale": 0.8999999761581421,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    },
+    {
+      "view": "arm_horizontal",
+      "path": "outputs/previews/concept_garment_v1/arm_horizontal_clay.png",
+      "image_sha256": "e34e595735148ba0f7eb03e668ac8a08b962cc44c78b8a4599fc41a895045ad1",
+      "artifact_sha256": "0fd6b28bc5a184f511c879069c73e726748710ef65b26e0d14c34a562676d0b8",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.0750000476837158
+      ],
+      "camera_rotation": [
+        1.5707964897155762,
+        5.231515221026939e-11,
+        -0.032488565891981125
+      ],
+      "ortho_scale": 0.8999999761581421,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -2.91409261166109e-08
+      ],
+      "pose_type": "ORDINARY_ARMATURE_ONLY"
+    }
+  ],
+  "mannequin_neutral_arm_degrees_below_horizontal": 60,
+  "cloth_simulation_used": false,
+  "source_unchanged": true,
+  "prototype_objects": [
+    "Concept_Torso_One_Long_Sleeve",
+    "Concept_Continuous_Crossed_Collar"
+  ],
+  "human_approval": "NOT_APPROVED",
+  "decision": "REQUIRES_HUMAN_ART_REVIEW"
+}

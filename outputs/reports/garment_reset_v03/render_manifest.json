@@ -1,0 +1,141 @@
+{
+  "candidate": {
+    "path": "outputs/wip/kagari_panel_drape_prototype_03.blend",
+    "sha256": "8fa2b333fb8d4d02dec3db2a39a8fb43f7513c0e2124bab5294f7350c6fad519",
+    "version": "panel-drape-prototype-03"
+  },
+  "baseline": {
+    "path": "outputs/wip/kagari_v03_clay_03.blend",
+    "sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051"
+  },
+  "renders": [
+    {
+      "view": "front",
+      "path": "outputs/previews/garment_reset_v03/prototype_front_clay.png",
+      "image_sha256": "d87ce38f3c121d4e40ed1196014dc29e09ded607ccaf83e507bf0fe6f29b9be6",
+      "artifact_sha256": "8fa2b333fb8d4d02dec3db2a39a8fb43f7513c0e2124bab5294f7350c6fad519",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        -0.0,
+        -0.03498572111129761
+      ],
+      "ortho_scale": 0.8399999737739563,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY; no cloth solver or corrective morph after freeze"
+    },
+    {
+      "view": "three_quarter",
+      "path": "outputs/previews/garment_reset_v03/prototype_three_quarter_clay.png",
+      "image_sha256": "9d76d53d9133032e6dee8ca4c0614bb5b1cf055910fa7564e7cb9528b47c64d5",
+      "artifact_sha256": "8fa2b333fb8d4d02dec3db2a39a8fb43f7513c0e2124bab5294f7350c6fad519",
+      "camera_location": [
+        1.2000000476837158,
+        -1.7000000476837158,
+        1.2000000476837158
+      ],
+      "camera_rotation": [
+        1.5512036085128784,
+        -5.1393200806160166e-08,
+        0.5866439938545227
+      ],
+      "ortho_scale": 0.8399999737739563,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY; no cloth solver or corrective morph after freeze"
+    },
+    {
+      "view": "side",
+      "path": "outputs/previews/garment_reset_v03/prototype_side_clay.png",
+      "image_sha256": "cb3a3719df8ce47f476f3ad19b8905f78de6cb70b36e11f28d4e020d9e260b06",
+      "artifact_sha256": "8fa2b333fb8d4d02dec3db2a39a8fb43f7513c0e2124bab5294f7350c6fad519",
+      "camera_location": [
+        2.0,
+        0.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 0.8399999737739563,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY; no cloth solver or corrective morph after freeze"
+    },
+    {
+      "view": "back",
+      "path": "outputs/previews/garment_reset_v03/prototype_back_clay.png",
+      "image_sha256": "682f49d794fcf204eb19f11d6efa5b331e78115cfa11a88528d9ad0247181277",
+      "artifact_sha256": "8fa2b333fb8d4d02dec3db2a39a8fb43f7513c0e2124bab5294f7350c6fad519",
+      "camera_location": [
+        0.0,
+        2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        3.060355879824783e-08,
+        -3.106606960296631
+      ],
+      "ortho_scale": 0.8399999737739563,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY; no cloth solver or corrective morph after freeze"
+    },
+    {
+      "view": "arm_raised",
+      "path": "outputs/previews/garment_reset_v03/prototype_arm_raised_clay.png",
+      "image_sha256": "766a03a25f73171bfcba6ef27bc01051fb2f779d01cda5da60d7a2bd341646e9",
+      "artifact_sha256": "8fa2b333fb8d4d02dec3db2a39a8fb43f7513c0e2124bab5294f7350c6fad519",
+      "camera_location": [
+        0.0,
+        -2.0,
+        1.159999966621399
+      ],
+      "camera_rotation": [
+        1.570796251296997,
+        -0.0,
+        -0.03498572111129761
+      ],
+      "ortho_scale": 0.8399999737739563,
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -1.457046305830545e-08
+      ],
+      "pose_type": "ORDINARY_ARMATURE_SKINNING_ONLY; no cloth solver or corrective morph after freeze"
+    }
+  ],
+  "mannequin_pose": "Duplicate upper arms 30 degrees down from rest; test left raised by additional 30 degrees to horizontal.",
+  "decision": "REQUIRES_HUMAN_ART_REVIEW",
+  "source_unchanged": true,
+  "original_character_geometry_modified": false,
+  "prototype_objects": [
+    "Panel_Torso_One_Sleeve",
+    "Sewn_Overlapping_Collar"
+  ],
+  "construction_space": "New mannequin study, not a replacement full character",
+  "raw_setup": {
+    "path": "outputs/wip/kagari_panel_seams_setup_03.blend",
+    "sha256": "1218953b13ebe774bb26cf87ba0d88b8b49611ccb5102b94e8edc12b87a5a3af"
+  }
+}

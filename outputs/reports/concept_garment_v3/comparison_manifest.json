@@ -1,0 +1,272 @@
+{
+  "candidate_sha256": "131d3c25f8c4b37c81786bfe2af970c254df256c20c8e114ed6de9f26b652af2",
+  "comparisons": [
+    {
+      "label": "prior_panel",
+      "source": "outputs/wip/kagari_panel_drape_reset_final.blend",
+      "source_sha256": "bd8e9adbe4a38b77facc32449f44d0627dd01bdbebe8fe81181344c7ea3f17a2",
+      "renders": [
+        {
+          "view": "front",
+          "path": "outputs/previews/concept_garment_v3/prior_panel_front_clay.png",
+          "image_sha256": "57944ed0dd7ab9ccd785d30a9e0b2c254ebe684f5e8145268937a9acec03c0c6",
+          "camera_location": [
+            0.0,
+            -2.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707964897155762,
+            2.105369878435681e-09,
+            -0.04995839670300484
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -1.0471975803375244
+          ]
+        },
+        {
+          "view": "three_quarter",
+          "path": "outputs/previews/concept_garment_v3/prior_panel_three_quarter_clay.png",
+          "image_sha256": "15f51a9d615b6479d59a481cde6312e15c67beb79f613a52e460b34d68e31fde",
+          "camera_location": [
+            1.2000000476837158,
+            -1.7000000476837158,
+            1.149999976158142
+          ],
+          "camera_rotation": [
+            1.5510443449020386,
+            -9.410605628090707e-10,
+            0.5743047595024109
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -1.0471975803375244
+          ]
+        },
+        {
+          "view": "side",
+          "path": "outputs/previews/concept_garment_v3/prior_panel_side_clay.png",
+          "image_sha256": "594e9f9af417c5866fa65af3ed1ac020c4ab2df82a2ba413ac0e62ac53f83fe5",
+          "camera_location": [
+            2.0,
+            0.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707963705062866,
+            -0.0,
+            1.5707963705062866
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -1.0471975803375244
+          ]
+        },
+        {
+          "view": "back",
+          "path": "outputs/previews/concept_garment_v3/prior_panel_back_clay.png",
+          "image_sha256": "e150543dac47cf887c204641c8e2b3570d625b207c645724fec67b685cf2c8f5",
+          "camera_location": [
+            0.0,
+            2.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707964897155762,
+            1.3166778778384014e-08,
+            -3.0916342735290527
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -1.0471975803375244
+          ]
+        },
+        {
+          "view": "arm_raised",
+          "path": "outputs/previews/concept_garment_v3/prior_panel_arm_raised_clay.png",
+          "image_sha256": "29323d1509c5b09382824ee8e819b6383373d1e2d64835c58bbbaec33776c97e",
+          "camera_location": [
+            0.0,
+            -2.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707964897155762,
+            2.105369878435681e-09,
+            -0.04995839670300484
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -0.5235987901687622
+          ]
+        },
+        {
+          "view": "arm_horizontal",
+          "path": "outputs/previews/concept_garment_v3/prior_panel_arm_horizontal_clay.png",
+          "image_sha256": "b415702f6f9b608d0aa3c9e380fdb91b4453d5924cdd07eeb244bbe84a0552ea",
+          "camera_location": [
+            0.0,
+            -2.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707964897155762,
+            2.105369878435681e-09,
+            -0.04995839670300484
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -2.91409261166109e-08
+          ]
+        }
+      ]
+    },
+    {
+      "label": "cycle03",
+      "source": "outputs/wip/kagari_v03_clay_03.blend",
+      "source_sha256": "4a3dc7560df7d3f0db452a4d0c06faf55238bce2fd045ed23f8c27ac75dd6051",
+      "renders": [
+        {
+          "view": "front",
+          "path": "outputs/previews/concept_garment_v3/cycle03_front_clay.png",
+          "image_sha256": "359184f8ef0a6e8061122183cb099b03f507b0c187f2d381c67f4844744e55b1",
+          "camera_location": [
+            0.0,
+            -2.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707964897155762,
+            2.105369878435681e-09,
+            -0.04995839670300484
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -1.0471975803375244
+          ]
+        },
+        {
+          "view": "three_quarter",
+          "path": "outputs/previews/concept_garment_v3/cycle03_three_quarter_clay.png",
+          "image_sha256": "38a5850f356c51412665b8b0881d711f338684e9a345cc46ec2419de3e020691",
+          "camera_location": [
+            1.2000000476837158,
+            -1.7000000476837158,
+            1.149999976158142
+          ],
+          "camera_rotation": [
+            1.5510443449020386,
+            -9.410605628090707e-10,
+            0.5743047595024109
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -1.0471975803375244
+          ]
+        },
+        {
+          "view": "side",
+          "path": "outputs/previews/concept_garment_v3/cycle03_side_clay.png",
+          "image_sha256": "94477dbe7ef0727d94076ed00340908a3e573773a8f0f838749efbedd0260fe2",
+          "camera_location": [
+            2.0,
+            0.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707963705062866,
+            -0.0,
+            1.5707963705062866
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -1.0471975803375244
+          ]
+        },
+        {
+          "view": "back",
+          "path": "outputs/previews/concept_garment_v3/cycle03_back_clay.png",
+          "image_sha256": "0c0ee320aa847a9c3046f678aca2a99d93aab67c051999d6d7264d2eb677baf7",
+          "camera_location": [
+            0.0,
+            2.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707964897155762,
+            1.3166778778384014e-08,
+            -3.0916342735290527
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -1.0471975803375244
+          ]
+        },
+        {
+          "view": "arm_raised",
+          "path": "outputs/previews/concept_garment_v3/cycle03_arm_raised_clay.png",
+          "image_sha256": "a2adb57aa6a4b895a645e8d3b445d16967883f1e416744d4c6d3278bc5abb286",
+          "camera_location": [
+            0.0,
+            -2.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707964897155762,
+            2.105369878435681e-09,
+            -0.04995839670300484
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -0.5235987901687622
+          ]
+        },
+        {
+          "view": "arm_horizontal",
+          "path": "outputs/previews/concept_garment_v3/cycle03_arm_horizontal_clay.png",
+          "image_sha256": "46bd28d04a2cd36e213d8cd1008c2603e49aeeae9ca7361efd0b2b5c7fe6b58f",
+          "camera_location": [
+            0.0,
+            -2.0,
+            1.1100000143051147
+          ],
+          "camera_rotation": [
+            1.5707964897155762,
+            2.105369878435681e-09,
+            -0.04995839670300484
+          ],
+          "ortho_scale": 1.1799999475479126,
+          "arm_L_euler": [
+            0.0,
+            -0.0,
+            -2.91409261166109e-08
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Same duplicate mannequin, arms-down60 pose, camera and neutral clay. Previous panel study authored at down30; these images test its existing skinning at the new pose. Cycle03 includes two sleeves and obi, new study only one sleeve and no obi; not equal coverage."
+}

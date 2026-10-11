@@ -1,0 +1,283 @@
+{
+  "candidate": "D:\\Project-17\\blender\\outputs\\wip\\kagari_concept_garment_v3.blend",
+  "candidate_sha256": "131d3c25f8c4b37c81786bfe2af970c254df256c20c8e114ed6de9f26b652af2",
+  "objects": [
+    {
+      "object": "Concept_Torso_One_Long_Sleeve",
+      "vertices": 4378,
+      "faces": 4258,
+      "raw_triangles": 8507,
+      "surface_components": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 251,
+      "interior_nonmanifold_edges": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "modifier_types": [
+        "ARMATURE",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "object": "Concept_Continuous_Crossed_Collar",
+      "vertices": 679,
+      "faces": 576,
+      "raw_triangles": 1152,
+      "surface_components": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 204,
+      "interior_nonmanifold_edges": 0,
+      "missing_weights": [],
+      "non_normalized_weights": [],
+      "over_four_influences": [],
+      "modifier_types": [
+        "ARMATURE",
+        "SOLIDIFY"
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "pose": "concept_neutral_60_down",
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -1.0471975803375244
+      ],
+      "objects": [
+        {
+          "object": "Concept_Torso_One_Long_Sleeve",
+          "finite_coordinates": true,
+          "evaluated_triangles": 17516,
+          "bounds": [
+            [
+              -0.12267359346151352,
+              0.3416415750980377
+            ],
+            [
+              -0.1387491673231125,
+              0.0955289751291275
+            ],
+            [
+              0.7117881178855896,
+              1.2707444429397583
+            ]
+          ],
+          "body_proximity_risk_samples": 3,
+          "risk_examples": [
+            {
+              "vertex": 4316,
+              "signed_nearest_distance": -0.004249723089742474
+            },
+            {
+              "vertex": 8663,
+              "signed_nearest_distance": -0.0021576356375589967
+            },
+            {
+              "vertex": 8694,
+              "signed_nearest_distance": -0.005129597993800417
+            }
+          ]
+        },
+        {
+          "object": "Concept_Continuous_Crossed_Collar",
+          "finite_coordinates": true,
+          "evaluated_triangles": 2712,
+          "bounds": [
+            [
+              -0.07376234233379364,
+              0.07376409322023392
+            ],
+            [
+              -0.14327144622802734,
+              0.08184236288070679
+            ],
+            [
+              0.974829375743866,
+              1.2794567346572876
+            ]
+          ],
+          "body_proximity_risk_samples": 2,
+          "risk_examples": [
+            {
+              "vertex": 1105,
+              "signed_nearest_distance": -0.002384827079367824
+            },
+            {
+              "vertex": 1287,
+              "signed_nearest_distance": -0.0023846966214478016
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "moderate_raise_30",
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -0.5235987901687622
+      ],
+      "objects": [
+        {
+          "object": "Concept_Torso_One_Long_Sleeve",
+          "finite_coordinates": true,
+          "evaluated_triangles": 17516,
+          "bounds": [
+            [
+              -0.12267359346151352,
+              0.4909883439540863
+            ],
+            [
+              -0.1387491673231125,
+              0.09552903473377228
+            ],
+            [
+              0.8490346670150757,
+              1.2707444429397583
+            ]
+          ],
+          "body_proximity_risk_samples": 0,
+          "risk_examples": []
+        },
+        {
+          "object": "Concept_Continuous_Crossed_Collar",
+          "finite_coordinates": true,
+          "evaluated_triangles": 2712,
+          "bounds": [
+            [
+              -0.07376234233379364,
+              0.07368223369121552
+            ],
+            [
+              -0.14327144622802734,
+              0.08184236288070679
+            ],
+            [
+              0.974829375743866,
+              1.2794567346572876
+            ]
+          ],
+          "body_proximity_risk_samples": 2,
+          "risk_examples": [
+            {
+              "vertex": 1105,
+              "signed_nearest_distance": -0.00228059985965956
+            },
+            {
+              "vertex": 1287,
+              "signed_nearest_distance": -0.0023846966214478016
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "horizontal_stress_60",
+      "arm_L_euler": [
+        0.0,
+        -0.0,
+        -2.91409261166109e-08
+      ],
+      "objects": [
+        {
+          "object": "Concept_Torso_One_Long_Sleeve",
+          "finite_coordinates": true,
+          "evaluated_triangles": 17516,
+          "bounds": [
+            [
+              -0.12267359346151352,
+              0.5877344012260437
+            ],
+            [
+              -0.1387491673231125,
+              0.09552911669015884
+            ],
+            [
+              0.9748513698577881,
+              1.2707444429397583
+            ]
+          ],
+          "body_proximity_risk_samples": 18,
+          "risk_examples": [
+            {
+              "vertex": 1436,
+              "signed_nearest_distance": -0.002160796138468868
+            },
+            {
+              "vertex": 1481,
+              "signed_nearest_distance": -0.0054449412164103705
+            },
+            {
+              "vertex": 3531,
+              "signed_nearest_distance": -0.0028749652475426046
+            },
+            {
+              "vertex": 3532,
+              "signed_nearest_distance": -0.002547132708969002
+            },
+            {
+              "vertex": 3561,
+              "signed_nearest_distance": -0.00283393792429365
+            },
+            {
+              "vertex": 5813,
+              "signed_nearest_distance": -0.0022566398470189597
+            },
+            {
+              "vertex": 5814,
+              "signed_nearest_distance": -0.003569852824512054
+            },
+            {
+              "vertex": 5859,
+              "signed_nearest_distance": -0.006915183967066696
+            },
+            {
+              "vertex": 7880,
+              "signed_nearest_distance": -0.002192507803101762
+            },
+            {
+              "vertex": 7881,
+              "signed_nearest_distance": -0.0022584862230985436
+            }
+          ]
+        },
+        {
+          "object": "Concept_Continuous_Crossed_Collar",
+          "finite_coordinates": true,
+          "evaluated_triangles": 2712,
+          "bounds": [
+            [
+              -0.07376234233379364,
+              0.07359050214290619
+            ],
+            [
+              -0.14327144622802734,
+              0.08184236288070679
+            ],
+            [
+              0.974829375743866,
+              1.2794567346572876
+            ]
+          ],
+          "body_proximity_risk_samples": 1,
+          "risk_examples": [
+            {
+              "vertex": 1287,
+              "signed_nearest_distance": -0.0023846966214478016
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_unchanged": true,
+  "technical_status": "GEOMETRY_WEIGHTS_FINITE_POSES_CHECKED",
+  "technical_errors": [],
+  "body_proximity_method": "Nearest-normal signed distance on cropped mannequin, evaluated thickness vertices, only z>.98 and distance<25mm; not a robust intersection test or whole-sleeve certificate.",
+  "self_intersections": "NOT_CERTIFIED",
+  "vrm_export": "NOT_TESTED",
+  "runtime": "NOT_TESTED",
+  "art_approval": "NOT_APPROVED"
+}

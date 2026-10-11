@@ -1,0 +1,25 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Info: Total files 57 | Changed 57 | Failed 0
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\front_clay.png'
+Time: 00:02.18 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\three_quarter_clay.png'
+Time: 00:00.11 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\side_clay.png'
+Time: 00:00.11 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\back_clay.png'
+Time: 00:00.12 (Saving: 00:00.07)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\arm_raised_clay.png'
+Time: 00:00.10 (Saving: 00:00.06)
+
+Saved: 'D:\Project-17\blender\outputs\previews\concept_garment_v3\arm_horizontal_clay.png'
+Time: 00:00.11 (Saving: 00:00.07)
+
+Info: Saved "kagari_concept_garment_v3.blend"
+CONCEPT_STUDY_SAVED 131d3c25f8c4b37c81786bfe2af970c254df256c20c8e114ed6de9f26b652af2
+
+Blender quit

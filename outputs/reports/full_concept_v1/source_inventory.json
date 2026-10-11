@@ -1,0 +1,4372 @@
+{
+  "objects": [
+    {
+      "name": "Face",
+      "hidden": false,
+      "vertices": 4709,
+      "materials": [
+        "N00_000_00_FaceMouth_00_FACE (Instance)",
+        "N00_000_00_EyeIris_00_EYE (Instance)",
+        "N00_000_00_EyeHighlight_00_EYE (Instance)",
+        "N00_000_00_Face_00_SKIN (Instance)",
+        "N00_000_00_EyeWhite_00_EYE (Instance)",
+        "N00_000_00_FaceBrow_00_FACE (Instance)",
+        "N00_000_00_FaceEyelash_00_FACE (Instance)",
+        "N00_000_00_FaceEyeline_00_FACE (Instance)"
+      ],
+      "bounds": [
+        [
+          -0.09251705557107925,
+          0.09251698851585388
+        ],
+        [
+          -0.09724031388759613,
+          0.045690715312957764
+        ],
+        [
+          1.28603994846344,
+          1.500766634941101
+        ]
+      ],
+      "shape_keys": [
+        "Basis",
+        "Fcl_ALL_Neutral",
+        "Fcl_ALL_Angry",
+        "Fcl_ALL_Fun",
+        "Fcl_ALL_Joy",
+        "Fcl_ALL_Sorrow",
+        "Fcl_ALL_Surprised",
+        "Fcl_BRW_Angry",
+        "Fcl_BRW_Fun",
+        "Fcl_BRW_Joy",
+        "Fcl_BRW_Sorrow",
+        "Fcl_BRW_Surprised",
+        "Fcl_EYE_Natural",
+        "Fcl_EYE_Angry",
+        "Fcl_EYE_Close",
+        "Fcl_EYE_Close_R",
+        "Fcl_EYE_Close_L",
+        "Fcl_EYE_Fun",
+        "Fcl_EYE_Joy",
+        "Fcl_EYE_Joy_R",
+        "Fcl_EYE_Joy_L",
+        "Fcl_EYE_Sorrow",
+        "Fcl_EYE_Surprised",
+        "Fcl_EYE_Spread",
+        "Fcl_EYE_Iris_Hide",
+        "Fcl_EYE_Highlight_Hide",
+        "Fcl_MTH_Close",
+        "Fcl_MTH_Up",
+        "Fcl_MTH_Down",
+        "Fcl_MTH_Angry",
+        "Fcl_MTH_Small",
+        "Fcl_MTH_Large",
+        "Fcl_MTH_Neutral",
+        "Fcl_MTH_Fun",
+        "Fcl_MTH_Joy",
+        "Fcl_MTH_Sorrow",
+        "Fcl_MTH_Surprised",
+        "Fcl_MTH_SkinFung",
+        "Fcl_MTH_SkinFung_R",
+        "Fcl_MTH_SkinFung_L",
+        "Fcl_MTH_A",
+        "Fcl_MTH_I",
+        "Fcl_MTH_U",
+        "Fcl_MTH_E",
+        "Fcl_MTH_O",
+        "Fcl_HA_Hide",
+        "Fcl_HA_Fung1",
+        "Fcl_HA_Fung1_Low",
+        "Fcl_HA_Fung1_Up",
+        "Fcl_HA_Fung2",
+        "Fcl_HA_Fung2_Low",
+        "Fcl_HA_Fung2_Up",
+        "Fcl_HA_Fung3",
+        "Fcl_HA_Fung3_Up",
+        "Fcl_HA_Fung3_Low",
+        "Fcl_HA_Short",
+        "Fcl_HA_Short_Up",
+        "Fcl_HA_Short_Low"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ],
+        [
+          "MToon Outline (N00_000_00_Face_00_SKIN (Instance))",
+          "NODES"
+        ]
+      ]
+    },
+    {
+      "name": "Body",
+      "hidden": false,
+      "vertices": 7914,
+      "materials": [
+        "N00_000_00_Body_00_SKIN (Instance)",
+        "N00_005_01_Shoes_01_CLOTH (Instance)",
+        "N00_007_01_Tops_01_CLOTH (Instance)",
+        "N00_001_03_Bottoms_01_CLOTH (Instance)",
+        "Kagari_Detail_Inner_Ivory",
+        "Kagari_Detail_Clean_Neck"
+      ],
+      "bounds": [
+        [
+          -0.6723690032958984,
+          0.6723690032958984
+        ],
+        [
+          -0.17771881818771362,
+          0.2492142766714096
+        ],
+        [
+          -7.808329769432021e-07,
+          1.5078970193862915
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ],
+        [
+          "MToon Outline (N00_007_01_Tops_01_CLOTH (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_005_01_Shoes_01_CLOTH (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_001_03_Bottoms_01_CLOTH (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_000_00_Body_00_SKIN (Instance))",
+          "NODES"
+        ]
+      ]
+    },
+    {
+      "name": "Hair",
+      "hidden": false,
+      "vertices": 5611,
+      "materials": [
+        "N00_000_Hair_00_HAIR_01 (Instance)",
+        "N00_000_Hair_00_HAIR_02 (Instance)",
+        "N00_000_Hair_00_HAIR_03 (Instance)",
+        "N00_000_Hair_00_HAIR_04 (Instance)",
+        "N00_000_Hair_00_HAIR_05 (Instance)",
+        "N00_000_Hair_00_HAIR_06 (Instance)"
+      ],
+      "bounds": [
+        [
+          -0.24465031921863556,
+          0.0828154981136322
+        ],
+        [
+          -0.10405556857585907,
+          0.33012741804122925
+        ],
+        [
+          0.7351964116096497,
+          1.523067831993103
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ],
+        [
+          "MToon Outline (N00_000_Hair_00_HAIR_06 (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_000_Hair_00_HAIR_05 (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_000_Hair_00_HAIR_04 (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_000_Hair_00_HAIR_03 (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_000_Hair_00_HAIR_02 (Instance))",
+          "NODES"
+        ],
+        [
+          "MToon Outline (N00_000_Hair_00_HAIR_01 (Instance))",
+          "NODES"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Cream_Shell",
+      "hidden": true,
+      "vertices": 441,
+      "materials": [
+        "Kagari_Detail_Cream_Silk"
+      ],
+      "bounds": [
+        [
+          -0.17978139221668243,
+          0.17978139221668243
+        ],
+        [
+          -0.1313747763633728,
+          0.15461936593055725
+        ],
+        [
+          0.9050000309944153,
+          1.2530001401901245
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Inner_Wrapped_Robe",
+      "hidden": true,
+      "vertices": 625,
+      "materials": [
+        "Kagari_Detail_Cream_Silk"
+      ],
+      "bounds": [
+        [
+          -0.11900000274181366,
+          0.11900000274181366
+        ],
+        [
+          -0.1553754061460495,
+          -0.03657073527574539
+        ],
+        [
+          0.9000000953674316,
+          1.2180001735687256
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Collar_Under",
+      "hidden": true,
+      "vertices": 287,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.015692096203565598,
+          0.08679816871881485
+        ],
+        [
+          -0.1684827357530594,
+          -0.0009461574954912066
+        ],
+        [
+          1.0875380039215088,
+          1.2480050325393677
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Collar_Under_Gold_Piping_0",
+      "hidden": true,
+      "vertices": 246,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.016466336324810982,
+          0.04922816902399063
+        ],
+        [
+          -0.16842114925384521,
+          -0.04811105877161026
+        ],
+        [
+          1.1080151796340942,
+          1.2326778173446655
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Collar_Under_Gold_Piping_1",
+      "hidden": true,
+      "vertices": 246,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.015018181875348091,
+          0.08769583702087402
+        ],
+        [
+          -0.16666875779628754,
+          -0.0013778163120150566
+        ],
+        [
+          1.0870277881622314,
+          1.248367190361023
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Collar_Over",
+      "hidden": true,
+      "vertices": 287,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.0866985097527504,
+          0.10220439732074738
+        ],
+        [
+          -0.17537231743335724,
+          -0.00795433484017849
+        ],
+        [
+          0.9646570086479187,
+          1.2479283809661865
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Collar_Over_Gold_Piping_0",
+      "hidden": true,
+      "vertices": 246,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.08759619295597076,
+          0.07043784856796265
+        ],
+        [
+          -0.1732863336801529,
+          -0.008396821096539497
+        ],
+        [
+          0.9641217589378357,
+          1.248274564743042
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Collar_Over_Gold_Piping_1",
+      "hidden": true,
+      "vertices": 246,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.047585539519786835,
+          0.10290033370256424
+        ],
+        [
+          -0.17613670229911804,
+          -0.055204685777425766
+        ],
+        [
+          0.9867985248565674,
+          1.2327539920806885
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Lapel_-1",
+      "hidden": true,
+      "vertices": 287,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.1349843442440033,
+          -0.054800793528556824
+        ],
+        [
+          -0.14998365938663483,
+          -0.006473260000348091
+        ],
+        [
+          0.9224473237991333,
+          1.2430634498596191
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Lapel_-1_Gold_Piping_0",
+      "hidden": true,
+      "vertices": 246,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10589288920164108,
+          -0.05399411544203758
+        ],
+        [
+          -0.15232831239700317,
+          -0.05723996460437775
+        ],
+        [
+          0.9273703694343567,
+          1.2276315689086914
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Lapel_-1_Gold_Piping_1",
+      "hidden": true,
+      "vertices": 246,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.135830357670784,
+          -0.0763656497001648
+        ],
+        [
+          -0.13640494644641876,
+          -0.00743483193218708
+        ],
+        [
+          0.9222185611724854,
+          1.243837833404541
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Lapel_1",
+      "hidden": true,
+      "vertices": 287,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          0.054800793528556824,
+          0.1349843442440033
+        ],
+        [
+          -0.14998365938663483,
+          -0.006473260000348091
+        ],
+        [
+          0.9224473237991333,
+          1.2430634498596191
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Lapel_1_Gold_Piping_0",
+      "hidden": true,
+      "vertices": 246,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.0763656497001648,
+          0.135830357670784
+        ],
+        [
+          -0.13640494644641876,
+          -0.00743483193218708
+        ],
+        [
+          0.9222185611724854,
+          1.243837833404541
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Haori_Lapel_1_Gold_Piping_1",
+      "hidden": true,
+      "vertices": 246,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.05399411544203758,
+          0.10589288920164108
+        ],
+        [
+          -0.15232831239700317,
+          -0.05723996460437775
+        ],
+        [
+          0.9273703694343567,
+          1.2276315689086914
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Embroidered_Vine_-1",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11560418456792831,
+          -0.10841202735900879
+        ],
+        [
+          -0.13788719475269318,
+          -0.08278357237577438
+        ],
+        [
+          1.009924054145813,
+          1.166437029838562
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_0",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11394999921321869,
+          -0.11005000025033951
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.035520076751709,
+          1.0411101579666138
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_1",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11150544881820679,
+          -0.10618904232978821
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.0339865684509277,
+          1.0380624532699585
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_2",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1122630387544632,
+          -0.10783994197845459
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.0297868251800537,
+          1.0348495244979858
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_3",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11616005748510361,
+          -0.111736960709095
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.0297868251800537,
+          1.0348495244979858
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Petal_4",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11781095713376999,
+          -0.11249455064535141
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.0339865684509277,
+          1.0380624532699585
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_0",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11394999921321869,
+          -0.11005000025033951
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0825201272964478,
+          1.088110089302063
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_1",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11150544881820679,
+          -0.10618904232978821
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0809866189956665,
+          1.0850625038146973
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_2",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1122630387544632,
+          -0.10783994197845459
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0767868757247925,
+          1.0818495750427246
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_3",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11616005748510361,
+          -0.111736960709095
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0767868757247925,
+          1.0818495750427246
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Petal_4",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11781095713376999,
+          -0.11249455064535141
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0809866189956665,
+          1.0850625038146973
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_0",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11394999921321869,
+          -0.11005000025033951
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1335201263427734,
+          1.1391100883483887
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_1",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11150544881820679,
+          -0.10618904232978821
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1319866180419922,
+          1.136062502861023
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_2",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1122630387544632,
+          -0.10783994197845459
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1277868747711182,
+          1.1328495740890503
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_3",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11616005748510361,
+          -0.111736960709095
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1277868747711182,
+          1.1328495740890503
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Petal_4",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11781095713376999,
+          -0.11249455064535141
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1319866180419922,
+          1.136062502861023
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_0_-1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11800000071525574,
+          -0.1120000034570694
+        ],
+        [
+          -0.133453831076622,
+          -0.12831498682498932
+        ],
+        [
+          1.0550000667572021,
+          1.067000150680542
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_0_1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1120000034570694,
+          -0.10599999874830246
+        ],
+        [
+          -0.13857468962669373,
+          -0.133453831076622
+        ],
+        [
+          1.0550000667572021,
+          1.067000150680542
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_1_-1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11800000071525574,
+          -0.1120000034570694
+        ],
+        [
+          -0.1350690871477127,
+          -0.1288934350013733
+        ],
+        [
+          1.1010000705718994,
+          1.1130001544952393
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_1_1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1120000034570694,
+          -0.10599999874830246
+        ],
+        [
+          -0.13977429270744324,
+          -0.1350690871477127
+        ],
+        [
+          1.1010000705718994,
+          1.1130001544952393
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_2_-1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11800000071525574,
+          -0.1120000034570694
+        ],
+        [
+          -0.10192982852458954,
+          -0.08192255347967148
+        ],
+        [
+          1.1530001163482666,
+          1.165000081062317
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_-1_2_1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1120000034570694,
+          -0.10599999874830246
+        ],
+        [
+          -0.10192982852458954,
+          -0.09058539569377899
+        ],
+        [
+          1.1530001163482666,
+          1.165000081062317
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Embroidered_Vine_1",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10841202735900879,
+          0.11560418456792831
+        ],
+        [
+          -0.13788719475269318,
+          -0.08278357237577438
+        ],
+        [
+          1.009924054145813,
+          1.166437029838562
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_0",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.11005000025033951,
+          0.11394999921321869
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.035520076751709,
+          1.0411101579666138
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_1",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.11249455064535141,
+          0.11781095713376999
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.0339865684509277,
+          1.0380624532699585
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_2",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.111736960709095,
+          0.11616005748510361
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.0297868251800537,
+          1.0348495244979858
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_3",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10783994197845459,
+          0.1122630387544632
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.0297868251800537,
+          1.0348495244979858
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Petal_4",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10618904232978821,
+          0.11150544881820679
+        ],
+        [
+          -0.1344405561685562,
+          -0.13314054906368256
+        ],
+        [
+          1.0339865684509277,
+          1.0380624532699585
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_0",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.11005000025033951,
+          0.11394999921321869
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0825201272964478,
+          1.088110089302063
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_1",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.11249455064535141,
+          0.11781095713376999
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0809866189956665,
+          1.0850625038146973
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_2",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.111736960709095,
+          0.11616005748510361
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0767868757247925,
+          1.0818495750427246
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_3",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10783994197845459,
+          0.1122630387544632
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0767868757247925,
+          1.0818495750427246
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Petal_4",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10618904232978821,
+          0.11150544881820679
+        ],
+        [
+          -0.1362800896167755,
+          -0.13498008251190186
+        ],
+        [
+          1.0809866189956665,
+          1.0850625038146973
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_0",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.11005000025033951,
+          0.11394999921321869
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1335201263427734,
+          1.1391100883483887
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_1",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.11249455064535141,
+          0.11781095713376999
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1319866180419922,
+          1.136062502861023
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_2",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.111736960709095,
+          0.11616005748510361
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1277868747711182,
+          1.1328495740890503
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_3",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10783994197845459,
+          0.1122630387544632
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1277868747711182,
+          1.1328495740890503
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Petal_4",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10618904232978821,
+          0.11150544881820679
+        ],
+        [
+          -0.1304069310426712,
+          -0.12910692393779755
+        ],
+        [
+          1.1319866180419922,
+          1.136062502861023
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_0_-1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10599999874830246,
+          0.1120000034570694
+        ],
+        [
+          -0.13857468962669373,
+          -0.133453831076622
+        ],
+        [
+          1.0550000667572021,
+          1.067000150680542
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_0_1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.1120000034570694,
+          0.11800000071525574
+        ],
+        [
+          -0.133453831076622,
+          -0.12831498682498932
+        ],
+        [
+          1.0550000667572021,
+          1.067000150680542
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_1_-1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10599999874830246,
+          0.1120000034570694
+        ],
+        [
+          -0.13977429270744324,
+          -0.1350690871477127
+        ],
+        [
+          1.1010000705718994,
+          1.1130001544952393
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_1_1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.1120000034570694,
+          0.11800000071525574
+        ],
+        [
+          -0.1350690871477127,
+          -0.1288934350013733
+        ],
+        [
+          1.1010000705718994,
+          1.1130001544952393
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_2_-1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.10599999874830246,
+          0.1120000034570694
+        ],
+        [
+          -0.10192982852458954,
+          -0.09058539569377899
+        ],
+        [
+          1.1530001163482666,
+          1.165000081062317
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Leaf_1_2_1",
+      "hidden": true,
+      "vertices": 4,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.1120000034570694,
+          0.11800000071525574
+        ],
+        [
+          -0.10192982852458954,
+          -0.08192255347967148
+        ],
+        [
+          1.1530001163482666,
+          1.165000081062317
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_-1_0_0",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          -0.13631434738636017,
+          -0.1276550441980362
+        ],
+        [
+          -0.11629872769117355,
+          -0.10675577819347382
+        ],
+        [
+          0.9546881318092346,
+          0.96533203125
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_-1_0_1",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          -0.14831045269966125,
+          -0.13966365158557892
+        ],
+        [
+          -0.1024986132979393,
+          -0.0906224325299263
+        ],
+        [
+          0.9546895027160645,
+          0.9653326272964478
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_-1_1_0",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          -0.13631248474121094,
+          -0.1276557445526123
+        ],
+        [
+          -0.11484573036432266,
+          -0.10508918017148972
+        ],
+        [
+          0.9686882495880127,
+          0.9793320894241333
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_-1_1_1",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          -0.14831270277500153,
+          -0.13966502249240875
+        ],
+        [
+          -0.10070181638002396,
+          -0.08848129957914352
+        ],
+        [
+          0.9686896800994873,
+          0.9793326258659363
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_-1_2_0",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          -0.13631053268909454,
+          -0.1276565045118332
+        ],
+        [
+          -0.113363116979599,
+          -0.10338200628757477
+        ],
+        [
+          0.9826883673667908,
+          0.9933321475982666
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_-1_2_1",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          -0.148314967751503,
+          -0.13966651260852814
+        ],
+        [
+          -0.09885646402835846,
+          -0.08626671135425568
+        ],
+        [
+          0.9826899170875549,
+          0.9933326840400696
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_-1_3_0",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          -0.13632085919380188,
+          -0.12766383588314056
+        ],
+        [
+          -0.11216225475072861,
+          -0.10197483003139496
+        ],
+        [
+          0.9966931343078613,
+          1.007308006286621
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_-1_3_1",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          -0.14830513298511505,
+          -0.13967739045619965
+        ],
+        [
+          -0.09733058512210846,
+          -0.08440115302801132
+        ],
+        [
+          0.9966936707496643,
+          1.0073087215423584
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_1_0_0",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          0.12765395641326904,
+          0.13631123304367065
+        ],
+        [
+          -0.11629626154899597,
+          -0.10675538331270218
+        ],
+        [
+          0.9546850323677063,
+          0.9653341770172119
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_1_0_1",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          0.13966161012649536,
+          0.14831393957138062
+        ],
+        [
+          -0.1024966686964035,
+          -0.09062289446592331
+        ],
+        [
+          0.9546859860420227,
+          0.965334951877594
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_1_1_0",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          0.1276545524597168,
+          0.13630925118923187
+        ],
+        [
+          -0.11484330147504807,
+          -0.10508886724710464
+        ],
+        [
+          0.9686850905418396,
+          0.97933429479599
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_1_1_1",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          0.13966286182403564,
+          0.1483161449432373
+        ],
+        [
+          -0.10069995373487473,
+          -0.08848188072443008
+        ],
+        [
+          0.9686861634254456,
+          0.9793350100517273
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_1_2_0",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          0.12765522301197052,
+          0.13630717992782593
+        ],
+        [
+          -0.11336073279380798,
+          -0.10338177531957626
+        ],
+        [
+          0.9826852083206177,
+          0.9933343529701233
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_1_2_1",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          0.13966421782970428,
+          0.1483183354139328
+        ],
+        [
+          -0.0988546833395958,
+          -0.08626741915941238
+        ],
+        [
+          0.9826863408088684,
+          0.9933350682258606
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_1_3_0",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          0.12766331434249878,
+          0.1363201141357422
+        ],
+        [
+          -0.1121618002653122,
+          -0.10197462141513824
+        ],
+        [
+          0.9966922402381897,
+          1.007308840751648
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Brocade_1_3_1",
+      "hidden": true,
+      "vertices": 72,
+      "materials": [
+        "Kagari_Detail_Ivory_Brocade"
+      ],
+      "bounds": [
+        [
+          0.13967646658420563,
+          0.14830629527568817
+        ],
+        [
+          -0.09733027219772339,
+          -0.0844011902809143
+        ],
+        [
+          0.9966925382614136,
+          1.0073097944259644
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Obi_Woven_Band",
+      "hidden": false,
+      "vertices": 256,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.18000000715255737,
+          0.18000000715255737
+        ],
+        [
+          -0.15800000727176666,
+          0.18199999630451202
+        ],
+        [
+          0.906999945640564,
+          0.9739999175071716
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Obi_Trim_0.914",
+      "hidden": true,
+      "vertices": 384,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1816999912261963,
+          0.1816999912261963
+        ],
+        [
+          -0.16169999539852142,
+          0.18569999933242798
+        ],
+        [
+          0.9133936762809753,
+          0.9146061539649963
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Obi_Trim_0.969",
+      "hidden": true,
+      "vertices": 384,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1816999912261963,
+          0.1816999912261963
+        ],
+        [
+          -0.16169999539852142,
+          0.18569999933242798
+        ],
+        [
+          0.9683936834335327,
+          0.9696061611175537
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Obijime_Cord",
+      "hidden": true,
+      "vertices": 384,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.18329983949661255,
+          0.18329983949661255
+        ],
+        [
+          -0.16429999470710754,
+          0.1882999986410141
+        ],
+        [
+          0.9393642544746399,
+          0.9446266293525696
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Silk_Bow_Lobe_-1",
+      "hidden": false,
+      "vertices": 221,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.15800000727176666,
+          -0.10000000149011612
+        ],
+        [
+          -0.02100001461803913,
+          0.0019999914802610874
+        ],
+        [
+          1.3030000925064087,
+          1.3678855895996094
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Stitch_-1_0",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.15816302597522736,
+          -0.09995976090431213
+        ],
+        [
+          0.0007999904337339103,
+          0.0015999915776774287
+        ],
+        [
+          1.3026944398880005,
+          1.3253440856933594
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Stitch_-1_12",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.15813326835632324,
+          -0.09974724054336548
+        ],
+        [
+          0.0007999888621270657,
+          0.001599990064278245
+        ],
+        [
+          1.3407632112503052,
+          1.3682390451431274
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Silk_Bow_Lobe_1",
+      "hidden": false,
+      "vertices": 221,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.10000000149011612,
+          -0.04200000315904617
+        ],
+        [
+          -0.02100001461803913,
+          0.0019999914802610874
+        ],
+        [
+          1.301174521446228,
+          1.3630000352859497
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Stitch_1_0",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10022485256195068,
+          -0.041931089013814926
+        ],
+        [
+          0.0007999904337339103,
+          0.0015999915776774287
+        ],
+        [
+          1.3007895946502686,
+          1.3252636194229126
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Stitch_1_12",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10010876506567001,
+          -0.04189455136656761
+        ],
+        [
+          0.0007999890949577093,
+          0.001599990064278245
+        ],
+        [
+          1.340671181678772,
+          1.3633300065994263
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Silk_Bow_Tail_-1",
+      "hidden": false,
+      "vertices": 225,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.13016000390052795,
+          -0.09699999541044235
+        ],
+        [
+          -0.04900001361966133,
+          -0.005000011529773474
+        ],
+        [
+          1.190999984741211,
+          1.3270000219345093
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Tail_Stitch_-1_0",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.13060159981250763,
+          -0.12055689841508865
+        ],
+        [
+          -0.05041991546750069,
+          -0.005635686684399843
+        ],
+        [
+          1.1909250020980835,
+          1.327207088470459
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Tail_Stitch_-1_8",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1142672747373581,
+          -0.09656886011362076
+        ],
+        [
+          -0.050435442477464676,
+          -0.005621731281280518
+        ],
+        [
+          1.1909123659133911,
+          1.3272111415863037
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Silk_Bow_Tail_1",
+      "hidden": false,
+      "vertices": 225,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.10300000756978989,
+          -0.06983999907970428
+        ],
+        [
+          -0.04900001361966133,
+          -0.005000011529773474
+        ],
+        [
+          1.190999984741211,
+          1.3270000219345093
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Silk_Surface",
+          "SUBSURF"
+        ],
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Tail_Stitch_1_0",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10343114286661148,
+          -0.08573272824287415
+        ],
+        [
+          -0.050435442477464676,
+          -0.00562173081561923
+        ],
+        [
+          1.1909123659133911,
+          1.3272111415863037
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Tail_Stitch_1_8",
+      "hidden": true,
+      "vertices": 150,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.07944310456514359,
+          -0.06939840316772461
+        ],
+        [
+          -0.05041991546750069,
+          -0.005635686684399843
+        ],
+        [
+          1.1909250020980835,
+          1.327207088470459
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_0",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10240000486373901,
+          -0.09759999811649323
+        ],
+        [
+          -0.0248000156134367,
+          -0.02350001409649849
+        ],
+        [
+          1.3336400985717773,
+          1.3405200242996216
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_1",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.09939132630825043,
+          -0.09284805506467819
+        ],
+        [
+          -0.0248000156134367,
+          -0.02350001409649849
+        ],
+        [
+          1.3317526578903198,
+          1.3367691040039062
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_2",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10032374411821365,
+          -0.09487993270158768
+        ],
+        [
+          -0.0248000156134367,
+          -0.02350001409649849
+        ],
+        [
+          1.326583743095398,
+          1.3328148126602173
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_3",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10512007027864456,
+          -0.09967625886201859
+        ],
+        [
+          -0.0248000156134367,
+          -0.02350001409649849
+        ],
+        [
+          1.326583743095398,
+          1.3328148126602173
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Petal_4",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10715194791555405,
+          -0.10060867667198181
+        ],
+        [
+          -0.0248000156134367,
+          -0.02350001409649849
+        ],
+        [
+          1.3317526578903198,
+          1.3367691040039062
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Charm_Chain",
+      "hidden": true,
+      "vertices": 42,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11062604933977127,
+          -0.10637741535902023
+        ],
+        [
+          -0.046530794352293015,
+          -0.020392563194036484
+        ],
+        [
+          1.265661597251892,
+          1.3231698274612427
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_0",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11034999787807465,
+          -0.10765000432729721
+        ],
+        [
+          -0.048800017684698105,
+          -0.047500018030405045
+        ],
+        [
+          1.2613600492477417,
+          1.2652300596237183
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_1",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10865762084722519,
+          -0.10497703403234482
+        ],
+        [
+          -0.048800017684698105,
+          -0.047500018030405045
+        ],
+        [
+          1.2602983713150024,
+          1.263120174407959
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_2",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10918210446834564,
+          -0.10611996054649353
+        ],
+        [
+          -0.048800017684698105,
+          -0.047500018030405045
+        ],
+        [
+          1.2573908567428589,
+          1.260895848274231
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_3",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11188004165887833,
+          -0.10881789773702621
+        ],
+        [
+          -0.048800017684698105,
+          -0.047500018030405045
+        ],
+        [
+          1.2573908567428589,
+          1.260895848274231
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Petal_4",
+      "hidden": true,
+      "vertices": 13,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.11302296817302704,
+          -0.10934238135814667
+        ],
+        [
+          -0.048800017684698105,
+          -0.047500018030405045
+        ],
+        [
+          1.2602983713150024,
+          1.263120174407959
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Fabric_Thickness",
+          "SOLIDIFY"
+        ],
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Astral_Star_Detailed",
+      "hidden": true,
+      "vertices": 18,
+      "materials": [
+        "Kagari_Detail_Antique_Gold",
+        "Kagari_Detail_Gold_Facet"
+      ],
+      "bounds": [
+        [
+          -0.01899999938905239,
+          0.01899999938905239
+        ],
+        [
+          -0.10060001909732819,
+          -0.09610001742839813
+        ],
+        [
+          1.159000039100647,
+          1.1970001459121704
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Pendant_Bail",
+      "hidden": true,
+      "vertices": 192,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.0032196154352277517,
+          0.0032196154352277517
+        ],
+        [
+          -0.09920003265142441,
+          -0.09800002723932266
+        ],
+        [
+          1.1946804523468018,
+          1.2033196687698364
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Necklace_Chain",
+      "hidden": true,
+      "vertices": 390,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.04660807549953461,
+          0.04660807549953461
+        ],
+        [
+          -0.07776553183794022,
+          -0.013428528793156147
+        ],
+        [
+          1.20235013961792,
+          1.2474843263626099
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Necklace_Second_Chain",
+      "hidden": true,
+      "vertices": 390,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.04637419804930687,
+          0.04637419804930687
+        ],
+        [
+          -0.07854802906513214,
+          -0.014576011337339878
+        ],
+        [
+          1.2056001424789429,
+          1.250298023223877
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Pendant_Connector",
+      "hidden": true,
+      "vertices": 24,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.000699999975040555,
+          0.000699999975040555
+        ],
+        [
+          -0.09865643829107285,
+          -0.07714361697435379
+        ],
+        [
+          1.2013965845108032,
+          1.204603672027588
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_v03_Outer_Robe_And_Sleeves",
+      "hidden": false,
+      "vertices": 1740,
+      "materials": [
+        "Kagari_v03_Structural_Clay"
+      ],
+      "bounds": [
+        [
+          -0.3388974666595459,
+          0.3388976454734802
+        ],
+        [
+          -0.1310003101825714,
+          0.09000003337860107
+        ],
+        [
+          0.9470000863075256,
+          1.2895989418029785
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Source_Weighted_Deformation",
+          "ARMATURE"
+        ],
+        [
+          "Cloth_Edge_Thickness",
+          "SOLIDIFY"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_v03_Inner_Top",
+      "hidden": false,
+      "vertices": 1344,
+      "materials": [
+        "Kagari_v03_Structural_Clay"
+      ],
+      "bounds": [
+        [
+          -0.11599999666213989,
+          0.11599999666213989
+        ],
+        [
+          -0.11500002443790436,
+          0.07500002533197403
+        ],
+        [
+          0.9470000863075256,
+          1.2390000820159912
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Source_Weighted_Deformation",
+          "ARMATURE"
+        ],
+        [
+          "Cloth_Edge_Thickness",
+          "SOLIDIFY"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_v03_Sewn_Cross_Collar",
+      "hidden": false,
+      "vertices": 320,
+      "materials": [
+        "Kagari_v03_Structural_Clay"
+      ],
+      "bounds": [
+        [
+          -0.06201653555035591,
+          0.06201653555035591
+        ],
+        [
+          -0.09930001199245453,
+          0.058299992233514786
+        ],
+        [
+          1.1090000867843628,
+          1.2390000820159912
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Source_Weighted_Deformation",
+          "ARMATURE"
+        ],
+        [
+          "Cloth_Edge_Thickness",
+          "SOLIDIFY"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_v03_Attached_Over_Wrap_Edge",
+      "hidden": false,
+      "vertices": 125,
+      "materials": [
+        "Kagari_v03_Structural_Clay"
+      ],
+      "bounds": [
+        [
+          -0.013000000268220901,
+          0.11800000071525574
+        ],
+        [
+          -0.13435280323028564,
+          -0.02978605218231678
+        ],
+        [
+          0.9470000863075256,
+          1.1410001516342163
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Source_Weighted_Deformation",
+          "ARMATURE"
+        ],
+        [
+          "Cloth_Edge_Thickness",
+          "SOLIDIFY"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_0_Center",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1132350042462349,
+          -0.1107650026679039
+        ],
+        [
+          -0.13464055955410004,
+          -0.1326405555009842
+        ],
+        [
+          1.0337650775909424,
+          1.0362350940704346
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_1_Center",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1132350042462349,
+          -0.1107650026679039
+        ],
+        [
+          -0.13648009300231934,
+          -0.1344800889492035
+        ],
+        [
+          1.0807651281356812,
+          1.0832351446151733
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_-1_2_Center",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.1132350042462349,
+          -0.1107650026679039
+        ],
+        [
+          -0.13060693442821503,
+          -0.12860693037509918
+        ],
+        [
+          1.1317651271820068,
+          1.134235143661499
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_0_Center",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.1107650026679039,
+          0.1132350042462349
+        ],
+        [
+          -0.13464055955410004,
+          -0.1326405555009842
+        ],
+        [
+          1.0337650775909424,
+          1.0362350940704346
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_1_Center",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.1107650026679039,
+          0.1132350042462349
+        ],
+        [
+          -0.13648009300231934,
+          -0.1344800889492035
+        ],
+        [
+          1.0807651281356812,
+          1.0832351446151733
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Gold_Blossom_1_2_Center",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          0.1107650026679039,
+          0.1132350042462349
+        ],
+        [
+          -0.13060693442821503,
+          -0.12860693037509918
+        ],
+        [
+          1.1317651271820068,
+          1.134235143661499
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Gathered_Knot",
+      "hidden": false,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Burgundy"
+      ],
+      "bounds": [
+        [
+          -0.10999999940395355,
+          -0.09000000357627869
+        ],
+        [
+          -0.02100001461803913,
+          -0.0030000112019479275
+        ],
+        [
+          1.319000005722046,
+          1.3470001220703125
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Gold_Flower_Center",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10152000188827515,
+          -0.09848000109195709
+        ],
+        [
+          -0.025000015273690224,
+          -0.023000014945864677
+        ],
+        [
+          1.3314800262451172,
+          1.3345201015472412
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Bow_Hanging_Blossom_Center",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.10985500365495682,
+          -0.10814500600099564
+        ],
+        [
+          -0.04900001734495163,
+          -0.04700002074241638
+        ],
+        [
+          1.2601450681686401,
+          1.2618550062179565
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    },
+    {
+      "name": "Kagari_Pendant_Gold_Bead",
+      "hidden": true,
+      "vertices": 114,
+      "materials": [
+        "Kagari_Detail_Antique_Gold"
+      ],
+      "bounds": [
+        [
+          -0.0017999998526647687,
+          0.0017999999690800905
+        ],
+        [
+          -0.08070002496242523,
+          -0.07770001888275146
+        ],
+        [
+          1.2012001276016235,
+          1.204800009727478
+        ]
+      ],
+      "shape_keys": [],
+      "modifiers": [
+        [
+          "Kagari_Rig_Attachment",
+          "ARMATURE"
+        ]
+      ]
+    }
+  ],
+  "body_zones": [
+    {
+      "slot": 0,
+      "material": "N00_000_00_Body_00_SKIN (Instance)",
+      "faces": 7668,
+      "bounds": [
+        [
+          -0.6723690032958984,
+          0.6723690032958984
+        ],
+        [
+          -0.12155693024396896,
+          0.13230183720588684
+        ],
+        [
+          0.033405058085918427,
+          1.5078970193862915
+        ]
+      ]
+    },
+    {
+      "slot": 1,
+      "material": "N00_005_01_Shoes_01_CLOTH (Instance)",
+      "faces": 732,
+      "bounds": [
+        [
+          -0.11402429640293121,
+          0.11402430385351181
+        ],
+        [
+          -0.1308744251728058,
+          0.07502424716949463
+        ],
+        [
+          -7.808329769432021e-07,
+          0.15816105902194977
+        ]
+      ]
+    },
+    {
+      "slot": 2,
+      "material": "N00_007_01_Tops_01_CLOTH (Instance)",
+      "faces": 1420,
+      "bounds": [
+        [
+          -0.2677271366119385,
+          0.2677271366119385
+        ],
+        [
+          -0.17771881818771362,
+          0.2492142766714096
+        ],
+        [
+          0.20887607336044312,
+          0.9495717287063599
+        ]
+      ]
+    },
+    {
+      "slot": 3,
+      "material": "N00_001_03_Bottoms_01_CLOTH (Instance)",
+      "faces": 700,
+      "bounds": [
+        [
+          -0.17205810546875,
+          0.1761244386434555
+        ],
+        [
+          -0.11781766265630722,
+          0.13015225529670715
+        ],
+        [
+          0.6969001889228821,
+          1.0097744464874268
+        ]
+      ]
+    },
+    {
+      "slot": 4,
+      "material": "Kagari_Detail_Inner_Ivory",
+      "faces": 1746,
+      "bounds": [
+        [
+          -0.15295666456222534,
+          0.15295666456222534
+        ],
+        [
+          -0.11306088417768478,
+          0.07536474615335464
+        ],
+        [
+          0.8803905248641968,
+          1.226958990097046
+        ]
+      ]
+    },
+    {
+      "slot": 5,
+      "material": "Kagari_Detail_Clean_Neck",
+      "faces": 608,
+      "bounds": [
+        [
+          -0.16358564794063568,
+          0.16358564794063568
+        ],
+        [
+          -0.09480354189872742,
+          0.061950430274009705
+        ],
+        [
+          1.135507345199585,
+          1.3048208951950073
+        ]
+      ]
+    }
+  ],
+  "materials": {
+    "Dots Stroke": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "Kagari_Detail_Antique_Gold": [
+      0.7912979125976562,
+      0.4793201684951782,
+      0.06480326503515244,
+      1.0
+    ],
+    "Kagari_Detail_Burgundy": [
+      0.2581828534603119,
+      0.012983032502233982,
+      0.04970656707882881,
+      1.0
+    ],
+    "Kagari_Detail_Clean_Neck": [
+      0.9734452962875366,
+      0.8549926280975342,
+      0.7912979125976562,
+      1.0
+    ],
+    "Kagari_Detail_Cream_Silk": [
+      1.0,
+      0.9473065137863159,
+      0.8879231214523315,
+      1.0
+    ],
+    "Kagari_Detail_Gold_Facet": [
+      0.35640013217926025,
+      0.14995978772640228,
+      0.016807375475764275,
+      1.0
+    ],
+    "Kagari_Detail_Inner_Ivory": [
+      0.8962693810462952,
+      0.8069522380828857,
+      0.6938717365264893,
+      1.0
+    ],
+    "Kagari_Detail_Ivory_Brocade": [
+      0.7379103899002075,
+      0.6172065734863281,
+      0.41788506507873535,
+      1.0
+    ],
+    "Kagari_v03_Structural_Clay": [
+      0.5799999833106995,
+      0.5799999833106995,
+      0.5799999833106995,
+      1.0
+    ],
+    "MToon Outline (N00_000_00_Body_00_SKIN (Instance))": [
+      0.061246056109666824,
+      0.008568122051656246,
+      0.01444383803755045,
+      0.25
+    ],
+    "MToon Outline (N00_000_00_Face_00_SKIN (Instance))": [
+      0.061246056109666824,
+      0.008568122051656246,
+      0.01444383803755045,
+      0.25
+    ],
+    "MToon Outline (N00_000_Hair_00_HAIR_01 (Instance))": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "MToon Outline (N00_000_Hair_00_HAIR_02 (Instance))": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "MToon Outline (N00_000_Hair_00_HAIR_03 (Instance))": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "MToon Outline (N00_000_Hair_00_HAIR_04 (Instance))": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "MToon Outline (N00_000_Hair_00_HAIR_05 (Instance))": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "MToon Outline (N00_000_Hair_00_HAIR_06 (Instance))": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "MToon Outline (N00_001_03_Bottoms_01_CLOTH (Instance))": [
+      0.061246056109666824,
+      0.008568122051656246,
+      0.01444383803755045,
+      0.25
+    ],
+    "MToon Outline (N00_005_01_Shoes_01_CLOTH (Instance))": [
+      0.061246056109666824,
+      0.008568122051656246,
+      0.01444383803755045,
+      0.25
+    ],
+    "MToon Outline (N00_007_01_Tops_01_CLOTH (Instance))": [
+      0.061246056109666824,
+      0.008568122051656246,
+      0.01444383803755045,
+      0.25
+    ],
+    "N00_000_00_Body_00_SKIN (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_00_EyeHighlight_00_EYE (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_00_EyeIris_00_EYE (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_00_EyeWhite_00_EYE (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_00_Face_00_SKIN (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_00_FaceBrow_00_FACE (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_00_FaceEyelash_00_FACE (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_00_FaceEyeline_00_FACE (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_00_FaceMouth_00_FACE (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_Hair_00_HAIR_01 (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_Hair_00_HAIR_02 (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_Hair_00_HAIR_03 (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_Hair_00_HAIR_04 (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_Hair_00_HAIR_05 (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_000_Hair_00_HAIR_06 (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_001_03_Bottoms_01_CLOTH (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_005_01_Shoes_01_CLOTH (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "N00_007_01_Tops_01_CLOTH (Instance)": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "arm_pose": {
+    "J_Bip_L_UpperArm": [
+      0.0,
+      -0.0,
+      -1.186823844909668
+    ],
+    "J_Bip_L_LowerArm": [
+      0.0,
+      0.20943951606750488,
+      -0.1745329201221466
+    ],
+    "J_Bip_R_UpperArm": [
+      0.0,
+      -0.0,
+      1.186823844909668
+    ],
+    "J_Bip_R_LowerArm": [
+      0.0,
+      -0.20943951606750488,
+      0.1745329201221466
+    ]
+  }
+}
